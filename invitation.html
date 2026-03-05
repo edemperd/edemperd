@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ЕДЕМ В ПЕРДЬ — День рождения</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Courier+Prime:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --paper: #f2ead8; --paper-dark: #e8dcc4; --ink: #1a1208;
+  --red: #c0392b; --muted: #7a6a52;
+}
+html { scroll-behavior: smooth; }
+body { background: #b5a48a; font-family: 'Courier Prime', monospace; color: var(--ink); min-height: 100vh; }
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+  opacity: 0.06;
+}
+.page { max-width: 680px; margin: 0 auto; background: var(--paper); min-height: 100vh; box-shadow: 0 0 80px rgba(0,0,0,.4); }
+section { padding: 40px 32px; border-bottom: 1px dashed #c4b49a; }
+@media(max-width:480px) { section { padding: 28px 18px; } }
+
+/* HERO */
+.hero { text-align: center; padding-top: 56px; padding-bottom: 52px; position: relative; overflow: hidden; }
+.hero-bg {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%) rotate(-12deg);
+  font-family: 'Bebas Neue', sans-serif; font-size: 130px; color: rgba(192,57,43,0.055);
+  white-space: nowrap; pointer-events: none; letter-spacing: 10px;
+}
+.stamp {
+  display: inline-block; border: 3px solid var(--red); color: var(--red);
+  font-family: 'Bebas Neue', sans-serif; font-size: 12px; letter-spacing: 4px;
+  padding: 4px 14px; margin-bottom: 22px; transform: rotate(-1.5deg); opacity: 0.8;
+}
+.hero-title {
+  font-family: 'Bebas Neue', sans-serif; font-size: clamp(56px, 15vw, 100px);
+  line-height: 0.88; letter-spacing: 4px; margin-bottom: 8px;
+}
+.hero-title span { color: var(--red); }
+.hero-sub { font-family: 'Playfair Display', serif; font-style: italic; font-size: 17px; color: var(--muted); margin-bottom: 36px; }
+.date-pill {
+  display: inline-block; background: var(--ink); color: var(--paper);
+  font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 3px;
+  padding: 14px 28px; transform: rotate(1deg); margin-bottom: 18px;
+}
+.loc-link {
+  display: block; color: var(--muted); font-size: 12px; letter-spacing: 1px;
+  text-decoration: none; border-bottom: 1px dotted var(--muted); padding-bottom: 2px;
+  width: fit-content; margin: 0 auto; transition: color .2s;
+}
+.loc-link:hover { color: var(--red); }
+
+/* DESCRIPTION */
+.desc-section { background: var(--paper-dark); }
+.section-label { font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+.desc-text { font-family: 'Playfair Display', serif; font-size: 16px; line-height: 1.95; }
+.desc-text em { font-style: italic; color: var(--red); }
+.program { margin-top: 24px; padding-top: 20px; border-top: 1px dashed #c4b49a; }
+.program-label { font-size: 10px; letter-spacing: 3px; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; }
+.program-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.ptag { background: var(--ink); color: var(--paper); font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 2px; padding: 5px 12px; }
+
+/* WHOSE FRIEND */
+.whose { text-align: center; }
+.section-title { font-family: 'Bebas Neue', sans-serif; font-size: 34px; letter-spacing: 3px; margin-bottom: 8px; }
+.section-desc { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+.friend-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.friend-card {
+  border: 2px solid var(--ink); padding: 28px 16px; cursor: pointer;
+  transition: all .2s; background: transparent; font-family: inherit;
+  position: relative; overflow: hidden;
+}
+.friend-card::before {
+  content: ''; position: absolute; inset: 0; background: var(--ink);
+  transform: translateY(101%); transition: transform .25s ease;
+}
+.friend-card:hover::before, .friend-card.sel::before { transform: translateY(0); }
+.fc-name { font-family: 'Bebas Neue', sans-serif; font-size: 34px; letter-spacing: 2px; position: relative; z-index: 1; transition: color .2s; }
+.fc-sub { font-size: 11px; color: var(--muted); position: relative; z-index: 1; transition: color .2s; margin-top: 4px; }
+.friend-card:hover .fc-name, .friend-card.sel .fc-name { color: var(--paper); }
+.friend-card:hover .fc-sub, .friend-card.sel .fc-sub { color: #a08060; }
+
+/* WISHLIST */
+.wishlist { display: none; }
+.wishlist.on { display: block; }
+.wish-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 20px; }
+.wish-name { font-family: 'Bebas Neue', sans-serif; font-size: 32px; letter-spacing: 2px; }
+.wish-tag { font-size: 10px; letter-spacing: 2px; color: var(--muted); border: 1px solid #c4b49a; padding: 3px 8px; }
+.wish-items { list-style: none; }
+.wish-item { display: flex; gap: 12px; padding: 13px 0; border-bottom: 1px dotted #c4b49a; font-size: 15px; line-height: 1.5; }
+.wish-item::before { content: '→'; color: var(--red); flex-shrink: 0; margin-top: 1px; }
+
+/* QUIZ */
+.quiz { }
+.quiz-intro { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.7; }
+.qq { margin-bottom: 26px; animation: fu .35s ease forwards; opacity: 0; }
+.qq:nth-child(1){animation-delay:.0s}.qq:nth-child(2){animation-delay:.08s}.qq:nth-child(3){animation-delay:.16s}.qq:nth-child(4){animation-delay:.24s}
+@keyframes fu { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+.qq-text { font-family: 'Playfair Display', serif; font-size: 16px; margin-bottom: 12px; line-height: 1.5; }
+.qq-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.qo {
+  border: 1px solid #c4b49a; background: transparent;
+  font-family: 'Courier Prime', monospace; font-size: 12px; padding: 7px 13px;
+  cursor: pointer; transition: all .15s; color: var(--ink);
+}
+.qo:hover { border-color: var(--ink); background: var(--paper-dark); }
+.qo.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.quiz-btn {
+  display: none; width: 100%; background: var(--red); color: #fff; border: none;
+  font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 3px;
+  padding: 16px; cursor: pointer; transition: background .2s; margin-top: 10px;
+}
+.quiz-btn:hover { background: #a93226; }
+.quiz-btn.on { display: block; }
+
+/* RESULT */
+.result { display: none; text-align: center; background: var(--ink); color: var(--paper); }
+.result.on { display: block; }
+.res-emoji { font-size: 64px; margin-bottom: 16px; animation: sway 3s ease-in-out infinite; }
+@keyframes sway { 0%,100%{transform:rotate(-5deg)} 50%{transform:rotate(5deg)} }
+.res-stamp {
+  display: inline-block; border: 3px solid var(--paper); color: #e8ff00;
+  font-family: 'Bebas Neue', sans-serif; font-size: 44px; letter-spacing: 5px;
+  padding: 10px 24px; transform: rotate(-2deg); margin-bottom: 20px;
+}
+.res-text { font-family: 'Playfair Display', serif; font-style: italic; font-size: 17px; line-height: 1.85; color: #e8dcc4; max-width: 380px; margin: 0 auto 20px; }
+.res-meta { font-size: 11px; letter-spacing: 2px; color: var(--muted); }
+
+/* PROJECT */
+.project { background: var(--paper-dark); }
+.project-body { font-size: 14px; line-height: 1.9; border-left: 3px solid var(--red); padding-left: 16px; }
+
+/* FOOTER */
+footer { text-align: center; padding: 24px 20px; font-size: 11px; letter-spacing: 2px; color: var(--muted); }
+.dot-div { text-align: center; font-size: 12px; color: #c4b49a; letter-spacing: 4px; padding: 6px 0; border-bottom: 1px dashed #c4b49a; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <section class="hero">
+    <div class="hero-bg">ПЕРДЬ</div>
+    <div class="stamp">ПРИГЛАШЕНИЕ · АПРЕЛЬ 2026</div>
+    <h1 class="hero-title">ЕДЕМ<br>В <span>ПЕРДЬ</span></h1>
+    <p class="hero-sub">день рождения двух людей с разными друзьями</p>
+    <div class="date-pill">25 АПРЕЛЯ 2026 · 16:00</div><br>
+    <a class="loc-link" href="https://yandex.ru/maps/org/idu_lesom/19096547976?si=av7np66qax0qqdyt1df254f934" target="_blank">
+      📍 Иду лесом · Светлогорский пр., 13, стр. 7
+    </a>
+  </section>
+
+  <section class="desc-section">
+    <div class="section-label">О мероприятии</div>
+    <p class="desc-text">
+      Мы годами ездим в места, куда <em>нормальные люди не едут.</em>
+      Дом-слон. Церковь-корабль. Памятник огурцу в Луховицах.
+      Никогда никого с собой не берём — но на этот раз зовём вас.<br><br>
+      Не в пердь за триста километров, а в городскую —
+      <em>в лес, который вы вряд ли посетите без нас.</em>
+      День рождения двух людей, у которых мало общих друзей,
+      зато много общих странных мест.<br><br>
+      Если вы здесь — значит, вы один из немногих. Добро пожаловать.
+    </p>
+    <div class="program">
+      <div class="program-label">В программе</div>
+      <div class="program-tags">
+        <span class="ptag">🍽 Еда</span>
+        <span class="ptag">🎤 Песни про пердь</span>
+        <span class="ptag">🌲 Прогулка по лесу</span>
+        <span class="ptag">📸 Фотограф</span>
+        <span class="ptag">💃 Танцы</span>
+        <span class="ptag">🤙 Общение</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="whose" id="whose">
+    <div class="section-label">Шаг 1 из 3</div>
+    <div class="section-title">ЧЕЙ ТЫ ДРУГ?</div>
+    <p class="section-desc">Это важно — от этого зависит вишлист.</p>
+    <div class="friend-cards">
+      <button class="friend-card" onclick="pickFriend('olya')" id="card-olya">
+        <div class="fc-name">ОЛИ</div>
+        <div class="fc-sub">друг / подруга</div>
+      </button>
+      <button class="friend-card" onclick="pickFriend('lena')" id="card-lena">
+        <div class="fc-name">ЛЕНЫ</div>
+        <div class="fc-sub">друг / подруга</div>
+      </button>
+    </div>
+    <p style="margin-top:14px;font-size:11px;color:var(--muted)">Или обоих — но выбери одну. Так честнее.</p>
+  </section>
+
+  <section class="wishlist" id="wish-olya">
+    <div class="section-label">Шаг 2 из 3 · Вишлист</div>
+    <div class="wish-head">
+      <div class="wish-name">ОЛЯ</div>
+      <div class="wish-tag">хочет получить</div>
+    </div>
+    <ul class="wish-items">
+      <li class="wish-item">Микрофон — для пения про пердь и не только</li>
+      <li class="wish-item">Каффы — любые, она разберётся</li>
+    </ul>
+  </section>
+
+  <section class="wishlist" id="wish-lena">
+    <div class="section-label">Шаг 2 из 3 · Вишлист</div>
+    <div class="wish-head">
+      <div class="wish-name">ЛЕНА</div>
+      <div class="wish-tag">хочет получить</div>
+    </div>
+    <ul class="wish-items">
+      <li class="wish-item">Оливки — хорошие, не из Пятёрочки</li>
+      <li class="wish-item">Соусы — интересные, необычные, острые</li>
+    </ul>
+  </section>
+
+  <section class="quiz" id="quiz" style="display:none">
+    <div class="section-label">Шаг 3 из 3 · Важный опрос</div>
+    <div class="section-title">АНКЕТА ГОСТЯ</div>
+    <p class="quiz-intro">Заполни, пожалуйста. Данные используются для составления карты гостей и ни для чего больше.</p>
+
+    <div class="qq">
+      <div class="qq-text">Что ты пьёшь на вечеринках?</div>
+      <div class="qq-opts">
+        <button class="qo" onclick="pick(this,'q1')">Вино</button>
+        <button class="qo" onclick="pick(this,'q1')">Пиво</button>
+        <button class="qo" onclick="pick(this,'q1')">Коктейли</button>
+        <button class="qo" onclick="pick(this,'q1')">Воду с видом умного человека</button>
+        <button class="qo" onclick="pick(this,'q1')">Всё подряд</button>
+      </div>
+    </div>
+
+    <div class="qq">
+      <div class="qq-text">Ты когда-нибудь ездил(а) в место, которого нет на туристических картах?</div>
+      <div class="qq-opts">
+        <button class="qo" onclick="pick(this,'q2')">Да, и не раз</button>
+        <button class="qo" onclick="pick(this,'q2')">Нет, но хочу</button>
+        <button class="qo" onclick="pick(this,'q2')">Нет — и зачем вообще</button>
+        <button class="qo" onclick="pick(this,'q2')">Я живу в таком месте</button>
+      </div>
+    </div>
+
+    <div class="qq">
+      <div class="qq-text">Готов(а) ли ты петь песню про огурец перед 25 незнакомцами?</div>
+      <div class="qq-opts">
+        <button class="qo" onclick="pick(this,'q3')">Да, уже репетирую</button>
+        <button class="qo" onclick="pick(this,'q3')">Только если поют все</button>
+        <button class="qo" onclick="pick(this,'q3')">Спою, но сделаю вид что случайно</button>
+        <button class="qo" onclick="pick(this,'q3')">Нет, буду стоять с бокалом</button>
+      </div>
+    </div>
+
+    <div class="qq">
+      <div class="qq-text">Как далеко от Москвы ты готов(а) ехать ради памятника овощу?</div>
+      <div class="qq-opts">
+        <button class="qo" onclick="pick(this,'q4')">До 50 км</button>
+        <button class="qo" onclick="pick(this,'q4')">До 200 км</button>
+        <button class="qo" onclick="pick(this,'q4')">Хоть в Луховицы</button>
+        <button class="qo" onclick="pick(this,'q4')">Зависит от памятника</button>
+      </div>
+    </div>
+
+    <button class="quiz-btn" id="quiz-btn" onclick="submitQuiz()">ОТПРАВИТЬ АНКЕТУ →</button>
+  </section>
+
+  <section class="result" id="result">
+    <div class="res-emoji">🥒</div>
+    <div class="res-stamp">ДОПУЩЕН</div>
+    <p class="res-text">
+      Анкета принята. Твоё место в лесу забронировано.<br><br>
+      Ждём тебя <em>25 апреля в 16:00.</em><br>
+      Приходи голодным — уходи с песней.
+    </p>
+    <p class="res-meta">25.04.2026 · ИДУ ЛЕСОМ · МОСКВА</p>
+  </section>
+
+  <section class="project">
+    <div class="section-label">Про проект</div>
+    <div class="section-title" style="margin-bottom:16px">ЕДЕМ В ПЕРДЬ</div>
+    <p class="project-body">
+      «Едем в пердь» — проект о панк-туризме в места, которых нет в путеводителях.
+      Дом-слон, церковь-корабль, памятник огурцу в Луховицах.
+      В каждой поездке — фото, видео и песни, написанные с помощью ИИ.
+      Этот праздник — первый публичный показ того, что получилось.
+    </p>
+  </section>
+
+  <div class="dot-div">· · · ЕДЕМ В ПЕРДЬ · · ·</div>
+  <footer>ОЛЯ &amp; ЛЕНА · 25.04.2026 · МОСКВА</footer>
+
+</div>
+<script>
+const answers = {};
+let totalQ = 4;
+
+function pickFriend(name) {
+  document.querySelectorAll('.friend-card').forEach(c => c.classList.remove('sel'));
+  document.getElementById('card-' + name).classList.add('sel');
+  document.querySelectorAll('.wishlist').forEach(w => w.classList.remove('on'));
+  const wl = document.getElementById('wish-' + name);
+  wl.classList.add('on');
+  document.getElementById('quiz').style.display = 'block';
+  setTimeout(() => wl.scrollIntoView({behavior:'smooth', block:'start'}), 200);
+}
+
+function pick(btn, qId) {
+  btn.closest('.qq-opts').querySelectorAll('.qo').forEach(b => b.classList.remove('on'));
+  btn.classList.add('on');
+  answers[qId] = btn.textContent;
+  if (Object.keys(answers).length >= totalQ) {
+    const sb = document.getElementById('quiz-btn');
+    sb.classList.add('on');
+    setTimeout(() => sb.scrollIntoView({behavior:'smooth', block:'nearest'}), 100);
+  }
+}
+
+function submitQuiz() {
+  document.getElementById('quiz').style.display = 'none';
+  const r = document.getElementById('result');
+  r.classList.add('on');
+  setTimeout(() => r.scrollIntoView({behavior:'smooth', block:'start'}), 100);
+}
+</script>
+</body>
+</html>
