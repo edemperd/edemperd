@@ -48,6 +48,12 @@
   .s-actions { display: flex; gap: 6px; }
   .icon-btn { background: none; border: none; cursor: pointer; color: var(--muted); font-size: 13px; padding: 4px 8px; transition: color .15s; }
   .icon-btn:hover { color: var(--accent2); }
+  .s-info { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+  .s-labels { display: flex; gap: 6px; flex-wrap: wrap; }
+  .s-label { font-family: 'Courier Prime', monospace; font-size: 9px; letter-spacing: 1px; padding: 2px 6px; border-radius: 2px; }
+  .s-label.timed { background: rgba(232,255,0,.12); color: var(--accent); border: 1px solid rgba(232,255,0,.3); }
+  .s-label.has-text { background: rgba(255,255,255,.05); color: var(--muted); border: 1px solid rgba(255,255,255,.1); }
+  .s-label.has-photo { background: rgba(255,100,50,.08); color: #ff9060; border: 1px solid rgba(255,100,50,.2); }
   .play-btn {
     background: none; border: 1px solid var(--border); cursor: pointer; color: var(--text);
     font-size: 11px; padding: 5px 13px; font-family: inherit; letter-spacing: 1px; transition: all .15s;
@@ -290,8 +296,6 @@
     <div class="logo">ЕДЕМ В <span>ПЕРДЬ</span></div>
     <div style="flex:1"></div>
     <button class="btn-s" onclick="publishPlayer()" style="border-color:var(--accent);color:var(--accent)">▲ ОПУБЛИКОВАТЬ</button>
-    <button class="btn-s" onclick="exportFile()" title="Сохранить JSON">↓ СЕТЛИСТ</button>
-    <div class="btn-s" style="position:relative;overflow:hidden;cursor:pointer" title="Загрузить сетлист">↑ СЕТЛИСТ<input type="file" accept=".json,.html" style="position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:100px" onchange="importFile(this)"></div>
     <button class="btn-s" onclick="openSettings()" title="Настройки">⚙</button>
   </div>
   <div class="list-body">
@@ -304,14 +308,12 @@
       <div class="stamp">★<br>ПАНК<br>ТУРИЗМ<br>★</div>
       <div class="hint">
         <strong style="color:var(--text);display:block;margin-bottom:10px">Как пользоваться</strong>
-        Добавь песню → укажи имя mp3 → нажми <strong>АВТО-ТАЙМИНГИ</strong><br><br>
-        Файлы лежат рядом с karaoke.html:<br>
+        Открой песню → нажми <strong>АВТО-ТАЙМИНГИ</strong> → проверь результат → сохрани<br><br>
+        Аудио и фото лежат в репозитории:<br>
         <code style="color:var(--accent)">audio/ogurec.mp3</code><br>
         <code style="color:var(--accent)">photos/ogurec.jpeg</code><br><br>
-        <strong style="color:var(--text);display:block;margin-bottom:6px">СОХРАНИТЬ СЕТЛИСТ</strong>
-        Скачивает JSON со всеми песнями и таймингами. Если потеряешь localStorage — загрузишь обратно.<br><br>
-        <strong style="color:var(--text);display:block;margin-bottom:6px">ЗАГРУЗИТЬ СЕТЛИСТ</strong>
-        Восстанавливает все песни из JSON файла.
+        <strong style="color:var(--text);display:block;margin-bottom:6px">▲ ОПУБЛИКОВАТЬ</strong>
+        Отправляет songs-data.js в GitHub → Vercel деплоит автоматически за ~30 сек.
       </div>
     </div>
   </div>
@@ -472,13 +474,9 @@
     <input id="settings-key" class="fi" type="password" placeholder="gsk_xxxxxxxxxxxxxxxx" style="margin-bottom:4px">
     <div style="font-size:9px;color:var(--muted);margin-bottom:16px">console.groq.com → API Keys → Create</div>
 
-    <label style="font-size:9px;letter-spacing:3px;color:var(--muted);display:block;margin-bottom:6px">NETLIFY ТОКЕН</label>
-    <input id="settings-netlify-token" class="fi" type="password" placeholder="nfp_xxxxxxxxxxxxxxxx" style="margin-bottom:4px">
-    <div style="font-size:9px;color:var(--muted);margin-bottom:16px">netlify.com → аватар → User Settings → Applications → Personal access tokens</div>
-
-    <label style="font-size:9px;letter-spacing:3px;color:var(--muted);display:block;margin-bottom:6px">NETLIFY SITE NAME</label>
-    <input id="settings-netlify-site" class="fi" type="text" placeholder="phenomenal-vacherin-59a882" style="margin-bottom:4px">
-    <div style="font-size:9px;color:var(--muted);margin-bottom:20px">Имя сайта из URL (без .netlify.app)</div>
+    <label style="font-size:9px;letter-spacing:3px;color:var(--muted);display:block;margin-bottom:6px">GITHUB ТОКЕН</label>
+    <input id="settings-github-token" class="fi" type="password" placeholder="ghp_xxxxxxxxxxxxxxxx" style="margin-bottom:4px">
+    <div style="font-size:9px;color:var(--muted);margin-bottom:16px">github.com → Settings → Developer settings → Personal access tokens → Fine-grained → New token → дай права Contents: Read and write для репозитория edemperd</div>
 
     <div class="ma">
       <button class="btn-p" onclick="saveSettings()">СОХРАНИТЬ</button>
@@ -559,36 +557,28 @@ let pId = null, pLines = [], raf = null;
 
 const aud = document.getElementById('aud');
 
-// ── STORAGE (localStorage) ────────────────────────────
+// ── STORAGE ────────────────────────────────────────────
+// Единственный источник данных — songs-data.js (через SONGS_DATA)
+// localStorage используется только как временный кеш текущей сессии
 function loadSongs() {
-  try {
-    // Берём базу из songs-data.js если доступна
-    const base = (typeof SONGS_DATA !== 'undefined' && SONGS_DATA.length)
-      ? JSON.parse(JSON.stringify(SONGS_DATA)) : [];
-
-    // Берём сохранённые данные из localStorage (тайминги, тексты)
-    const raw = localStorage.getItem('evp-songs');
-    const saved = raw ? JSON.parse(raw) : [];
-
-    if (base.length) {
-      // Мёржим: для каждой песни из base берём данные из saved если есть
-      songs = base.map(b => {
-        const s = saved.find(x => x.id === b.id);
-        // Если в saved есть тайминги/текст — используем их, иначе заготовку
-        if (s && s.lyrics && s.lyrics.length > 0) return s;
-        return b;
-      });
-      // Добавляем песни из saved которых нет в base (вручную добавленные)
-      saved.forEach(s => { if (!songs.find(x => x.id === s.id)) songs.push(s); });
-    } else {
-      songs = saved;
-    }
-  } catch { songs = []; }
+  if (typeof SONGS_DATA !== 'undefined' && SONGS_DATA.length) {
+    // Берём базу из songs-data.js
+    songs = JSON.parse(JSON.stringify(SONGS_DATA));
+  } else {
+    songs = [];
+  }
   renderList();
 }
 
 function saveSongs() {
-  try { localStorage.setItem('evp-songs', JSON.stringify(songs)); } catch {}
+  // Обновляем SONGS_DATA в памяти (для текущей сессии)
+  // Реальное сохранение — только через кнопку Опубликовать (GitHub API)
+  if (typeof SONGS_DATA !== 'undefined') {
+    songs.forEach(s => {
+      const idx = SONGS_DATA.findIndex(x => x.id === s.id);
+      if (idx >= 0) SONGS_DATA[idx] = s; else SONGS_DATA.push(s);
+    });
+  }
 }
 
 // ── VIEWS ─────────────────────────────────────────────
@@ -610,16 +600,28 @@ function renderList() {
     c.innerHTML = '<div style="color:var(--muted);font-size:12px;padding:18px 0;letter-spacing:1px">Песен пока нет. Нажмите «+ ДОБАВИТЬ ПЕСНЮ»</div>';
     return;
   }
-  c.innerHTML = songs.map((s, i) => `
+  c.innerHTML = songs.map((s, i) => {
+    const hasText = s.lyrics && s.lyrics.some(l => l.text && l.text.trim());
+    const hasTiming = s.lyrics && s.lyrics.some(l => l.time != null);
+    const hasCustomPhoto = s.photoPath && s.photoPath !== 'photos/IMG_4386.jpeg';
+    const labels = [];
+    if (hasTiming) labels.push('<span class="s-label timed">✓ размечено</span>');
+    else if (hasText) labels.push('<span class="s-label has-text">текст есть</span>');
+    if (hasCustomPhoto) labels.push('<span class="s-label has-photo">📷 фото</span>');
+    return `
     <div class="song-item">
       <span class="s-num">${String(i+1).padStart(2,'0')}</span>
-      <span class="s-title">${s.title || 'Без названия'}</span>
+      <div class="s-info">
+        <span class="s-title">${s.title || 'Без названия'}</span>
+        ${labels.length ? `<div class="s-labels">${labels.join('')}</div>` : ''}
+      </div>
       <div class="s-actions">
         <button class="icon-btn" onclick="openEd('${s.id}')">✎</button>
         <button class="icon-btn" onclick="delSong('${s.id}')">✕</button>
         <button class="play-btn ${!s.hasAudio ? 'dim' : ''}" onclick="${s.hasAudio ? `playFrom('${s.id}')` : ''}">PLAY</button>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 function delSong(id) {
@@ -1047,135 +1049,6 @@ function fmt(s) {
   return Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0');
 }
 
-// ── IMPORT ────────────────────────────────────────────
-function importFile(inp) {
-  const f = inp.files[0]; if (!f) return;
-  const reader = new FileReader();
-  reader.onload = e => {
-    try {
-      let data;
-      if (f.name.endsWith('.json')) {
-        data = JSON.parse(e.target.result);
-      } else {
-        // HTML file — extract BAKED_SONGS
-        const match = e.target.result.match(/BAKED_SONGS = (\[[\s\S]*?\]);/);
-        if (match) data = JSON.parse(match[1]);
-        else throw new Error('Данные не найдены');
-      }
-      if (!Array.isArray(data)) throw new Error('Неверный формат');
-      if (songs.length && !confirm(`Заменить текущие ${songs.length} песен на импортированные ${data.length}?`)) return;
-      songs = data;
-      saveSongs(); renderList();
-      alert(`Импортировано песен: ${data.length}`);
-    } catch(err) {
-      alert('Ошибка импорта: ' + err.message);
-    }
-  };
-  reader.readAsText(f);
-  inp.value = '';
-}
-
-// ── EXPORT ────────────────────────────────────────────
-async function publishPlayer() {
-  if (!songs.length) { alert('Нет песен для публикации'); return; }
-
-  const token = localStorage.getItem('netlify-token');
-  const site = localStorage.getItem('netlify-site');
-
-  // Генерируем songs-data.js — только размеченные (с текстом или таймингами)
-  const toPublish = songs.filter(s => s.lyrics && s.lyrics.length > 0);
-  const jsContent = 'window.SONGS_DATA = ' + JSON.stringify(toPublish, null, 2) + ';';
-
-  // Если нет токена — просто скачиваем файл
-  if (!token || !site) {
-    const blob = new Blob([jsContent], {type: 'application/javascript'});
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'songs-data.js';
-    a.click();
-    alert('Скачан songs-data.js\n\nДобавь Netlify токен и имя сайта в ⚙ чтобы деплоить в один клик.');
-    return;
-  }
-
-  // Деплоим через Netlify API
-  const btn = document.querySelector('[onclick="publishPlayer()"]');
-  const origText = btn.textContent;
-  btn.textContent = '⏳ ДЕПЛОЙ...';
-  btn.disabled = true;
-
-  try {
-    // Получаем site ID по имени сайта
-    const sitesResp = await fetch(`https://api.netlify.com/api/v1/sites?filter=all`, {
-      headers: { Authorization: `Bearer ${token}` }
-    });
-    if (!sitesResp.ok) throw new Error('Ошибка авторизации Netlify — проверь токен');
-    const sites = await sitesResp.json();
-    const found = sites.find(s => s.name === site || s.id === site || s.url?.includes(site));
-    if (!found) throw new Error(`Сайт "${site}" не найден. Проверь имя в настройках.`);
-
-    // Создаём деплой с одним файлом songs-data.js
-    const encoder = new TextEncoder();
-    const fileBytes = encoder.encode(jsContent);
-    // SHA1 для Netlify
-    const hashBuf = await crypto.subtle.digest('SHA-1', fileBytes);
-    const sha1 = Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2,'0')).join('');
-
-    const deployResp = await fetch(`https://api.netlify.com/api/v1/sites/${found.id}/deploys`, {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ files: { '/songs-data.js': sha1 } })
-    });
-    if (!deployResp.ok) throw new Error('Ошибка создания деплоя');
-    const deploy = await deployResp.json();
-
-    // Загружаем файл
-    const uploadResp = await fetch(`https://api.netlify.com/api/v1/deploys/${deploy.id}/files/songs-data.js`, {
-      method: 'PUT',
-      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/octet-stream' },
-      body: fileBytes
-    });
-    if (!uploadResp.ok) throw new Error('Ошибка загрузки файла');
-
-    btn.textContent = '✓ ОПУБЛИКОВАНО';
-    setTimeout(() => { btn.textContent = origText; btn.disabled = false; }, 3000);
-    alert(`✓ Опубликовано ${toPublish.length} песен!\n\nГости увидят обновление через ~30 сек.`);
-  } catch (err) {
-    btn.textContent = origText;
-    btn.disabled = false;
-    alert('Ошибка деплоя: ' + err.message);
-  }
-}
-
-
-function exportFile() {
-  if (!songs.length) { alert('Сначала добавьте хотя бы одну песню'); return; }
-  // Serialize songs data as JS variable injected into a copy of this page
-  const bakedData = `\n  const BAKED_SONGS = ${JSON.stringify(songs)};\n`;
-
-  fetch(location.href)
-    .then(r => r.text())
-    .then(html => {
-      // Replace loadSongs to use baked data instead of localStorage
-      let out = html.replace(
-        'function loadSongs() {\n  try {\n    const raw = localStorage.getItem(\'evp-songs\');\n    songs = raw ? JSON.parse(raw) : [];\n  } catch { songs = []; }\n  renderList();\n}',
-        `function loadSongs() {\n${bakedData}  songs = BAKED_SONGS;\n  renderList();\n}`
-      );
-      const blob = new Blob([out], {type: 'text/html'});
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'karaoke-evp-final.html';
-      a.click();
-    })
-    .catch(() => {
-      // file:// protocol fallback — скачать данные JSON
-      const blob = new Blob([JSON.stringify(songs, null, 2)], {type: 'application/json'});
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = 'karaoke-data.json';
-      a.click();
-      alert('Скачан karaoke-data.json с вашими песнями и таймингами.\n\nЧтобы перенести на другой компьютер: откройте приложение, нажмите «Импорт» и выберите этот файл.');
-    });
-}
 
 function onPathInput(type, val) {
   if (type === 'audio' && val) setFbl('afl','afl-t','✓ '+val, true);
@@ -1219,8 +1092,7 @@ function getPhotoPath() {
 // ── SETTINGS ──────────────────────────────────────────
 function openSettings() {
   document.getElementById('settings-key').value = localStorage.getItem('groq-key') || '';
-  document.getElementById('settings-netlify-token').value = localStorage.getItem('netlify-token') || '';
-  document.getElementById('settings-netlify-site').value = localStorage.getItem('netlify-site') || '';
+  document.getElementById('settings-github-token').value = localStorage.getItem('github-token') || '';
   document.getElementById('ov-settings').classList.add('on');
 }
 function closeSettings() {
@@ -1228,11 +1100,9 @@ function closeSettings() {
 }
 function saveSettings() {
   const groq = document.getElementById('settings-key').value.trim();
-  const token = document.getElementById('settings-netlify-token').value.trim();
-  const site = document.getElementById('settings-netlify-site').value.trim();
+  const github = document.getElementById('settings-github-token').value.trim();
   if (groq) localStorage.setItem('groq-key', groq); else localStorage.removeItem('groq-key');
-  if (token) localStorage.setItem('netlify-token', token); else localStorage.removeItem('netlify-token');
-  if (site) localStorage.setItem('netlify-site', site); else localStorage.removeItem('netlify-site');
+  if (github) localStorage.setItem('github-token', github); else localStorage.removeItem('github-token');
   closeSettings();
   alert('✓ Настройки сохранены');
 }
