@@ -1100,22 +1100,22 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Тридцать в час",
-        "time": 0,
+        "time": 9,
         "words": null
       },
       {
         "text": "Пустой круг",
-        "time": 9.26,
+        "time": 11.26,
         "words": null
       },
       {
         "text": "Редкие фары",
-        "time": 10.82,
+        "time": 11.82,
         "words": null
       },
       {
         "text": "Лобовуха стекает в стекло",
-        "time": 12.9,
+        "time": 15.9,
         "words": null
       },
       {
@@ -4989,22 +4989,22 @@ window.PUBLISHED = [
     "lyrics": [
       {
         "text": "Тридцать в час",
-        "time": 0,
+        "time": 9,
         "words": null
       },
       {
         "text": "Пустой круг",
-        "time": 9.26,
+        "time": 11.26,
         "words": null
       },
       {
         "text": "Редкие фары",
-        "time": 10.82,
+        "time": 11.82,
         "words": null
       },
       {
         "text": "Лобовуха стекает в стекло",
-        "time": 12.9,
+        "time": 15.9,
         "words": null
       },
       {
