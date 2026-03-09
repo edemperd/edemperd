@@ -1439,7 +1439,9 @@ async function runGroq() {
     fd.append('response_format', 'verbose_json');
     fd.append('timestamp_granularities[]', 'word');
     fd.append('language', 'ru');
-    // prompt убран — Groq Whisper ограничивает до 896 символов, без него работает нормально
+    // Передаём текст песни как подсказку — Whisper старается использовать те же слова
+    const promptText = lines.join(' ').slice(0, 896);
+    fd.append('prompt', promptText);
 
     const resp = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
       method: 'POST',
