@@ -1439,8 +1439,8 @@ async function runGroq() {
     fd.append('response_format', 'verbose_json');
     fd.append('timestamp_granularities[]', 'word');
     fd.append('language', 'ru');
-    // Передаём текст песни как подсказку — Whisper старается использовать те же слова
-    const promptText = lines.join(' ').slice(0, 896);
+    // Groq считает кириллицу как 2 символа — режем до 448 чтобы уложиться в 896
+    const promptText = lines.join(' ').slice(0, 448);
     fd.append('prompt', promptText);
 
     const resp = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
