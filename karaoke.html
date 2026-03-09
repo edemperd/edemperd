@@ -54,6 +54,7 @@
   .s-label.timed { background: rgba(232,255,0,.12); color: var(--accent); border: 1px solid rgba(232,255,0,.3); }
   .s-label.has-text { background: rgba(255,255,255,.05); color: var(--muted); border: 1px solid rgba(255,255,255,.1); }
   .s-label.has-photo { background: rgba(255,100,50,.08); color: #ff9060; border: 1px solid rgba(255,100,50,.2); }
+  .s-label.published { background: rgba(76,175,80,.12); color: #4caf50; border: 1px solid rgba(76,175,80,.3); }
   .play-btn {
     background: none; border: 1px solid var(--border); cursor: pointer; color: var(--text);
     font-size: 11px; padding: 5px 13px; font-family: inherit; letter-spacing: 1px; transition: all .15s;
@@ -295,7 +296,6 @@
   <div class="hdr">
     <div class="logo">ЕДЕМ В <span>ПЕРДЬ</span></div>
     <div style="flex:1"></div>
-    <button class="btn-s" onclick="publishPlayer()" style="border-color:var(--accent);color:var(--accent)">▲ ОПУБЛИКОВАТЬ</button>
     <button class="btn-s" onclick="openSettings()" title="Настройки">⚙</button>
   </div>
   <div class="list-body">
@@ -431,9 +431,11 @@
         <button class="btn-s" id="breset" onclick="resetTap()" style="display:none">✕ СБРОС</button>
         <button class="btn-s" onclick="resetTimings()" title="Сбросить все тайминги" style="color:var(--accent2);border-color:var(--accent2)">↺ ТАЙМИНГИ</button>
       </div>
-      <div style="padding-top:6px">
-        <button class="btn-p" onclick="saveSong()">СОХРАНИТЬ ПЕСНЮ</button>
+      <div style="padding-top:6px;display:flex;gap:8px">
+        <button class="btn-s" onclick="saveSong(true)" style="flex:1">СОХРАНИТЬ</button>
+        <button class="btn-p" id="ed-publish-btn" onclick="publishSong()" style="flex:2;background:var(--accent);color:#000">▲ ОПУБЛИКОВАТЬ</button>
       </div>
+      <div id="ed-publish-status" style="display:none;margin-top:8px;font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:1px;color:var(--accent)"></div>
     </div>
   </div>
 </div>
@@ -558,26 +560,101 @@ let pId = null, pLines = [], raf = null;
 const aud = document.getElementById('aud');
 
 // ── STORAGE ────────────────────────────────────────────
-// Единственный источник данных — songs-data.js (через SONGS_DATA)
-// localStorage используется только как временный кеш текущей сессии
+// Единственный источник данных — songs-data.js (SONGS_DATA + PUBLISHED_IDS)
+// localStorage используется только для ключей API
+
+let publishedIds = []; // ID опубликованных песен
+
 function loadSongs() {
-  if (typeof SONGS_DATA !== 'undefined' && SONGS_DATA.length) {
-    // Берём базу из songs-data.js
-    songs = JSON.parse(JSON.stringify(SONGS_DATA));
-  } else {
-    songs = [];
-  }
+  songs = (typeof SONGS_DATA !== 'undefined' && SONGS_DATA.length)
+    ? JSON.parse(JSON.stringify(SONGS_DATA)) : [];
+  publishedIds = (typeof PUBLISHED !== 'undefined')
+    ? PUBLISHED.map(s => s.id) : [];
   renderList();
 }
 
 function saveSongs() {
-  // Обновляем SONGS_DATA в памяти (для текущей сессии)
-  // Реальное сохранение — только через кнопку Опубликовать (GitHub API)
-  if (typeof SONGS_DATA !== 'undefined') {
-    songs.forEach(s => {
+  // Синхронизируем in-memory — реальное сохранение только через publishSong
+  songs.forEach(s => {
+    if (typeof SONGS_DATA !== 'undefined') {
       const idx = SONGS_DATA.findIndex(x => x.id === s.id);
       if (idx >= 0) SONGS_DATA[idx] = s; else SONGS_DATA.push(s);
+    }
+  });
+}
+
+// Собирает актуальный songs-data.js для отправки в GitHub
+function buildSongsDataJs() {
+  const published = songs.filter(s => publishedIds.includes(s.id));
+  return 'window.SONGS_DATA = ' + JSON.stringify(songs, null, 2) + ';\n\n'
+       + 'window.PUBLISHED = ' + JSON.stringify(published, null, 2) + ';\n';
+}
+
+// Отправляет songs-data.js в GitHub
+async function pushToGitHub(content) {
+  const token = localStorage.getItem('github-token');
+  if (!token) throw new Error('Нет GitHub токена — добавь в ⚙ настройки');
+
+  const owner = 'edemperd';
+  const repo = 'edemperd';
+  const path = 'songs-data.js';
+  const encoded = btoa(unescape(encodeURIComponent(content)));
+
+  let sha = null;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' }
     });
+    if (r.ok) { const d = await r.json(); sha = d.sha; }
+  } catch {}
+
+  const body = { message: 'Обновление сетлиста', content: encoded };
+  if (sha) body.sha = sha;
+
+  const resp = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  if (!resp.ok) {
+    const err = await resp.json();
+    throw new Error(err.message || resp.status);
+  }
+}
+
+// Публикация конкретной песни из редактора
+async function publishSong() {
+  const id = saveSong(true);
+  if (!id) return;
+
+  // Добавляем в опубликованные если ещё нет
+  if (!publishedIds.includes(id)) publishedIds.push(id);
+
+  const btn = document.getElementById('ed-publish-btn');
+  const status = document.getElementById('ed-publish-status');
+  btn.disabled = true; btn.textContent = '⏳...';
+  status.style.display = 'none';
+
+  try {
+    await pushToGitHub(buildSongsDataJs());
+    btn.textContent = '✓ ОПУБЛИКОВАНО';
+    btn.style.background = '#4caf50';
+    status.style.display = 'block';
+    status.textContent = '✓ Песня опубликована — Vercel обновится за ~30 сек';
+    status.style.color = '#4caf50';
+    renderList(); // обновляем лейблы
+    setTimeout(() => {
+      btn.textContent = '▲ ОПУБЛИКОВАТЬ';
+      btn.style.background = 'var(--accent)';
+      btn.disabled = false;
+    }, 4000);
+  } catch (err) {
+    btn.textContent = '▲ ОПУБЛИКОВАТЬ';
+    btn.style.background = 'var(--accent)';
+    btn.disabled = false;
+    status.style.display = 'block';
+    status.textContent = '✗ Ошибка: ' + err.message;
+    status.style.color = 'var(--accent2)';
   }
 }
 
@@ -604,7 +681,9 @@ function renderList() {
     const hasText = s.lyrics && s.lyrics.some(l => l.text && l.text.trim());
     const hasTiming = s.lyrics && s.lyrics.some(l => l.time != null);
     const hasCustomPhoto = s.photoPath && s.photoPath !== 'photos/IMG_4386.jpeg';
+    const isPublished = publishedIds.includes(s.id);
     const labels = [];
+    if (isPublished) labels.push('<span class="s-label published">▲ опубликовано</span>');
     if (hasTiming) labels.push('<span class="s-label timed">✓ размечено</span>');
     else if (hasText) labels.push('<span class="s-label has-text">текст есть</span>');
     if (hasCustomPhoto) labels.push('<span class="s-label has-photo">📷 фото</span>');

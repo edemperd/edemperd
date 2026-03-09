@@ -1,3 +1,4 @@
+// Все песни (база для редактора)
 window.SONGS_DATA = [
   { id: "cercov-korabil", title: "Церковь-Корабль", audioPath: "audio/cercov-korabil.mp3", photoPath: "photos/IMG_4386.jpeg", hasAudio: true, hasPhoto: true, lyrics: [] },
   { id: "cerkov-otziv", title: "Церковь Отзив", audioPath: "audio/cerkov-otziv.mp3", photoPath: "photos/IMG_4386.jpeg", hasAudio: true, hasPhoto: true, lyrics: [] },
@@ -17,3 +18,6 @@ window.SONGS_DATA = [
   { id: "usadba-teney", title: "Усадьба Теней", audioPath: "audio/usadba-teney.mp3", photoPath: "photos/IMG_4386.jpeg", hasAudio: true, hasPhoto: true, lyrics: [] },
   { id: "zaraisk", title: "Зарайск", audioPath: "audio/zaraisk.mp3", photoPath: "photos/IMG_4386.jpeg", hasAudio: true, hasPhoto: true, lyrics: [] }
 ];
+
+// Опубликованные песни (гости видят только их)
+window.PUBLISHED = [];

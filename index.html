@@ -276,7 +276,7 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 <script src="songs-data.js"></script>
 <script>
 // songs-data.js задаёт window.SONGS_DATA
-const SONGS = (typeof SONGS_DATA !== 'undefined') ? SONGS_DATA : [];
+const SONGS = (typeof PUBLISHED !== 'undefined' && PUBLISHED.length) ? PUBLISHED : [];
 
 const aud = document.getElementById('aud');
 let pId = null, pWordLines = [], pLastLineIdx = -1, raf = null;
