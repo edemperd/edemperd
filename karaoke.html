@@ -66,6 +66,7 @@
     position:fixed;bottom:0;left:0;right:0;background:var(--surface);border-top:1px solid var(--border);
     padding:16px 24px;display:flex;flex-direction:column;gap:12px;z-index:100;
   }
+  .icon-btn { background: none; border: none; cursor: pointer; color: var(--muted); font-size: 13px; padding: 4px 8px; transition: color .15s; }
   .icon-btn:hover { color: var(--accent2); }
   .s-info { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
   .s-labels { display: flex; gap: 6px; flex-wrap: wrap; }
@@ -949,7 +950,8 @@ function renderPrev() {
         <span class="lt" style="font-size:10px;color:var(--muted)" onclick="nudgeTimePrompt(${i+1})">${tEndStr}</span>
         <span onclick="nudgeTime(${i+1},1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none" title="+1 сек">+</span>
       ` : '';
-      return `<div class="lr" style="display:flex;align-items:center;gap:0">${nudgeHtml}<span class="ll${t!=null?' ok':''}" style="flex:1">${l}</span>${endHtml}</div>`;
+      const playBtn = t != null ? `<span onclick="playAt(${t})" style="cursor:pointer;color:var(--muted);padding:0 6px;font-size:11px;user-select:none" title="Воспроизвести с этого места">▶</span>` : '';
+      return `<div class="lr" style="display:flex;align-items:center;gap:0">${nudgeHtml}<span class="ll${t!=null?' ok':''}" style="flex:1">${l}</span>${endHtml}${playBtn}</div>`;
     }).join('') + '</div>';
 }
 
@@ -1731,19 +1733,32 @@ function openLiveMenu() {
   const i = liveCurrentLine;
   const lines = eLines.length ? eLines : getLines();
   const t = edAud.currentTime;
+  const tEnd = eTimes[i+1];
 
   const menu = document.createElement('div');
   menu.id = 'live-menu';
   menu.className = 'live-edit-menu';
   menu.innerHTML = `
-    <div style="font-size:10px;letter-spacing:2px;color:var(--muted)">СТРОКА ${i+1} / ${lines.length}</div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <span style="font-size:10px;letter-spacing:2px;color:var(--muted)">СТРОКА ${i+1} / ${lines.length}</span>
+      ${i > 0 ? `<button onclick="liveGoBack()" style="background:none;border:1px solid var(--border);color:var(--muted);padding:4px 10px;cursor:pointer;font-family:inherit;font-size:10px;letter-spacing:1px">← НАЗАД</button>` : ''}
+    </div>
     <div style="font-family:'Special Elite',serif;font-size:16px">${lines[i] || ''}</div>
+    <div style="font-size:10px;color:var(--muted);letter-spacing:1px">НАЧАЛО СТРОКИ</div>
     <div style="display:flex;gap:10px;flex-wrap:wrap">
       <button onclick="liveSetTime(${i}, ${t.toFixed(3)})" style="flex:2;background:var(--accent);color:#000;border:none;padding:10px;cursor:pointer;font-family:inherit;font-size:12px;letter-spacing:1px">
         ✓ ПОСТАВИТЬ ${fmt(t)}
       </button>
       <button onclick="nudgeTime(${i},-1);updateLiveLines()" style="flex:1;background:none;border:1px solid var(--border);color:var(--text);padding:10px;cursor:pointer;font-family:inherit">− 1с</button>
       <button onclick="nudgeTime(${i},1);updateLiveLines()" style="flex:1;background:none;border:1px solid var(--border);color:var(--text);padding:10px;cursor:pointer;font-family:inherit">+ 1с</button>
+    </div>
+    <div style="font-size:10px;color:var(--muted);letter-spacing:1px">КОНЕЦ СТРОКИ ${tEnd != null ? '(' + fmt(tEnd) + ')' : '—'}</div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button onclick="liveSetTime(${i+1}, ${t.toFixed(3)})" style="flex:2;background:none;border:1px solid var(--border);color:var(--text);padding:8px;cursor:pointer;font-family:inherit;font-size:11px">
+        ✓ КОНЕЦ = ${fmt(t)}
+      </button>
+      <button onclick="nudgeTime(${i+1},-1);updateLiveLines()" style="flex:1;background:none;border:1px solid var(--border);color:var(--muted);padding:8px;cursor:pointer;font-family:inherit">− 1с</button>
+      <button onclick="nudgeTime(${i+1},1);updateLiveLines()" style="flex:1;background:none;border:1px solid var(--border);color:var(--muted);padding:8px;cursor:pointer;font-family:inherit">+ 1с</button>
     </div>
     <div style="display:flex;gap:10px">
       <button onclick="closeLiveMenu();edAud.play().catch(()=>{})" style="flex:1;background:none;border:1px solid var(--border);color:var(--muted);padding:8px;cursor:pointer;font-family:inherit;font-size:11px;letter-spacing:1px">▶ ПРОДОЛЖИТЬ</button>
@@ -1757,6 +1772,17 @@ function closeLiveMenu() {
   const m = document.getElementById('live-menu');
   if (m) m.remove();
   liveEditMenu = null;
+}
+
+function liveGoBack() {
+  if (liveCurrentLine > 0) {
+    liveCurrentLine--;
+    // Перемотать аудио к началу предыдущей строки
+    const t = eTimes[liveCurrentLine];
+    if (t != null) edAud.currentTime = Math.max(0, t - 0.5);
+  }
+  closeLiveMenu();
+  openLiveMenu();
 }
 
 function liveSetTime(i, t) {

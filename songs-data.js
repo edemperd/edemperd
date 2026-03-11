@@ -5,109 +5,654 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Стоит корабль у самого леса",
-        "time": null,
-        "words": null
+        "time": 26.16,
+        "words": [
+          {
+            "word": "Стоит",
+            "start": 26.16,
+            "end": 27.2
+          },
+          {
+            "word": "корабль",
+            "start": 27.2,
+            "end": 29.06
+          },
+          {
+            "word": "у",
+            "start": 29.119,
+            "end": 29.166
+          },
+          {
+            "word": "самого",
+            "start": 29.222,
+            "end": 29.266
+          },
+          {
+            "word": "леса",
+            "start": 29.318,
+            "end": 29.36
+          }
+        ]
       },
       {
         "text": "Здесь нет толпы здесь тишина",
-        "time": null,
-        "words": null
+        "time": 27.44,
+        "words": [
+          {
+            "word": "Здесь",
+            "start": 29.409,
+            "end": 29.448
+          },
+          {
+            "word": "нет",
+            "start": 29.494,
+            "end": 29.531
+          },
+          {
+            "word": "толпы",
+            "start": 29.574,
+            "end": 29.608
+          },
+          {
+            "word": "здесь",
+            "start": 29.647,
+            "end": 29.678
+          },
+          {
+            "word": "тишина",
+            "start": 29.714,
+            "end": 29.743
+          }
+        ]
       },
       {
         "text": "Узкие окна наличники узкие",
-        "time": null,
-        "words": null
+        "time": 28.72,
+        "words": [
+          {
+            "word": "Узкие",
+            "start": 29.775,
+            "end": 29.801
+          },
+          {
+            "word": "окна",
+            "start": 29.829,
+            "end": 29.852
+          },
+          {
+            "word": "наличники",
+            "start": 29.877,
+            "end": 29.897
+          },
+          {
+            "word": "узкие",
+            "start": 29.918,
+            "end": 29.934
+          }
+        ]
       },
       {
         "text": "Башни высокие тянут в небеса",
-        "time": null,
-        "words": null
+        "time": 30,
+        "words": [
+          {
+            "word": "Башни",
+            "start": 29.951,
+            "end": 29.964
+          },
+          {
+            "word": "высокие",
+            "start": 29.976,
+            "end": 29.986
+          },
+          {
+            "word": "тянут",
+            "start": 29.993,
+            "end": 29.999
+          },
+          {
+            "word": "в",
+            "start": 30,
+            "end": 38.6
+          },
+          {
+            "word": "небеса",
+            "start": 38.6,
+            "end": 38.6
+          }
+        ]
       },
       {
         "text": "Часы молчат ни звука ни шепота",
-        "time": null,
-        "words": null
+        "time": 38.6,
+        "words": [
+          {
+            "word": "Часы",
+            "start": 38.6,
+            "end": 38.6
+          },
+          {
+            "word": "молчат",
+            "start": 38.6,
+            "end": 38.6
+          },
+          {
+            "word": "ни",
+            "start": 38.6,
+            "end": 38.6
+          },
+          {
+            "word": "звука",
+            "start": 38.6,
+            "end": 39.36
+          },
+          {
+            "word": "ни",
+            "start": 46.24,
+            "end": 51.744
+          },
+          {
+            "word": "шепота",
+            "start": 55.872,
+            "end": 59.174
+          }
+        ]
       },
       {
         "text": "Лишь ветер бьётся в купола",
-        "time": null,
-        "words": null
+        "time": 60,
+        "words": [
+          {
+            "word": "Лишь",
+            "start": 60,
+            "end": 60.258
+          },
+          {
+            "word": "ветер",
+            "start": 60.268,
+            "end": 60.948
+          },
+          {
+            "word": "бьётся",
+            "start": 60.948,
+            "end": 61.988
+          },
+          {
+            "word": "в",
+            "start": 61.988,
+            "end": 62.788
+          },
+          {
+            "word": "купола",
+            "start": 62.788,
+            "end": 63.848
+          }
+        ]
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
-        "time": null,
-        "words": null
+        "time": 62.974,
+        "words": [
+          {
+            "word": "Церковь-корабль",
+            "start": 64.268,
+            "end": 64.604
+          },
+          {
+            "word": "плывёт",
+            "start": 64.94,
+            "end": 65.209
+          },
+          {
+            "word": "сквозь",
+            "start": 65.455,
+            "end": 65.652
+          },
+          {
+            "word": "тени",
+            "start": 65.8,
+            "end": 65.918
+          }
+        ]
       },
       {
         "text": "В море деревьев в тайне времен",
-        "time": null,
-        "words": null
+        "time": 65.948,
+        "words": [
+          {
+            "word": "В",
+            "start": 65.948,
+            "end": 66.108
+          },
+          {
+            "word": "море",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "деревьев",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "в",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "тайне",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "времен",
+            "start": 66.108,
+            "end": 66.108
+          }
+        ]
       },
       {
         "text": "На задворках СНТ в покое спрятана",
-        "time": null,
-        "words": null
+        "time": 66.028,
+        "words": [
+          {
+            "word": "На",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "задворках",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "СНТ",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "в",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "покое",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "спрятана",
+            "start": 66.108,
+            "end": 66.108
+          }
+        ]
       },
       {
         "text": "Её дорога к душе ведёт",
-        "time": null,
-        "words": null
+        "time": 66.108,
+        "words": [
+          {
+            "word": "Её",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "дорога",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "к",
+            "start": 66.108,
+            "end": 66.908
+          },
+          {
+            "word": "душе",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "ведёт",
+            "start": 66.908,
+            "end": 66.908
+          }
+        ]
       },
       {
         "text": "Стиль спорный странный но сердце трогает",
-        "time": null,
-        "words": null
+        "time": 66.375,
+        "words": [
+          {
+            "word": "Стиль",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "спорный",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "странный",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "но",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "сердце",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "трогает",
+            "start": 66.908,
+            "end": 66.908
+          }
+        ]
       },
       {
         "text": "Не благолепие но живой огонь",
-        "time": null,
-        "words": null
+        "time": 66.641,
+        "words": [
+          {
+            "word": "Не",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "благолепие",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "но",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "живой",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "огонь",
+            "start": 66.908,
+            "end": 66.908
+          }
+        ]
       },
       {
         "text": "Каждый шаг приближает к истине",
-        "time": null,
-        "words": null
+        "time": 66.908,
+        "words": [
+          {
+            "word": "Каждый",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "шаг",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "приближает",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "к",
+            "start": 66.908,
+            "end": 68.548
+          },
+          {
+            "word": "истине",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
       },
       {
         "text": "Сквозь чащу через её порог",
-        "time": null,
-        "words": null
+        "time": 67.318,
+        "words": [
+          {
+            "word": "Сквозь",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "чащу",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "через",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "её",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "порог",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
       },
       {
         "text": "Тропы ведут нас в её объятья",
-        "time": null,
-        "words": null
+        "time": 67.728,
+        "words": [
+          {
+            "word": "Тропы",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "ведут",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "нас",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "в",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "её",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "объятья",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
       },
       {
         "text": "И время в храме течёт иначе",
-        "time": null,
-        "words": null
+        "time": 68.138,
+        "words": [
+          {
+            "word": "И",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "время",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "в",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "храме",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "течёт",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "иначе",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
-        "time": null,
-        "words": null
+        "time": 68.548,
+        "words": [
+          {
+            "word": "Церковь-корабль",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "плывёт",
+            "start": 68.548,
+            "end": 69.268
+          },
+          {
+            "word": "сквозь",
+            "start": 69.268,
+            "end": 70.588
+          },
+          {
+            "word": "тени",
+            "start": 70.588,
+            "end": 71.628
+          }
+        ]
       },
       {
         "text": "В море деревьев в тайне времен",
-        "time": null,
-        "words": null
+        "time": 72.548,
+        "words": [
+          {
+            "word": "В",
+            "start": 72.548,
+            "end": 72.708
+          },
+          {
+            "word": "море",
+            "start": 72.708,
+            "end": 73.468
+          },
+          {
+            "word": "деревьев",
+            "start": 73.468,
+            "end": 75.188
+          },
+          {
+            "word": "в",
+            "start": 75.188,
+            "end": 76.088
+          },
+          {
+            "word": "тайне",
+            "start": 76.088,
+            "end": 76.708
+          },
+          {
+            "word": "времен",
+            "start": 76.708,
+            "end": 77.218
+          }
+        ]
       },
       {
         "text": "На задворках СНТ в покое спрятана",
-        "time": null,
-        "words": null
+        "time": 77.228,
+        "words": [
+          {
+            "word": "На",
+            "start": 77.228,
+            "end": 79.108
+          },
+          {
+            "word": "задворках",
+            "start": 79.108,
+            "end": 80.228
+          },
+          {
+            "word": "СНТ",
+            "start": 80.228,
+            "end": 80.968
+          },
+          {
+            "word": "в",
+            "start": 80.968,
+            "end": 81.448
+          },
+          {
+            "word": "покое",
+            "start": 81.448,
+            "end": 82.368
+          },
+          {
+            "word": "спрятана",
+            "start": 82.368,
+            "end": 84.288
+          }
+        ]
       },
       {
         "text": "Её дорога к душе ведёт",
-        "time": null,
-        "words": null
+        "time": 86.268,
+        "words": [
+          {
+            "word": "Её",
+            "start": 86.268,
+            "end": 86.968
+          },
+          {
+            "word": "дорога",
+            "start": 86.968,
+            "end": 88.368
+          },
+          {
+            "word": "к",
+            "start": 88.368,
+            "end": 88.488
+          },
+          {
+            "word": "душе",
+            "start": 88.488,
+            "end": 89.108
+          },
+          {
+            "word": "ведёт",
+            "start": 89.108,
+            "end": 91.428
+          }
+        ]
       }
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/cercov-korabil.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cercov-korabil.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "cerkov-otziv",
@@ -131,8 +676,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/cerkov-otziv.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cerkov-otziv.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "dom-slon",
@@ -376,8 +921,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/dom-slon.mp3",
-    "photoPath": "photos/dom-slon.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/dom-slon.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/dom-slon.jpeg"
   },
   {
     "id": "lena-soli",
@@ -561,8 +1106,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/lena-Soli.mp3",
-    "photoPath": "photos/lena-soli.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
   },
   {
     "id": "master-nedorazumenie",
@@ -806,8 +1351,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/master-nedorazumenie.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/master-nedorazumenie.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "mkad-30",
@@ -1091,8 +1636,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/mkad-30.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad-30.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "mkad",
@@ -1461,8 +2006,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/mkad.mp3",
-    "photoPath": "photos/mkad.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/mkad.jpeg"
   },
   {
     "id": "ogurec",
@@ -1726,8 +2271,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/ogurec.mp3",
-    "photoPath": "photos/ogurec.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/ogurec.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/ogurec.jpeg"
   },
   {
     "id": "petushki",
@@ -2041,8 +2586,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/petushki.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/petushki.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "puchino",
@@ -3047,8 +3592,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/puchino.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "rozhdestvo",
@@ -3472,8 +4017,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/rozhdestvo.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/rozhdestvo.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "russkie",
@@ -3837,8 +4382,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/russkie.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/russkie.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "sanatory",
@@ -3957,8 +4502,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/sanatory.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/sanatory.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "slon-rave",
@@ -4387,8 +4932,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/slon-rave.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/slon-rave.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "trevozhno",
@@ -4572,8 +5117,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/trevozhno.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/trevozhno.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "usadba-teney",
@@ -4787,8 +5332,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/usadba-teney.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/usadba-teney.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
     "id": "zaraisk",
@@ -4977,12 +5522,667 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/zaraisk.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/zaraisk.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   }
 ];
 
 window.PUBLISHED = [
+  {
+    "id": "cercov-korabil",
+    "title": "Церковь-Корабль",
+    "lyrics": [
+      {
+        "text": "Стоит корабль у самого леса",
+        "time": 26.16,
+        "words": [
+          {
+            "word": "Стоит",
+            "start": 26.16,
+            "end": 27.2
+          },
+          {
+            "word": "корабль",
+            "start": 27.2,
+            "end": 29.06
+          },
+          {
+            "word": "у",
+            "start": 29.119,
+            "end": 29.166
+          },
+          {
+            "word": "самого",
+            "start": 29.222,
+            "end": 29.266
+          },
+          {
+            "word": "леса",
+            "start": 29.318,
+            "end": 29.36
+          }
+        ]
+      },
+      {
+        "text": "Здесь нет толпы здесь тишина",
+        "time": 27.44,
+        "words": [
+          {
+            "word": "Здесь",
+            "start": 29.409,
+            "end": 29.448
+          },
+          {
+            "word": "нет",
+            "start": 29.494,
+            "end": 29.531
+          },
+          {
+            "word": "толпы",
+            "start": 29.574,
+            "end": 29.608
+          },
+          {
+            "word": "здесь",
+            "start": 29.647,
+            "end": 29.678
+          },
+          {
+            "word": "тишина",
+            "start": 29.714,
+            "end": 29.743
+          }
+        ]
+      },
+      {
+        "text": "Узкие окна наличники узкие",
+        "time": 28.72,
+        "words": [
+          {
+            "word": "Узкие",
+            "start": 29.775,
+            "end": 29.801
+          },
+          {
+            "word": "окна",
+            "start": 29.829,
+            "end": 29.852
+          },
+          {
+            "word": "наличники",
+            "start": 29.877,
+            "end": 29.897
+          },
+          {
+            "word": "узкие",
+            "start": 29.918,
+            "end": 29.934
+          }
+        ]
+      },
+      {
+        "text": "Башни высокие тянут в небеса",
+        "time": 30,
+        "words": [
+          {
+            "word": "Башни",
+            "start": 29.951,
+            "end": 29.964
+          },
+          {
+            "word": "высокие",
+            "start": 29.976,
+            "end": 29.986
+          },
+          {
+            "word": "тянут",
+            "start": 29.993,
+            "end": 29.999
+          },
+          {
+            "word": "в",
+            "start": 30,
+            "end": 38.6
+          },
+          {
+            "word": "небеса",
+            "start": 38.6,
+            "end": 38.6
+          }
+        ]
+      },
+      {
+        "text": "Часы молчат ни звука ни шепота",
+        "time": 38.6,
+        "words": [
+          {
+            "word": "Часы",
+            "start": 38.6,
+            "end": 38.6
+          },
+          {
+            "word": "молчат",
+            "start": 38.6,
+            "end": 38.6
+          },
+          {
+            "word": "ни",
+            "start": 38.6,
+            "end": 38.6
+          },
+          {
+            "word": "звука",
+            "start": 38.6,
+            "end": 39.36
+          },
+          {
+            "word": "ни",
+            "start": 46.24,
+            "end": 51.744
+          },
+          {
+            "word": "шепота",
+            "start": 55.872,
+            "end": 59.174
+          }
+        ]
+      },
+      {
+        "text": "Лишь ветер бьётся в купола",
+        "time": 60,
+        "words": [
+          {
+            "word": "Лишь",
+            "start": 60,
+            "end": 60.258
+          },
+          {
+            "word": "ветер",
+            "start": 60.268,
+            "end": 60.948
+          },
+          {
+            "word": "бьётся",
+            "start": 60.948,
+            "end": 61.988
+          },
+          {
+            "word": "в",
+            "start": 61.988,
+            "end": 62.788
+          },
+          {
+            "word": "купола",
+            "start": 62.788,
+            "end": 63.848
+          }
+        ]
+      },
+      {
+        "text": "Церковь-корабль плывёт сквозь тени",
+        "time": 62.974,
+        "words": [
+          {
+            "word": "Церковь-корабль",
+            "start": 64.268,
+            "end": 64.604
+          },
+          {
+            "word": "плывёт",
+            "start": 64.94,
+            "end": 65.209
+          },
+          {
+            "word": "сквозь",
+            "start": 65.455,
+            "end": 65.652
+          },
+          {
+            "word": "тени",
+            "start": 65.8,
+            "end": 65.918
+          }
+        ]
+      },
+      {
+        "text": "В море деревьев в тайне времен",
+        "time": 65.948,
+        "words": [
+          {
+            "word": "В",
+            "start": 65.948,
+            "end": 66.108
+          },
+          {
+            "word": "море",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "деревьев",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "в",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "тайне",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "времен",
+            "start": 66.108,
+            "end": 66.108
+          }
+        ]
+      },
+      {
+        "text": "На задворках СНТ в покое спрятана",
+        "time": 66.028,
+        "words": [
+          {
+            "word": "На",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "задворках",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "СНТ",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "в",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "покое",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "спрятана",
+            "start": 66.108,
+            "end": 66.108
+          }
+        ]
+      },
+      {
+        "text": "Её дорога к душе ведёт",
+        "time": 66.108,
+        "words": [
+          {
+            "word": "Её",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "дорога",
+            "start": 66.108,
+            "end": 66.108
+          },
+          {
+            "word": "к",
+            "start": 66.108,
+            "end": 66.908
+          },
+          {
+            "word": "душе",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "ведёт",
+            "start": 66.908,
+            "end": 66.908
+          }
+        ]
+      },
+      {
+        "text": "Стиль спорный странный но сердце трогает",
+        "time": 66.375,
+        "words": [
+          {
+            "word": "Стиль",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "спорный",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "странный",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "но",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "сердце",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "трогает",
+            "start": 66.908,
+            "end": 66.908
+          }
+        ]
+      },
+      {
+        "text": "Не благолепие но живой огонь",
+        "time": 66.641,
+        "words": [
+          {
+            "word": "Не",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "благолепие",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "но",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "живой",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "огонь",
+            "start": 66.908,
+            "end": 66.908
+          }
+        ]
+      },
+      {
+        "text": "Каждый шаг приближает к истине",
+        "time": 66.908,
+        "words": [
+          {
+            "word": "Каждый",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "шаг",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "приближает",
+            "start": 66.908,
+            "end": 66.908
+          },
+          {
+            "word": "к",
+            "start": 66.908,
+            "end": 68.548
+          },
+          {
+            "word": "истине",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
+      },
+      {
+        "text": "Сквозь чащу через её порог",
+        "time": 67.318,
+        "words": [
+          {
+            "word": "Сквозь",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "чащу",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "через",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "её",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "порог",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
+      },
+      {
+        "text": "Тропы ведут нас в её объятья",
+        "time": 67.728,
+        "words": [
+          {
+            "word": "Тропы",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "ведут",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "нас",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "в",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "её",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "объятья",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
+      },
+      {
+        "text": "И время в храме течёт иначе",
+        "time": 68.138,
+        "words": [
+          {
+            "word": "И",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "время",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "в",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "храме",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "течёт",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "иначе",
+            "start": 68.548,
+            "end": 68.548
+          }
+        ]
+      },
+      {
+        "text": "Церковь-корабль плывёт сквозь тени",
+        "time": 68.548,
+        "words": [
+          {
+            "word": "Церковь-корабль",
+            "start": 68.548,
+            "end": 68.548
+          },
+          {
+            "word": "плывёт",
+            "start": 68.548,
+            "end": 69.268
+          },
+          {
+            "word": "сквозь",
+            "start": 69.268,
+            "end": 70.588
+          },
+          {
+            "word": "тени",
+            "start": 70.588,
+            "end": 71.628
+          }
+        ]
+      },
+      {
+        "text": "В море деревьев в тайне времен",
+        "time": 72.548,
+        "words": [
+          {
+            "word": "В",
+            "start": 72.548,
+            "end": 72.708
+          },
+          {
+            "word": "море",
+            "start": 72.708,
+            "end": 73.468
+          },
+          {
+            "word": "деревьев",
+            "start": 73.468,
+            "end": 75.188
+          },
+          {
+            "word": "в",
+            "start": 75.188,
+            "end": 76.088
+          },
+          {
+            "word": "тайне",
+            "start": 76.088,
+            "end": 76.708
+          },
+          {
+            "word": "времен",
+            "start": 76.708,
+            "end": 77.218
+          }
+        ]
+      },
+      {
+        "text": "На задворках СНТ в покое спрятана",
+        "time": 77.228,
+        "words": [
+          {
+            "word": "На",
+            "start": 77.228,
+            "end": 79.108
+          },
+          {
+            "word": "задворках",
+            "start": 79.108,
+            "end": 80.228
+          },
+          {
+            "word": "СНТ",
+            "start": 80.228,
+            "end": 80.968
+          },
+          {
+            "word": "в",
+            "start": 80.968,
+            "end": 81.448
+          },
+          {
+            "word": "покое",
+            "start": 81.448,
+            "end": 82.368
+          },
+          {
+            "word": "спрятана",
+            "start": 82.368,
+            "end": 84.288
+          }
+        ]
+      },
+      {
+        "text": "Её дорога к душе ведёт",
+        "time": 86.268,
+        "words": [
+          {
+            "word": "Её",
+            "start": 86.268,
+            "end": 86.968
+          },
+          {
+            "word": "дорога",
+            "start": 86.968,
+            "end": 88.368
+          },
+          {
+            "word": "к",
+            "start": 88.368,
+            "end": 88.488
+          },
+          {
+            "word": "душе",
+            "start": 88.488,
+            "end": 89.108
+          },
+          {
+            "word": "ведёт",
+            "start": 89.108,
+            "end": 91.428
+          }
+        ]
+      }
+    ],
+    "hasAudio": true,
+    "hasPhoto": true,
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cercov-korabil.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+  },
   {
     "id": "mkad",
     "title": "МКАД",
@@ -5350,8 +6550,8 @@ window.PUBLISHED = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/mkad.mp3",
-    "photoPath": "photos/mkad.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/mkad.jpeg"
   },
   {
     "id": "puchino",
@@ -6356,7 +7556,7 @@ window.PUBLISHED = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "audio/puchino.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
+    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   }
 ];
