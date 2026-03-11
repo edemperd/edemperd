@@ -46,7 +46,26 @@
   .s-num { font-family: 'Bebas Neue', sans-serif; font-size: 26px; color: var(--border); width: 34px; flex-shrink: 0; }
   .s-title { flex: 1; font-family: 'Special Elite', serif; font-size: 17px; }
   .s-actions { display: flex; gap: 6px; }
-  .icon-btn { background: none; border: none; cursor: pointer; color: var(--muted); font-size: 13px; padding: 4px 8px; transition: color .15s; }
+  .pin-btn {
+    width:64px;height:64px;background:var(--surface);border:1px solid var(--border);
+    color:var(--text);font-family:'Bebas Neue',sans-serif;font-size:24px;cursor:pointer;
+    transition:all .15s;
+  }
+  .pin-btn:hover { border-color:var(--accent);color:var(--accent); }
+  .pin-dot {
+    width:12px;height:12px;border-radius:50%;background:var(--border);
+    transition:background .15s;
+  }
+  .pin-dot.filled { background:var(--accent); }
+
+  /* LIVE EDIT MODE */
+  .live-line { padding:8px 16px;cursor:pointer;transition:background .1s;border-radius:2px; }
+  .live-line:hover { background:rgba(255,255,255,.04); }
+  .live-line.active-live { background:rgba(232,255,0,.08);border-left:2px solid var(--accent); }
+  .live-edit-menu {
+    position:fixed;bottom:0;left:0;right:0;background:var(--surface);border-top:1px solid var(--border);
+    padding:16px 24px;display:flex;flex-direction:column;gap:12px;z-index:100;
+  }
   .icon-btn:hover { color: var(--accent2); }
   .s-info { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
   .s-labels { display: flex; gap: 6px; flex-wrap: wrap; }
@@ -291,8 +310,30 @@
 </head>
 <body>
 
-<!-- LIST -->
-<div id="view-list" class="view active">
+<!-- PINCODE -->
+<div id="view-pin" style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:24px">
+  <div style="font-family:'Bebas Neue',sans-serif;font-size:48px;letter-spacing:6px;color:var(--accent)">ЕДЕМ В <span style="color:var(--text)">ПЕРДЬ</span></div>
+  <div style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:3px;color:var(--muted)">ВВЕДИ ПИНКОД</div>
+  <div id="pin-dots" style="display:flex;gap:12px">
+    <span class="pin-dot"></span><span class="pin-dot"></span><span class="pin-dot"></span><span class="pin-dot"></span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,64px);gap:10px">
+    <button class="pin-btn" onclick="pinPress(1)">1</button>
+    <button class="pin-btn" onclick="pinPress(2)">2</button>
+    <button class="pin-btn" onclick="pinPress(3)">3</button>
+    <button class="pin-btn" onclick="pinPress(4)">4</button>
+    <button class="pin-btn" onclick="pinPress(5)">5</button>
+    <button class="pin-btn" onclick="pinPress(6)">6</button>
+    <button class="pin-btn" onclick="pinPress(7)">7</button>
+    <button class="pin-btn" onclick="pinPress(8)">8</button>
+    <button class="pin-btn" onclick="pinPress(9)">9</button>
+    <button class="pin-btn" onclick="pinPress('C')" style="color:var(--muted)">✕</button>
+    <button class="pin-btn" onclick="pinPress(0)">0</button>
+    <button class="pin-btn" onclick="pinPress('ok')" style="color:var(--accent)">✓</button>
+  </div>
+  <div id="pin-err" style="color:var(--accent2);font-size:10px;letter-spacing:2px;min-height:16px"></div>
+</div>
+<div id="view-list" class="view">
   <div class="hdr">
     <div class="logo">ЕДЕМ В <span>ПЕРДЬ</span></div>
     <div style="flex:1"></div>
@@ -430,6 +471,11 @@
         <button class="btn-s" onclick="startTap()" style="flex:1">▶ ВРУЧНУЮ</button>
         <button class="btn-s" id="breset" onclick="resetTap()" style="display:none">✕ СБРОС</button>
         <button class="btn-s" onclick="resetTimings()" title="Сбросить все тайминги" style="color:var(--accent2);border-color:var(--accent2)">↺ ТАЙМИНГИ</button>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <button class="btn-s" onclick="shiftAllTimings()" title="Сдвинуть все тайминги на тайминг второй строки" style="flex:1">⇥ СДВИГ</button>
+        <input id="shift-val" type="number" step="0.1" placeholder="сек (авто)" style="flex:1;background:var(--surface);border:1px solid var(--border);color:var(--text);padding:6px 10px;font-family:inherit;font-size:12px">
+        <button class="btn-s" onclick="startLiveEdit()" style="flex:1;border-color:#4caf50;color:#4caf50">● ЖИВАЯ ПРАВКА</button>
       </div>
       <div style="padding-top:6px;display:flex;gap:8px">
         <button class="btn-s" onclick="saveSong(true)" style="flex:1">СОХРАНИТЬ</button>
@@ -570,6 +616,7 @@ function loadSongs() {
     ? JSON.parse(JSON.stringify(SONGS_DATA)) : [];
   publishedIds = (typeof PUBLISHED !== 'undefined')
     ? PUBLISHED.map(s => s.id) : [];
+  showView('list');
   renderList();
 }
 
@@ -880,7 +927,6 @@ function renderPrev() {
   const lines = eLines.length ? eLines : getLines();
   if (!lines.length) { document.getElementById('prev').innerHTML=''; return; }
 
-  // Показываем кнопку ▶ КАРAОКЕ если есть тайминги
   const hasTimes = eTimes.some(t => t != null);
   const btn = document.getElementById('ed-play-song-btn');
   if (btn) btn.style.display = hasTimes ? 'inline-block' : 'none';
@@ -889,13 +935,21 @@ function renderPrev() {
     '<div class="preview"><div class="prev-hdr">Тайминги <span style="font-size:9px;color:var(--muted);letter-spacing:1px">— кликни время чтобы сдвинуть</span></div>' +
     lines.map((l, i) => {
       const t = eTimes[i];
+      const tEnd = eTimes[i+1]; // конец = начало следующей строки
       const tStr = t != null ? fmt(t) : '—:——';
+      const tEndStr = tEnd != null ? fmt(tEnd) : (t != null ? '—:——' : '');
       const nudgeHtml = t != null ? `
         <span onclick="nudgeTime(${i},-1)" style="cursor:pointer;color:var(--muted);padding:0 4px;font-size:11px;user-select:none" title="-1 сек">−</span>
         <span class="lt" onclick="nudgeTimePrompt(${i})" style="cursor:pointer;text-decoration:underline dotted" title="Кликни чтобы изменить">${tStr}</span>
         <span onclick="nudgeTime(${i},1)" style="cursor:pointer;color:var(--muted);padding:0 4px;font-size:11px;user-select:none" title="+1 сек">+</span>
       ` : `<span class="lt">—:——</span>`;
-      return `<div class="lr">${nudgeHtml}<span class="ll${t!=null?' ok':''}">${l}</span></div>`;
+      const endHtml = t != null && tEndStr ? `
+        <span style="color:var(--muted);font-size:9px;margin-left:auto;padding-right:4px">до</span>
+        <span onclick="nudgeTime(${i+1},-1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none" title="-1 сек">−</span>
+        <span class="lt" style="font-size:10px;color:var(--muted)" onclick="nudgeTimePrompt(${i+1})">${tEndStr}</span>
+        <span onclick="nudgeTime(${i+1},1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none" title="+1 сек">+</span>
+      ` : '';
+      return `<div class="lr" style="display:flex;align-items:center;gap:0">${nudgeHtml}<span class="ll${t!=null?' ok':''}" style="flex:1">${l}</span>${endHtml}</div>`;
     }).join('') + '</div>';
 }
 
@@ -1439,9 +1493,6 @@ async function runGroq() {
     fd.append('response_format', 'verbose_json');
     fd.append('timestamp_granularities[]', 'word');
     fd.append('language', 'ru');
-    // Groq считает кириллицу как 2 символа — режем до 448 чтобы уложиться в 896
-    const promptText = lines.join(' ').slice(0, 448);
-    fd.append('prompt', promptText);
 
     const resp = await fetch('https://api.groq.com/openai/v1/audio/transcriptions', {
       method: 'POST',
@@ -1527,8 +1578,225 @@ function setGroqStatus(msg, isError = false, isSuccess = false) {
   el.textContent = msg;
 }
 
+// ── PINCODE ────────────────────────────────────────────
+const PIN_CODE = '2504'; // дата вечеринки
+let pinBuffer = '';
+
+function pinPress(v) {
+  if (v === 'C') { pinBuffer = ''; updatePinDots(); return; }
+  if (v === 'ok') { checkPin(); return; }
+  if (pinBuffer.length >= 4) return;
+  pinBuffer += v;
+  updatePinDots();
+  if (pinBuffer.length === 4) setTimeout(checkPin, 150);
+}
+
+function updatePinDots() {
+  document.querySelectorAll('.pin-dot').forEach((d, i) => {
+    d.classList.toggle('filled', i < pinBuffer.length);
+  });
+}
+
+function checkPin() {
+  if (pinBuffer === PIN_CODE) {
+    document.getElementById('view-pin').style.display = 'none';
+    loadSongs();
+  } else {
+    document.getElementById('pin-err').textContent = '✗ НЕВЕРНЫЙ КОД';
+    pinBuffer = '';
+    updatePinDots();
+    setTimeout(() => document.getElementById('pin-err').textContent = '', 1500);
+  }
+}
+
+// ── СДВИГ ВСЕХ ТАЙМИНГОВ ──────────────────────────────
+function shiftAllTimings() {
+  const hasTimes = eTimes.some(t => t != null);
+  if (!hasTimes) { alert('Нет таймингов для сдвига'); return; }
+
+  // Дефолт = тайминг второй строки
+  const inputEl = document.getElementById('shift-val');
+  let delta = parseFloat(inputEl.value);
+  if (isNaN(delta)) {
+    // берём тайминг второй строки
+    const second = eTimes.find((t, i) => i > 0 && t != null);
+    if (second == null) { alert('Нет тайминга второй строки'); return; }
+    delta = second;
+  }
+
+  eTimes = eTimes.map(t => t != null ? Math.max(0, parseFloat((t - delta).toFixed(3))) : t);
+  if (eWordLines) {
+    eWordLines.forEach(wl => {
+      if (!wl) return;
+      if (wl.time != null) wl.time = Math.max(0, parseFloat((wl.time - delta).toFixed(3)));
+      (wl.words || []).forEach(w => {
+        if (w.start != null) w.start = Math.max(0, parseFloat((w.start - delta).toFixed(3)));
+        if (w.end != null) w.end = Math.max(0, parseFloat((w.end - delta).toFixed(3)));
+      });
+    });
+  }
+  inputEl.value = '';
+  renderPrev();
+}
+
+// ── РЕЖИМ ЖИВОЙ ПРАВКИ ────────────────────────────────
+let liveEditActive = false;
+let liveEditMenu = null;
+let liveCurrentLine = 0;
+
+function startLiveEdit() {
+  const lines = eLines.length ? eLines : getLines();
+  if (!lines.length) { alert('Введите текст'); return; }
+  const audioSrc = eAudioBlobUrl || getAudioPath();
+  if (!audioSrc) { alert('Загрузите аудио'); return; }
+
+  liveEditActive = true;
+  liveCurrentLine = 0;
+
+  // Показываем оверлей живой правки
+  const ov = document.createElement('div');
+  ov.id = 'live-edit-ov';
+  ov.style.cssText = 'position:fixed;inset:0;background:var(--bg);z-index:200;display:flex;flex-direction:column;overflow:hidden';
+
+  const hdr = document.createElement('div');
+  hdr.style.cssText = 'padding:16px 24px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:16px;flex-shrink:0';
+  hdr.innerHTML = `
+    <span style="font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--accent)">● ЖИВАЯ ПРАВКА</span>
+    <span style="font-size:10px;color:var(--muted);letter-spacing:1px">ПРОБЕЛ = пауза + меню</span>
+    <div style="flex:1"></div>
+    <button onclick="stopLiveEdit()" style="background:none;border:1px solid var(--border);color:var(--muted);padding:6px 14px;cursor:pointer;font-family:inherit;font-size:11px;letter-spacing:1px">✕ ВЫЙТИ</button>
+  `;
+
+  const linesDiv = document.createElement('div');
+  linesDiv.id = 'live-lines';
+  linesDiv.style.cssText = 'flex:1;overflow-y:auto;padding:16px 24px';
+  linesDiv.innerHTML = lines.map((l, i) => {
+    const t = eTimes[i];
+    return `<div class="live-line" id="live-line-${i}" onclick="liveSetLine(${i})">
+      <span style="color:var(--muted);font-size:10px;margin-right:12px">${t != null ? fmt(t) : '—:——'}</span>
+      <span>${l}</span>
+    </div>`;
+  }).join('');
+
+  ov.appendChild(hdr);
+  ov.appendChild(linesDiv);
+  document.body.appendChild(ov);
+  liveEditMenu = null;
+
+  // Запускаем аудио
+  edAud.src = audioSrc;
+  edAud.load();
+  edAud.play().catch(()=>{});
+
+  document.addEventListener('keydown', liveKeyHandler);
+  liveHighlight();
+}
+
+function liveKeyHandler(e) {
+  if (e.code === 'Space') {
+    e.preventDefault();
+    if (edAud.paused) {
+      closeLiveMenu();
+      edAud.play().catch(()=>{});
+    } else {
+      edAud.pause();
+      openLiveMenu();
+    }
+  }
+}
+
+function liveHighlight() {
+  if (!liveEditActive) return;
+  const t = edAud.currentTime;
+  const lines = eLines.length ? eLines : getLines();
+  let cur = 0;
+  for (let i = 0; i < lines.length; i++) {
+    if (eTimes[i] != null && eTimes[i] <= t) cur = i;
+  }
+  liveCurrentLine = cur;
+  document.querySelectorAll('.live-line').forEach((el, i) => {
+    el.classList.toggle('active-live', i === cur);
+  });
+  const el = document.getElementById('live-line-' + cur);
+  if (el) el.scrollIntoView({block:'center', behavior:'smooth'});
+  requestAnimationFrame(liveHighlight);
+}
+
+function liveSetLine(i) {
+  liveCurrentLine = i;
+}
+
+function openLiveMenu() {
+  closeLiveMenu();
+  const i = liveCurrentLine;
+  const lines = eLines.length ? eLines : getLines();
+  const t = edAud.currentTime;
+
+  const menu = document.createElement('div');
+  menu.id = 'live-menu';
+  menu.className = 'live-edit-menu';
+  menu.innerHTML = `
+    <div style="font-size:10px;letter-spacing:2px;color:var(--muted)">СТРОКА ${i+1} / ${lines.length}</div>
+    <div style="font-family:'Special Elite',serif;font-size:16px">${lines[i] || ''}</div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button onclick="liveSetTime(${i}, ${t.toFixed(3)})" style="flex:2;background:var(--accent);color:#000;border:none;padding:10px;cursor:pointer;font-family:inherit;font-size:12px;letter-spacing:1px">
+        ✓ ПОСТАВИТЬ ${fmt(t)}
+      </button>
+      <button onclick="nudgeTime(${i},-1);updateLiveLines()" style="flex:1;background:none;border:1px solid var(--border);color:var(--text);padding:10px;cursor:pointer;font-family:inherit">− 1с</button>
+      <button onclick="nudgeTime(${i},1);updateLiveLines()" style="flex:1;background:none;border:1px solid var(--border);color:var(--text);padding:10px;cursor:pointer;font-family:inherit">+ 1с</button>
+    </div>
+    <div style="display:flex;gap:10px">
+      <button onclick="closeLiveMenu();edAud.play().catch(()=>{})" style="flex:1;background:none;border:1px solid var(--border);color:var(--muted);padding:8px;cursor:pointer;font-family:inherit;font-size:11px;letter-spacing:1px">▶ ПРОДОЛЖИТЬ</button>
+    </div>
+  `;
+  document.getElementById('live-edit-ov').appendChild(menu);
+  liveEditMenu = menu;
+}
+
+function closeLiveMenu() {
+  const m = document.getElementById('live-menu');
+  if (m) m.remove();
+  liveEditMenu = null;
+}
+
+function liveSetTime(i, t) {
+  eTimes[i] = parseFloat(t.toFixed(3));
+  if (eWordLines && eWordLines[i]) eWordLines[i].time = eTimes[i];
+  updateLiveLines();
+  closeLiveMenu();
+  edAud.play().catch(()=>{});
+}
+
+function updateLiveLines() {
+  const lines = eLines.length ? eLines : getLines();
+  lines.forEach((l, i) => {
+    const el = document.getElementById('live-line-' + i);
+    if (el) {
+      const t = eTimes[i];
+      el.querySelector('span').textContent = t != null ? fmt(t) : '—:——';
+    }
+  });
+}
+
+function stopLiveEdit() {
+  liveEditActive = false;
+  document.removeEventListener('keydown', liveKeyHandler);
+  edAud.pause();
+  const ov = document.getElementById('live-edit-ov');
+  if (ov) ov.remove();
+  renderPrev();
+}
+
 // ── INIT ──────────────────────────────────────────────
-loadSongs();
+// Показываем пинкод — loadSongs вызывается после успешного ввода
+document.addEventListener('keydown', e => {
+  const pin = document.getElementById('view-pin');
+  if (pin && pin.style.display !== 'none') {
+    if (e.key >= '0' && e.key <= '9') pinPress(parseInt(e.key));
+    if (e.key === 'Backspace') pinPress('C');
+    if (e.key === 'Enter') pinPress('ok');
+  }
+});
 </script>
 </body>
 </html>
