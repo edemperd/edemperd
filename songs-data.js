@@ -651,8 +651,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cercov-korabil.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/cercov-korabil.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "cerkov-otziv",
@@ -676,8 +676,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cerkov-otziv.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/cerkov-otziv.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "dom-slon",
@@ -921,8 +921,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/dom-slon.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/dom-slon.jpeg"
+    "audioPath": "audio/dom-slon.mp3",
+    "photoPath": "photos/dom-slon.jpeg"
   },
   {
     "id": "lena-soli",
@@ -1106,8 +1106,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
+    "audioPath": "audio/lena-Soli.mp3",
+    "photoPath": "photos/lena-soli.jpeg"
   },
   {
     "id": "master-nedorazumenie",
@@ -1351,8 +1351,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/master-nedorazumenie.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/master-nedorazumenie.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "mkad-30",
@@ -1636,8 +1636,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad-30.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/mkad-30.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "mkad",
@@ -2006,8 +2006,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/mkad.jpeg"
+    "audioPath": "audio/mkad.mp3",
+    "photoPath": "photos/mkad.jpeg"
   },
   {
     "id": "ogurec",
@@ -2271,8 +2271,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/ogurec.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/ogurec.jpeg"
+    "audioPath": "audio/ogurec.mp3",
+    "photoPath": "photos/ogurec.jpeg"
   },
   {
     "id": "petushki",
@@ -2586,8 +2586,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/petushki.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/petushki.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "puchino",
@@ -3592,8 +3592,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/puchino.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "rozhdestvo",
@@ -4017,8 +4017,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/rozhdestvo.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/rozhdestvo.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "russkie",
@@ -4382,8 +4382,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/russkie.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/russkie.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "sanatory",
@@ -4502,8 +4502,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/sanatory.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/sanatory.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "slon-rave",
@@ -4932,8 +4932,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/slon-rave.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/slon-rave.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "trevozhno",
@@ -5117,8 +5117,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/trevozhno.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/trevozhno.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "usadba-teney",
@@ -5332,8 +5332,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/usadba-teney.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/usadba-teney.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "zaraisk",
@@ -5522,8 +5522,8 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/zaraisk.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/zaraisk.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   }
 ];
 
@@ -6180,8 +6180,8 @@ window.PUBLISHED = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cercov-korabil.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/cercov-korabil.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "mkad",
@@ -6550,8 +6550,8 @@ window.PUBLISHED = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/mkad.jpeg"
+    "audioPath": "audio/mkad.mp3",
+    "photoPath": "photos/mkad.jpeg"
   },
   {
     "id": "puchino",
@@ -7556,7 +7556,7 @@ window.PUBLISHED = [
     ],
     "hasAudio": true,
     "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/puchino.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   }
 ];
