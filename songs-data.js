@@ -5688,7 +5688,7 @@ window.SONGS_DATA = [
     "hasAudio": true,
     "hasPhoto": true,
     "audioPath": "audio/trevozhno.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "photoPath": "photos/IMG_5259.jpeg"
   },
   {
     "id": "usadba-teney",
@@ -8882,6 +8882,6 @@ window.PUBLISHED = [
     "hasAudio": true,
     "hasPhoto": true,
     "audioPath": "audio/trevozhno.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "photoPath": "photos/IMG_5259.jpeg"
   }
 ];
