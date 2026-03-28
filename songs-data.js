@@ -2279,309 +2279,1336 @@ window.SONGS_DATA = [
     "title": "Петушки",
     "lyrics": [
       {
-        "text": "[Verse 1]",
-        "time": null,
-        "words": null
-      },
-      {
         "text": "Какой город — такая и песня",
-        "time": null,
-        "words": null
+        "time": 14.673358,
+        "words": [
+          {
+            "word": "Какой",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "город",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "такая",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "и",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "песня",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Зачем здесь жить — вопрос пополам",
-        "time": null,
-        "words": null
+        "time": 16.6,
+        "words": [
+          {
+            "word": "Зачем",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "здесь",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "жить",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "—",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "вопрос",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "пополам",
+            "start": 3,
+            "end": 3
+          }
+        ]
       },
       {
         "text": "У нас вокруг только пивные заведения",
-        "time": null,
-        "words": null
+        "time": 23.737,
+        "words": [
+          {
+            "word": "У",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "нас",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "вокруг",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "только",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "пивные",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "заведения",
+            "start": 4,
+            "end": 4
+          }
+        ]
       },
       {
         "text": "Город стоит",
-        "time": null,
-        "words": null
+        "time": 25.5,
+        "words": [
+          {
+            "word": "Город",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "стоит",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Будто в хмелю по ушам",
-        "time": null,
-        "words": null
+        "time": 30.484549,
+        "words": [
+          {
+            "word": "Будто",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "хмелю",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ушам",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Я настоящий",
-        "time": null,
-        "words": null
+        "time": 35.280473,
+        "words": [
+          {
+            "word": "Я",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "настоящий",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Брат",
-        "time": null,
-        "words": null
+        "time": 36.59706,
+        "words": [
+          {
+            "word": "Брат",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Пивоман",
-        "time": null,
-        "words": null
+        "time": 38.0645,
+        "words": [
+          {
+            "word": "Пивоман",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Знаю все бары у трассы",
-        "time": null,
-        "words": null
+        "time": 41.618202,
+        "words": [
+          {
+            "word": "Знаю",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "все",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "бары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "у",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "трассы",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "До ран",
-        "time": null,
-        "words": null
+        "time": 45.327842,
+        "words": [
+          {
+            "word": "До",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ран",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Пенная греет",
-        "time": null,
-        "words": null
+        "time": 48.573056,
+        "words": [
+          {
+            "word": "Пенная",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "греет",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Когда ветер в лицо",
-        "time": null,
-        "words": null
+        "time": 50.941008,
+        "words": [
+          {
+            "word": "Когда",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ветер",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "лицо",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Да только в глазах уже давит кольцо",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "[Chorus]",
-        "time": null,
-        "words": null
+        "time": 54.746667,
+        "words": [
+          {
+            "word": "Да",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "только",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "глазах",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "уже",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "давит",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кольцо",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Петушинский район",
-        "time": null,
-        "words": null
+        "time": 61.452131,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Снегом забыт",
-        "time": null,
-        "words": null
+        "time": 63.376085,
+        "words": [
+          {
+            "word": "Снегом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забыт",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Колючая проволока",
-        "time": null,
-        "words": null
+        "time": 65.002563,
+        "words": [
+          {
+            "word": "Колючая",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "проволока",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Ветер шуршит",
-        "time": null,
-        "words": null
+        "time": 66.782082,
+        "words": [
+          {
+            "word": "Ветер",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "шуршит",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
-        "time": null,
-        "words": null
+        "time": 68.529494,
+        "words": [
+          {
+            "word": "Мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "мимо",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "колонии",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "тихо",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "пройдем",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Транзитом во Владимир",
-        "time": null,
-        "words": null
+        "time": 71.549587,
+        "words": [
+          {
+            "word": "Транзитом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "Владимир",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "По льду",
-        "time": null,
-        "words": null
+        "time": 73.462849,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "По льду идем",
-        "time": null,
-        "words": null
+        "time": 74.902358,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "идем",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Петушинский район — на сердце привал",
-        "time": null,
-        "words": null
+        "time": 78.106202,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "на",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сердце",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "привал",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Сняли купола",
-        "time": null,
-        "words": null
+        "time": 82.02728,
+        "words": [
+          {
+            "word": "Сняли",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "А кто‑то купола набивал",
-        "time": null,
-        "words": null
+        "time": 83.55,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кто‑то",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "набивал",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Эй",
-        "time": null,
-        "words": null
+        "time": 85.05,
+        "words": [
+          {
+            "word": "Эй",
+            "start": 6,
+            "end": 6
+          }
+        ]
       },
       {
         "text": "Кадиллак у обочины",
-        "time": null,
-        "words": null
+        "time": 86.993752,
+        "words": [
+          {
+            "word": "Кадиллак",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "у",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "обочины",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Фары во льду",
-        "time": null,
-        "words": null
+        "time": 88.104527,
+        "words": [
+          {
+            "word": "Фары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "[Verse 2]",
-        "time": null,
-        "words": null
+        "time": 90.206,
+        "words": [
+          {
+            "word": "Зачем",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сюда",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "заехали",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "пойму",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Мы заехали взглянуть на колонию",
-        "time": null,
-        "words": null
+        "time": 97.011208,
+        "words": [
+          {
+            "word": "Мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "заехали",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "взглянуть",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "на",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "колонию",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "С дороги сворачиваем",
-        "time": null,
-        "words": null
+        "time": 103.817051,
+        "words": [
+          {
+            "word": "С",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "дороги",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сворачиваем",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Фары в кювет",
-        "time": null,
-        "words": null
+        "time": 106.174756,
+        "words": [
+          {
+            "word": "Фары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кювет",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Не рискнули идти по воротам к иконам им",
-        "time": null,
-        "words": null
+        "time": 110.231424,
+        "words": [
+          {
+            "word": "Не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "рискнули",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "идти",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "воротам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "к",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "иконам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "им",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Холодный забор",
-        "time": null,
-        "words": null
+        "time": 116.650449,
+        "words": [
+          {
+            "word": "Холодный",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забор",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Колючею сталью в ответ",
-        "time": null,
-        "words": null
+        "time": 119.267056,
+        "words": [
+          {
+            "word": "Колючею",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сталью",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ответ",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Там рядом больница",
-        "time": null,
-        "words": null
+        "time": 123.172967,
+        "words": [
+          {
+            "word": "Там",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "рядом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "больница",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Кирпичный забор",
-        "time": null,
-        "words": null
+        "time": 126.566833,
+        "words": [
+          {
+            "word": "Кирпичный",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забор",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "В окнах лекарства",
-        "time": null,
-        "words": null
+        "time": 130.151319,
+        "words": [
+          {
+            "word": "В",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "окнах",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "лекарства",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Не жизнь",
-        "time": null,
-        "words": null
+        "time": 133.416199,
+        "words": [
+          {
+            "word": "Не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "жизнь",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "А раствор",
-        "time": null,
-        "words": null
+        "time": 134.068134,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "раствор",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Транзит во Владимир",
-        "time": null,
-        "words": null
+        "time": 136.934778,
+        "words": [
+          {
+            "word": "Транзит",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "Владимир",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Потом по домам",
-        "time": null,
-        "words": null
+        "time": 140.343274,
+        "words": [
+          {
+            "word": "Потом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "домам",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "А в душе все равно этот дерганый хмель по углам",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "[Chorus]",
-        "time": null,
-        "words": null
+        "time": 143.48372,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "душе",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "все",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "равно",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "этот",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "дерганый",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "хмель",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "углам",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Петушинский район",
-        "time": null,
-        "words": null
+        "time": 150.200131,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Снегом забыт",
-        "time": null,
-        "words": null
+        "time": 151.897605,
+        "words": [
+          {
+            "word": "Снегом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забыт",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Колючая проволока",
-        "time": null,
-        "words": null
+        "time": 153.589339,
+        "words": [
+          {
+            "word": "Колючая",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "проволока",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Ветер шуршит",
-        "time": null,
-        "words": null
+        "time": 155.757561,
+        "words": [
+          {
+            "word": "Ветер",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "шуршит",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
-        "time": null,
-        "words": null
+        "time": 157.392,
+        "words": [
+          {
+            "word": "Мы",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "мимо",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "колонии",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "тихо",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "пройдем",
+            "start": 4,
+            "end": 4
+          }
+        ]
       },
       {
         "text": "Транзитом во Владимир",
-        "time": null,
-        "words": null
+        "time": 160.384324,
+        "words": [
+          {
+            "word": "Транзитом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "Владимир",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "По льду",
-        "time": null,
-        "words": null
+        "time": 162.281781,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "По льду идем",
-        "time": null,
-        "words": null
+        "time": 164.272,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "идем",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Петушинский район — на сердце привал",
-        "time": null,
-        "words": null
+        "time": 167.030157,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "на",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сердце",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "привал",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Сняли купола",
-        "time": null,
-        "words": null
+        "time": 169.411196,
+        "words": [
+          {
+            "word": "Сняли",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "А кто‑то купола набивал",
-        "time": null,
-        "words": null
+        "time": 174.031112,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кто‑то",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "набивал",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Эй",
-        "time": null,
-        "words": null
+        "time": 174.834056,
+        "words": [
+          {
+            "word": "Эй",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Кадиллак у обочины",
-        "time": null,
-        "words": null
+        "time": 175.942562,
+        "words": [
+          {
+            "word": "Кадиллак",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "у",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "обочины",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Фары во льду",
-        "time": null,
-        "words": null
+        "time": 177.261484,
+        "words": [
+          {
+            "word": "Фары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
-        "time": null,
-        "words": null
+        "time": 179.002379,
+        "words": [
+          {
+            "word": "Зачем",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сюда",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "заехали",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "пойму",
+            "start": 0,
+            "end": 0
+          }
+        ]
       }
     ],
     "hasAudio": true,
@@ -7122,6 +8149,1348 @@ window.PUBLISHED = [
     "hasPhoto": true,
     "audioPath": "audio/mkad.mp3",
     "photoPath": "photos/mkad.jpeg"
+  },
+  {
+    "id": "petushki",
+    "title": "Петушки",
+    "lyrics": [
+      {
+        "text": "Какой город — такая и песня",
+        "time": 14.673358,
+        "words": [
+          {
+            "word": "Какой",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "город",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "такая",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "и",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "песня",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Зачем здесь жить — вопрос пополам",
+        "time": 16.6,
+        "words": [
+          {
+            "word": "Зачем",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "здесь",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "жить",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "—",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "вопрос",
+            "start": 3,
+            "end": 3
+          },
+          {
+            "word": "пополам",
+            "start": 3,
+            "end": 3
+          }
+        ]
+      },
+      {
+        "text": "У нас вокруг только пивные заведения",
+        "time": 23.737,
+        "words": [
+          {
+            "word": "У",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "нас",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "вокруг",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "только",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "пивные",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "заведения",
+            "start": 4,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "text": "Город стоит",
+        "time": 25.5,
+        "words": [
+          {
+            "word": "Город",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "стоит",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Будто в хмелю по ушам",
+        "time": 30.484549,
+        "words": [
+          {
+            "word": "Будто",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "хмелю",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ушам",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Я настоящий",
+        "time": 35.280473,
+        "words": [
+          {
+            "word": "Я",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "настоящий",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Брат",
+        "time": 36.59706,
+        "words": [
+          {
+            "word": "Брат",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Пивоман",
+        "time": 38.0645,
+        "words": [
+          {
+            "word": "Пивоман",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Знаю все бары у трассы",
+        "time": 41.618202,
+        "words": [
+          {
+            "word": "Знаю",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "все",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "бары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "у",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "трассы",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "До ран",
+        "time": 45.327842,
+        "words": [
+          {
+            "word": "До",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ран",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Пенная греет",
+        "time": 48.573056,
+        "words": [
+          {
+            "word": "Пенная",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "греет",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Когда ветер в лицо",
+        "time": 50.941008,
+        "words": [
+          {
+            "word": "Когда",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ветер",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "лицо",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Да только в глазах уже давит кольцо",
+        "time": 54.746667,
+        "words": [
+          {
+            "word": "Да",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "только",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "глазах",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "уже",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "давит",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кольцо",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Петушинский район",
+        "time": 61.452131,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Снегом забыт",
+        "time": 63.376085,
+        "words": [
+          {
+            "word": "Снегом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забыт",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Колючая проволока",
+        "time": 65.002563,
+        "words": [
+          {
+            "word": "Колючая",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "проволока",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Ветер шуршит",
+        "time": 66.782082,
+        "words": [
+          {
+            "word": "Ветер",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "шуршит",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Мы мимо колонии тихо пройдем",
+        "time": 68.529494,
+        "words": [
+          {
+            "word": "Мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "мимо",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "колонии",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "тихо",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "пройдем",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Транзитом во Владимир",
+        "time": 71.549587,
+        "words": [
+          {
+            "word": "Транзитом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "Владимир",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "По льду",
+        "time": 73.462849,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "По льду идем",
+        "time": 74.902358,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "идем",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Петушинский район — на сердце привал",
+        "time": 78.106202,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "на",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сердце",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "привал",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Сняли купола",
+        "time": 82.02728,
+        "words": [
+          {
+            "word": "Сняли",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "А кто‑то купола набивал",
+        "time": 83.55,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кто‑то",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "набивал",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Эй",
+        "time": 85.05,
+        "words": [
+          {
+            "word": "Эй",
+            "start": 6,
+            "end": 6
+          }
+        ]
+      },
+      {
+        "text": "Кадиллак у обочины",
+        "time": 86.993752,
+        "words": [
+          {
+            "word": "Кадиллак",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "у",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "обочины",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Фары во льду",
+        "time": 88.104527,
+        "words": [
+          {
+            "word": "Фары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Зачем мы сюда заехали — сам не пойму",
+        "time": 90.206,
+        "words": [
+          {
+            "word": "Зачем",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сюда",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "заехали",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "пойму",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Мы заехали взглянуть на колонию",
+        "time": 97.011208,
+        "words": [
+          {
+            "word": "Мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "заехали",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "взглянуть",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "на",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "колонию",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "С дороги сворачиваем",
+        "time": 103.817051,
+        "words": [
+          {
+            "word": "С",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "дороги",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сворачиваем",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Фары в кювет",
+        "time": 106.174756,
+        "words": [
+          {
+            "word": "Фары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кювет",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Не рискнули идти по воротам к иконам им",
+        "time": 110.231424,
+        "words": [
+          {
+            "word": "Не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "рискнули",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "идти",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "воротам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "к",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "иконам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "им",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Холодный забор",
+        "time": 116.650449,
+        "words": [
+          {
+            "word": "Холодный",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забор",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Колючею сталью в ответ",
+        "time": 119.267056,
+        "words": [
+          {
+            "word": "Колючею",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сталью",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "ответ",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Там рядом больница",
+        "time": 123.172967,
+        "words": [
+          {
+            "word": "Там",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "рядом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "больница",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Кирпичный забор",
+        "time": 126.566833,
+        "words": [
+          {
+            "word": "Кирпичный",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забор",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "В окнах лекарства",
+        "time": 130.151319,
+        "words": [
+          {
+            "word": "В",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "окнах",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "лекарства",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Не жизнь",
+        "time": 133.416199,
+        "words": [
+          {
+            "word": "Не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "жизнь",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "А раствор",
+        "time": 134.068134,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "раствор",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Транзит во Владимир",
+        "time": 136.934778,
+        "words": [
+          {
+            "word": "Транзит",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "Владимир",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Потом по домам",
+        "time": 140.343274,
+        "words": [
+          {
+            "word": "Потом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "домам",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "А в душе все равно этот дерганый хмель по углам",
+        "time": 143.48372,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "в",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "душе",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "все",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "равно",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "этот",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "дерганый",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "хмель",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "по",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "углам",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Петушинский район",
+        "time": 150.200131,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Снегом забыт",
+        "time": 151.897605,
+        "words": [
+          {
+            "word": "Снегом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "забыт",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Колючая проволока",
+        "time": 153.589339,
+        "words": [
+          {
+            "word": "Колючая",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "проволока",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Ветер шуршит",
+        "time": 155.757561,
+        "words": [
+          {
+            "word": "Ветер",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "шуршит",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Мы мимо колонии тихо пройдем",
+        "time": 157.392,
+        "words": [
+          {
+            "word": "Мы",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "мимо",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "колонии",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "тихо",
+            "start": 4,
+            "end": 4
+          },
+          {
+            "word": "пройдем",
+            "start": 4,
+            "end": 4
+          }
+        ]
+      },
+      {
+        "text": "Транзитом во Владимир",
+        "time": 160.384324,
+        "words": [
+          {
+            "word": "Транзитом",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "Владимир",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "По льду",
+        "time": 162.281781,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "По льду идем",
+        "time": 164.272,
+        "words": [
+          {
+            "word": "По",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "идем",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Петушинский район — на сердце привал",
+        "time": 167.030157,
+        "words": [
+          {
+            "word": "Петушинский",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "район",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "на",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сердце",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "привал",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Сняли купола",
+        "time": 169.411196,
+        "words": [
+          {
+            "word": "Сняли",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "А кто‑то купола набивал",
+        "time": 174.031112,
+        "words": [
+          {
+            "word": "А",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "кто‑то",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "купола",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "набивал",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Эй",
+        "time": 174.834056,
+        "words": [
+          {
+            "word": "Эй",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Кадиллак у обочины",
+        "time": 175.942562,
+        "words": [
+          {
+            "word": "Кадиллак",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "у",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "обочины",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Фары во льду",
+        "time": 177.261484,
+        "words": [
+          {
+            "word": "Фары",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "во",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "льду",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      },
+      {
+        "text": "Зачем мы сюда заехали — сам не пойму",
+        "time": 179.002379,
+        "words": [
+          {
+            "word": "Зачем",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "мы",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сюда",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "заехали",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "—",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "сам",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "не",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "word": "пойму",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    ],
+    "hasAudio": true,
+    "hasPhoto": true,
+    "audioPath": "audio/petushki.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   },
   {
     "id": "puchino",
