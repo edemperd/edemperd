@@ -6938,182 +6938,152 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Выехали рано",
-        "time": null,
+        "time": 11.429043,
         "words": null
       },
       {
         "text": "Дорога как сон",
-        "time": null,
+        "time": 12.209503,
         "words": null
       },
       {
         "text": "Дом-слон из бетона",
-        "time": null,
+        "time": 13.103878,
         "words": null
       },
       {
         "text": "Бетонный закон",
-        "time": null,
+        "time": 14.656789,
         "words": null
       },
       {
         "text": "Луховицы встречают",
-        "time": null,
+        "time": 15.769963,
         "words": null
       },
       {
         "text": "Огурец на виду",
-        "time": null,
+        "time": 17.12079,
         "words": null
       },
       {
         "text": "Фотка на память",
-        "time": null,
+        "time": 18.772966,
         "words": null
       },
       {
         "text": "Ну а я на ходу",
-        "time": null,
+        "time": 19.913113,
         "words": null
       },
       {
         "text": "Бьёмся головой",
-        "time": null,
+        "time": 23.009161,
         "words": null
       },
       {
         "text": "Башня высока",
-        "time": null,
+        "time": 24.251228,
         "words": null
       },
       {
         "text": "Ветер срывает каски — лёгкая рука",
-        "time": null,
+        "time": 25.553168,
         "words": null
       },
       {
         "text": "В очереди стоим",
-        "time": null,
+        "time": 28.306924,
         "words": null
       },
       {
         "text": "Баранка в руке",
-        "time": null,
+        "time": 29.63685,
         "words": null
       },
       {
         "text": "Санкционный сыр на сером столе",
-        "time": null,
+        "time": 31.017864,
         "words": null
       },
       {
         "text": "Зарайский Кремль",
-        "time": null,
+        "time": 35.522955,
         "words": null
       },
       {
         "text": "Истории звон",
-        "time": null,
+        "time": 36.614746,
         "words": null
       },
       {
         "text": "Кузнец куёт",
-        "time": null,
+        "time": 37.833583,
         "words": null
       },
       {
         "text": "Будто из камня он",
-        "time": null,
+        "time": 38.828094,
         "words": null
       },
       {
         "text": "Суп без ложки",
-        "time": null,
+        "time": 40.61382,
         "words": null
       },
       {
         "text": "Давай как есть",
-        "time": null,
+        "time": 41.818976,
         "words": null
       },
       {
         "text": "За коврижкой стоять — ну это не честь",
-        "time": null,
+        "time": 42.901849,
         "words": null
       },
       {
         "text": "В бетонной сказке водопад шуршит",
-        "time": null,
+        "time": 46.022667,
         "words": null
       },
       {
         "text": "Коломна",
-        "time": null,
+        "time": 49.494667,
         "words": null
       },
       {
         "text": "Калачи",
-        "time": null,
+        "time": 49.79672,
         "words": null
       },
       {
         "text": "Последний крик души",
-        "time": null,
+        "time": 51.156802,
         "words": null
       },
       {
         "text": "Теплицы в небо лучи",
-        "time": null,
+        "time": 52.390771,
         "words": null
       },
       {
         "text": "Как мечты",
-        "time": null,
+        "time": 53.924946,
         "words": null
       },
       {
         "text": "На площади алкаши",
-        "time": null,
+        "time": 54.760915,
         "words": null
       },
       {
         "text": "Собаки",
-        "time": null,
+        "time": 56.993531,
         "words": null
       },
       {
         "text": "Крикнут \"ты\"",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Бьёмся головой",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Башня высока",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Ветер срывает каски — лёгкая рука",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "В очереди стоим",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Баранка в руке",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Санкционный сыр на сером столе",
-        "time": null,
+        "time": 57.687356,
         "words": null
       }
     ],
@@ -11252,5 +11222,165 @@ window.PUBLISHED = [
     "hasPhoto": true,
     "audioPath": "audio/trevozhno.mp3",
     "photoPath": "photos/IMG_8215.jpeg"
+  },
+  {
+    "id": "zaraisk",
+    "title": "Зарайск",
+    "lyrics": [
+      {
+        "text": "Выехали рано",
+        "time": 11.429043,
+        "words": null
+      },
+      {
+        "text": "Дорога как сон",
+        "time": 12.209503,
+        "words": null
+      },
+      {
+        "text": "Дом-слон из бетона",
+        "time": 13.103878,
+        "words": null
+      },
+      {
+        "text": "Бетонный закон",
+        "time": 14.656789,
+        "words": null
+      },
+      {
+        "text": "Луховицы встречают",
+        "time": 15.769963,
+        "words": null
+      },
+      {
+        "text": "Огурец на виду",
+        "time": 17.12079,
+        "words": null
+      },
+      {
+        "text": "Фотка на память",
+        "time": 18.772966,
+        "words": null
+      },
+      {
+        "text": "Ну а я на ходу",
+        "time": 19.913113,
+        "words": null
+      },
+      {
+        "text": "Бьёмся головой",
+        "time": 23.009161,
+        "words": null
+      },
+      {
+        "text": "Башня высока",
+        "time": 24.251228,
+        "words": null
+      },
+      {
+        "text": "Ветер срывает каски — лёгкая рука",
+        "time": 25.553168,
+        "words": null
+      },
+      {
+        "text": "В очереди стоим",
+        "time": 28.306924,
+        "words": null
+      },
+      {
+        "text": "Баранка в руке",
+        "time": 29.63685,
+        "words": null
+      },
+      {
+        "text": "Санкционный сыр на сером столе",
+        "time": 31.017864,
+        "words": null
+      },
+      {
+        "text": "Зарайский Кремль",
+        "time": 35.522955,
+        "words": null
+      },
+      {
+        "text": "Истории звон",
+        "time": 36.614746,
+        "words": null
+      },
+      {
+        "text": "Кузнец куёт",
+        "time": 37.833583,
+        "words": null
+      },
+      {
+        "text": "Будто из камня он",
+        "time": 38.828094,
+        "words": null
+      },
+      {
+        "text": "Суп без ложки",
+        "time": 40.61382,
+        "words": null
+      },
+      {
+        "text": "Давай как есть",
+        "time": 41.818976,
+        "words": null
+      },
+      {
+        "text": "За коврижкой стоять — ну это не честь",
+        "time": 42.901849,
+        "words": null
+      },
+      {
+        "text": "В бетонной сказке водопад шуршит",
+        "time": 46.022667,
+        "words": null
+      },
+      {
+        "text": "Коломна",
+        "time": 49.494667,
+        "words": null
+      },
+      {
+        "text": "Калачи",
+        "time": 49.79672,
+        "words": null
+      },
+      {
+        "text": "Последний крик души",
+        "time": 51.156802,
+        "words": null
+      },
+      {
+        "text": "Теплицы в небо лучи",
+        "time": 52.390771,
+        "words": null
+      },
+      {
+        "text": "Как мечты",
+        "time": 53.924946,
+        "words": null
+      },
+      {
+        "text": "На площади алкаши",
+        "time": 54.760915,
+        "words": null
+      },
+      {
+        "text": "Собаки",
+        "time": 56.993531,
+        "words": null
+      },
+      {
+        "text": "Крикнут \"ты\"",
+        "time": 57.687356,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "hasPhoto": true,
+    "audioPath": "audio/zaraisk.mp3",
+    "photoPath": "photos/IMG_4386.jpeg"
   }
 ];
