@@ -46,6 +46,27 @@
   .s-num { font-family: 'Bebas Neue', sans-serif; font-size: 26px; color: var(--border); width: 34px; flex-shrink: 0; }
   .s-title { flex: 1; font-family: 'Special Elite', serif; font-size: 17px; }
   .s-actions { display: flex; gap: 6px; }
+  /* TAP MODE */
+  .tap-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 8px; border-radius: 3px; cursor: pointer;
+    border-left: 2px solid transparent; transition: background .1s;
+    font-size: 13px;
+  }
+  .tap-row:hover { background: rgba(255,255,255,.04); }
+  .tap-row.tap-active { background: rgba(232,255,0,.07); border-left-color: var(--accent); }
+  .tap-row.tap-timed { border-left-color: rgba(232,255,0,.3); }
+  .tap-time {
+    font-family: 'Courier Prime', monospace; font-size: 11px;
+    color: var(--accent); min-width: 38px; cursor: ew-resize;
+    user-select: none; padding: 2px 4px; border-radius: 2px;
+    transition: background .1s;
+  }
+  .tap-time:hover { background: rgba(232,255,0,.12); }
+  .tap-time.muted { color: var(--muted); }
+  .tap-text { flex: 1; color: var(--text); }
+  .tap-row.tap-active .tap-text { color: var(--accent); font-weight: bold; }
+
   .pin-btn {
     width:64px;height:64px;background:var(--surface);border:1px solid var(--border);
     color:var(--text);font-family:'Bebas Neue',sans-serif;font-size:24px;cursor:pointer;
@@ -456,27 +477,15 @@
         </div>
       </div>
 
-      <div id="tap-box" class="tap-box">
-        <div class="tap-hint">Жмите ПРОБЕЛ или кнопку ниже на каждой строке ↓</div>
-        <div id="tc" class="tap-curr">—</div>
-        <div id="tn" class="tap-next"></div>
-        <div id="tp" class="tap-prog"></div>
-        <div style="display:flex;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap">
-          <div class="key-hint" style="margin-top:0">[ ПРОБЕЛ ]</div>
-          <button class="btn-p" type="button" onclick="tapLine()" style="flex:1;min-width:120px;font-size:15px;padding:10px">👆 ТАП</button>
-        </div>
-      </div>
       <div id="prev"></div>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="btn-p" id="btn-groq" onclick="runGroq()" style="flex:2;background:var(--accent);color:#000">✦ АВТО-ТАЙМИНГИ</button>
-        <button class="btn-s" onclick="startTap()" style="flex:1">▶ ВРУЧНУЮ</button>
-        <button class="btn-s" id="breset" onclick="resetTap()" style="display:none">✕ СБРОС</button>
+        <button class="btn-s" onclick="openTapMode()" style="flex:1;border-color:#4caf50;color:#4caf50">✎ ВРУЧНУЮ</button>
         <button class="btn-s" onclick="resetTimings()" title="Сбросить все тайминги" style="color:var(--accent2);border-color:var(--accent2)">↺ ТАЙМИНГИ</button>
       </div>
       <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
-        <button class="btn-s" onclick="shiftAllTimings()" title="Сдвинуть все тайминги на тайминг второй строки" style="flex:1">⇥ СДВИГ</button>
+        <button class="btn-s" onclick="shiftAllTimings()" style="flex:1">⇥ СДВИГ</button>
         <input id="shift-val" type="number" step="0.1" placeholder="сек (авто)" style="flex:1;background:var(--surface);border:1px solid var(--border);color:var(--text);padding:6px 10px;font-family:inherit;font-size:12px">
-        <button class="btn-s" onclick="startLiveEdit()" style="flex:1;border-color:#4caf50;color:#4caf50">● ЖИВАЯ ПРАВКА</button>
       </div>
       <div style="padding-top:6px;display:flex;gap:8px">
         <button class="btn-s" onclick="saveSong(true)" style="flex:1">СОХРАНИТЬ</button>
@@ -484,6 +493,37 @@
       </div>
       <div id="ed-publish-status" style="display:none;margin-top:8px;font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:1px;color:var(--accent)"></div>
     </div>
+  </div>
+</div>
+
+<!-- TAP MODE -->
+<div id="view-tap" class="view">
+  <div class="hdr" style="padding:12px 24px">
+    <button class="back-btn" onclick="closeTapMode()">← РЕДАКТОР</button>
+    <div id="tap-title" style="font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:2px;color:var(--accent)"></div>
+    <div style="flex:1"></div>
+    <div id="tap-status" style="font-size:10px;letter-spacing:2px;color:var(--muted)"></div>
+    <button id="tap-play-btn" onclick="tapTogglePlay()" style="background:none;border:1px solid var(--accent);color:var(--accent);width:36px;height:36px;font-size:16px;cursor:pointer;flex-shrink:0">▶</button>
+    <div style="font-size:10px;color:var(--muted);letter-spacing:1px;min-width:80px;text-align:right">
+      <span id="tap-time-cur">0:00</span> / <span id="tap-time-dur">0:00</span>
+    </div>
+  </div>
+  <div id="tap-progress-bar" style="width:100%;height:3px;background:rgba(255,255,255,.08);cursor:pointer;flex-shrink:0" onclick="tapSeek(event)">
+    <div id="tap-progress-fill" style="height:100%;background:var(--accent);width:0%;pointer-events:none"></div>
+  </div>
+  <div style="display:flex;flex:1;overflow:hidden">
+    <!-- ЛЕВАЯ: разметка -->
+    <div id="tap-left" style="flex:1;overflow-y:auto;padding:16px 20px;border-right:1px solid var(--border);display:flex;flex-direction:column;gap:2px"></div>
+    <!-- ПРАВАЯ: превью -->
+    <div id="tap-right" style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;background:#000;overflow:hidden">
+      <div id="tap-preview-next" style="font-family:'Special Elite',serif;font-size:16px;color:rgba(240,237,230,.3);margin-bottom:18px;text-align:center"></div>
+      <div id="tap-preview-active" style="font-family:'Special Elite',serif;font-size:28px;color:var(--accent);text-align:center;line-height:1.3"></div>
+    </div>
+  </div>
+  <div style="padding:10px 20px;border-top:1px solid var(--border);display:flex;gap:8px;align-items:center;flex-shrink:0;background:var(--surface)">
+    <span style="font-size:9px;color:var(--muted);letter-spacing:1px">ENTER=тайминг&nbsp;&nbsp;ПРОБЕЛ=пауза&nbsp;&nbsp;BACKSPACE=назад&nbsp;&nbsp;↑↓=строка&nbsp;&nbsp;[/]=начало±&nbsp;&nbsp;-/==конец±</span>
+    <div style="flex:1"></div>
+    <button onclick="saveTapMode()" class="btn-p" style="background:var(--accent);color:#000">✓ СОХРАНИТЬ</button>
   </div>
 </div>
 
@@ -1811,6 +1851,214 @@ function stopLiveEdit() {
   const ov = document.getElementById('live-edit-ov');
   if (ov) ov.remove();
   renderPrev();
+}
+
+// ── РУЧНОЙ РЕЖИМ (TAP MODE) ───────────────────────────
+const tapAud = new Audio();
+let tapLines = [], tapTimes = [], tapWordLines = null;
+let tapIdx = 0; // текущая активная строка
+let tapRaf = null;
+let tapDragging = null; // { idx, type: 'start'|'end', startX, startVal }
+
+function openTapMode() {
+  const lines = getLines();
+  if (!lines.length) { alert('Введите текст песни'); return; }
+  const src = eAudioBlobUrl || getAudioPath();
+  if (!src) { alert('Укажите аудио'); return; }
+
+  tapLines = lines;
+  tapTimes = [...eTimes];
+  tapWordLines = eWordLines ? JSON.parse(JSON.stringify(eWordLines)) : null;
+
+  // Найти первую неразмеченную строку
+  tapIdx = tapTimes.findIndex(t => t == null);
+  if (tapIdx < 0) tapIdx = 0;
+
+  tapAud.src = src;
+  tapAud.load();
+  tapAud.onloadedmetadata = () => {
+    document.getElementById('tap-time-dur').textContent = fmt(tapAud.duration);
+  };
+
+  document.getElementById('tap-title').textContent = document.getElementById('ed-t').value || '';
+  showView('tap');
+  tapRenderLeft();
+  tapUpdatePreview();
+  document.addEventListener('keydown', tapModeKey);
+  tapAud.play().catch(()=>{});
+  document.getElementById('tap-play-btn').textContent = '⏸';
+  tapLoop();
+}
+
+function tapLoop() {
+  if (!document.getElementById('view-tap').classList.contains('active')) return;
+  const t = tapAud.currentTime, dur = tapAud.duration || 1;
+  document.getElementById('tap-progress-fill').style.width = (t/dur*100)+'%';
+  document.getElementById('tap-time-cur').textContent = fmt(t);
+  // Автоподсветка по таймингу
+  let cur = tapIdx;
+  for (let i = 0; i < tapTimes.length; i++) {
+    if (tapTimes[i] != null && tapTimes[i] <= t) cur = i;
+  }
+  // Не двигаем активную строку если пауза — только превью
+  tapUpdatePreviewAt(cur);
+  document.getElementById('tap-status').textContent = `${tapIdx+1} / ${tapLines.length}`;
+  tapRaf = requestAnimationFrame(tapLoop);
+}
+
+function tapRenderLeft() {
+  const c = document.getElementById('tap-left');
+  c.innerHTML = tapLines.map((l, i) => {
+    const t = tapTimes[i];
+    const tEnd = tapTimes[i+1];
+    const tStr = t != null ? fmt(t) : '—:——';
+    const tEndStr = tEnd != null ? fmt(tEnd) : '—:——';
+    return `<div class="tap-row${i===tapIdx?' tap-active':''}${t!=null?' tap-timed':''}" id="tap-row-${i}" onclick="tapSelectLine(${i})">
+      <span class="tap-time${t==null?' muted':''}" id="tap-ts-${i}"
+        onmousedown="tapStartDrag(event,${i},'start')"
+        title="Начало — тяни влево/вправо">${tStr}</span>
+      <span class="tap-text">${l}</span>
+      <span class="tap-time${tEnd==null?' muted':''}" id="tap-te-${i}"
+        onmousedown="tapStartDrag(event,${i},'end')"
+        title="Конец — тяни влево/вправо">${tEndStr}</span>
+      ${t!=null?`<span onclick="event.stopPropagation();tapPlayAt(${t})" style="cursor:pointer;color:var(--muted);font-size:10px;padding:0 4px" title="Слушать">▶</span>`:''}
+    </div>`;
+  }).join('');
+  tapScrollToActive();
+}
+
+function tapScrollToActive() {
+  const el = document.getElementById('tap-row-'+tapIdx);
+  if (el) el.scrollIntoView({block:'center', behavior:'smooth'});
+}
+
+function tapSelectLine(i) {
+  tapIdx = i;
+  tapRenderLeft();
+}
+
+function tapUpdatePreview() {
+  tapUpdatePreviewAt(tapIdx);
+}
+
+function tapUpdatePreviewAt(i) {
+  const active = document.getElementById('tap-preview-active');
+  const next = document.getElementById('tap-preview-next');
+  if (active) active.textContent = tapLines[i] || '';
+  if (next) next.textContent = tapLines[i+1] || '';
+}
+
+function tapTogglePlay() {
+  if (tapAud.paused) {
+    tapAud.play().catch(()=>{});
+    document.getElementById('tap-play-btn').textContent = '⏸';
+  } else {
+    tapAud.pause();
+    document.getElementById('tap-play-btn').textContent = '▶';
+  }
+}
+
+function tapSeek(e) {
+  const r = e.currentTarget.getBoundingClientRect();
+  tapAud.currentTime = ((e.clientX-r.left)/r.width)*(tapAud.duration||0);
+}
+
+function tapPlayAt(t) {
+  tapAud.currentTime = t;
+  tapAud.play().catch(()=>{});
+  document.getElementById('tap-play-btn').textContent = '⏸';
+}
+
+function tapModeKey(e) {
+  const tag = document.activeElement?.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+
+  if (e.code === 'Space') {
+    e.preventDefault();
+    tapTogglePlay();
+  } else if (e.code === 'Enter') {
+    e.preventDefault();
+    tapTimes[tapIdx] = parseFloat(tapAud.currentTime.toFixed(3));
+    if (tapIdx < tapLines.length - 1) tapIdx++;
+    tapRenderLeft();
+    tapUpdatePreview();
+  } else if (e.code === 'Backspace') {
+    e.preventDefault();
+    if (tapIdx > 0) tapIdx--;
+    tapTimes[tapIdx] = null; // сбросить тайминг строки
+    tapRenderLeft();
+    tapUpdatePreview();
+  } else if (e.code === 'ArrowDown') {
+    e.preventDefault();
+    if (tapIdx < tapLines.length-1) { tapIdx++; tapRenderLeft(); tapUpdatePreview(); }
+  } else if (e.code === 'ArrowUp') {
+    e.preventDefault();
+    if (tapIdx > 0) { tapIdx--; tapRenderLeft(); tapUpdatePreview(); }
+  } else if (e.key === '[') {
+    e.preventDefault();
+    if (tapTimes[tapIdx] != null) { tapTimes[tapIdx] = Math.max(0, parseFloat((tapTimes[tapIdx]-0.1).toFixed(3))); tapRenderLeft(); }
+  } else if (e.key === ']') {
+    e.preventDefault();
+    if (tapTimes[tapIdx] != null) { tapTimes[tapIdx] = parseFloat((tapTimes[tapIdx]+0.1).toFixed(3)); tapRenderLeft(); }
+  } else if (e.key === '-') {
+    e.preventDefault();
+    const ni = tapIdx+1;
+    if (tapTimes[ni] != null) { tapTimes[ni] = Math.max(0, parseFloat((tapTimes[ni]-0.1).toFixed(3))); tapRenderLeft(); }
+  } else if (e.key === '=' || e.key === '+') {
+    e.preventDefault();
+    const ni = tapIdx+1;
+    if (tapTimes[ni] != null) { tapTimes[ni] = parseFloat((tapTimes[ni]+0.1).toFixed(3)); tapRenderLeft(); }
+  }
+}
+
+// Drag для тайминга — тянешь влево/вправо меняешь значение
+function tapStartDrag(e, idx, type) {
+  e.preventDefault(); e.stopPropagation();
+  const val = type === 'start' ? tapTimes[idx] : tapTimes[idx+1];
+  tapDragging = { idx, type, startX: e.clientX, startVal: val ?? tapAud.currentTime };
+  document.addEventListener('mousemove', tapOnDrag);
+  document.addEventListener('mouseup', tapStopDrag);
+}
+
+function tapOnDrag(e) {
+  if (!tapDragging) return;
+  const dx = e.clientX - tapDragging.startX;
+  const delta = dx * 0.05; // 1px = 0.05 сек
+  const newVal = Math.max(0, parseFloat((tapDragging.startVal + delta).toFixed(3)));
+  const { idx, type } = tapDragging;
+  if (type === 'start') tapTimes[idx] = newVal;
+  else tapTimes[idx+1] = newVal;
+  // Обновить только нужный span без полного rerenderа
+  if (type === 'start') {
+    const el = document.getElementById('tap-ts-'+idx);
+    if (el) { el.textContent = fmt(newVal); el.classList.remove('muted'); }
+  } else {
+    const el = document.getElementById('tap-te-'+idx);
+    if (el) { el.textContent = fmt(newVal); el.classList.remove('muted'); }
+  }
+}
+
+function tapStopDrag() {
+  tapDragging = null;
+  document.removeEventListener('mousemove', tapOnDrag);
+  document.removeEventListener('mouseup', tapStopDrag);
+  tapRenderLeft();
+}
+
+function saveTapMode() {
+  eTimes = [...tapTimes];
+  cancelAnimationFrame(tapRaf);
+  tapAud.pause();
+  document.removeEventListener('keydown', tapModeKey);
+  renderPrev();
+  showView('editor');
+}
+
+function closeTapMode() {
+  cancelAnimationFrame(tapRaf);
+  tapAud.pause();
+  document.removeEventListener('keydown', tapModeKey);
+  showView('editor');
 }
 
 // ── INIT ──────────────────────────────────────────────
