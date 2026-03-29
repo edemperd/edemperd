@@ -800,20 +800,17 @@ function delSong(id) {
 
 // ── EDITOR ────────────────────────────────────────────
 function openEd(id) {
-  eId = id; eLines = []; eTimes = []; eTapIdx = 0; eTapping = false;
+  eId = id; eLines = []; eTimes = [];
   eAudioFile = null; ePhotoFile = null; eAudioBlobUrl = null; eWordLines = null;
   eReviewLines = null;
   document.getElementById('ed-t').value = '';
   document.getElementById('ed-l').value = '';
   setFbl('afl','afl-t','📂 Выбрать аудио',false);
   setFbl('pfl','pfl-t','🖼 Выбрать фото',false);
-  document.getElementById('tap-box').classList.remove('on');
-  document.getElementById('breset').style.display = 'none';
   document.getElementById('prev').innerHTML = '';
   document.getElementById('groq-status').style.display = 'none';
   document.getElementById('whisper-review-box').style.display = 'none';
   document.getElementById('whisper-review-lines').innerHTML = '';
-  // Сбрасываем мини-плеер
   edAud.pause(); edAud.src = '';
   document.getElementById('ed-player').style.display = 'none';
   aud.pause();
@@ -882,64 +879,6 @@ function loadPhoto(inp) {
 
 function getLines() {
   return document.getElementById('ed-l').value.split('\n').map(l=>l.trim()).filter(Boolean);
-}
-
-function startTap() {
-  eLines = getLines();
-  if (!eLines.length) { alert('Введите текст песни'); return; }
-
-  const audioSrc = eAudioBlobUrl || getAudioPath() || blobs[eId]?.audio;
-  if (!audioSrc) { alert('Укажите имя аудио файла или загрузите его с компа'); return; }
-
-  eTimes = new Array(eLines.length).fill(null);
-  eTapIdx = 0; eTapping = true;
-
-  if (tapAudio) { tapAudio.pause(); tapAudio.src = ''; }
-  tapAudio = new Audio();
-  tapAudio.src = audioSrc;
-  tapAudio.play().catch(e => console.warn('tap audio:', e));
-
-  document.getElementById('tap-box').classList.add('on');
-  document.getElementById('breset').style.display = 'inline-block';
-  updateTapUI(); renderPrev();
-  document.addEventListener('keydown', tapKey);
-}
-
-function tapKey(e) {
-  if (!eTapping || e.code !== 'Space') return;
-  e.preventDefault();
-  tapLine();
-}
-
-function tapLine() {
-  if (!eTapping) return;
-  eTimes[eTapIdx] = tapAudio ? tapAudio.currentTime : 0;
-  eTapIdx++;
-  renderPrev();
-  if (eTapIdx >= eLines.length) {
-    eTapping = false;
-    document.removeEventListener('keydown', tapKey);
-    if (tapAudio) tapAudio.pause();
-    document.getElementById('tc').textContent = '✓ Готово!';
-    document.getElementById('tn').textContent = '';
-    document.getElementById('tp').textContent = 'Все строки размечены';
-  } else { updateTapUI(); }
-}
-
-function updateTapUI() {
-  document.getElementById('tc').textContent = eLines[eTapIdx]||'';
-  document.getElementById('tn').textContent = eLines[eTapIdx+1] ? '↓ '+eLines[eTapIdx+1] : '';
-  document.getElementById('tp').textContent = `Строка ${eTapIdx+1} из ${eLines.length}`;
-}
-
-function resetTap() {
-  eTapping = false; eTapIdx = 0;
-  eTimes = new Array(eLines.length).fill(null);
-  document.removeEventListener('keydown', tapKey);
-  if (tapAudio) { tapAudio.pause(); tapAudio.src = ""; tapAudio = null; }
-  document.getElementById('tap-box').classList.remove('on');
-  document.getElementById('breset').style.display = 'none';
-  renderPrev();
 }
 
 function playFromEditor() {
