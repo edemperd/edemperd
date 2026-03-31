@@ -816,7 +816,6 @@ function openEd(id) {
   document.getElementById('ed-t').value = '';
   document.getElementById('ed-l').value = '';
   setFbl('afl','afl-t','📂 Выбрать аудио',false);
-  setFbl('pfl','pfl-t','🖼 Выбрать фото',false);
   document.getElementById('prev').innerHTML = '';
   document.getElementById('groq-status').style.display = 'none';
   document.getElementById('whisper-review-box').style.display = 'none';
@@ -856,10 +855,10 @@ function openEd(id) {
           for (let o of extSel.options) if (o.value === m[2]) { extSel.value = m[2]; break; }
         }
         document.getElementById('ed-pf-preview').textContent = s.photoPath;
-        setFbl('pfl','pfl-t','✓ '+s.photoPath, true);
+        // pfl removed;
       }
       if (blobs[id]?.audio) setFbl('afl','afl-t','✓ Аудио загружено',true);
-      if (blobs[id]?.photo) setFbl('pfl','pfl-t','✓ Фото загружено',true);
+      if (blobs[id]?.photo) // pfl removed;
       // Запускаем мини-плеер
       const audioSrc = blobs[id]?.audio || s.audioPath;
       if (audioSrc) edPlayerInit(audioSrc);
@@ -884,7 +883,7 @@ function loadAudio(inp) {
 }
 function loadPhoto(inp) {
   const f = inp.files[0]; if (!f) return;
-  ePhotoFile = f; setFbl('pfl','pfl-t','✓ '+f.name,true);
+  ePhotoFile = f; // pfl removed;
 }
 
 function getLines() {
@@ -1188,8 +1187,8 @@ function fmt(s) {
 function onPathInput(type, val) {
   if (type === 'audio' && val) setFbl('afl','afl-t','✓ '+val, true);
   else if (type === 'audio') setFbl('afl','afl-t','📂 или выбрать файл с компа', false);
-  if (type === 'photo' && val) setFbl('pfl','pfl-t','✓ '+val, true);
-  else if (type === 'photo') setFbl('pfl','pfl-t','🖼 или выбрать файл с компа', false);
+  if (type === 'photo' && val) // pfl removed;
+  else if (type === 'photo') // pfl removed;
 }
 
 function onFileNameInput() {
@@ -1208,8 +1207,8 @@ function onPhotoNameInput() {
   const ext = document.getElementById('ed-pf-ext').value;
   const path = name ? `photos/${name}${ext}` : '';
   document.getElementById('ed-pf-preview').textContent = path || '—';
-  if (path) setFbl('pfl','pfl-t','✓ '+path, true);
-  else setFbl('pfl','pfl-t','🖼 или выбрать файл с компа', false);
+  if (path) // pfl removed;
+  else // pfl removed;
 }
 
 function getAudioPath() {
