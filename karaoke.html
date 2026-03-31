@@ -858,7 +858,6 @@ function openEd(id) {
         // pfl removed;
       }
       if (blobs[id]?.audio) setFbl('afl','afl-t','✓ Аудио загружено',true);
-      if (blobs[id]?.photo) // pfl removed;
       // Запускаем мини-плеер
       const audioSrc = blobs[id]?.audio || s.audioPath;
       if (audioSrc) edPlayerInit(audioSrc);
@@ -1187,8 +1186,8 @@ function fmt(s) {
 function onPathInput(type, val) {
   if (type === 'audio' && val) setFbl('afl','afl-t','✓ '+val, true);
   else if (type === 'audio') setFbl('afl','afl-t','📂 или выбрать файл с компа', false);
-  if (type === 'photo' && val) // pfl removed;
-  else if (type === 'photo') // pfl removed;
+  if (type === 'photo' && val) {} // photo handled via media folder
+  else if (type === 'photo') {}
 }
 
 function onFileNameInput() {
@@ -1203,12 +1202,7 @@ function onFileNameInput() {
 }
 
 function onPhotoNameInput() {
-  const name = document.getElementById('ed-pf-name').value.trim();
-  const ext = document.getElementById('ed-pf-ext').value;
-  const path = name ? `photos/${name}${ext}` : '';
-  document.getElementById('ed-pf-preview').textContent = path || '—';
-  if (path) // pfl removed;
-  else // pfl removed;
+  // photo path now handled via media folder
 }
 
 function getAudioPath() {
