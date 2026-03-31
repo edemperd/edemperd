@@ -127,7 +127,7 @@ window.SONGS_DATA = [
     "hasAudio": true,
     "hasPhoto": true,
     "audioPath": "audio/cercov-korabil.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "photoPath": "photos/IMG_5259.jpeg"
   },
   {
     "id": "dom-slon",
@@ -6703,7 +6703,7 @@ window.PUBLISHED = [
     "hasAudio": true,
     "hasPhoto": true,
     "audioPath": "audio/cercov-korabil.mp3",
-    "photoPath": "photos/IMG_4386.jpeg"
+    "photoPath": "photos/IMG_5259.jpeg"
   },
   {
     "id": "lena-soli",
