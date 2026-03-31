@@ -825,9 +825,7 @@ function openEd(id) {
   aud.pause();
 
   document.getElementById('ed-af-name').value = '';
-  document.getElementById('ed-pf-name').value = '';
   document.getElementById('ed-af-preview').textContent = '—';
-  document.getElementById('ed-pf-preview').textContent = '—';
 
   if (id) {
     const s = songs.find(x => x.id===id);
@@ -836,7 +834,8 @@ function openEd(id) {
       document.getElementById('ed-l').value = s.lyrics.map(l=>l.text).join('\n');
       eLines = s.lyrics.map(l=>l.text);
       eTimes = s.lyrics.map(l=>l.time??null);
-      // Разбираем audioPath обратно на имя и расширение
+      eWordLines = s.lyrics.map(l => l.words ? l : null);
+      // Разбираем audioPath
       if (s.audioPath) {
         const m = s.audioPath.match(/audio\/(.+?)(\.[^.]+)$/);
         if (m) {
@@ -847,18 +846,15 @@ function openEd(id) {
         document.getElementById('ed-af-preview').textContent = s.audioPath;
         setFbl('afl','afl-t','✓ '+s.audioPath, true);
       }
-      if (s.photoPath) {
-        const m = s.photoPath.match(/photos\/(.+?)(\.[^.]+)$/);
-        if (m) {
-          document.getElementById('ed-pf-name').value = m[1];
-          const extSel = document.getElementById('ed-pf-ext');
-          for (let o of extSel.options) if (o.value === m[2]) { extSel.value = m[2]; break; }
+      // Медиа папка
+      if (s.mediaFolder) {
+        document.getElementById('ed-media-folder').value = s.mediaFolder;
+        document.getElementById('ed-media-preview').textContent = s.mediaFolder + '/';
+        if (s.mediaFiles && s.mediaFiles.length) {
+          document.getElementById('ed-media-files').textContent = s.mediaFiles.join(', ');
         }
-        document.getElementById('ed-pf-preview').textContent = s.photoPath;
-        // pfl removed;
       }
       if (blobs[id]?.audio) setFbl('afl','afl-t','✓ Аудио загружено',true);
-      // Запускаем мини-плеер
       const audioSrc = blobs[id]?.audio || s.audioPath;
       if (audioSrc) edPlayerInit(audioSrc);
       renderPrev();
@@ -1212,9 +1208,7 @@ function getAudioPath() {
 }
 
 function getPhotoPath() {
-  const name = document.getElementById('ed-pf-name').value.trim();
-  const ext = document.getElementById('ed-pf-ext').value;
-  return name ? `photos/${name}${ext}` : null;
+  return null; // фото заменено на mediaFolder
 }
 
 // ── SETTINGS ──────────────────────────────────────────
