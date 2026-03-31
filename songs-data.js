@@ -125,9 +125,9 @@ window.SONGS_DATA = [
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
+    "hasPhoto": false,
     "audioPath": "audio/cercov-korabil.mp3",
-    "photoPath": "photos/IMG_5259.jpeg"
+    "photoPath": null
   },
   {
     "id": "dom-slon",
@@ -6701,9 +6701,9 @@ window.PUBLISHED = [
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
+    "hasPhoto": false,
     "audioPath": "audio/cercov-korabil.mp3",
-    "photoPath": "photos/IMG_5259.jpeg"
+    "photoPath": null
   },
   {
     "id": "lena-soli",
