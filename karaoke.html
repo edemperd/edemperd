@@ -46,7 +46,18 @@
   .s-num { font-family: 'Bebas Neue', sans-serif; font-size: 26px; color: var(--border); width: 34px; flex-shrink: 0; }
   .s-title { flex: 1; font-family: 'Special Elite', serif; font-size: 17px; }
   .s-actions { display: flex; gap: 6px; }
-  /* TAP MODE */
+  /* SLIDESHOW */
+  .slide {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center;
+    filter: brightness(.5) saturate(.7);
+    opacity: 0; transition: none;
+  }
+  .slide.active { opacity: 1; }
+  .slide.fade { transition: opacity 1.2s ease; }
+  .slide.slide-left { transform: translateX(-8%); transition: transform 8s linear, opacity 1.2s ease; }
+  .slide.slide-right { transform: translateX(8%); transition: transform 8s linear, opacity 1.2s ease; }
+  .slide video { width: 100%; height: 100%; object-fit: cover; filter: brightness(.5) saturate(.7); }
   .tap-row {
     display: flex; align-items: center; gap: 8px;
     padding: 6px 8px; border-radius: 3px; cursor: pointer;
@@ -417,20 +428,15 @@
         </div>
       </div>
 
-      <!-- ФОТО -->
+      <!-- МЕДИА ПАПКА -->
       <div class="fg">
-        <label class="fl" style="margin-bottom:5px">Фото фона</label>
+        <label class="fl" style="margin-bottom:5px">Медиа папка (фото/видео)</label>
         <div style="display:flex;gap:6px;align-items:center;margin-bottom:6px">
-          <input id="ed-pf-name" class="fi" placeholder="ogurec" style="flex:1;font-size:13px" oninput="onPhotoNameInput()">
-          <select id="ed-pf-ext" class="fi" style="width:80px;font-size:12px;padding:9px 6px" onchange="onPhotoNameInput()">
-            <option>.jpg</option><option>.jpeg</option><option>.png</option><option>.webp</option>
-          </select>
+          <input id="ed-media-folder" class="fi" placeholder="ogurec" style="flex:1;font-size:13px">
+          <button onclick="scanMediaFolder()" class="btn-s" style="white-space:nowrap">⟳ ОБНОВИТЬ</button>
         </div>
-        <div style="font-size:10px;color:var(--muted);margin-bottom:8px">→ путь: <span id="ed-pf-preview" style="color:var(--accent)">photos/ogurec.jpg</span></div>
-        <div class="file-btn" id="pfl">
-          <span id="pfl-t">🖼 или выбрать файл с компа</span>
-          <input type="file" accept="image/*" onchange="loadPhoto(this)">
-        </div>
+        <div style="font-size:10px;color:var(--muted);margin-bottom:6px">Папка на S3: <span id="ed-media-preview" style="color:var(--accent)">—</span></div>
+        <div id="ed-media-files" style="font-size:10px;color:var(--muted);line-height:1.8"></div>
       </div>
     </div>
     <div class="ed-right">
@@ -529,7 +535,10 @@
 
 <!-- PLAYER -->
 <div id="view-player" class="view">
-  <div class="pbg" id="pbg"></div>
+  <div id="slideshow-container" style="position:fixed;inset:0;z-index:0;overflow:hidden;background:#000">
+    <div id="slide-a" class="slide"></div>
+    <div id="slide-b" class="slide"></div>
+  </div>
   <div class="pbottom-grad"></div>
   <div class="phdr">
     <button class="back-btn" onclick="exitPl()">← СЕТЛИСТ</button>
@@ -783,6 +792,7 @@ function renderList() {
         ${labels.length ? `<div class="s-labels">${labels.join('')}</div>` : ''}
       </div>
       <div class="s-actions">
+        <button class="icon-btn" onclick="toggleVerified('${s.id}')" title="${s.verified?'Снять галочку':'Проверено'}" style="color:${s.verified?'#4caf50':'var(--muted)'}">✓</button>
         <button class="icon-btn" onclick="openEd('${s.id}')">✎</button>
         <button class="icon-btn" onclick="delSong('${s.id}')">✕</button>
         <button class="play-btn ${!s.hasAudio ? 'dim' : ''}" onclick="${s.hasAudio ? `playFrom('${s.id}')` : ''}">PLAY</button>
@@ -1014,8 +1024,18 @@ function startPlayer(id) {
   }));
   pLastLineIdx = -2;
   document.getElementById('ptitle').textContent = s.title;
-  const bg = document.getElementById('pbg');
-  bg.style.backgroundImage = blobs[id]?.photo ? `url(${blobs[id].photo})` : 'none';
+  const bg = document.getElementById('slideshow-container');
+  const s2 = songs.find(x=>x.id===id);
+  if (s2?.mediaFiles?.length) {
+    ssStart(s2.mediaFiles);
+  } else if (blobs[id]?.photo) {
+    ssClear();
+    document.getElementById('slide-a').style.backgroundImage = `url(${blobs[id].photo})`;
+    document.getElementById('slide-a').classList.add('active');
+    ssActive = 'a';
+  } else {
+    ssClear();
+  }
   aud.src = blobs[id].audio; aud.currentTime = 0;
   buildNav();
   showView('player');
@@ -1110,6 +1130,7 @@ function plKey(e) { if (e.code==='Space') { e.preventDefault(); togglePlay(); } 
 function exitPl() {
   if (raf) cancelAnimationFrame(raf);
   aud.pause(); document.removeEventListener('keydown', plKey);
+  ssClear();
   showView('list');
 }
 
@@ -1998,6 +2019,98 @@ function closeTapMode() {
   tapAud.pause();
   document.removeEventListener('keydown', tapModeKey);
   showView('editor');
+}
+
+// ── МЕДИА ПАПКА + S3 ЛИСТИНГ ──────────────────────────
+const S3_BASE = 'https://storage.yandexcloud.net/edemperd';
+
+async function scanMediaFolder() {
+  const folder = document.getElementById('ed-media-folder').value.trim();
+  if (!folder) { alert('Введи название папки'); return; }
+  document.getElementById('ed-media-preview').textContent = folder + '/';
+  document.getElementById('ed-media-files').textContent = '⏳ сканирую...';
+  try {
+    const resp = await fetch(`${S3_BASE}?prefix=${encodeURIComponent(folder+'/')}&delimiter=/`);
+    const text = await resp.text();
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(text, 'application/xml');
+    const keys = [...xml.querySelectorAll('Contents Key')].map(k => k.textContent).filter(k => {
+      const name = k.split('/').pop();
+      return name && /\.(jpg|jpeg|png|webp|mp4|mov|gif)$/i.test(name);
+    });
+    if (!keys.length) {
+      document.getElementById('ed-media-files').textContent = 'Файлов не найдено';
+      return;
+    }
+    // Сохраняем в текущую песню
+    if (!eId) eId = 's'+Date.now();
+    const s = songs.find(x=>x.id===eId);
+    if (s) { s.mediaFolder = folder; s.mediaFiles = keys.map(k => S3_BASE+'/'+k); saveSongs(); }
+    document.getElementById('ed-media-files').innerHTML =
+      keys.map(k => `<div>✓ ${k.split('/').pop()}</div>`).join('');
+  } catch(e) {
+    document.getElementById('ed-media-files').textContent = '✗ Ошибка: ' + e.message;
+  }
+}
+
+// ── SLIDESHOW ─────────────────────────────────────────
+let ssFiles = [], ssIdx = 0, ssTimer = null, ssActive = 'a';
+const SS_INTERVAL = 6000; // 6 сек на слайд
+const SS_EFFECTS = ['fade','slide-left','slide-right','zoom-in'];
+
+function ssStart(files) {
+  ssClear();
+  ssFiles = files.filter(f => /\.(jpg|jpeg|png|webp|gif)$/i.test(f));
+  // Перемешиваем
+  for (let i = ssFiles.length-1; i>0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [ssFiles[i],ssFiles[j]] = [ssFiles[j],ssFiles[i]];
+  }
+  ssIdx = 0;
+  if (!ssFiles.length) return;
+  ssShowSlide(ssFiles[0], true);
+  ssTimer = setInterval(() => {
+    ssIdx = (ssIdx+1) % ssFiles.length;
+    ssShowSlide(ssFiles[ssIdx], false);
+  }, SS_INTERVAL);
+}
+
+function ssShowSlide(url, first) {
+  const effect = SS_EFFECTS[Math.floor(Math.random()*SS_EFFECTS.length)];
+  const next = ssActive === 'a' ? 'b' : 'a';
+  const elNext = document.getElementById('slide-'+next);
+  const elCur = document.getElementById('slide-'+ssActive);
+
+  elNext.style.backgroundImage = `url(${url})`;
+  elNext.className = 'slide';
+  void elNext.offsetWidth; // reflow
+  elNext.classList.add('active', effect);
+
+  if (!first) {
+    setTimeout(() => {
+      elCur.className = 'slide fade';
+      elCur.style.opacity = '0';
+      setTimeout(() => { elCur.className = 'slide'; elCur.style.backgroundImage=''; }, 1300);
+    }, 50);
+  }
+  ssActive = next;
+}
+
+function ssClear() {
+  clearInterval(ssTimer); ssTimer = null;
+  ['a','b'].forEach(id => {
+    const el = document.getElementById('slide-'+id);
+    if (el) { el.className = 'slide'; el.style.backgroundImage=''; el.style.opacity=''; }
+  });
+}
+
+// ── ГАЛОЧКА «ПРОВЕРЕНО» ───────────────────────────────
+function toggleVerified(id) {
+  const s = songs.find(x=>x.id===id);
+  if (!s) return;
+  s.verified = !s.verified;
+  saveSongs();
+  renderList();
 }
 
 // ── INIT ──────────────────────────────────────────────
