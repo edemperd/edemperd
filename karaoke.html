@@ -1932,19 +1932,23 @@ async function scanMediaFolder() {
 
 // ── SLIDESHOW ─────────────────────────────────────────
 let ssFiles = [], ssIdx = 0, ssTimer = null, ssActive = 'a';
-const SS_INTERVAL = 6000; // 6 сек на слайд
-const SS_EFFECTS = ['fade','slide-left','slide-right','zoom-in'];
+const SS_INTERVAL = 6000;
+const SS_EFFECTS = ['fade','slide-left','slide-right'];
+
+function ssIsVideo(url) {
+  return /\.(mp4|mov|webm)$/i.test(url);
+}
 
 function ssStart(files) {
   ssClear();
-  ssFiles = files.filter(f => /\.(jpg|jpeg|png|webp|gif)$/i.test(f));
-  // Перемешиваем
+  ssFiles = files.filter(f => /\.(jpg|jpeg|png|webp|gif|mp4|mov|webm)$/i.test(f));
+  console.log('[SS] ssStart called, files:', ssFiles.length, ssFiles);
   for (let i = ssFiles.length-1; i>0; i--) {
     const j = Math.floor(Math.random()*(i+1));
     [ssFiles[i],ssFiles[j]] = [ssFiles[j],ssFiles[i]];
   }
   ssIdx = 0;
-  if (!ssFiles.length) return;
+  if (!ssFiles.length) { console.log('[SS] no files after filter'); return; }
   ssShowSlide(ssFiles[0], true);
   ssTimer = setInterval(() => {
     ssIdx = (ssIdx+1) % ssFiles.length;
@@ -1953,21 +1957,42 @@ function ssStart(files) {
 }
 
 function ssShowSlide(url, first) {
+  console.log('[SS] showing slide:', url);
   const effect = SS_EFFECTS[Math.floor(Math.random()*SS_EFFECTS.length)];
   const next = ssActive === 'a' ? 'b' : 'a';
   const elNext = document.getElementById('slide-'+next);
   const elCur = document.getElementById('slide-'+ssActive);
 
-  elNext.style.backgroundImage = `url(${url})`;
+  // Очищаем следующий слайд
+  elNext.innerHTML = '';
+  elNext.style.backgroundImage = '';
+
+  if (ssIsVideo(url)) {
+    const vid = document.createElement('video');
+    vid.src = url;
+    vid.autoplay = true;
+    vid.muted = true;
+    vid.loop = true;
+    vid.playsInline = true;
+    vid.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.5) saturate(.7)';
+    elNext.appendChild(vid);
+  } else {
+    elNext.style.backgroundImage = `url(${url})`;
+  }
+
   elNext.className = 'slide';
-  void elNext.offsetWidth; // reflow
+  void elNext.offsetWidth;
   elNext.classList.add('active', effect);
 
-  if (!first) {
+  if (!first && elCur) {
     setTimeout(() => {
       elCur.className = 'slide fade';
       elCur.style.opacity = '0';
-      setTimeout(() => { elCur.className = 'slide'; elCur.style.backgroundImage=''; }, 1300);
+      setTimeout(() => {
+        elCur.className = 'slide';
+        elCur.style.backgroundImage = '';
+        elCur.innerHTML = '';
+      }, 1300);
     }, 50);
   }
   ssActive = next;
@@ -1975,9 +2000,10 @@ function ssShowSlide(url, first) {
 
 function ssClear() {
   clearInterval(ssTimer); ssTimer = null;
+  ssActive = 'a';
   ['a','b'].forEach(id => {
     const el = document.getElementById('slide-'+id);
-    if (el) { el.className = 'slide'; el.style.backgroundImage=''; el.style.opacity=''; }
+    if (el) { el.className = 'slide'; el.style.backgroundImage=''; el.style.opacity=''; el.innerHTML=''; }
   });
 }
 
