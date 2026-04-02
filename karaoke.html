@@ -981,8 +981,12 @@ function saveSong(silent = false) {
     return { text, time: eTimes[i] ?? null, words: null };
   });
   const hasAudio = !!(blobs[id]?.audio || audioPath);
-  const hasPhoto = !!(blobs[id]?.photo || photoPath);
-  const data = {id, title, lyrics, hasAudio, hasPhoto, audioPath, photoPath};
+  const mediaFolder = document.getElementById('ed-media-folder').value.trim() || null;
+  // Берём mediaFiles из текущей песни если есть
+  const existingSong = songs.find(s => s.id === id);
+  const mediaFiles = existingSong?.mediaFiles || null;
+  const verified = existingSong?.verified || false;
+  const data = {id, title, lyrics, hasAudio, audioPath, mediaFolder, mediaFiles, verified};
   const idx = songs.findIndex(s=>s.id===id);
   if (idx>=0) songs[idx]=data; else songs.push(data);
   saveSongs(); renderList();
@@ -2032,9 +2036,14 @@ async function scanMediaFolder() {
     // Сохраняем в текущую песню
     if (!eId) eId = 's'+Date.now();
     const s = songs.find(x=>x.id===eId);
-    if (s) { s.mediaFolder = folder; s.mediaFiles = keys.map(k => S3_BASE+'/'+k); saveSongs(); }
+    if (s) {
+      s.mediaFolder = folder;
+      s.mediaFiles = keys.map(k => S3_BASE+'/'+k);
+    }
     document.getElementById('ed-media-files').innerHTML =
       keys.map(k => `<div>✓ ${k.split('/').pop()}</div>`).join('');
+    // Сохраняем чтобы mediaFiles попали в songs-data.js при публикации
+    saveSong(true);
   } catch(e) {
     document.getElementById('ed-media-files').textContent = '✗ Ошибка: ' + e.message;
   }
