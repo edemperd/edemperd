@@ -766,12 +766,6 @@ function goListConfirm() {
 }
 
 
-  if (!confirm('Выйти в сетлист? Несохранённые изменения потеряются.')) return;
-  aud.pause();
-  document.removeEventListener('keydown', tapKey);
-  showView('list');
-}
-
 // ── LIST ──────────────────────────────────────────────
 function renderList() {
   const c = document.getElementById('sl');
