@@ -396,7 +396,7 @@
 <!-- EDITOR -->
 <div id="view-editor" class="view">
   <div class="hdr">
-    <button class="back-btn" onclick="goList()">← СЕТЛИСТ</button>
+    <button class="back-btn" onclick="goListConfirm()">← СЕТЛИСТ</button>
     <div class="logo" style="font-size:19px">РЕДАКТОР</div>
     <div style="flex:1"></div>
     <button class="btn-s" id="ed-play-song-btn" style="display:none;border-color:var(--accent);color:var(--accent)" onclick="playFromEditor()">▶ КАРAОКЕ</button>
@@ -606,7 +606,7 @@ let songs = [];
 let blobs = {}; // id → {audio?, photo?}
 
 // editor
-let eId = null, eLines = [], eTimes = [], eTapIdx = 0, eTapping = false;
+let eId = null, eLines = [], eTimes = [], eEndTimes = [], eTapIdx = 0, eTapping = false;
 let eAudioFile = null, ePhotoFile = null, eAudioBlobUrl = null;
 let tapAudio = null;
 
@@ -761,7 +761,12 @@ function showView(id) {
   document.getElementById('view-' + id).classList.add('active');
 }
 
-function goList() {
+function goListConfirm() {
+  if (confirm('Выйти в сетлист? Несохранённые изменения потеряются.')) goList();
+}
+
+
+  if (!confirm('Выйти в сетлист? Несохранённые изменения потеряются.')) return;
   aud.pause();
   document.removeEventListener('keydown', tapKey);
   showView('list');
@@ -810,7 +815,7 @@ function delSong(id) {
 
 // ── EDITOR ────────────────────────────────────────────
 function openEd(id) {
-  eId = id; eLines = []; eTimes = [];
+  eId = id; eLines = []; eTimes = []; eEndTimes = [];
   eAudioFile = null; ePhotoFile = null; eAudioBlobUrl = null; eWordLines = null;
   eReviewLines = null;
   document.getElementById('ed-t').value = '';
@@ -834,6 +839,7 @@ function openEd(id) {
       document.getElementById('ed-l').value = s.lyrics.map(l=>l.text).join('\n');
       eLines = s.lyrics.map(l=>l.text);
       eTimes = s.lyrics.map(l=>l.time??null);
+      eEndTimes = s.lyrics.map(l=>l.endTime??null);
       eWordLines = s.lyrics.map(l => l.words ? l : null);
       // Разбираем audioPath
       if (s.audioPath) {
@@ -919,26 +925,53 @@ function renderPrev() {
     '<div class="preview"><div class="prev-hdr">Тайминги <span style="font-size:9px;color:var(--muted);letter-spacing:1px">— кликни время чтобы сдвинуть</span></div>' +
     lines.map((l, i) => {
       const t = eTimes[i];
-      const tEnd = eTimes[i+1]; // конец = начало следующей строки
+      // Конец: если зафиксирован вручную — из eEndTimes, иначе начало следующей строки
+      const tEndFixed = eEndTimes[i];
+      const tEndAuto = eTimes[i+1];
+      const tEnd = tEndFixed ?? tEndAuto ?? null;
+      const isFixed = tEndFixed != null;
       const tStr = t != null ? fmt(t) : '—:——';
       const tEndStr = tEnd != null ? fmt(tEnd) : (t != null ? '—:——' : '');
       const nudgeHtml = t != null ? `
-        <span onclick="nudgeTime(${i},-1)" style="cursor:pointer;color:var(--muted);padding:0 4px;font-size:11px;user-select:none" title="-1 сек">−</span>
-        <span class="lt" onclick="nudgeTimePrompt(${i})" style="cursor:pointer;text-decoration:underline dotted" title="Кликни чтобы изменить">${tStr}</span>
-        <span onclick="nudgeTime(${i},1)" style="cursor:pointer;color:var(--muted);padding:0 4px;font-size:11px;user-select:none" title="+1 сек">+</span>
+        <span onclick="nudgeTime(${i},-1)" style="cursor:pointer;color:var(--muted);padding:0 4px;font-size:11px;user-select:none">−</span>
+        <span class="lt" onclick="nudgeTimePrompt(${i})" style="cursor:pointer;text-decoration:underline dotted">${tStr}</span>
+        <span onclick="nudgeTime(${i},1)" style="cursor:pointer;color:var(--muted);padding:0 4px;font-size:11px;user-select:none">+</span>
       ` : `<span class="lt">—:——</span>`;
-      const endHtml = t != null && tEndStr ? `
-        <span style="color:var(--muted);font-size:9px;margin-left:auto;padding-right:4px">до</span>
-        <span onclick="nudgeTime(${i+1},-1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none" title="-1 сек">−</span>
-        <span class="lt" style="font-size:10px;color:var(--muted)" onclick="nudgeTimePrompt(${i+1})">${tEndStr}</span>
-        <span onclick="nudgeTime(${i+1},1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none" title="+1 сек">+</span>
+      const endHtml = t != null ? `
+        <span style="color:var(--muted);font-size:9px;margin-left:auto;padding-right:4px">${isFixed?'🔒до':'до'}</span>
+        <span onclick="nudgeEndTime(${i},-1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none">−</span>
+        <span class="lt" style="font-size:10px;color:${isFixed?'var(--accent)':'var(--muted)'}" onclick="nudgeEndTimePrompt(${i})" title="${isFixed?'Зафиксирован вручную — кликни чтобы изменить':'Авто = начало следующей строки'}">${tEndStr}</span>
+        <span onclick="nudgeEndTime(${i},1)" style="cursor:pointer;color:var(--muted);padding:0 3px;font-size:11px;user-select:none">+</span>
+        ${isFixed?`<span onclick="clearEndTime(${i})" style="cursor:pointer;color:var(--muted);font-size:9px;padding:0 2px" title="Сбросить к авто">✕</span>`:''}
       ` : '';
-      const playBtn = t != null ? `<span onclick="playAt(${t})" style="cursor:pointer;color:var(--muted);padding:0 6px;font-size:11px;user-select:none" title="Воспроизвести с этого места">▶</span>` : '';
+      const playBtn = t != null ? `<span onclick="playAt(${t})" style="cursor:pointer;color:var(--muted);padding:0 6px;font-size:11px;user-select:none">▶</span>` : '';
       return `<div class="lr" style="display:flex;align-items:center;gap:0">${nudgeHtml}<span class="ll${t!=null?' ok':''}" style="flex:1">${l}</span>${endHtml}${playBtn}</div>`;
     }).join('') + '</div>';
 }
 
-function nudgeTime(i, delta) {
+function nudgeEndTime(i, delta) {
+  const cur = eEndTimes[i] ?? eTimes[i+1];
+  if (cur == null) return;
+  eEndTimes[i] = Math.max(0, parseFloat((cur + delta).toFixed(3)));
+  renderPrev();
+}
+
+function nudgeEndTimePrompt(i) {
+  const cur = eEndTimes[i] ?? eTimes[i+1];
+  const input = prompt(`Конец строки "${(eLines[i]||'').slice(0,30)}" (секунды):`, cur != null ? cur.toFixed(2) : '');
+  if (input === null) return;
+  const val = parseFloat(input);
+  if (isNaN(val) || val < 0) { alert('Введи число >= 0'); return; }
+  eEndTimes[i] = val;
+  renderPrev();
+}
+
+function clearEndTime(i) {
+  eEndTimes[i] = null;
+  renderPrev();
+}
+
+
   if (eTimes[i] == null) return;
   eTimes[i] = Math.max(0, parseFloat((eTimes[i] + delta).toFixed(3)));
   if (eWordLines && eWordLines[i]) {
@@ -977,8 +1010,9 @@ function saveSong(silent = false) {
   const photoPath = getPhotoPath();
   const lyrics = lines.map((text, i) => {
     const existing = eWordLines ? eWordLines[i] : null;
-    if (existing && existing.words) return { ...existing, time: eTimes[i] ?? existing.time };
-    return { text, time: eTimes[i] ?? null, words: null };
+    const endTime = eEndTimes[i] ?? null;
+    if (existing && existing.words) return { ...existing, time: eTimes[i] ?? existing.time, endTime };
+    return { text, time: eTimes[i] ?? null, endTime, words: null };
   });
   const hasAudio = !!(blobs[id]?.audio || audioPath);
   const mediaFolder = document.getElementById('ed-media-folder').value.trim() || null;
@@ -1018,21 +1052,31 @@ function startPlayer(id) {
   pWordLines = pLines.map(l => ({
     text: l.text,
     time: l.time,
+    endTime: l.endTime || null,
     words: l.words || null
   }));
   pLastLineIdx = -2;
   document.getElementById('ptitle').textContent = s.title;
-  const bg = document.getElementById('slideshow-container');
-  const s2 = songs.find(x=>x.id===id);
-  if (s2?.mediaFiles?.length) {
-    ssStart(s2.mediaFiles);
+  // Слайдшоу — сканируем папку на лету если есть mediaFolder
+  ssClear();
+  if (s.mediaFolder) {
+    const S3B = 'https://storage.yandexcloud.net/edemperd';
+    fetch(`${S3B}?prefix=${encodeURIComponent(s.mediaFolder+'/')}&delimiter=/`)
+      .then(r => r.text())
+      .then(text => {
+        const xml = new DOMParser().parseFromString(text, 'application/xml');
+        const keys = [...xml.querySelectorAll('Contents Key')].map(k => k.textContent).filter(k => {
+          const name = k.split('/').pop();
+          return name && /\.(jpg|jpeg|png|webp|gif|mp4|mov)$/i.test(name);
+        });
+        if (keys.length) ssStart(keys.map(k => S3B+'/'+k));
+      }).catch(()=>{});
+  } else if (s.mediaFiles?.length) {
+    ssStart(s.mediaFiles);
   } else if (blobs[id]?.photo) {
-    ssClear();
     document.getElementById('slide-a').style.backgroundImage = `url(${blobs[id].photo})`;
     document.getElementById('slide-a').classList.add('active');
     ssActive = 'a';
-  } else {
-    ssClear();
   }
   aud.src = blobs[id].audio; aud.currentTime = 0;
   buildNav();
@@ -1085,7 +1129,7 @@ function updatePl() {
   if (ai < 0) return;
   const line = pWordLines[ai];
   const lineStart = line.time;
-  const lineEnd = ai + 1 < pWordLines.length ? pWordLines[ai + 1].time : dur;
+  const lineEnd = line.endTime ?? (ai + 1 < pWordLines.length ? pWordLines[ai + 1].time : dur);
   const hasWords = line.words && line.words.some(w => w.start !== null);
 
   if (hasWords) {
@@ -1806,7 +1850,7 @@ function stopLiveEdit() {
 
 // ── РУЧНОЙ РЕЖИМ (TAP MODE) ───────────────────────────
 const tapAud = new Audio();
-let tapLines = [], tapTimes = [], tapWordLines = null;
+let tapLines = [], tapTimes = [], tapEndTimes = [], tapWordLines = null;
 let tapIdx = 0; // текущая активная строка
 let tapRaf = null;
 let tapDragging = null; // { idx, type: 'start'|'end', startX, startVal }
@@ -1819,6 +1863,7 @@ function openTapMode() {
 
   tapLines = lines;
   tapTimes = [...eTimes];
+  tapEndTimes = [...eEndTimes];
   tapWordLines = eWordLines ? JSON.parse(JSON.stringify(eWordLines)) : null;
 
   // Найти первую неразмеченную строку
@@ -1861,7 +1906,10 @@ function tapRenderLeft() {
   const c = document.getElementById('tap-left');
   c.innerHTML = tapLines.map((l, i) => {
     const t = tapTimes[i];
-    const tEnd = tapTimes[i+1];
+    const tEndFixed = tapEndTimes[i];
+    const tEndAuto = tapTimes[i+1];
+    const tEnd = tEndFixed ?? tEndAuto ?? null;
+    const isFixed = tEndFixed != null;
     const tStr = t != null ? fmt(t) : '—:——';
     const tEndStr = tEnd != null ? fmt(tEnd) : '—:——';
     return `<div class="tap-row${i===tapIdx?' tap-active':''}${t!=null?' tap-timed':''}" id="tap-row-${i}" onclick="tapSelectLine(${i})">
@@ -1871,7 +1919,9 @@ function tapRenderLeft() {
       <span class="tap-text">${l}</span>
       <span class="tap-time${tEnd==null?' muted':''}" id="tap-te-${i}"
         onmousedown="tapStartDrag(event,${i},'end')"
-        title="Конец — тяни влево/вправо">${tEndStr}</span>
+        style="color:${isFixed?'var(--accent)':'var(--muted)'}"
+        title="${isFixed?'Зафиксировано — тяни чтобы изменить':'Авто = начало следующей строки'}">${tEndStr}</span>
+      ${isFixed ? `<span onclick="event.stopPropagation();tapClearEnd(${i})" style="cursor:pointer;color:var(--muted);font-size:9px;padding:0 3px" title="Сбросить — вернуть авто">✕</span>` : ''}
       ${t!=null?`<span onclick="event.stopPropagation();tapPlayAt(${t})" style="cursor:pointer;color:var(--muted);font-size:10px;padding:0 4px" title="Слушать">▶</span>`:''}
     </div>`;
   }).join('');
@@ -1965,8 +2015,10 @@ function tapModeKey(e) {
 // Drag для тайминга — тянешь влево/вправо меняешь значение
 function tapStartDrag(e, idx, type) {
   e.preventDefault(); e.stopPropagation();
-  const val = type === 'start' ? tapTimes[idx] : tapTimes[idx+1];
-  tapDragging = { idx, type, startX: e.clientX, startVal: val ?? tapAud.currentTime };
+  const val = type === 'start'
+    ? (tapTimes[idx] ?? tapAud.currentTime)
+    : (tapEndTimes[idx] ?? tapTimes[idx+1] ?? tapAud.currentTime);
+  tapDragging = { idx, type, startX: e.clientX, startVal: val };
   document.addEventListener('mousemove', tapOnDrag);
   document.addEventListener('mouseup', tapStopDrag);
 }
@@ -1974,19 +2026,23 @@ function tapStartDrag(e, idx, type) {
 function tapOnDrag(e) {
   if (!tapDragging) return;
   const dx = e.clientX - tapDragging.startX;
-  const delta = dx * 0.05; // 1px = 0.05 сек
+  const delta = dx * 0.05;
   const newVal = Math.max(0, parseFloat((tapDragging.startVal + delta).toFixed(3)));
   const { idx, type } = tapDragging;
-  if (type === 'start') tapTimes[idx] = newVal;
-  else tapTimes[idx+1] = newVal;
-  // Обновить только нужный span без полного rerenderа
   if (type === 'start') {
+    tapTimes[idx] = newVal;
     const el = document.getElementById('tap-ts-'+idx);
     if (el) { el.textContent = fmt(newVal); el.classList.remove('muted'); }
   } else {
+    tapEndTimes[idx] = newVal; // фиксируем конец
     const el = document.getElementById('tap-te-'+idx);
-    if (el) { el.textContent = fmt(newVal); el.classList.remove('muted'); }
+    if (el) { el.textContent = fmt(newVal); el.classList.remove('muted'); el.style.color='var(--accent)'; }
   }
+}
+
+function tapClearEnd(i) {
+  tapEndTimes[i] = null;
+  tapRenderLeft();
 }
 
 function tapStopDrag() {
@@ -1998,6 +2054,7 @@ function tapStopDrag() {
 
 function saveTapMode() {
   eTimes = [...tapTimes];
+  eEndTimes = [...tapEndTimes];
   cancelAnimationFrame(tapRaf);
   tapAud.pause();
   document.removeEventListener('keydown', tapModeKey);
@@ -2041,7 +2098,8 @@ async function scanMediaFolder() {
       s.mediaFiles = keys.map(k => S3_BASE+'/'+k);
     }
     document.getElementById('ed-media-files').innerHTML =
-      keys.map(k => `<div>✓ ${k.split('/').pop()}</div>`).join('');
+      keys.map(k => `<div>✓ ${k.split('/').pop()}</div>`).join('') +
+      '<div style="margin-top:8px;color:var(--accent);font-size:9px;letter-spacing:1px">↑ НАЖМИ ОПУБЛИКОВАТЬ ЧТОБЫ СОХРАНИТЬ</div>';
     // Сохраняем чтобы mediaFiles попали в songs-data.js при публикации
     saveSong(true);
   } catch(e) {
