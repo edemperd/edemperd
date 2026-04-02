@@ -3367,7 +3367,8 @@ window.SONGS_DATA = [
             "start": 8.42,
             "end": 9.4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оставить во мгле",
@@ -3388,7 +3389,8 @@ window.SONGS_DATA = [
             "start": 11.8,
             "end": 12.44
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Разбитые окна",
@@ -3404,7 +3406,8 @@ window.SONGS_DATA = [
             "start": 15.02,
             "end": 15.82
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль на полу",
@@ -3425,7 +3428,8 @@ window.SONGS_DATA = [
             "start": 17.52,
             "end": 18.74
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Паркеты хрустят",
@@ -3441,7 +3445,8 @@ window.SONGS_DATA = [
             "start": 21.5,
             "end": 22.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как осколки во сне",
@@ -3467,7 +3472,8 @@ window.SONGS_DATA = [
             "start": 25.06,
             "end": 25.54
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Всё",
@@ -3478,7 +3484,8 @@ window.SONGS_DATA = [
             "start": 25.54,
             "end": 27.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что осталось",
@@ -3494,7 +3501,8 @@ window.SONGS_DATA = [
             "start": 27.48,
             "end": 28.38
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь боль и золу",
@@ -3520,7 +3528,8 @@ window.SONGS_DATA = [
             "start": 29.98,
             "end": 30
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -3536,7 +3545,8 @@ window.SONGS_DATA = [
             "start": 30,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -3557,7 +3567,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -3573,7 +3584,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -3589,7 +3601,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -3605,7 +3618,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -3626,7 +3640,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -3642,7 +3657,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -3663,7 +3679,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -3679,7 +3696,8 @@ window.SONGS_DATA = [
             "start": 35.14,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -3695,7 +3713,8 @@ window.SONGS_DATA = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сырость в зале",
@@ -3716,7 +3735,8 @@ window.SONGS_DATA = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Где звучали слова",
@@ -3737,7 +3757,8 @@ window.SONGS_DATA = [
             "start": 37.669,
             "end": 37.721
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рестораны молчат",
@@ -3753,7 +3774,8 @@ window.SONGS_DATA = [
             "start": 37.884,
             "end": 37.928
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь эхо в углах",
@@ -3779,7 +3801,8 @@ window.SONGS_DATA = [
             "start": 38.206,
             "end": 38.234
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "На крыше теплицы туман и трава",
@@ -3815,7 +3838,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но где-то надежда горит",
@@ -3841,7 +3865,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как маяк",
@@ -3857,7 +3882,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -3873,7 +3899,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -3894,7 +3921,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -3910,7 +3938,8 @@ window.SONGS_DATA = [
             "start": 41.68,
             "end": 42.58
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -3926,7 +3955,8 @@ window.SONGS_DATA = [
             "start": 43.24,
             "end": 44.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -3942,7 +3972,8 @@ window.SONGS_DATA = [
             "start": 45.16,
             "end": 46.34
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -3963,7 +3994,8 @@ window.SONGS_DATA = [
             "start": 46.86,
             "end": 47.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -3979,7 +4011,8 @@ window.SONGS_DATA = [
             "start": 48.46,
             "end": 49.24
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -4000,7 +4033,8 @@ window.SONGS_DATA = [
             "start": 51.76,
             "end": 52.72
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -4016,7 +4050,8 @@ window.SONGS_DATA = [
             "start": 54.88,
             "end": 56.2
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -4032,7 +4067,8 @@ window.SONGS_DATA = [
             "start": 60,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И забор появился",
@@ -4053,7 +4089,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как тонкий намёк",
@@ -4074,7 +4111,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что жизнь возвращается",
@@ -4095,7 +4133,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Слышен шажок",
@@ -4111,7 +4150,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль отремонтируют",
@@ -4127,7 +4167,8 @@ window.SONGS_DATA = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кухню зажгут",
@@ -4143,7 +4184,8 @@ window.SONGS_DATA = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И в номерах гости спокойно уснут",
@@ -4179,7 +4221,8 @@ window.SONGS_DATA = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -4195,7 +4238,8 @@ window.SONGS_DATA = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -4216,7 +4260,8 @@ window.SONGS_DATA = [
             "start": 68.54,
             "end": 70.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но скоро прогонят холод и дожди",
@@ -4252,7 +4297,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я верю",
@@ -4268,7 +4314,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -4284,7 +4331,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -4305,7 +4353,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -4321,7 +4370,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 72.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -4337,13 +4387,17 @@ window.SONGS_DATA = [
             "start": 74.48,
             "end": 75.8
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/puchino.mp3",
+    "mediaFolder": "pushino",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/pushino/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "rozhdestvo",
@@ -9239,7 +9293,8 @@ window.PUBLISHED = [
             "start": 8.42,
             "end": 9.4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оставить во мгле",
@@ -9260,7 +9315,8 @@ window.PUBLISHED = [
             "start": 11.8,
             "end": 12.44
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Разбитые окна",
@@ -9276,7 +9332,8 @@ window.PUBLISHED = [
             "start": 15.02,
             "end": 15.82
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль на полу",
@@ -9297,7 +9354,8 @@ window.PUBLISHED = [
             "start": 17.52,
             "end": 18.74
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Паркеты хрустят",
@@ -9313,7 +9371,8 @@ window.PUBLISHED = [
             "start": 21.5,
             "end": 22.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как осколки во сне",
@@ -9339,7 +9398,8 @@ window.PUBLISHED = [
             "start": 25.06,
             "end": 25.54
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Всё",
@@ -9350,7 +9410,8 @@ window.PUBLISHED = [
             "start": 25.54,
             "end": 27.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что осталось",
@@ -9366,7 +9427,8 @@ window.PUBLISHED = [
             "start": 27.48,
             "end": 28.38
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь боль и золу",
@@ -9392,7 +9454,8 @@ window.PUBLISHED = [
             "start": 29.98,
             "end": 30
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -9408,7 +9471,8 @@ window.PUBLISHED = [
             "start": 30,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -9429,7 +9493,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -9445,7 +9510,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -9461,7 +9527,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -9477,7 +9544,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -9498,7 +9566,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -9514,7 +9583,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -9535,7 +9605,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -9551,7 +9622,8 @@ window.PUBLISHED = [
             "start": 35.14,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -9567,7 +9639,8 @@ window.PUBLISHED = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сырость в зале",
@@ -9588,7 +9661,8 @@ window.PUBLISHED = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Где звучали слова",
@@ -9609,7 +9683,8 @@ window.PUBLISHED = [
             "start": 37.669,
             "end": 37.721
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рестораны молчат",
@@ -9625,7 +9700,8 @@ window.PUBLISHED = [
             "start": 37.884,
             "end": 37.928
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь эхо в углах",
@@ -9651,7 +9727,8 @@ window.PUBLISHED = [
             "start": 38.206,
             "end": 38.234
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "На крыше теплицы туман и трава",
@@ -9687,7 +9764,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но где-то надежда горит",
@@ -9713,7 +9791,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как маяк",
@@ -9729,7 +9808,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -9745,7 +9825,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -9766,7 +9847,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -9782,7 +9864,8 @@ window.PUBLISHED = [
             "start": 41.68,
             "end": 42.58
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -9798,7 +9881,8 @@ window.PUBLISHED = [
             "start": 43.24,
             "end": 44.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -9814,7 +9898,8 @@ window.PUBLISHED = [
             "start": 45.16,
             "end": 46.34
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -9835,7 +9920,8 @@ window.PUBLISHED = [
             "start": 46.86,
             "end": 47.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -9851,7 +9937,8 @@ window.PUBLISHED = [
             "start": 48.46,
             "end": 49.24
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -9872,7 +9959,8 @@ window.PUBLISHED = [
             "start": 51.76,
             "end": 52.72
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -9888,7 +9976,8 @@ window.PUBLISHED = [
             "start": 54.88,
             "end": 56.2
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -9904,7 +9993,8 @@ window.PUBLISHED = [
             "start": 60,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И забор появился",
@@ -9925,7 +10015,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как тонкий намёк",
@@ -9946,7 +10037,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что жизнь возвращается",
@@ -9967,7 +10059,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Слышен шажок",
@@ -9983,7 +10076,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль отремонтируют",
@@ -9999,7 +10093,8 @@ window.PUBLISHED = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кухню зажгут",
@@ -10015,7 +10110,8 @@ window.PUBLISHED = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И в номерах гости спокойно уснут",
@@ -10051,7 +10147,8 @@ window.PUBLISHED = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -10067,7 +10164,8 @@ window.PUBLISHED = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -10088,7 +10186,8 @@ window.PUBLISHED = [
             "start": 68.54,
             "end": 70.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но скоро прогонят холод и дожди",
@@ -10124,7 +10223,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я верю",
@@ -10140,7 +10240,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -10156,7 +10257,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -10177,7 +10279,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -10193,7 +10296,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 72.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -10209,13 +10313,17 @@ window.PUBLISHED = [
             "start": 74.48,
             "end": 75.8
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/puchino.mp3",
+    "mediaFolder": "pushino",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/pushino/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "slon-rave",
