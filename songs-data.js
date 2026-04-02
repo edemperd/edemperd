@@ -1916,7 +1916,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем здесь жить — вопрос пополам",
@@ -1952,7 +1953,8 @@ window.SONGS_DATA = [
             "start": 3,
             "end": 3
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "У нас вокруг только пивные заведения",
@@ -1988,7 +1990,8 @@ window.SONGS_DATA = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Город стоит",
@@ -2004,7 +2007,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Будто в хмелю по ушам",
@@ -2035,7 +2039,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я настоящий",
@@ -2051,7 +2056,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Брат",
@@ -2062,7 +2068,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пивоман",
@@ -2073,7 +2080,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Знаю все бары у трассы",
@@ -2104,7 +2112,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "До ран",
@@ -2120,7 +2129,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пенная греет",
@@ -2136,7 +2146,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Когда ветер в лицо",
@@ -2162,7 +2173,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Да только в глазах уже давит кольцо",
@@ -2203,7 +2215,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -2219,7 +2232,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -2235,7 +2249,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -2251,7 +2266,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -2267,7 +2283,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -2298,7 +2315,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -2319,7 +2337,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -2335,7 +2354,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -2356,7 +2376,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -2392,7 +2413,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -2408,7 +2430,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -2434,7 +2457,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -2445,7 +2469,8 @@ window.SONGS_DATA = [
             "start": 6,
             "end": 6
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -2466,7 +2491,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -2487,7 +2513,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -2533,7 +2560,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы заехали взглянуть на колонию",
@@ -2564,7 +2592,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "С дороги сворачиваем",
@@ -2585,7 +2614,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары в кювет",
@@ -2606,7 +2636,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не рискнули идти по воротам к иконам им",
@@ -2652,7 +2683,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Холодный забор",
@@ -2668,7 +2700,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючею сталью в ответ",
@@ -2694,7 +2727,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Там рядом больница",
@@ -2715,7 +2749,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кирпичный забор",
@@ -2731,7 +2766,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "В окнах лекарства",
@@ -2752,7 +2788,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не жизнь",
@@ -2768,7 +2805,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А раствор",
@@ -2784,7 +2822,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзит во Владимир",
@@ -2805,7 +2844,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Потом по домам",
@@ -2826,7 +2866,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А в душе все равно этот дерганый хмель по углам",
@@ -2882,7 +2923,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -2898,7 +2940,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -2914,7 +2957,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -2930,7 +2974,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -2946,7 +2991,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -2977,7 +3023,8 @@ window.SONGS_DATA = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -2998,7 +3045,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -3014,7 +3062,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -3035,7 +3084,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -3071,7 +3121,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -3087,7 +3138,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -3113,7 +3165,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -3124,7 +3177,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -3145,7 +3199,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -3166,7 +3221,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -3212,13 +3268,32 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/petushki.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/petushki.mp3",
+    "mediaFolder": "petushki",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1023.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1025.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1033.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8704.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8709.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8712.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8714.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8715.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8717.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8718.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8721.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8724.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8728.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8730.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8733.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8740.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "puchino",
@@ -7669,7 +7744,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем здесь жить — вопрос пополам",
@@ -7705,7 +7781,8 @@ window.PUBLISHED = [
             "start": 3,
             "end": 3
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "У нас вокруг только пивные заведения",
@@ -7741,7 +7818,8 @@ window.PUBLISHED = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Город стоит",
@@ -7757,7 +7835,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Будто в хмелю по ушам",
@@ -7788,7 +7867,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я настоящий",
@@ -7804,7 +7884,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Брат",
@@ -7815,7 +7896,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пивоман",
@@ -7826,7 +7908,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Знаю все бары у трассы",
@@ -7857,7 +7940,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "До ран",
@@ -7873,7 +7957,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пенная греет",
@@ -7889,7 +7974,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Когда ветер в лицо",
@@ -7915,7 +8001,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Да только в глазах уже давит кольцо",
@@ -7956,7 +8043,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -7972,7 +8060,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -7988,7 +8077,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -8004,7 +8094,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -8020,7 +8111,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -8051,7 +8143,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -8072,7 +8165,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -8088,7 +8182,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -8109,7 +8204,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -8145,7 +8241,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -8161,7 +8258,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -8187,7 +8285,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -8198,7 +8297,8 @@ window.PUBLISHED = [
             "start": 6,
             "end": 6
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -8219,7 +8319,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -8240,7 +8341,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -8286,7 +8388,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы заехали взглянуть на колонию",
@@ -8317,7 +8420,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "С дороги сворачиваем",
@@ -8338,7 +8442,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары в кювет",
@@ -8359,7 +8464,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не рискнули идти по воротам к иконам им",
@@ -8405,7 +8511,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Холодный забор",
@@ -8421,7 +8528,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючею сталью в ответ",
@@ -8447,7 +8555,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Там рядом больница",
@@ -8468,7 +8577,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кирпичный забор",
@@ -8484,7 +8594,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "В окнах лекарства",
@@ -8505,7 +8616,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не жизнь",
@@ -8521,7 +8633,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А раствор",
@@ -8537,7 +8650,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзит во Владимир",
@@ -8558,7 +8672,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Потом по домам",
@@ -8579,7 +8694,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А в душе все равно этот дерганый хмель по углам",
@@ -8635,7 +8751,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -8651,7 +8768,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -8667,7 +8785,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -8683,7 +8802,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -8699,7 +8819,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -8730,7 +8851,8 @@ window.PUBLISHED = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -8751,7 +8873,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -8767,7 +8890,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -8788,7 +8912,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -8824,7 +8949,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -8840,7 +8966,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -8866,7 +8993,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -8877,7 +9005,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -8898,7 +9027,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -8919,7 +9049,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -8965,13 +9096,32 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/petushki.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/petushki.mp3",
+    "mediaFolder": "petushki",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1023.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1025.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1033.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8704.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8709.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8712.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8714.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8715.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8717.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8718.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8721.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8724.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8728.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8730.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8733.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8740.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "puchino",
