@@ -5142,429 +5142,516 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Ох-ох-ох",
-        "time": null,
+        "time": 23.668,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Снова то же шоссе",
-        "time": null,
+        "time": 24.156,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кончалась зима",
-        "time": null,
+        "time": 25.589,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А вместо весны — репетиция",
-        "time": null,
+        "time": 26.824,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Черновик",
-        "time": null,
+        "time": 29.194,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Эскиз",
-        "time": null,
+        "time": 30.703,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Поют птицы",
-        "time": null,
+        "time": 33.654,
+        "endTime": null,
         "words": null
       },
       {
         "text": "С крыши сипло",
-        "time": null,
+        "time": 34.574,
+        "endTime": null,
         "words": null
       },
       {
         "text": "По-пьяни",
-        "time": null,
+        "time": 35.744,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Жёлтый снег",
-        "time": null,
+        "time": 36.704,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Серый ком",
-        "time": null,
+        "time": 39.153,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сракогрязь держит за камни",
-        "time": null,
+        "time": 40.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Посторонние крадутся",
-        "time": null,
+        "time": 45.396,
+        "endTime": null,
         "words": null
       },
       {
         "text": "По тропе к пансионату",
-        "time": null,
+        "time": 48.364,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьбу латают святые",
-        "time": null,
+        "time": 51.18,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Строительным ароматом",
-        "time": null,
+        "time": 53.629,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 57.025,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Газ в пол",
-        "time": null,
+        "time": 59.502,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тормоз в пол",
-        "time": null,
+        "time": 60.123,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тишина",
-        "time": null,
+        "time": 61.039,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 61.825,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон — не глядя в окно",
-        "time": null,
+        "time": 62.541,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пролетели",
-        "time": null,
+        "time": 64.717,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как мимо себя самого",
-        "time": null,
+        "time": 65.424,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 67.871,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Знак «нельзя» в каждой ветке",
-        "time": null,
+        "time": 71.773,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом окне",
-        "time": null,
+        "time": 72.11,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 73.354,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 73.873,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Из бетона и сна",
-        "time": null,
+        "time": 74.609,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто их строит? Кто их строит? — спроси у себя",
-        "time": null,
+        "time": 75.949,
+        "endTime": 80.816,
         "words": null
       },
       {
         "text": "Незримый святой",
-        "time": null,
+        "time": 90.193,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Манит пальцем к источнику",
-        "time": null,
+        "time": 91.52,
+        "endTime": null,
         "words": null
       },
       {
         "text": "«Подходи",
-        "time": null,
+        "time": 95.852,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Набери",
-        "time": null,
+        "time": 96.504,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Только деньги кидать не думай»",
-        "time": null,
+        "time": 97.205,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мост как приговор",
-        "time": null,
+        "time": 101.617,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Шлагбаум",
-        "time": null,
+        "time": 103.023,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ржавая вена",
-        "time": null,
+        "time": 103.893,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Закрытый городок",
-        "time": null,
+        "time": 106.468,
+        "endTime": null,
         "words": null
       },
       {
         "text": "За спиною звенит измена",
-        "time": null,
+        "time": 108.425,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В попе дырка у века",
-        "time": null,
+        "time": 113.389,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Истекает свет",
-        "time": null,
+        "time": 116.178,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вновь объехать по кругу",
-        "time": null,
+        "time": 118.927,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Словно выхода нет",
-        "time": null,
+        "time": 121.797,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 124.662,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Газ в пол",
-        "time": null,
+        "time": 126.84,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тормоз в пол",
-        "time": null,
+        "time": 127.827,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тишина",
-        "time": null,
+        "time": 128.825,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 129.689,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон — не глядя в окно",
-        "time": null,
+        "time": 130.329,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пролетели",
-        "time": null,
+        "time": 132.463,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как мимо себя самого",
-        "time": null,
+        "time": 133.189,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 135.98,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Знак «нельзя» в каждой ветке",
-        "time": null,
+        "time": 138.111,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом окне",
-        "time": null,
+        "time": 139.802,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 140.961,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 141.523,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Из бетона и сна",
-        "time": null,
+        "time": 142.24,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто их строит? Кто их строит? — спроси у себя",
-        "time": null,
+        "time": 143.621,
+        "endTime": 145.271,
         "words": null
       },
       {
         "text": "Кто рисует эти спящие рыла",
-        "time": null,
+        "time": 169.221,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На фасадах чужих чудес?",
-        "time": null,
+        "time": 174.883,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто сказал",
-        "time": null,
+        "time": 175.69,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Что сюда нельзя",
-        "time": null,
+        "time": 177.541,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Если здесь только серый лес?",
-        "time": null,
+        "time": 178.96,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Я шагаю на закрытую землю",
-        "time": null,
+        "time": 180.362,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Через «стоп»",
-        "time": null,
+        "time": 183.131,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Через «стой»",
-        "time": null,
+        "time": 183.972,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Через «нет»",
-        "time": null,
+        "time": 184.674,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И он встаёт надо мною как камень",
-        "time": null,
+        "time": 186.085,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как огромный немой ответ",
-        "time": null,
+        "time": 188.788,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 192.438,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Больше мимо не выйдет",
-        "time": null,
+        "time": 195.32,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Видна стена",
-        "time": null,
+        "time": 197.14,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 198.155,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 198.789,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Я смотрю в окно",
-        "time": null,
+        "time": 199.583,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И впервые не мимо себя самого",
-        "time": null,
+        "time": 201.006,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 206.68,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Все «нельзя» размывает весна",
-        "time": null,
+        "time": 208.717,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 211.384,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон — из бетона и сна",
-        "time": null,
+        "time": 212.132,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто их строит? Кто их строит? — это мы",
-        "time": null,
+        "time": 214.515,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это я",
-        "time": null,
+        "time": 217.533,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/slon-rave.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/slon-rave.mp3",
+    "mediaFolder": "slon-rave",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/slon-rave/IMG_9499.jpeg"
+    ],
+    "verified": false
   },
   {
     "id": "trevozhno",
@@ -5802,7 +5889,7 @@ window.SONGS_DATA = [
       "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8249.jpeg",
       "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
     ],
-    "verified": false
+    "verified": true
   },
   {
     "id": "usadba-teney",
@@ -9893,6 +9980,523 @@ window.PUBLISHED = [
     "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
   },
   {
+    "id": "slon-rave",
+    "title": "Слон Рейв",
+    "lyrics": [
+      {
+        "text": "Ох-ох-ох",
+        "time": 23.668,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Снова то же шоссе",
+        "time": 24.156,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кончалась зима",
+        "time": 25.589,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А вместо весны — репетиция",
+        "time": 26.824,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Черновик",
+        "time": 29.194,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эскиз",
+        "time": 30.703,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Поют птицы",
+        "time": 33.654,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "С крыши сипло",
+        "time": 34.574,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По-пьяни",
+        "time": 35.744,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Жёлтый снег",
+        "time": 36.704,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Серый ком",
+        "time": 39.153,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сракогрязь держит за камни",
+        "time": 40.527,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Посторонние крадутся",
+        "time": 45.396,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По тропе к пансионату",
+        "time": 48.364,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьбу латают святые",
+        "time": 51.18,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Строительным ароматом",
+        "time": 53.629,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 57.025,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Газ в пол",
+        "time": 59.502,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тормоз в пол",
+        "time": 60.123,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тишина",
+        "time": 61.039,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 61.825,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон — не глядя в окно",
+        "time": 62.541,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пролетели",
+        "time": 64.717,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как мимо себя самого",
+        "time": 65.424,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 67.871,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Знак «нельзя» в каждой ветке",
+        "time": 71.773,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В каждом окне",
+        "time": 72.11,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 73.354,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 73.873,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Из бетона и сна",
+        "time": 74.609,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто их строит? Кто их строит? — спроси у себя",
+        "time": 75.949,
+        "endTime": 80.816,
+        "words": null
+      },
+      {
+        "text": "Незримый святой",
+        "time": 90.193,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Манит пальцем к источнику",
+        "time": 91.52,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "«Подходи",
+        "time": 95.852,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Набери",
+        "time": 96.504,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Только деньги кидать не думай»",
+        "time": 97.205,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мост как приговор",
+        "time": 101.617,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Шлагбаум",
+        "time": 103.023,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ржавая вена",
+        "time": 103.893,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Закрытый городок",
+        "time": 106.468,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "За спиною звенит измена",
+        "time": 108.425,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В попе дырка у века",
+        "time": 113.389,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Истекает свет",
+        "time": 116.178,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вновь объехать по кругу",
+        "time": 118.927,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Словно выхода нет",
+        "time": 121.797,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 124.662,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Газ в пол",
+        "time": 126.84,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тормоз в пол",
+        "time": 127.827,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тишина",
+        "time": 128.825,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 129.689,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон — не глядя в окно",
+        "time": 130.329,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пролетели",
+        "time": 132.463,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как мимо себя самого",
+        "time": 133.189,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 135.98,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Знак «нельзя» в каждой ветке",
+        "time": 138.111,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В каждом окне",
+        "time": 139.802,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 140.961,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 141.523,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Из бетона и сна",
+        "time": 142.24,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто их строит? Кто их строит? — спроси у себя",
+        "time": 143.621,
+        "endTime": 145.271,
+        "words": null
+      },
+      {
+        "text": "Кто рисует эти спящие рыла",
+        "time": 169.221,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "На фасадах чужих чудес?",
+        "time": 174.883,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто сказал",
+        "time": 175.69,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Что сюда нельзя",
+        "time": 177.541,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Если здесь только серый лес?",
+        "time": 178.96,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я шагаю на закрытую землю",
+        "time": 180.362,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Через «стоп»",
+        "time": 183.131,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Через «стой»",
+        "time": 183.972,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Через «нет»",
+        "time": 184.674,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И он встаёт надо мною как камень",
+        "time": 186.085,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как огромный немой ответ",
+        "time": 188.788,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 192.438,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Больше мимо не выйдет",
+        "time": 195.32,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Видна стена",
+        "time": 197.14,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 198.155,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 198.789,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я смотрю в окно",
+        "time": 199.583,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И впервые не мимо себя самого",
+        "time": 201.006,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 206.68,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Все «нельзя» размывает весна",
+        "time": 208.717,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 211.384,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон — из бетона и сна",
+        "time": 212.132,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто их строит? Кто их строит? — это мы",
+        "time": 214.515,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Это я",
+        "time": 217.533,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/slon-rave.mp3",
+    "mediaFolder": "slon-rave",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/slon-rave/IMG_9499.jpeg"
+    ],
+    "verified": false
+  },
+  {
     "id": "trevozhno",
     "title": "Тревожно",
     "lyrics": [
@@ -10128,7 +10732,7 @@ window.PUBLISHED = [
       "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8249.jpeg",
       "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
     ],
-    "verified": false
+    "verified": true
   },
   {
     "id": "zaraisk",
