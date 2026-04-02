@@ -109,12 +109,33 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 ══════════════════════════════════ */
 #view-player { position: relative; background: #000; }
 
-.pbg {
-  position: fixed; inset: 0;
+.ss-slide {
+  position: absolute; inset: 0;
+  opacity: 0; transition: none;
+  overflow: hidden;
+}
+.ss-slide.ss-active { opacity: 1; }
+.ss-slide.ss-fade { transition: opacity 1.2s ease; }
+.ss-slide.ss-left { transition: opacity 1.2s ease; }
+.ss-slide.ss-right { transition: opacity 1.2s ease; }
+
+/* Слой размытого фона (для вертикальных фото) */
+.ss-blur {
+  position: absolute; inset: -20px;
   background-size: cover; background-position: center;
-  filter: brightness(.5) saturate(.65);
-  transition: background-image .4s;
-  z-index: 0;
+  filter: blur(18px) brightness(.45) saturate(.7);
+  transform: scale(1.1);
+}
+/* Основное изображение поверх */
+.ss-img {
+  position: absolute; inset: 0;
+  background-size: contain; background-position: center; background-repeat: no-repeat;
+}
+/* Видео */
+.ss-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover;
+  filter: brightness(.75) saturate(.8);
 }
 .pbottom-grad {
   position: fixed; left: 0; right: 0; bottom: 0; height: 60%;
@@ -248,7 +269,10 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 
 <!-- ПЛЕЕР -->
 <div id="view-player" class="view">
-  <div class="pbg" id="pbg"></div>
+  <div id="ss-container" style="position:fixed;inset:0;z-index:0;overflow:hidden;background:#000">
+    <div id="ss-a" class="ss-slide"></div>
+    <div id="ss-b" class="ss-slide"></div>
+  </div>
   <div class="ptop-grad"></div>
   <div class="pbottom-grad"></div>
   <div class="phdr">
@@ -349,7 +373,27 @@ function playFrom(id) {
   pWordLines = pLines.map(l => ({ text: l.text, time: l.time, words: l.words || null }));
   pLastLineIdx = -2;
   document.getElementById('ptitle').textContent = s.title;
-  document.getElementById('pbg').style.backgroundImage = s.photoPath ? `url(${s.photoPath})` : 'none';
+
+  // Слайдшоу
+  ssClear();
+  if (s.mediaFolder) {
+    const S3B = 'https://storage.yandexcloud.net/edemperd';
+    fetch(`${S3B}?prefix=${encodeURIComponent(s.mediaFolder+'/')}&delimiter=/`)
+      .then(r => r.text())
+      .then(text => {
+        const xml = new DOMParser().parseFromString(text, 'application/xml');
+        const keys = [...xml.querySelectorAll('Contents Key')].map(k => k.textContent).filter(k => {
+          const name = k.split('/').pop();
+          return name && /\.(jpg|jpeg|png|webp|gif|mp4|mov|webm)$/i.test(name);
+        });
+        if (keys.length) ssStart(keys.map(k => S3B+'/'+k));
+      }).catch(() => {});
+  } else if (s.mediaFiles?.length) {
+    ssStart(s.mediaFiles);
+  } else if (s.photoPath) {
+    ssStart([s.photoPath]);
+  }
+
   aud.src = s.audioPath || '';
   aud.currentTime = 0;
   buildNav();
@@ -439,6 +483,79 @@ function buildNav() {
 }
 
 renderList();
+
+// ── SLIDESHOW ─────────────────────────────────────────
+let ssFiles = [], ssIdx = 0, ssTimer = null, ssCurActive = 'a';
+const SS_INTERVAL = 5000;
+
+function ssIsVideo(url) { return /\.(mp4|mov|webm)$/i.test(url); }
+
+function ssStart(files) {
+  ssClear();
+  ssFiles = [...files];
+  // Перемешиваем
+  for (let i = ssFiles.length-1; i>0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [ssFiles[i],ssFiles[j]] = [ssFiles[j],ssFiles[i]];
+  }
+  ssIdx = 0;
+  if (!ssFiles.length) return;
+  ssShowSlide(ssFiles[0], true);
+  ssTimer = setInterval(() => {
+    ssIdx = (ssIdx+1) % ssFiles.length;
+    ssShowSlide(ssFiles[ssIdx], false);
+  }, SS_INTERVAL);
+}
+
+function ssShowSlide(url, first) {
+  const next = ssCurActive === 'a' ? 'b' : 'a';
+  const elNext = document.getElementById('ss-'+next);
+  const elCur = document.getElementById('ss-'+ssCurActive);
+
+  elNext.innerHTML = '';
+  elNext.style.opacity = '';
+
+  if (ssIsVideo(url)) {
+    const vid = document.createElement('video');
+    vid.src = url; vid.autoplay = true; vid.muted = true;
+    vid.loop = true; vid.playsInline = true;
+    vid.className = 'ss-video';
+    elNext.appendChild(vid);
+  } else {
+    // Размытый фон
+    const blur = document.createElement('div');
+    blur.className = 'ss-blur';
+    blur.style.backgroundImage = `url(${url})`;
+    // Основное фото
+    const img = document.createElement('div');
+    img.className = 'ss-img';
+    img.style.backgroundImage = `url(${url})`;
+    elNext.appendChild(blur);
+    elNext.appendChild(img);
+  }
+
+  elNext.className = 'ss-slide';
+  void elNext.offsetWidth;
+  elNext.classList.add('ss-active', 'ss-fade');
+
+  if (!first && elCur) {
+    setTimeout(() => {
+      elCur.classList.add('ss-fade');
+      elCur.style.opacity = '0';
+      setTimeout(() => { elCur.className = 'ss-slide'; elCur.innerHTML = ''; }, 1300);
+    }, 50);
+  }
+  ssCurActive = next;
+}
+
+function ssClear() {
+  clearInterval(ssTimer); ssTimer = null;
+  ssCurActive = 'a';
+  ['a','b'].forEach(id => {
+    const el = document.getElementById('ss-'+id);
+    if (el) { el.className = 'ss-slide'; el.innerHTML = ''; el.style.opacity = ''; }
+  });
+}
 </script>
 </body>
 </html>

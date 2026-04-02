@@ -1963,21 +1963,25 @@ function ssShowSlide(url, first) {
   const elNext = document.getElementById('slide-'+next);
   const elCur = document.getElementById('slide-'+ssActive);
 
-  // Очищаем следующий слайд
   elNext.innerHTML = '';
   elNext.style.backgroundImage = '';
 
   if (ssIsVideo(url)) {
     const vid = document.createElement('video');
-    vid.src = url;
-    vid.autoplay = true;
-    vid.muted = true;
-    vid.loop = true;
-    vid.playsInline = true;
-    vid.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.5) saturate(.7)';
+    vid.src = url; vid.autoplay = true; vid.muted = true;
+    vid.loop = true; vid.playsInline = true;
+    vid.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(.8)';
     elNext.appendChild(vid);
   } else {
-    elNext.style.backgroundImage = `url(${url})`;
+    // Размытый фон + основное фото без кропа
+    const blur = document.createElement('div');
+    blur.style.cssText = 'position:absolute;inset:-20px;background-size:cover;background-position:center;filter:blur(18px) brightness(.4) saturate(.7);transform:scale(1.1)';
+    blur.style.backgroundImage = `url(${url})`;
+    const img = document.createElement('div');
+    img.style.cssText = 'position:absolute;inset:0;background-size:contain;background-position:center;background-repeat:no-repeat';
+    img.style.backgroundImage = `url(${url})`;
+    elNext.appendChild(blur);
+    elNext.appendChild(img);
   }
 
   elNext.className = 'slide';
