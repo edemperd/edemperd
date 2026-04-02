@@ -174,244 +174,303 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Девчонки мчат в глушь",
-        "time": null,
+        "time": 6.176,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Впереди бетон",
-        "time": null,
+        "time": 8.182,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На трассе гигант — это дом-слон",
-        "time": null,
+        "time": 9.932,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Поликарбонат",
-        "time": null,
+        "time": 12.604,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Крыша как щит",
-        "time": null,
+        "time": 14.142,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лоб блестит",
-        "time": null,
+        "time": 15.839,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тело мхом покрыт",
-        "time": null,
+        "time": 17.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 23.395,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 24.992,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Стоит",
-        "time": null,
+        "time": 26.663,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": null,
+        "time": 27.946,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бивни",
-        "time": null,
+        "time": 29.844,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как фиги",
-        "time": null,
+        "time": 30.545,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Молчат в охране",
-        "time": null,
+        "time": 31.228,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ромбы-окна смотрят в души наши",
-        "time": null,
+        "time": 32.974,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Прохода нет",
-        "time": null,
+        "time": 37.307,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тут всё иначе",
-        "time": null,
+        "time": 38.679,
+        "endTime": 42.729,
         "words": null
       },
       {
         "text": "Высокий забор",
-        "time": null,
+        "time": 52.379,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кодовый замок",
-        "time": null,
+        "time": 53.843,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто-то внутри? Но не видно ног",
-        "time": null,
+        "time": 55.573,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Посёлок спит",
-        "time": null,
+        "time": 58.824,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вокруг СНТ",
-        "time": null,
+        "time": 60.611,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Проезжают люди",
-        "time": null,
+        "time": 62.148,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как будто не те",
-        "time": null,
+        "time": 63.503,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё это странно",
-        "time": null,
+        "time": 65.486,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё это жутко",
-        "time": null,
+        "time": 67.051,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Слон не молчит",
-        "time": null,
+        "time": 68.727,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Он шепчет в минутках",
-        "time": null,
+        "time": 70.069,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 76.595,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 77.809,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Стоит",
-        "time": null,
+        "time": 79.577,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": null,
+        "time": 80.906,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бивни",
-        "time": null,
+        "time": 82.855,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как фиги",
-        "time": null,
+        "time": 83.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Молчат в охране",
-        "time": null,
+        "time": 84.173,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ромбы-окна смотрят в души наши",
-        "time": null,
+        "time": 85.945,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Прохода нет",
-        "time": null,
+        "time": 90.036,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тут всё иначе",
-        "time": null,
+        "time": 91.637,
+        "endTime": 94.351,
         "words": null
       },
       {
         "text": "А если войти",
-        "time": null,
+        "time": 105.151,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вдруг код подобрать",
-        "time": null,
+        "time": 106.852,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Увидим ли тайны",
-        "time": null,
+        "time": 108.69,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Что слон может знать?",
-        "time": null,
+        "time": 110.064,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или пустота",
-        "time": null,
+        "time": 111.736,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бетонная глушь",
-        "time": null,
+        "time": 114.906,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Слон зовёт нас",
-        "time": null,
+        "time": 118.333,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ну что",
-        "time": null,
+        "time": 122.318,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не струсишь?",
-        "time": null,
+        "time": 128.264,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/dom-slon.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/dom-slon.jpeg"
+    "audioPath": "audio/dom-slon.mp3",
+    "mediaFolder": "dom-slon",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4357.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4358.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4361.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4363.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4365.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4368.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4370.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4374.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4377.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/copy_DCB7A350-F43F-402B-9273-94121D363A61.mov"
+    ],
+    "verified": false
   },
   {
     "id": "lena-soli",
@@ -6773,6 +6832,310 @@ window.PUBLISHED = [
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5260.jpeg",
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8229.jpeg",
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8237.jpeg"
+    ],
+    "verified": false
+  },
+  {
+    "id": "dom-slon",
+    "title": "Дом-Слон",
+    "lyrics": [
+      {
+        "text": "Девчонки мчат в глушь",
+        "time": 6.176,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Впереди бетон",
+        "time": 8.182,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "На трассе гигант — это дом-слон",
+        "time": 9.932,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Поликарбонат",
+        "time": 12.604,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Крыша как щит",
+        "time": 14.142,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лоб блестит",
+        "time": 15.839,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тело мхом покрыт",
+        "time": 17.13,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 23.395,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 24.992,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Стоит",
+        "time": 26.663,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как призрак в тумане",
+        "time": 27.946,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бивни",
+        "time": 29.844,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как фиги",
+        "time": 30.545,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Молчат в охране",
+        "time": 31.228,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ромбы-окна смотрят в души наши",
+        "time": 32.974,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Прохода нет",
+        "time": 37.307,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тут всё иначе",
+        "time": 38.679,
+        "endTime": 42.729,
+        "words": null
+      },
+      {
+        "text": "Высокий забор",
+        "time": 52.379,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кодовый замок",
+        "time": 53.843,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто-то внутри? Но не видно ног",
+        "time": 55.573,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Посёлок спит",
+        "time": 58.824,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вокруг СНТ",
+        "time": 60.611,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Проезжают люди",
+        "time": 62.148,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как будто не те",
+        "time": 63.503,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Всё это странно",
+        "time": 65.486,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Всё это жутко",
+        "time": 67.051,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Слон не молчит",
+        "time": 68.727,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Он шепчет в минутках",
+        "time": 70.069,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 76.595,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 77.809,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Стоит",
+        "time": 79.577,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как призрак в тумане",
+        "time": 80.906,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бивни",
+        "time": 82.855,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как фиги",
+        "time": 83.527,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Молчат в охране",
+        "time": 84.173,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ромбы-окна смотрят в души наши",
+        "time": 85.945,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Прохода нет",
+        "time": 90.036,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тут всё иначе",
+        "time": 91.637,
+        "endTime": 94.351,
+        "words": null
+      },
+      {
+        "text": "А если войти",
+        "time": 105.151,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вдруг код подобрать",
+        "time": 106.852,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Увидим ли тайны",
+        "time": 108.69,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Что слон может знать?",
+        "time": 110.064,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или пустота",
+        "time": 111.736,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бетонная глушь",
+        "time": 114.906,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Слон зовёт нас",
+        "time": 118.333,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ну что",
+        "time": 122.318,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не струсишь?",
+        "time": 128.264,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/dom-slon.mp3",
+    "mediaFolder": "dom-slon",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4357.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4358.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4361.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4363.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4365.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4368.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4370.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4374.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4377.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/copy_DCB7A350-F43F-402B-9273-94121D363A61.mov"
     ],
     "verified": false
   },
