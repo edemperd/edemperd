@@ -5572,754 +5572,237 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Храм стоит",
-        "time": 0.6,
-        "words": [
-          {
-            "word": "Храм",
-            "start": 0.6,
-            "end": 0.94
-          },
-          {
-            "word": "стоит",
-            "start": 0.94,
-            "end": 2.12
-          }
-        ]
+        "time": 0.627,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": 2.12,
-        "words": [
-          {
-            "word": "Как",
-            "start": 2.12,
-            "end": 2.9
-          },
-          {
-            "word": "призрак",
-            "start": 2.9,
-            "end": 3.6
-          },
-          {
-            "word": "в",
-            "start": 3.6,
-            "end": 3.76
-          },
-          {
-            "word": "тумане",
-            "start": 3.76,
-            "end": 5.02
-          }
-        ]
+        "time": 2.241,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Сосны шепчут",
-        "time": 6.54,
-        "words": [
-          {
-            "word": "Сосны",
-            "start": 6.54,
-            "end": 7.3
-          },
-          {
-            "word": "шепчут",
-            "start": 7.3,
-            "end": 8.58
-          }
-        ]
+        "time": 6.549,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я не слышу",
-        "time": 8.58,
-        "words": [
-          {
-            "word": "Но",
-            "start": 8.58,
-            "end": 8.82
-          },
-          {
-            "word": "я",
-            "start": 8.82,
-            "end": 9.3
-          },
-          {
-            "word": "не",
-            "start": 9.3,
-            "end": 9.84
-          },
-          {
-            "word": "слышу",
-            "start": 9.84,
-            "end": 11.34
-          }
-        ]
+        "time": 8.812,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Стены кричат",
-        "time": 12.56,
-        "words": [
-          {
-            "word": "Стены",
-            "start": 12.56,
-            "end": 13.06
-          },
-          {
-            "word": "кричат",
-            "start": 13.06,
-            "end": 15
-          }
-        ]
+        "time": 12.71,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тени в обмане",
-        "time": 15,
-        "words": [
-          {
-            "word": "Тени",
-            "start": 15,
-            "end": 15.56
-          },
-          {
-            "word": "в",
-            "start": 15.56,
-            "end": 15.88
-          },
-          {
-            "word": "обмане",
-            "start": 15.88,
-            "end": 17
-          }
-        ]
+        "time": 14.996,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Обычная жизнь",
-        "time": 17.28,
-        "words": [
-          {
-            "word": "Обычная",
-            "start": 17.28,
-            "end": 18.84
-          },
-          {
-            "word": "жизнь",
-            "start": 18.84,
-            "end": 20.68
-          }
-        ]
+        "time": 17.848,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но что-то не дышит",
-        "time": 20.68,
-        "words": [
-          {
-            "word": "Но",
-            "start": 20.68,
-            "end": 20.86
-          },
-          {
-            "word": "что-то",
-            "start": 20.86,
-            "end": 21.6
-          },
-          {
-            "word": "не",
-            "start": 21.6,
-            "end": 22.08
-          },
-          {
-            "word": "дышит",
-            "start": 22.08,
-            "end": 23.12
-          }
-        ]
+        "time": 20.719,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 23.56,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 23.56,
-            "end": 25.12
-          }
-        ]
+        "time": 23.676,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 25.12,
-        "words": [
-          {
-            "word": "Так",
-            "start": 25.12,
-            "end": 25.44
-          },
-          {
-            "word": "пусто",
-            "start": 25.44,
-            "end": 26.5
-          }
-        ]
+        "time": 25.277,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 26.5,
-        "words": [
-          {
-            "word": "Так",
-            "start": 26.5,
-            "end": 26.86
-          },
-          {
-            "word": "странно",
-            "start": 26.86,
-            "end": 27.76
-          }
-        ]
+        "time": 26.711,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 28.1,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 28.1,
-            "end": 29.56
-          },
-          {
-            "word": "забыл",
-            "start": 29.56,
-            "end": 30.16
-          },
-          {
-            "word": "нас",
-            "start": 30.16,
-            "end": 31.18
-          }
-        ]
+        "time": 29.122,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 31.18,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 31.18,
-            "end": 31.94
-          },
-          {
-            "word": "в",
-            "start": 31.94,
-            "end": 32.1
-          },
-          {
-            "word": "капканах",
-            "start": 32.1,
-            "end": 33.5
-          }
-        ]
+        "time": 31.321,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 35.46,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 35.46,
-            "end": 37.4
-          },
-          {
-            "word": "Этот",
-            "start": 37.4,
-            "end": 37.96
-          },
-          {
-            "word": "воздух",
-            "start": 37.96,
-            "end": 38.76
-          },
-          {
-            "word": "режет",
-            "start": 38.76,
-            "end": 39.88
-          }
-        ]
+        "time": 35.814,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 41.092,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 45.94,
-            "end": 48.1
-          },
-          {
-            "word": "И",
-            "start": 48.1,
-            "end": 48.44
-          },
-          {
-            "word": "некуда",
-            "start": 48.44,
-            "end": 49.24
-          },
-          {
-            "word": "бежать",
-            "start": 49.24,
-            "end": 51.16
-          }
-        ]
+        "time": 41.661,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 47.96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 47.96,
-            "end": 50.02
-          },
-          {
-            "word": "Лес",
-            "start": 50.02,
-            "end": 50.02
-          },
-          {
-            "word": "шепчет",
-            "start": 50.02,
-            "end": 50.02
-          }
-        ]
+        "time": 47.809,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 53.647,
-        "words": [
-          {
-            "word": "Но",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "не",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "утешит",
-            "start": 55.02,
-            "end": 55.02
-          }
-        ]
+        "time": 50.579,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 53.333,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "Этот",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "мир",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "нас",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "не",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "понять",
-            "start": 54.02,
-            "end": 54.02
-          }
-        ]
+        "time": 53.572,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Жилые дома",
-        "time": 60.02,
-        "words": [
-          {
-            "word": "Жилые",
-            "start": 60.02,
-            "end": 60.3
-          },
-          {
-            "word": "дома",
-            "start": 60.3,
-            "end": 60.3
-          }
-        ]
+        "time": 60.715,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как раны на коже",
-        "time": 61.16,
-        "words": [
-          {
-            "word": "Как",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "раны",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "на",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "коже",
-            "start": 61.3,
-            "end": 61.3
-          }
-        ]
+        "time": 62.998,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Церковь молчит",
-        "time": 66.3,
-        "words": [
-          {
-            "word": "Церковь",
-            "start": 66.3,
-            "end": 66.3
-          },
-          {
-            "word": "молчит",
-            "start": 66.3,
-            "end": 67.62
-          }
-        ]
+        "time": 66.058,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но молитвы тяжелы",
-        "time": 68.62,
-        "words": [
-          {
-            "word": "Но",
-            "start": 68.62,
-            "end": 68.82
-          },
-          {
-            "word": "молитвы",
-            "start": 68.82,
-            "end": 68.82
-          },
-          {
-            "word": "тяжелы",
-            "start": 68.82,
-            "end": 68.82
-          }
-        ]
+        "time": 68.317,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вокруг сосны",
-        "time": 70.67,
-        "words": [
-          {
-            "word": "Вокруг",
-            "start": 70.82,
-            "end": 70.82
-          },
-          {
-            "word": "сосны",
-            "start": 70.82,
-            "end": 70.82
-          }
-        ]
+        "time": 71.155,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Их взгляд строже",
-        "time": 72.72,
-        "words": [
-          {
-            "word": "Их",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "взгляд",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "строже",
-            "start": 72.82,
-            "end": 72.82
-          }
-        ]
+        "time": 74.216,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы только гости в их тиши",
-        "time": 76.1,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "только",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "гости",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "в",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "их",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "тиши",
-            "start": 76.15,
-            "end": 76.15
-          }
-        ]
+        "time": 77.304,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 83,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 83,
-            "end": 83.54
-          }
-        ]
+        "time": 83.765,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 85,
-        "words": [
-          {
-            "word": "Так",
-            "start": 85.45,
-            "end": 85.45
-          },
-          {
-            "word": "пусто",
-            "start": 85.45,
-            "end": 85.45
-          }
-        ]
+        "time": 85.097,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 87,
-        "words": [
-          {
-            "word": "Так",
-            "start": 87.36,
-            "end": 87.36
-          },
-          {
-            "word": "странно",
-            "start": 87.36,
-            "end": 87.36
-          }
-        ]
+        "time": 86.632,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 90,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "забыл",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "нас",
-            "start": 90.27,
-            "end": 90.27
-          }
-        ]
+        "time": 89.04,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 91,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "в",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "капканах",
-            "start": 91.18,
-            "end": 91.18
-          }
-        ]
+        "time": 95.882,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "Этот",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "воздух",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "режет",
-            "start": 96.09,
-            "end": 96.09
-          }
-        ]
+        "time": 96.285,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 102,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 102,
-            "end": 102
-          },
-          {
-            "word": "И",
-            "start": 102,
-            "end": 103.49
-          },
-          {
-            "word": "некуда",
-            "start": 103.5,
-            "end": 103.378
-          },
-          {
-            "word": "бежать",
-            "start": 103.388,
-            "end": 103.33
-          }
-        ]
+        "time": 101.723,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 108,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 108,
-            "end": 110.6
-          },
-          {
-            "word": "Лес",
-            "start": 110.6,
-            "end": 110.6
-          },
-          {
-            "word": "шепчет",
-            "start": 110.6,
-            "end": 110.6
-          }
-        ]
+        "time": 107.357,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 114,
-        "words": [
-          {
-            "word": "Но",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "не",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "утешит",
-            "start": 115.3,
-            "end": 115.3
-          }
-        ]
+        "time": 110.576,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 115,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 115,
-            "end": 115
-          },
-          {
-            "word": "Этот",
-            "start": 115,
-            "end": 115.16
-          },
-          {
-            "word": "мир",
-            "start": 115.16,
-            "end": 115.48
-          },
-          {
-            "word": "нас",
-            "start": 115.48,
-            "end": 115.8
-          },
-          {
-            "word": "не",
-            "start": 115.8,
-            "end": 116.12
-          },
-          {
-            "word": "понять",
-            "start": 116.12,
-            "end": 116.66
-          }
-        ]
+        "time": 113.262,
+        "endTime": 123.792,
+        "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/trevozhno.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_8215.jpeg"
+    "audioPath": "audio/trevozhno.mp3",
+    "mediaFolder": "trevozhno",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250 2.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5268.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5273.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5274.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5275.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5282.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5283.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5285.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5288.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5340.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8224.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8239.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8243.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8249.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "usadba-teney",
@@ -10415,754 +9898,237 @@ window.PUBLISHED = [
     "lyrics": [
       {
         "text": "Храм стоит",
-        "time": 0.6,
-        "words": [
-          {
-            "word": "Храм",
-            "start": 0.6,
-            "end": 0.94
-          },
-          {
-            "word": "стоит",
-            "start": 0.94,
-            "end": 2.12
-          }
-        ]
+        "time": 0.627,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": 2.12,
-        "words": [
-          {
-            "word": "Как",
-            "start": 2.12,
-            "end": 2.9
-          },
-          {
-            "word": "призрак",
-            "start": 2.9,
-            "end": 3.6
-          },
-          {
-            "word": "в",
-            "start": 3.6,
-            "end": 3.76
-          },
-          {
-            "word": "тумане",
-            "start": 3.76,
-            "end": 5.02
-          }
-        ]
+        "time": 2.241,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Сосны шепчут",
-        "time": 6.54,
-        "words": [
-          {
-            "word": "Сосны",
-            "start": 6.54,
-            "end": 7.3
-          },
-          {
-            "word": "шепчут",
-            "start": 7.3,
-            "end": 8.58
-          }
-        ]
+        "time": 6.549,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я не слышу",
-        "time": 8.58,
-        "words": [
-          {
-            "word": "Но",
-            "start": 8.58,
-            "end": 8.82
-          },
-          {
-            "word": "я",
-            "start": 8.82,
-            "end": 9.3
-          },
-          {
-            "word": "не",
-            "start": 9.3,
-            "end": 9.84
-          },
-          {
-            "word": "слышу",
-            "start": 9.84,
-            "end": 11.34
-          }
-        ]
+        "time": 8.812,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Стены кричат",
-        "time": 12.56,
-        "words": [
-          {
-            "word": "Стены",
-            "start": 12.56,
-            "end": 13.06
-          },
-          {
-            "word": "кричат",
-            "start": 13.06,
-            "end": 15
-          }
-        ]
+        "time": 12.71,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тени в обмане",
-        "time": 15,
-        "words": [
-          {
-            "word": "Тени",
-            "start": 15,
-            "end": 15.56
-          },
-          {
-            "word": "в",
-            "start": 15.56,
-            "end": 15.88
-          },
-          {
-            "word": "обмане",
-            "start": 15.88,
-            "end": 17
-          }
-        ]
+        "time": 14.996,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Обычная жизнь",
-        "time": 17.28,
-        "words": [
-          {
-            "word": "Обычная",
-            "start": 17.28,
-            "end": 18.84
-          },
-          {
-            "word": "жизнь",
-            "start": 18.84,
-            "end": 20.68
-          }
-        ]
+        "time": 17.848,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но что-то не дышит",
-        "time": 20.68,
-        "words": [
-          {
-            "word": "Но",
-            "start": 20.68,
-            "end": 20.86
-          },
-          {
-            "word": "что-то",
-            "start": 20.86,
-            "end": 21.6
-          },
-          {
-            "word": "не",
-            "start": 21.6,
-            "end": 22.08
-          },
-          {
-            "word": "дышит",
-            "start": 22.08,
-            "end": 23.12
-          }
-        ]
+        "time": 20.719,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 23.56,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 23.56,
-            "end": 25.12
-          }
-        ]
+        "time": 23.676,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 25.12,
-        "words": [
-          {
-            "word": "Так",
-            "start": 25.12,
-            "end": 25.44
-          },
-          {
-            "word": "пусто",
-            "start": 25.44,
-            "end": 26.5
-          }
-        ]
+        "time": 25.277,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 26.5,
-        "words": [
-          {
-            "word": "Так",
-            "start": 26.5,
-            "end": 26.86
-          },
-          {
-            "word": "странно",
-            "start": 26.86,
-            "end": 27.76
-          }
-        ]
+        "time": 26.711,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 28.1,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 28.1,
-            "end": 29.56
-          },
-          {
-            "word": "забыл",
-            "start": 29.56,
-            "end": 30.16
-          },
-          {
-            "word": "нас",
-            "start": 30.16,
-            "end": 31.18
-          }
-        ]
+        "time": 29.122,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 31.18,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 31.18,
-            "end": 31.94
-          },
-          {
-            "word": "в",
-            "start": 31.94,
-            "end": 32.1
-          },
-          {
-            "word": "капканах",
-            "start": 32.1,
-            "end": 33.5
-          }
-        ]
+        "time": 31.321,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 35.46,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 35.46,
-            "end": 37.4
-          },
-          {
-            "word": "Этот",
-            "start": 37.4,
-            "end": 37.96
-          },
-          {
-            "word": "воздух",
-            "start": 37.96,
-            "end": 38.76
-          },
-          {
-            "word": "режет",
-            "start": 38.76,
-            "end": 39.88
-          }
-        ]
+        "time": 35.814,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 41.092,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 45.94,
-            "end": 48.1
-          },
-          {
-            "word": "И",
-            "start": 48.1,
-            "end": 48.44
-          },
-          {
-            "word": "некуда",
-            "start": 48.44,
-            "end": 49.24
-          },
-          {
-            "word": "бежать",
-            "start": 49.24,
-            "end": 51.16
-          }
-        ]
+        "time": 41.661,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 47.96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 47.96,
-            "end": 50.02
-          },
-          {
-            "word": "Лес",
-            "start": 50.02,
-            "end": 50.02
-          },
-          {
-            "word": "шепчет",
-            "start": 50.02,
-            "end": 50.02
-          }
-        ]
+        "time": 47.809,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 53.647,
-        "words": [
-          {
-            "word": "Но",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "не",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "утешит",
-            "start": 55.02,
-            "end": 55.02
-          }
-        ]
+        "time": 50.579,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 53.333,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "Этот",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "мир",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "нас",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "не",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "понять",
-            "start": 54.02,
-            "end": 54.02
-          }
-        ]
+        "time": 53.572,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Жилые дома",
-        "time": 60.02,
-        "words": [
-          {
-            "word": "Жилые",
-            "start": 60.02,
-            "end": 60.3
-          },
-          {
-            "word": "дома",
-            "start": 60.3,
-            "end": 60.3
-          }
-        ]
+        "time": 60.715,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как раны на коже",
-        "time": 61.16,
-        "words": [
-          {
-            "word": "Как",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "раны",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "на",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "коже",
-            "start": 61.3,
-            "end": 61.3
-          }
-        ]
+        "time": 62.998,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Церковь молчит",
-        "time": 66.3,
-        "words": [
-          {
-            "word": "Церковь",
-            "start": 66.3,
-            "end": 66.3
-          },
-          {
-            "word": "молчит",
-            "start": 66.3,
-            "end": 67.62
-          }
-        ]
+        "time": 66.058,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но молитвы тяжелы",
-        "time": 68.62,
-        "words": [
-          {
-            "word": "Но",
-            "start": 68.62,
-            "end": 68.82
-          },
-          {
-            "word": "молитвы",
-            "start": 68.82,
-            "end": 68.82
-          },
-          {
-            "word": "тяжелы",
-            "start": 68.82,
-            "end": 68.82
-          }
-        ]
+        "time": 68.317,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вокруг сосны",
-        "time": 70.67,
-        "words": [
-          {
-            "word": "Вокруг",
-            "start": 70.82,
-            "end": 70.82
-          },
-          {
-            "word": "сосны",
-            "start": 70.82,
-            "end": 70.82
-          }
-        ]
+        "time": 71.155,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Их взгляд строже",
-        "time": 72.72,
-        "words": [
-          {
-            "word": "Их",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "взгляд",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "строже",
-            "start": 72.82,
-            "end": 72.82
-          }
-        ]
+        "time": 74.216,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы только гости в их тиши",
-        "time": 76.1,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "только",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "гости",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "в",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "их",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "тиши",
-            "start": 76.15,
-            "end": 76.15
-          }
-        ]
+        "time": 77.304,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 83,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 83,
-            "end": 83.54
-          }
-        ]
+        "time": 83.765,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 85,
-        "words": [
-          {
-            "word": "Так",
-            "start": 85.45,
-            "end": 85.45
-          },
-          {
-            "word": "пусто",
-            "start": 85.45,
-            "end": 85.45
-          }
-        ]
+        "time": 85.097,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 87,
-        "words": [
-          {
-            "word": "Так",
-            "start": 87.36,
-            "end": 87.36
-          },
-          {
-            "word": "странно",
-            "start": 87.36,
-            "end": 87.36
-          }
-        ]
+        "time": 86.632,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 90,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "забыл",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "нас",
-            "start": 90.27,
-            "end": 90.27
-          }
-        ]
+        "time": 89.04,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 91,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "в",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "капканах",
-            "start": 91.18,
-            "end": 91.18
-          }
-        ]
+        "time": 95.882,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "Этот",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "воздух",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "режет",
-            "start": 96.09,
-            "end": 96.09
-          }
-        ]
+        "time": 96.285,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 102,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 102,
-            "end": 102
-          },
-          {
-            "word": "И",
-            "start": 102,
-            "end": 103.49
-          },
-          {
-            "word": "некуда",
-            "start": 103.5,
-            "end": 103.378
-          },
-          {
-            "word": "бежать",
-            "start": 103.388,
-            "end": 103.33
-          }
-        ]
+        "time": 101.723,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 108,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 108,
-            "end": 110.6
-          },
-          {
-            "word": "Лес",
-            "start": 110.6,
-            "end": 110.6
-          },
-          {
-            "word": "шепчет",
-            "start": 110.6,
-            "end": 110.6
-          }
-        ]
+        "time": 107.357,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 114,
-        "words": [
-          {
-            "word": "Но",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "не",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "утешит",
-            "start": 115.3,
-            "end": 115.3
-          }
-        ]
+        "time": 110.576,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 115,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 115,
-            "end": 115
-          },
-          {
-            "word": "Этот",
-            "start": 115,
-            "end": 115.16
-          },
-          {
-            "word": "мир",
-            "start": 115.16,
-            "end": 115.48
-          },
-          {
-            "word": "нас",
-            "start": 115.48,
-            "end": 115.8
-          },
-          {
-            "word": "не",
-            "start": 115.8,
-            "end": 116.12
-          },
-          {
-            "word": "понять",
-            "start": 116.12,
-            "end": 116.66
-          }
-        ]
+        "time": 113.262,
+        "endTime": 123.792,
+        "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/trevozhno.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_8215.jpeg"
+    "audioPath": "audio/trevozhno.mp3",
+    "mediaFolder": "trevozhno",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250 2.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5268.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5273.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5274.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5275.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5282.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5283.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5285.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5288.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5340.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8224.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8239.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8243.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8249.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "zaraisk",
