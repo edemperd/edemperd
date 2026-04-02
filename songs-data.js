@@ -60,7 +60,7 @@ window.SONGS_DATA = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 86.159,
-        "endTime": null,
+        "endTime": 95.322,
         "words": null
       },
       {
@@ -120,7 +120,7 @@ window.SONGS_DATA = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 159.552,
-        "endTime": null,
+        "endTime": 165.026,
         "words": null
       },
       {
@@ -159,7 +159,7 @@ window.SONGS_DATA = [
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8229.jpeg",
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8237.jpeg"
     ],
-    "verified": false
+    "verified": true
   },
   {
     "id": "cerkov-otziv",
@@ -174,244 +174,303 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Девчонки мчат в глушь",
-        "time": null,
+        "time": 6.176,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Впереди бетон",
-        "time": null,
+        "time": 8.182,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На трассе гигант — это дом-слон",
-        "time": null,
+        "time": 9.932,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Поликарбонат",
-        "time": null,
+        "time": 12.604,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Крыша как щит",
-        "time": null,
+        "time": 14.142,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лоб блестит",
-        "time": null,
+        "time": 15.839,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тело мхом покрыт",
-        "time": null,
+        "time": 17.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 23.395,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 24.992,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Стоит",
-        "time": null,
+        "time": 26.663,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": null,
+        "time": 27.946,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бивни",
-        "time": null,
+        "time": 29.844,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как фиги",
-        "time": null,
+        "time": 30.545,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Молчат в охране",
-        "time": null,
+        "time": 31.228,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ромбы-окна смотрят в души наши",
-        "time": null,
+        "time": 32.974,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Прохода нет",
-        "time": null,
+        "time": 37.307,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тут всё иначе",
-        "time": null,
+        "time": 38.679,
+        "endTime": 42.729,
         "words": null
       },
       {
         "text": "Высокий забор",
-        "time": null,
+        "time": 52.379,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кодовый замок",
-        "time": null,
+        "time": 53.843,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто-то внутри? Но не видно ног",
-        "time": null,
+        "time": 55.573,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Посёлок спит",
-        "time": null,
+        "time": 58.824,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вокруг СНТ",
-        "time": null,
+        "time": 60.611,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Проезжают люди",
-        "time": null,
+        "time": 62.148,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как будто не те",
-        "time": null,
+        "time": 63.503,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё это странно",
-        "time": null,
+        "time": 65.486,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё это жутко",
-        "time": null,
+        "time": 67.051,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Слон не молчит",
-        "time": null,
+        "time": 68.727,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Он шепчет в минутках",
-        "time": null,
+        "time": 70.069,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 76.595,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 77.809,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Стоит",
-        "time": null,
+        "time": 79.577,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": null,
+        "time": 80.906,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бивни",
-        "time": null,
+        "time": 82.855,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как фиги",
-        "time": null,
+        "time": 83.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Молчат в охране",
-        "time": null,
+        "time": 84.173,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ромбы-окна смотрят в души наши",
-        "time": null,
+        "time": 85.945,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Прохода нет",
-        "time": null,
+        "time": 90.036,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тут всё иначе",
-        "time": null,
+        "time": 91.637,
+        "endTime": 94.351,
         "words": null
       },
       {
         "text": "А если войти",
-        "time": null,
+        "time": 105.151,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вдруг код подобрать",
-        "time": null,
+        "time": 106.852,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Увидим ли тайны",
-        "time": null,
+        "time": 108.69,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Что слон может знать?",
-        "time": null,
+        "time": 110.064,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или пустота",
-        "time": null,
+        "time": 111.736,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бетонная глушь",
-        "time": null,
+        "time": 114.906,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Слон зовёт нас",
-        "time": null,
+        "time": 118.333,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ну что",
-        "time": null,
+        "time": 122.318,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не струсишь?",
-        "time": null,
+        "time": 128.264,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/dom-slon.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/dom-slon.jpeg"
+    "audioPath": "audio/dom-slon.mp3",
+    "mediaFolder": "dom-slon",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4357.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4358.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4361.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4363.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4365.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4368.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4370.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4374.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4377.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/copy_DCB7A350-F43F-402B-9273-94121D363A61.mov"
+    ],
+    "verified": true
   },
   {
     "id": "lena-soli",
@@ -879,284 +938,310 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Тридцать по МКАДу",
-        "time": null,
+        "time": 15.202,
+        "endTime": null,
         "words": null
       },
       {
         "text": "По льду",
-        "time": null,
+        "time": 16.366,
+        "endTime": null,
         "words": null
       },
       {
         "text": "По каше",
-        "time": null,
+        "time": 18.141,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лобовуха замерзает",
-        "time": null,
+        "time": 22.173,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Каждые пять минут",
-        "time": null,
+        "time": 23.909,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сдираю лёд ладонью",
-        "time": null,
+        "time": 29.534,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дыханием по стеклу",
-        "time": null,
+        "time": 33.12,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Регистратор шепчет \"авария\"",
-        "time": null,
+        "time": 36.601,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На скрежете по кругу",
-        "time": null,
+        "time": 40.05,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Нам не сидится дома",
-        "time": null,
+        "time": 44.54,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Зачем едем",
-        "time": null,
+        "time": 47.046,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чтобы что",
-        "time": null,
+        "time": 48.693,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Любительницы Пердей",
-        "time": null,
+        "time": 51.58,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ищут призрак торжества",
-        "time": null,
+        "time": 54.663,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В самый жирный снегопад",
-        "time": null,
+        "time": 58.48,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Метель жует провода",
-        "time": null,
+        "time": 61.98,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы проехали Макдак мимо",
-        "time": null,
+        "time": 65.825,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как портал куда-то не туда",
-        "time": null,
+        "time": 69.575,
+        "endTime": null,
         "words": null
       },
       {
         "text": "За окном густой лес",
-        "time": null,
+        "time": 75.446,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветки тянут к небу нити",
-        "time": null,
+        "time": 78.149,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бамперы немеют",
-        "time": null,
+        "time": 82.414,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тихо стонут в суете",
-        "time": null,
+        "time": 85.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Машин почти не видно",
-        "time": null,
+        "time": 89.449,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Каждый как отдельный остров",
-        "time": null,
+        "time": 92.366,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Фары плывут как рыбы",
-        "time": null,
+        "time": 96.922,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В белом",
-        "time": null,
+        "time": 99.561,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вязком море воздуха",
-        "time": null,
+        "time": 100.535,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Нам не сидится дома",
-        "time": null,
+        "time": 104.785,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Зачем едем",
-        "time": null,
+        "time": 107.241,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чтобы что",
-        "time": null,
+        "time": 108.778,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Любительницы Пердей",
-        "time": null,
+        "time": 111.409,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ищут призрак торжества",
-        "time": null,
+        "time": 114.826,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В самый жирный снегопад",
-        "time": null,
+        "time": 118.898,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Метель жует провода",
-        "time": null,
+        "time": 121.746,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы проехали Макдак мимо",
-        "time": null,
+        "time": 125.828,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как портал куда-то не туда",
-        "time": null,
+        "time": 129.376,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Может",
-        "time": null,
+        "time": 137.077,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В Подмосковье",
-        "time": null,
+        "time": 139.441,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Нам ответят: \"Вот зачем\"",
-        "time": null,
+        "time": 140.352,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или только тише станет",
-        "time": null,
+        "time": 143.899,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Этот внутренний шум стен",
-        "time": null,
+        "time": 146.714,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы вгрызаемся в погоду",
-        "time": null,
+        "time": 150.677,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Времени теряем след",
-        "time": null,
+        "time": 153.973,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Если всё равно не ясно",
-        "time": null,
+        "time": 157.996,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Почему так сладко — ехать",
-        "time": null,
+        "time": 162.044,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А не в снег",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Нам не сидится дома",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Зачем едем",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Чтобы что",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Любительницы Пердей",
-        "time": null,
-        "words": null
-      },
-      {
-        "text": "Ищут призрак торжества",
-        "time": null,
+        "time": 180.147,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В самый жирный снегопад",
-        "time": null,
+        "time": 183.32,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Метель жует провода",
-        "time": null,
+        "time": 184.344,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы проехали Макдак мимо",
-        "time": null,
+        "time": 187.099,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как портал куда-то не туда",
-        "time": null,
+        "time": 190.379,
+        "endTime": 196.584,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad-30.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/mkad-30.mp3",
+    "mediaFolder": null,
+    "mediaFiles": null,
+    "verified": false
   },
   {
     "id": "mkad",
@@ -6675,7 +6760,7 @@ window.PUBLISHED = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 86.159,
-        "endTime": null,
+        "endTime": 95.322,
         "words": null
       },
       {
@@ -6735,7 +6820,7 @@ window.PUBLISHED = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 159.552,
-        "endTime": null,
+        "endTime": 165.026,
         "words": null
       },
       {
@@ -6774,7 +6859,311 @@ window.PUBLISHED = [
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8229.jpeg",
       "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8237.jpeg"
     ],
-    "verified": false
+    "verified": true
+  },
+  {
+    "id": "dom-slon",
+    "title": "Дом-Слон",
+    "lyrics": [
+      {
+        "text": "Девчонки мчат в глушь",
+        "time": 6.176,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Впереди бетон",
+        "time": 8.182,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "На трассе гигант — это дом-слон",
+        "time": 9.932,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Поликарбонат",
+        "time": 12.604,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Крыша как щит",
+        "time": 14.142,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лоб блестит",
+        "time": 15.839,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тело мхом покрыт",
+        "time": 17.13,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 23.395,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 24.992,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Стоит",
+        "time": 26.663,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как призрак в тумане",
+        "time": 27.946,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бивни",
+        "time": 29.844,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как фиги",
+        "time": 30.545,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Молчат в охране",
+        "time": 31.228,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ромбы-окна смотрят в души наши",
+        "time": 32.974,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Прохода нет",
+        "time": 37.307,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тут всё иначе",
+        "time": 38.679,
+        "endTime": 42.729,
+        "words": null
+      },
+      {
+        "text": "Высокий забор",
+        "time": 52.379,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кодовый замок",
+        "time": 53.843,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто-то внутри? Но не видно ног",
+        "time": 55.573,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Посёлок спит",
+        "time": 58.824,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вокруг СНТ",
+        "time": 60.611,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Проезжают люди",
+        "time": 62.148,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как будто не те",
+        "time": 63.503,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Всё это странно",
+        "time": 65.486,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Всё это жутко",
+        "time": 67.051,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Слон не молчит",
+        "time": 68.727,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Он шепчет в минутках",
+        "time": 70.069,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 76.595,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 77.809,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Стоит",
+        "time": 79.577,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как призрак в тумане",
+        "time": 80.906,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бивни",
+        "time": 82.855,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как фиги",
+        "time": 83.527,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Молчат в охране",
+        "time": 84.173,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ромбы-окна смотрят в души наши",
+        "time": 85.945,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Прохода нет",
+        "time": 90.036,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тут всё иначе",
+        "time": 91.637,
+        "endTime": 94.351,
+        "words": null
+      },
+      {
+        "text": "А если войти",
+        "time": 105.151,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вдруг код подобрать",
+        "time": 106.852,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Увидим ли тайны",
+        "time": 108.69,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Что слон может знать?",
+        "time": 110.064,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или пустота",
+        "time": 111.736,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бетонная глушь",
+        "time": 114.906,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Слон зовёт нас",
+        "time": 118.333,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ну что",
+        "time": 122.318,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не струсишь?",
+        "time": 128.264,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/dom-slon.mp3",
+    "mediaFolder": "dom-slon",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4357.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4358.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4361.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4363.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4365.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4368.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4370.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4374.jpeg",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/IMG_4377.MOV",
+      "https://storage.yandexcloud.net/edemperd/dom-slon/copy_DCB7A350-F43F-402B-9273-94121D363A61.mov"
+    ],
+    "verified": true
   },
   {
     "id": "lena-soli",
@@ -6990,6 +7379,317 @@ window.PUBLISHED = [
     "hasPhoto": true,
     "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
     "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
+  },
+  {
+    "id": "mkad-30",
+    "title": "МКАД-30",
+    "lyrics": [
+      {
+        "text": "Тридцать по МКАДу",
+        "time": 15.202,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По льду",
+        "time": 16.366,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По каше",
+        "time": 18.141,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лобовуха замерзает",
+        "time": 22.173,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Каждые пять минут",
+        "time": 23.909,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сдираю лёд ладонью",
+        "time": 29.534,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дыханием по стеклу",
+        "time": 33.12,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Регистратор шепчет \"авария\"",
+        "time": 36.601,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "На скрежете по кругу",
+        "time": 40.05,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нам не сидится дома",
+        "time": 44.54,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Зачем едем",
+        "time": 47.046,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чтобы что",
+        "time": 48.693,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Любительницы Пердей",
+        "time": 51.58,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ищут призрак торжества",
+        "time": 54.663,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В самый жирный снегопад",
+        "time": 58.48,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Метель жует провода",
+        "time": 61.98,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы проехали Макдак мимо",
+        "time": 65.825,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как портал куда-то не туда",
+        "time": 69.575,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "За окном густой лес",
+        "time": 75.446,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ветки тянут к небу нити",
+        "time": 78.149,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бамперы немеют",
+        "time": 82.414,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тихо стонут в суете",
+        "time": 85.206,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Машин почти не видно",
+        "time": 89.449,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Каждый как отдельный остров",
+        "time": 92.366,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Фары плывут как рыбы",
+        "time": 96.922,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В белом",
+        "time": 99.561,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вязком море воздуха",
+        "time": 100.535,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нам не сидится дома",
+        "time": 104.785,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Зачем едем",
+        "time": 107.241,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чтобы что",
+        "time": 108.778,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Любительницы Пердей",
+        "time": 111.409,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ищут призрак торжества",
+        "time": 114.826,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В самый жирный снегопад",
+        "time": 118.898,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Метель жует провода",
+        "time": 121.746,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы проехали Макдак мимо",
+        "time": 125.828,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как портал куда-то не туда",
+        "time": 129.376,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Может",
+        "time": 137.077,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В Подмосковье",
+        "time": 139.441,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нам ответят: \"Вот зачем\"",
+        "time": 140.352,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или только тише станет",
+        "time": 143.899,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Этот внутренний шум стен",
+        "time": 146.714,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы вгрызаемся в погоду",
+        "time": 150.677,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Времени теряем след",
+        "time": 153.973,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Если всё равно не ясно",
+        "time": 157.996,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Почему так сладко — ехать",
+        "time": 162.044,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А не в снег",
+        "time": 180.147,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В самый жирный снегопад",
+        "time": 183.32,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Метель жует провода",
+        "time": 184.344,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы проехали Макдак мимо",
+        "time": 187.099,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как портал куда-то не туда",
+        "time": 190.379,
+        "endTime": 196.584,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/mkad-30.mp3",
+    "mediaFolder": null,
+    "mediaFiles": null,
+    "verified": false
   },
   {
     "id": "mkad",
