@@ -60,7 +60,7 @@ window.SONGS_DATA = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 86.159,
-        "endTime": null,
+        "endTime": 95.322,
         "words": null
       },
       {
@@ -120,7 +120,7 @@ window.SONGS_DATA = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 159.552,
-        "endTime": null,
+        "endTime": 165.026,
         "words": null
       },
       {
@@ -6675,7 +6675,7 @@ window.PUBLISHED = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 86.159,
-        "endTime": null,
+        "endTime": 95.322,
         "words": null
       },
       {
@@ -6735,7 +6735,7 @@ window.PUBLISHED = [
       {
         "text": "Её дорога к душе ведёт",
         "time": 159.552,
-        "endTime": null,
+        "endTime": 165.026,
         "words": null
       },
       {
