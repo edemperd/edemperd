@@ -370,7 +370,7 @@ function playFrom(id) {
   if (!s) return;
   pId = id;
   const pLines = s.lyrics.filter(l => l.time != null).sort((a,b) => a.time - b.time);
-  pWordLines = pLines.map(l => ({ text: l.text, time: l.time, words: l.words || null }));
+  pWordLines = pLines.map(l => ({ text: l.text, time: l.time, endTime: l.endTime || null, words: l.words || null }));
   pLastLineIdx = -2;
   document.getElementById('ptitle').textContent = s.title;
 
@@ -438,7 +438,7 @@ function updatePl() {
   if (ai < 0) return;
   const line = pWordLines[ai];
   const lineStart = line.time;
-  const lineEnd = ai + 1 < pWordLines.length ? pWordLines[ai + 1].time : dur;
+  const lineEnd = pWordLines[ai].endTime ?? (ai + 1 < pWordLines.length ? pWordLines[ai + 1].time : dur);
   const hasWords = line.words && line.words.some(w => w.start !== null);
 
   if (hasWords) {
@@ -461,8 +461,19 @@ function updatePl() {
 }
 
 function togglePlay() {
-  if (aud.paused) { aud.play(); document.getElementById('cplay').textContent = '⏸'; }
-  else { aud.pause(); document.getElementById('cplay').textContent = '▶'; }
+  if (aud.paused) {
+    aud.play().catch(()=>{});
+    document.getElementById('cplay').textContent = '⏸';
+    if (!ssTimer && ssFiles.length) {
+      ssTimer = setInterval(() => { ssIdx=(ssIdx+1)%ssFiles.length; ssShowSlide(ssFiles[ssIdx],false); }, SS_INTERVAL);
+    }
+    document.querySelectorAll('#ss-a video, #ss-b video').forEach(v => v.play().catch(()=>{}));
+  } else {
+    aud.pause();
+    document.getElementById('cplay').textContent = '▶';
+    clearInterval(ssTimer); ssTimer = null;
+    document.querySelectorAll('#ss-a video, #ss-b video').forEach(v => v.pause());
+  }
 }
 function seekTo(e) {
   const r = e.currentTarget.getBoundingClientRect();

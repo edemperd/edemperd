@@ -494,7 +494,7 @@
         <input id="shift-val" type="number" step="0.1" placeholder="сек (авто)" style="flex:1;background:var(--surface);border:1px solid var(--border);color:var(--text);padding:6px 10px;font-family:inherit;font-size:12px">
       </div>
       <div style="padding-top:6px;display:flex;gap:8px">
-        <button class="btn-s" onclick="saveSong(true)" style="flex:1">СОХРАНИТЬ</button>
+        <button class="btn-s" onclick="saveSongInEditor()" style="flex:1">СОХРАНИТЬ</button>
         <button class="btn-p" id="ed-publish-btn" onclick="publishSong()" style="flex:2;background:var(--accent);color:#000">▲ ОПУБЛИКОВАТЬ</button>
       </div>
       <div id="ed-publish-status" style="display:none;margin-top:8px;font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:1px;color:var(--accent)"></div>
@@ -717,6 +717,16 @@ async function pushToGitHub(content) {
     const err = await resp.json();
     throw new Error(err.message || resp.status);
   }
+}
+
+function saveSongInEditor() {
+  const id = saveSong(true);
+  if (!id) return;
+  const status = document.getElementById('ed-publish-status');
+  status.style.display = 'block';
+  status.style.color = '#4caf50';
+  status.textContent = '✓ Сохранено (не опубликовано)';
+  setTimeout(() => { status.style.display = 'none'; }, 2500);
 }
 
 // Публикация конкретной песни из редактора
@@ -1011,11 +1021,12 @@ function saveSong(silent = false) {
   });
   const hasAudio = !!(blobs[id]?.audio || audioPath);
   const mediaFolder = document.getElementById('ed-media-folder').value.trim() || null;
-  // Берём mediaFiles из текущей песни если есть
   const existingSong = songs.find(s => s.id === id);
   const mediaFiles = existingSong?.mediaFiles || null;
   const verified = existingSong?.verified || false;
-  const data = {id, title, lyrics, hasAudio, audioPath, mediaFolder, mediaFiles, verified};
+  // Сохраняем S3 путь если новый путь короче (локальный audio/name.mp3)
+  const finalAudioPath = audioPath || existingSong?.audioPath || null;
+  const data = {id, title, lyrics, hasAudio, audioPath: finalAudioPath, mediaFolder, mediaFiles, verified};
   const idx = songs.findIndex(s=>s.id===id);
   if (idx>=0) songs[idx]=data; else songs.push(data);
   saveSongs(); renderList();
@@ -1153,8 +1164,15 @@ function updatePl() {
 }
 
 function togglePlay() {
-  if (aud.paused) { aud.play(); document.getElementById('cplay').textContent='⏸'; }
-  else { aud.pause(); document.getElementById('cplay').textContent='▶'; }
+  if (aud.paused) {
+    aud.play();
+    document.getElementById('cplay').textContent='⏸';
+    ssResume();
+  } else {
+    aud.pause();
+    document.getElementById('cplay').textContent='▶';
+    ssPause();
+  }
 }
 
 function seekTo(e) {
@@ -1247,7 +1265,10 @@ function onPhotoNameInput() {
 function getAudioPath() {
   const name = document.getElementById('ed-af-name').value.trim();
   const ext = document.getElementById('ed-af-ext').value;
-  return name ? `audio/${name}${ext}` : null;
+  if (!name) return null;
+  // Если имя уже полный URL — вернуть как есть
+  if (name.startsWith('http')) return name;
+  return `audio/${name}${ext}`;
 }
 
 function getPhotoPath() {
@@ -2000,6 +2021,22 @@ function ssShowSlide(url, first) {
     }, 50);
   }
   ssActive = next;
+}
+
+function ssPause() {
+  clearInterval(ssTimer); ssTimer = null;
+  // Пауза видео если есть
+  document.querySelectorAll('#slideshow-container video').forEach(v => v.pause());
+}
+
+function ssResume() {
+  if (ssFiles.length && !ssTimer) {
+    ssTimer = setInterval(() => {
+      ssIdx = (ssIdx+1) % ssFiles.length;
+      ssShowSlide(ssFiles[ssIdx], false);
+    }, SS_INTERVAL);
+  }
+  document.querySelectorAll('#slideshow-container video').forEach(v => v.play().catch(()=>{}));
 }
 
 function ssClear() {
