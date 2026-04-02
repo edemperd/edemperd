@@ -479,213 +479,257 @@ window.SONGS_DATA = [
       {
         "text": "Лена и Soli в Пирц спешат",
         "time": 11.855,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветер в лицо",
         "time": 17.254,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Впереди закат",
         "time": 19.581,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Протвино зовёт",
         "time": 22.384,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пущино манит",
         "time": 25.447,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Серпухов шепчет: \"Здесь что-то хранит\"",
         "time": 29.279,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 37.051,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 37.706,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 39.49,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 41.484,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 43.109,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 44.632,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чижик и Дикси — наш гастроном",
         "time": 51.55,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пятёрочка рулит своим огоньком",
         "time": 57.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы едим местный хлеб",
         "time": 62.606,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пьём местный квас",
         "time": 64.673,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё просто",
         "time": 66.988,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но греет",
         "time": 68.435,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как в первый раз",
         "time": 70.6,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Храмы в тишине",
         "time": 74.705,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы заходим взглянуть",
         "time": 77.234,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В советских зданиях ищем суть",
         "time": 80.317,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 86.835,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 88.582,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 89.882,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 92.653,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 94.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 95.759,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом городе своя тайна",
         "time": 101.974,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мосты",
         "time": 105.041,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дворы",
         "time": 106.556,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тени веков случайных",
         "time": 108.347,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы герои для себя",
         "time": 113.954,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Путь наш — мечта",
         "time": 116.376,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В бетонных стенах жива красота",
         "time": 121.977,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 127.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 128.727,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 131.127,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 133.377,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 135.327,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 136.477,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
+    "audioPath": "audio/lena-Soli.mp3",
+    "mediaFolder": "lena_soli",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/lena_soli/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "master-nedorazumenie",
@@ -1916,7 +1960,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем здесь жить — вопрос пополам",
@@ -1952,7 +1997,8 @@ window.SONGS_DATA = [
             "start": 3,
             "end": 3
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "У нас вокруг только пивные заведения",
@@ -1988,7 +2034,8 @@ window.SONGS_DATA = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Город стоит",
@@ -2004,7 +2051,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Будто в хмелю по ушам",
@@ -2035,7 +2083,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я настоящий",
@@ -2051,7 +2100,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Брат",
@@ -2062,7 +2112,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пивоман",
@@ -2073,7 +2124,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Знаю все бары у трассы",
@@ -2104,7 +2156,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "До ран",
@@ -2120,7 +2173,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пенная греет",
@@ -2136,7 +2190,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Когда ветер в лицо",
@@ -2162,7 +2217,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Да только в глазах уже давит кольцо",
@@ -2203,7 +2259,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -2219,7 +2276,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -2235,7 +2293,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -2251,7 +2310,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -2267,7 +2327,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -2298,7 +2359,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -2319,7 +2381,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -2335,7 +2398,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -2356,7 +2420,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -2392,7 +2457,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -2408,7 +2474,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -2434,7 +2501,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -2445,7 +2513,8 @@ window.SONGS_DATA = [
             "start": 6,
             "end": 6
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -2466,7 +2535,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -2487,7 +2557,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -2533,7 +2604,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы заехали взглянуть на колонию",
@@ -2564,7 +2636,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "С дороги сворачиваем",
@@ -2585,7 +2658,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары в кювет",
@@ -2606,7 +2680,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не рискнули идти по воротам к иконам им",
@@ -2652,7 +2727,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Холодный забор",
@@ -2668,7 +2744,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючею сталью в ответ",
@@ -2694,7 +2771,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Там рядом больница",
@@ -2715,7 +2793,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кирпичный забор",
@@ -2731,7 +2810,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "В окнах лекарства",
@@ -2752,7 +2832,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не жизнь",
@@ -2768,7 +2849,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А раствор",
@@ -2784,7 +2866,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзит во Владимир",
@@ -2805,7 +2888,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Потом по домам",
@@ -2826,7 +2910,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А в душе все равно этот дерганый хмель по углам",
@@ -2882,7 +2967,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -2898,7 +2984,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -2914,7 +3001,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -2930,7 +3018,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -2946,7 +3035,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -2977,7 +3067,8 @@ window.SONGS_DATA = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -2998,7 +3089,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -3014,7 +3106,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -3035,7 +3128,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -3071,7 +3165,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -3087,7 +3182,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -3113,7 +3209,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -3124,7 +3221,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -3145,7 +3243,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -3166,7 +3265,8 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -3212,13 +3312,32 @@ window.SONGS_DATA = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/petushki.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/petushki.mp3",
+    "mediaFolder": "petushki",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1023.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1025.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1033.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8704.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8709.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8712.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8714.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8715.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8717.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8718.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8721.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8724.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8728.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8730.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8733.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8740.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "puchino",
@@ -3248,7 +3367,8 @@ window.SONGS_DATA = [
             "start": 8.42,
             "end": 9.4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оставить во мгле",
@@ -3269,7 +3389,8 @@ window.SONGS_DATA = [
             "start": 11.8,
             "end": 12.44
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Разбитые окна",
@@ -3285,7 +3406,8 @@ window.SONGS_DATA = [
             "start": 15.02,
             "end": 15.82
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль на полу",
@@ -3306,7 +3428,8 @@ window.SONGS_DATA = [
             "start": 17.52,
             "end": 18.74
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Паркеты хрустят",
@@ -3322,7 +3445,8 @@ window.SONGS_DATA = [
             "start": 21.5,
             "end": 22.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как осколки во сне",
@@ -3348,7 +3472,8 @@ window.SONGS_DATA = [
             "start": 25.06,
             "end": 25.54
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Всё",
@@ -3359,7 +3484,8 @@ window.SONGS_DATA = [
             "start": 25.54,
             "end": 27.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что осталось",
@@ -3375,7 +3501,8 @@ window.SONGS_DATA = [
             "start": 27.48,
             "end": 28.38
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь боль и золу",
@@ -3401,7 +3528,8 @@ window.SONGS_DATA = [
             "start": 29.98,
             "end": 30
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -3417,7 +3545,8 @@ window.SONGS_DATA = [
             "start": 30,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -3438,7 +3567,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -3454,7 +3584,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -3470,7 +3601,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -3486,7 +3618,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -3507,7 +3640,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -3523,7 +3657,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -3544,7 +3679,8 @@ window.SONGS_DATA = [
             "start": 31.48,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -3560,7 +3696,8 @@ window.SONGS_DATA = [
             "start": 35.14,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -3576,7 +3713,8 @@ window.SONGS_DATA = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сырость в зале",
@@ -3597,7 +3735,8 @@ window.SONGS_DATA = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Где звучали слова",
@@ -3618,7 +3757,8 @@ window.SONGS_DATA = [
             "start": 37.669,
             "end": 37.721
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рестораны молчат",
@@ -3634,7 +3774,8 @@ window.SONGS_DATA = [
             "start": 37.884,
             "end": 37.928
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь эхо в углах",
@@ -3660,7 +3801,8 @@ window.SONGS_DATA = [
             "start": 38.206,
             "end": 38.234
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "На крыше теплицы туман и трава",
@@ -3696,7 +3838,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но где-то надежда горит",
@@ -3722,7 +3865,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как маяк",
@@ -3738,7 +3882,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -3754,7 +3899,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -3775,7 +3921,8 @@ window.SONGS_DATA = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -3791,7 +3938,8 @@ window.SONGS_DATA = [
             "start": 41.68,
             "end": 42.58
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -3807,7 +3955,8 @@ window.SONGS_DATA = [
             "start": 43.24,
             "end": 44.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -3823,7 +3972,8 @@ window.SONGS_DATA = [
             "start": 45.16,
             "end": 46.34
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -3844,7 +3994,8 @@ window.SONGS_DATA = [
             "start": 46.86,
             "end": 47.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -3860,7 +4011,8 @@ window.SONGS_DATA = [
             "start": 48.46,
             "end": 49.24
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -3881,7 +4033,8 @@ window.SONGS_DATA = [
             "start": 51.76,
             "end": 52.72
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -3897,7 +4050,8 @@ window.SONGS_DATA = [
             "start": 54.88,
             "end": 56.2
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -3913,7 +4067,8 @@ window.SONGS_DATA = [
             "start": 60,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И забор появился",
@@ -3934,7 +4089,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как тонкий намёк",
@@ -3955,7 +4111,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что жизнь возвращается",
@@ -3976,7 +4133,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Слышен шажок",
@@ -3992,7 +4150,8 @@ window.SONGS_DATA = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль отремонтируют",
@@ -4008,7 +4167,8 @@ window.SONGS_DATA = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кухню зажгут",
@@ -4024,7 +4184,8 @@ window.SONGS_DATA = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И в номерах гости спокойно уснут",
@@ -4060,7 +4221,8 @@ window.SONGS_DATA = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -4076,7 +4238,8 @@ window.SONGS_DATA = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -4097,7 +4260,8 @@ window.SONGS_DATA = [
             "start": 68.54,
             "end": 70.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но скоро прогонят холод и дожди",
@@ -4133,7 +4297,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я верю",
@@ -4149,7 +4314,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -4165,7 +4331,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -4186,7 +4353,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -4202,7 +4370,8 @@ window.SONGS_DATA = [
             "start": 71.08,
             "end": 72.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -4218,13 +4387,17 @@ window.SONGS_DATA = [
             "start": 74.48,
             "end": 75.8
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/puchino.mp3",
+    "mediaFolder": "pushino",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/pushino/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "rozhdestvo",
@@ -5142,429 +5315,516 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Ох-ох-ох",
-        "time": null,
+        "time": 23.668,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Снова то же шоссе",
-        "time": null,
+        "time": 24.156,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кончалась зима",
-        "time": null,
+        "time": 25.589,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А вместо весны — репетиция",
-        "time": null,
+        "time": 26.824,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Черновик",
-        "time": null,
+        "time": 29.194,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Эскиз",
-        "time": null,
+        "time": 30.703,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Поют птицы",
-        "time": null,
+        "time": 33.654,
+        "endTime": null,
         "words": null
       },
       {
         "text": "С крыши сипло",
-        "time": null,
+        "time": 34.574,
+        "endTime": null,
         "words": null
       },
       {
         "text": "По-пьяни",
-        "time": null,
+        "time": 35.744,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Жёлтый снег",
-        "time": null,
+        "time": 36.704,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Серый ком",
-        "time": null,
+        "time": 39.153,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сракогрязь держит за камни",
-        "time": null,
+        "time": 40.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Посторонние крадутся",
-        "time": null,
+        "time": 45.396,
+        "endTime": null,
         "words": null
       },
       {
         "text": "По тропе к пансионату",
-        "time": null,
+        "time": 48.364,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьбу латают святые",
-        "time": null,
+        "time": 51.18,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Строительным ароматом",
-        "time": null,
+        "time": 53.629,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 57.025,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Газ в пол",
-        "time": null,
+        "time": 59.502,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тормоз в пол",
-        "time": null,
+        "time": 60.123,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тишина",
-        "time": null,
+        "time": 61.039,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 61.825,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон — не глядя в окно",
-        "time": null,
+        "time": 62.541,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пролетели",
-        "time": null,
+        "time": 64.717,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как мимо себя самого",
-        "time": null,
+        "time": 65.424,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 67.871,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Знак «нельзя» в каждой ветке",
-        "time": null,
+        "time": 71.773,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом окне",
-        "time": null,
+        "time": 72.11,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 73.354,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 73.873,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Из бетона и сна",
-        "time": null,
+        "time": 74.609,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто их строит? Кто их строит? — спроси у себя",
-        "time": null,
+        "time": 75.949,
+        "endTime": 80.816,
         "words": null
       },
       {
         "text": "Незримый святой",
-        "time": null,
+        "time": 90.193,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Манит пальцем к источнику",
-        "time": null,
+        "time": 91.52,
+        "endTime": null,
         "words": null
       },
       {
         "text": "«Подходи",
-        "time": null,
+        "time": 95.852,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Набери",
-        "time": null,
+        "time": 96.504,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Только деньги кидать не думай»",
-        "time": null,
+        "time": 97.205,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мост как приговор",
-        "time": null,
+        "time": 101.617,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Шлагбаум",
-        "time": null,
+        "time": 103.023,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ржавая вена",
-        "time": null,
+        "time": 103.893,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Закрытый городок",
-        "time": null,
+        "time": 106.468,
+        "endTime": null,
         "words": null
       },
       {
         "text": "За спиною звенит измена",
-        "time": null,
+        "time": 108.425,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В попе дырка у века",
-        "time": null,
+        "time": 113.389,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Истекает свет",
-        "time": null,
+        "time": 116.178,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вновь объехать по кругу",
-        "time": null,
+        "time": 118.927,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Словно выхода нет",
-        "time": null,
+        "time": 121.797,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 124.662,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Газ в пол",
-        "time": null,
+        "time": 126.84,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тормоз в пол",
-        "time": null,
+        "time": 127.827,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тишина",
-        "time": null,
+        "time": 128.825,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 129.689,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон — не глядя в окно",
-        "time": null,
+        "time": 130.329,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пролетели",
-        "time": null,
+        "time": 132.463,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как мимо себя самого",
-        "time": null,
+        "time": 133.189,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 135.98,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Знак «нельзя» в каждой ветке",
-        "time": null,
+        "time": 138.111,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом окне",
-        "time": null,
+        "time": 139.802,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 140.961,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 141.523,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Из бетона и сна",
-        "time": null,
+        "time": 142.24,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто их строит? Кто их строит? — спроси у себя",
-        "time": null,
+        "time": 143.621,
+        "endTime": 145.271,
         "words": null
       },
       {
         "text": "Кто рисует эти спящие рыла",
-        "time": null,
+        "time": 169.221,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На фасадах чужих чудес?",
-        "time": null,
+        "time": 174.883,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто сказал",
-        "time": null,
+        "time": 175.69,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Что сюда нельзя",
-        "time": null,
+        "time": 177.541,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Если здесь только серый лес?",
-        "time": null,
+        "time": 178.96,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Я шагаю на закрытую землю",
-        "time": null,
+        "time": 180.362,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Через «стоп»",
-        "time": null,
+        "time": 183.131,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Через «стой»",
-        "time": null,
+        "time": 183.972,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Через «нет»",
-        "time": null,
+        "time": 184.674,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И он встаёт надо мною как камень",
-        "time": null,
+        "time": 186.085,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как огромный немой ответ",
-        "time": null,
+        "time": 188.788,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 192.438,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Больше мимо не выйдет",
-        "time": null,
+        "time": 195.32,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Видна стена",
-        "time": null,
+        "time": 197.14,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 198.155,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 198.789,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Я смотрю в окно",
-        "time": null,
+        "time": 199.583,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И впервые не мимо себя самого",
-        "time": null,
+        "time": 201.006,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Четырежды мимо дома-слона",
-        "time": null,
+        "time": 206.68,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Все «нельзя» размывает весна",
-        "time": null,
+        "time": 208.717,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон",
-        "time": null,
+        "time": 211.384,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дом-слон — из бетона и сна",
-        "time": null,
+        "time": 212.132,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кто их строит? Кто их строит? — это мы",
-        "time": null,
+        "time": 214.515,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это я",
-        "time": null,
+        "time": 217.533,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/slon-rave.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/slon-rave.mp3",
+    "mediaFolder": "slon-rave",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/slon-rave/IMG_9499.jpeg"
+    ],
+    "verified": false
   },
   {
     "id": "trevozhno",
@@ -5572,754 +5832,237 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Храм стоит",
-        "time": 0.6,
-        "words": [
-          {
-            "word": "Храм",
-            "start": 0.6,
-            "end": 0.94
-          },
-          {
-            "word": "стоит",
-            "start": 0.94,
-            "end": 2.12
-          }
-        ]
+        "time": 0.627,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": 2.12,
-        "words": [
-          {
-            "word": "Как",
-            "start": 2.12,
-            "end": 2.9
-          },
-          {
-            "word": "призрак",
-            "start": 2.9,
-            "end": 3.6
-          },
-          {
-            "word": "в",
-            "start": 3.6,
-            "end": 3.76
-          },
-          {
-            "word": "тумане",
-            "start": 3.76,
-            "end": 5.02
-          }
-        ]
+        "time": 2.241,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Сосны шепчут",
-        "time": 6.54,
-        "words": [
-          {
-            "word": "Сосны",
-            "start": 6.54,
-            "end": 7.3
-          },
-          {
-            "word": "шепчут",
-            "start": 7.3,
-            "end": 8.58
-          }
-        ]
+        "time": 6.549,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я не слышу",
-        "time": 8.58,
-        "words": [
-          {
-            "word": "Но",
-            "start": 8.58,
-            "end": 8.82
-          },
-          {
-            "word": "я",
-            "start": 8.82,
-            "end": 9.3
-          },
-          {
-            "word": "не",
-            "start": 9.3,
-            "end": 9.84
-          },
-          {
-            "word": "слышу",
-            "start": 9.84,
-            "end": 11.34
-          }
-        ]
+        "time": 8.812,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Стены кричат",
-        "time": 12.56,
-        "words": [
-          {
-            "word": "Стены",
-            "start": 12.56,
-            "end": 13.06
-          },
-          {
-            "word": "кричат",
-            "start": 13.06,
-            "end": 15
-          }
-        ]
+        "time": 12.71,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тени в обмане",
-        "time": 15,
-        "words": [
-          {
-            "word": "Тени",
-            "start": 15,
-            "end": 15.56
-          },
-          {
-            "word": "в",
-            "start": 15.56,
-            "end": 15.88
-          },
-          {
-            "word": "обмане",
-            "start": 15.88,
-            "end": 17
-          }
-        ]
+        "time": 14.996,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Обычная жизнь",
-        "time": 17.28,
-        "words": [
-          {
-            "word": "Обычная",
-            "start": 17.28,
-            "end": 18.84
-          },
-          {
-            "word": "жизнь",
-            "start": 18.84,
-            "end": 20.68
-          }
-        ]
+        "time": 17.848,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но что-то не дышит",
-        "time": 20.68,
-        "words": [
-          {
-            "word": "Но",
-            "start": 20.68,
-            "end": 20.86
-          },
-          {
-            "word": "что-то",
-            "start": 20.86,
-            "end": 21.6
-          },
-          {
-            "word": "не",
-            "start": 21.6,
-            "end": 22.08
-          },
-          {
-            "word": "дышит",
-            "start": 22.08,
-            "end": 23.12
-          }
-        ]
+        "time": 20.719,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 23.56,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 23.56,
-            "end": 25.12
-          }
-        ]
+        "time": 23.676,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 25.12,
-        "words": [
-          {
-            "word": "Так",
-            "start": 25.12,
-            "end": 25.44
-          },
-          {
-            "word": "пусто",
-            "start": 25.44,
-            "end": 26.5
-          }
-        ]
+        "time": 25.277,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 26.5,
-        "words": [
-          {
-            "word": "Так",
-            "start": 26.5,
-            "end": 26.86
-          },
-          {
-            "word": "странно",
-            "start": 26.86,
-            "end": 27.76
-          }
-        ]
+        "time": 26.711,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 28.1,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 28.1,
-            "end": 29.56
-          },
-          {
-            "word": "забыл",
-            "start": 29.56,
-            "end": 30.16
-          },
-          {
-            "word": "нас",
-            "start": 30.16,
-            "end": 31.18
-          }
-        ]
+        "time": 29.122,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 31.18,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 31.18,
-            "end": 31.94
-          },
-          {
-            "word": "в",
-            "start": 31.94,
-            "end": 32.1
-          },
-          {
-            "word": "капканах",
-            "start": 32.1,
-            "end": 33.5
-          }
-        ]
+        "time": 31.321,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 35.46,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 35.46,
-            "end": 37.4
-          },
-          {
-            "word": "Этот",
-            "start": 37.4,
-            "end": 37.96
-          },
-          {
-            "word": "воздух",
-            "start": 37.96,
-            "end": 38.76
-          },
-          {
-            "word": "режет",
-            "start": 38.76,
-            "end": 39.88
-          }
-        ]
+        "time": 35.814,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 41.092,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 45.94,
-            "end": 48.1
-          },
-          {
-            "word": "И",
-            "start": 48.1,
-            "end": 48.44
-          },
-          {
-            "word": "некуда",
-            "start": 48.44,
-            "end": 49.24
-          },
-          {
-            "word": "бежать",
-            "start": 49.24,
-            "end": 51.16
-          }
-        ]
+        "time": 41.661,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 47.96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 47.96,
-            "end": 50.02
-          },
-          {
-            "word": "Лес",
-            "start": 50.02,
-            "end": 50.02
-          },
-          {
-            "word": "шепчет",
-            "start": 50.02,
-            "end": 50.02
-          }
-        ]
+        "time": 47.809,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 53.647,
-        "words": [
-          {
-            "word": "Но",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "не",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "утешит",
-            "start": 55.02,
-            "end": 55.02
-          }
-        ]
+        "time": 50.579,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 53.333,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "Этот",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "мир",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "нас",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "не",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "понять",
-            "start": 54.02,
-            "end": 54.02
-          }
-        ]
+        "time": 53.572,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Жилые дома",
-        "time": 60.02,
-        "words": [
-          {
-            "word": "Жилые",
-            "start": 60.02,
-            "end": 60.3
-          },
-          {
-            "word": "дома",
-            "start": 60.3,
-            "end": 60.3
-          }
-        ]
+        "time": 60.715,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как раны на коже",
-        "time": 61.16,
-        "words": [
-          {
-            "word": "Как",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "раны",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "на",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "коже",
-            "start": 61.3,
-            "end": 61.3
-          }
-        ]
+        "time": 62.998,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Церковь молчит",
-        "time": 66.3,
-        "words": [
-          {
-            "word": "Церковь",
-            "start": 66.3,
-            "end": 66.3
-          },
-          {
-            "word": "молчит",
-            "start": 66.3,
-            "end": 67.62
-          }
-        ]
+        "time": 66.058,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но молитвы тяжелы",
-        "time": 68.62,
-        "words": [
-          {
-            "word": "Но",
-            "start": 68.62,
-            "end": 68.82
-          },
-          {
-            "word": "молитвы",
-            "start": 68.82,
-            "end": 68.82
-          },
-          {
-            "word": "тяжелы",
-            "start": 68.82,
-            "end": 68.82
-          }
-        ]
+        "time": 68.317,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вокруг сосны",
-        "time": 70.67,
-        "words": [
-          {
-            "word": "Вокруг",
-            "start": 70.82,
-            "end": 70.82
-          },
-          {
-            "word": "сосны",
-            "start": 70.82,
-            "end": 70.82
-          }
-        ]
+        "time": 71.155,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Их взгляд строже",
-        "time": 72.72,
-        "words": [
-          {
-            "word": "Их",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "взгляд",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "строже",
-            "start": 72.82,
-            "end": 72.82
-          }
-        ]
+        "time": 74.216,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы только гости в их тиши",
-        "time": 76.1,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "только",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "гости",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "в",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "их",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "тиши",
-            "start": 76.15,
-            "end": 76.15
-          }
-        ]
+        "time": 77.304,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 83,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 83,
-            "end": 83.54
-          }
-        ]
+        "time": 83.765,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 85,
-        "words": [
-          {
-            "word": "Так",
-            "start": 85.45,
-            "end": 85.45
-          },
-          {
-            "word": "пусто",
-            "start": 85.45,
-            "end": 85.45
-          }
-        ]
+        "time": 85.097,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 87,
-        "words": [
-          {
-            "word": "Так",
-            "start": 87.36,
-            "end": 87.36
-          },
-          {
-            "word": "странно",
-            "start": 87.36,
-            "end": 87.36
-          }
-        ]
+        "time": 86.632,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 90,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "забыл",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "нас",
-            "start": 90.27,
-            "end": 90.27
-          }
-        ]
+        "time": 89.04,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 91,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "в",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "капканах",
-            "start": 91.18,
-            "end": 91.18
-          }
-        ]
+        "time": 95.882,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "Этот",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "воздух",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "режет",
-            "start": 96.09,
-            "end": 96.09
-          }
-        ]
+        "time": 96.285,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 102,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 102,
-            "end": 102
-          },
-          {
-            "word": "И",
-            "start": 102,
-            "end": 103.49
-          },
-          {
-            "word": "некуда",
-            "start": 103.5,
-            "end": 103.378
-          },
-          {
-            "word": "бежать",
-            "start": 103.388,
-            "end": 103.33
-          }
-        ]
+        "time": 101.723,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 108,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 108,
-            "end": 110.6
-          },
-          {
-            "word": "Лес",
-            "start": 110.6,
-            "end": 110.6
-          },
-          {
-            "word": "шепчет",
-            "start": 110.6,
-            "end": 110.6
-          }
-        ]
+        "time": 107.357,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 114,
-        "words": [
-          {
-            "word": "Но",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "не",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "утешит",
-            "start": 115.3,
-            "end": 115.3
-          }
-        ]
+        "time": 110.576,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 115,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 115,
-            "end": 115
-          },
-          {
-            "word": "Этот",
-            "start": 115,
-            "end": 115.16
-          },
-          {
-            "word": "мир",
-            "start": 115.16,
-            "end": 115.48
-          },
-          {
-            "word": "нас",
-            "start": 115.48,
-            "end": 115.8
-          },
-          {
-            "word": "не",
-            "start": 115.8,
-            "end": 116.12
-          },
-          {
-            "word": "понять",
-            "start": 116.12,
-            "end": 116.66
-          }
-        ]
+        "time": 113.262,
+        "endTime": 123.792,
+        "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/trevozhno.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_8215.jpeg"
+    "audioPath": "audio/trevozhno.mp3",
+    "mediaFolder": "trevozhno",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250 2.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5268.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5273.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5274.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5275.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5282.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5283.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5285.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5288.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5340.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8224.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8239.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8243.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8249.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
+    ],
+    "verified": true
   },
   {
     "id": "usadba-teney",
@@ -7172,213 +6915,257 @@ window.PUBLISHED = [
       {
         "text": "Лена и Soli в Пирц спешат",
         "time": 11.855,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветер в лицо",
         "time": 17.254,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Впереди закат",
         "time": 19.581,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Протвино зовёт",
         "time": 22.384,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пущино манит",
         "time": 25.447,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Серпухов шепчет: \"Здесь что-то хранит\"",
         "time": 29.279,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 37.051,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 37.706,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 39.49,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 41.484,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 43.109,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 44.632,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чижик и Дикси — наш гастроном",
         "time": 51.55,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пятёрочка рулит своим огоньком",
         "time": 57.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы едим местный хлеб",
         "time": 62.606,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пьём местный квас",
         "time": 64.673,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё просто",
         "time": 66.988,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но греет",
         "time": 68.435,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как в первый раз",
         "time": 70.6,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Храмы в тишине",
         "time": 74.705,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы заходим взглянуть",
         "time": 77.234,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В советских зданиях ищем суть",
         "time": 80.317,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 86.835,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 88.582,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 89.882,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 92.653,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 94.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 95.759,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом городе своя тайна",
         "time": 101.974,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мосты",
         "time": 105.041,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дворы",
         "time": 106.556,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тени веков случайных",
         "time": 108.347,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы герои для себя",
         "time": 113.954,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Путь наш — мечта",
         "time": 116.376,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В бетонных стенах жива красота",
         "time": 121.977,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 127.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 128.727,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 131.127,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 133.377,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 135.327,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 136.477,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
+    "audioPath": "audio/lena-Soli.mp3",
+    "mediaFolder": "lena_soli",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/lena_soli/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "mkad-30",
@@ -8099,7 +7886,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем здесь жить — вопрос пополам",
@@ -8135,7 +7923,8 @@ window.PUBLISHED = [
             "start": 3,
             "end": 3
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "У нас вокруг только пивные заведения",
@@ -8171,7 +7960,8 @@ window.PUBLISHED = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Город стоит",
@@ -8187,7 +7977,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Будто в хмелю по ушам",
@@ -8218,7 +8009,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я настоящий",
@@ -8234,7 +8026,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Брат",
@@ -8245,7 +8038,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пивоман",
@@ -8256,7 +8050,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Знаю все бары у трассы",
@@ -8287,7 +8082,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "До ран",
@@ -8303,7 +8099,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Пенная греет",
@@ -8319,7 +8116,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Когда ветер в лицо",
@@ -8345,7 +8143,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Да только в глазах уже давит кольцо",
@@ -8386,7 +8185,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -8402,7 +8202,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -8418,7 +8219,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -8434,7 +8236,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -8450,7 +8253,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -8481,7 +8285,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -8502,7 +8307,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -8518,7 +8324,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -8539,7 +8346,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -8575,7 +8383,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -8591,7 +8400,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -8617,7 +8427,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -8628,7 +8439,8 @@ window.PUBLISHED = [
             "start": 6,
             "end": 6
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -8649,7 +8461,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -8670,7 +8483,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -8716,7 +8530,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы заехали взглянуть на колонию",
@@ -8747,7 +8562,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "С дороги сворачиваем",
@@ -8768,7 +8584,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары в кювет",
@@ -8789,7 +8606,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не рискнули идти по воротам к иконам им",
@@ -8835,7 +8653,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Холодный забор",
@@ -8851,7 +8670,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючею сталью в ответ",
@@ -8877,7 +8697,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Там рядом больница",
@@ -8898,7 +8719,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кирпичный забор",
@@ -8914,7 +8736,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "В окнах лекарства",
@@ -8935,7 +8758,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Не жизнь",
@@ -8951,7 +8775,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А раствор",
@@ -8967,7 +8792,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзит во Владимир",
@@ -8988,7 +8814,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Потом по домам",
@@ -9009,7 +8836,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А в душе все равно этот дерганый хмель по углам",
@@ -9065,7 +8893,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район",
@@ -9081,7 +8910,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Снегом забыт",
@@ -9097,7 +8927,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Колючая проволока",
@@ -9113,7 +8944,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Ветер шуршит",
@@ -9129,7 +8961,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы мимо колонии тихо пройдем",
@@ -9160,7 +8993,8 @@ window.PUBLISHED = [
             "start": 4,
             "end": 4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Транзитом во Владимир",
@@ -9181,7 +9015,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду",
@@ -9197,7 +9032,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "По льду идем",
@@ -9218,7 +9054,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Петушинский район — на сердце привал",
@@ -9254,7 +9091,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сняли купола",
@@ -9270,7 +9108,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "А кто‑то купола набивал",
@@ -9296,7 +9135,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Эй",
@@ -9307,7 +9147,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кадиллак у обочины",
@@ -9328,7 +9169,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Фары во льду",
@@ -9349,7 +9191,8 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Зачем мы сюда заехали — сам не пойму",
@@ -9395,13 +9238,32 @@ window.PUBLISHED = [
             "start": 0,
             "end": 0
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/petushki.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/petushki.mp3",
+    "mediaFolder": "petushki",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1023.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1025.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_1033.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8704.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8709.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8712.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8714.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8715.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8717.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8718.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8721.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8724.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8728.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8730.MOV",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8733.jpeg",
+      "https://storage.yandexcloud.net/edemperd/petushki/IMG_8740.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "puchino",
@@ -9431,7 +9293,8 @@ window.PUBLISHED = [
             "start": 8.42,
             "end": 9.4
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оставить во мгле",
@@ -9452,7 +9315,8 @@ window.PUBLISHED = [
             "start": 11.8,
             "end": 12.44
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Разбитые окна",
@@ -9468,7 +9332,8 @@ window.PUBLISHED = [
             "start": 15.02,
             "end": 15.82
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль на полу",
@@ -9489,7 +9354,8 @@ window.PUBLISHED = [
             "start": 17.52,
             "end": 18.74
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Паркеты хрустят",
@@ -9505,7 +9371,8 @@ window.PUBLISHED = [
             "start": 21.5,
             "end": 22.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как осколки во сне",
@@ -9531,7 +9398,8 @@ window.PUBLISHED = [
             "start": 25.06,
             "end": 25.54
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Всё",
@@ -9542,7 +9410,8 @@ window.PUBLISHED = [
             "start": 25.54,
             "end": 27.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что осталось",
@@ -9558,7 +9427,8 @@ window.PUBLISHED = [
             "start": 27.48,
             "end": 28.38
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь боль и золу",
@@ -9584,7 +9454,8 @@ window.PUBLISHED = [
             "start": 29.98,
             "end": 30
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -9600,7 +9471,8 @@ window.PUBLISHED = [
             "start": 30,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -9621,7 +9493,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -9637,7 +9510,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -9653,7 +9527,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -9669,7 +9544,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -9690,7 +9566,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -9706,7 +9583,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 31.48
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -9727,7 +9605,8 @@ window.PUBLISHED = [
             "start": 31.48,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -9743,7 +9622,8 @@ window.PUBLISHED = [
             "start": 35.14,
             "end": 35.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -9759,7 +9639,8 @@ window.PUBLISHED = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Сырость в зале",
@@ -9780,7 +9661,8 @@ window.PUBLISHED = [
             "start": 36.12,
             "end": 36.12
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Где звучали слова",
@@ -9801,7 +9683,8 @@ window.PUBLISHED = [
             "start": 37.669,
             "end": 37.721
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рестораны молчат",
@@ -9817,7 +9700,8 @@ window.PUBLISHED = [
             "start": 37.884,
             "end": 37.928
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Лишь эхо в углах",
@@ -9843,7 +9727,8 @@ window.PUBLISHED = [
             "start": 38.206,
             "end": 38.234
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "На крыше теплицы туман и трава",
@@ -9879,7 +9764,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но где-то надежда горит",
@@ -9905,7 +9791,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как маяк",
@@ -9921,7 +9808,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -9937,7 +9825,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -9958,7 +9847,8 @@ window.PUBLISHED = [
             "start": 39.62,
             "end": 39.62
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вандалы крадут",
@@ -9974,7 +9864,8 @@ window.PUBLISHED = [
             "start": 41.68,
             "end": 42.58
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рвут металл",
@@ -9990,7 +9881,8 @@ window.PUBLISHED = [
             "start": 43.24,
             "end": 44.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как ножи",
@@ -10006,7 +9898,8 @@ window.PUBLISHED = [
             "start": 45.16,
             "end": 46.34
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но я верю",
@@ -10027,7 +9920,8 @@ window.PUBLISHED = [
             "start": 46.86,
             "end": 47.84
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -10043,7 +9937,8 @@ window.PUBLISHED = [
             "start": 48.46,
             "end": 49.24
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -10064,7 +9959,8 @@ window.PUBLISHED = [
             "start": 51.76,
             "end": 52.72
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -10080,7 +9976,8 @@ window.PUBLISHED = [
             "start": 54.88,
             "end": 56.2
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -10096,7 +9993,8 @@ window.PUBLISHED = [
             "start": 60,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И забор появился",
@@ -10117,7 +10015,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Как тонкий намёк",
@@ -10138,7 +10037,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Что жизнь возвращается",
@@ -10159,7 +10059,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Слышен шажок",
@@ -10175,7 +10076,8 @@ window.PUBLISHED = [
             "start": 60.8,
             "end": 60.8
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Рояль отремонтируют",
@@ -10191,7 +10093,8 @@ window.PUBLISHED = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Кухню зажгут",
@@ -10207,7 +10110,8 @@ window.PUBLISHED = [
             "start": 67.92,
             "end": 67.92
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "И в номерах гости спокойно уснут",
@@ -10243,7 +10147,8 @@ window.PUBLISHED = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Гостиница Пущино",
@@ -10259,7 +10164,8 @@ window.PUBLISHED = [
             "start": 68.14,
             "end": 68.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Дом без души",
@@ -10280,7 +10186,8 @@ window.PUBLISHED = [
             "start": 68.54,
             "end": 70.14
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Но скоро прогонят холод и дожди",
@@ -10316,7 +10223,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я верю",
@@ -10332,7 +10240,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Я знаю",
@@ -10348,7 +10257,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Мы сможем спасти",
@@ -10369,7 +10279,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 71.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Вернётся тепло",
@@ -10385,7 +10296,8 @@ window.PUBLISHED = [
             "start": 71.08,
             "end": 72.08
           }
-        ]
+        ],
+        "endTime": null
       },
       {
         "text": "Оживут этажи",
@@ -10401,13 +10313,534 @@ window.PUBLISHED = [
             "start": 74.48,
             "end": 75.8
           }
-        ]
+        ],
+        "endTime": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/puchino.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/puchino.mp3",
+    "mediaFolder": "pushino",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/pushino/IMG_1754.MOV"
+    ],
+    "verified": false
+  },
+  {
+    "id": "slon-rave",
+    "title": "Слон Рейв",
+    "lyrics": [
+      {
+        "text": "Ох-ох-ох",
+        "time": 23.668,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Снова то же шоссе",
+        "time": 24.156,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кончалась зима",
+        "time": 25.589,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А вместо весны — репетиция",
+        "time": 26.824,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Черновик",
+        "time": 29.194,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эскиз",
+        "time": 30.703,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Поют птицы",
+        "time": 33.654,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "С крыши сипло",
+        "time": 34.574,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По-пьяни",
+        "time": 35.744,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Жёлтый снег",
+        "time": 36.704,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Серый ком",
+        "time": 39.153,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сракогрязь держит за камни",
+        "time": 40.527,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Посторонние крадутся",
+        "time": 45.396,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По тропе к пансионату",
+        "time": 48.364,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьбу латают святые",
+        "time": 51.18,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Строительным ароматом",
+        "time": 53.629,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 57.025,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Газ в пол",
+        "time": 59.502,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тормоз в пол",
+        "time": 60.123,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тишина",
+        "time": 61.039,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 61.825,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон — не глядя в окно",
+        "time": 62.541,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пролетели",
+        "time": 64.717,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как мимо себя самого",
+        "time": 65.424,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 67.871,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Знак «нельзя» в каждой ветке",
+        "time": 71.773,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В каждом окне",
+        "time": 72.11,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 73.354,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 73.873,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Из бетона и сна",
+        "time": 74.609,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто их строит? Кто их строит? — спроси у себя",
+        "time": 75.949,
+        "endTime": 80.816,
+        "words": null
+      },
+      {
+        "text": "Незримый святой",
+        "time": 90.193,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Манит пальцем к источнику",
+        "time": 91.52,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "«Подходи",
+        "time": 95.852,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Набери",
+        "time": 96.504,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Только деньги кидать не думай»",
+        "time": 97.205,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мост как приговор",
+        "time": 101.617,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Шлагбаум",
+        "time": 103.023,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ржавая вена",
+        "time": 103.893,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Закрытый городок",
+        "time": 106.468,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "За спиною звенит измена",
+        "time": 108.425,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В попе дырка у века",
+        "time": 113.389,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Истекает свет",
+        "time": 116.178,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вновь объехать по кругу",
+        "time": 118.927,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Словно выхода нет",
+        "time": 121.797,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 124.662,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Газ в пол",
+        "time": 126.84,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тормоз в пол",
+        "time": 127.827,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тишина",
+        "time": 128.825,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 129.689,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон — не глядя в окно",
+        "time": 130.329,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пролетели",
+        "time": 132.463,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как мимо себя самого",
+        "time": 133.189,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 135.98,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Знак «нельзя» в каждой ветке",
+        "time": 138.111,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В каждом окне",
+        "time": 139.802,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 140.961,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 141.523,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Из бетона и сна",
+        "time": 142.24,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто их строит? Кто их строит? — спроси у себя",
+        "time": 143.621,
+        "endTime": 145.271,
+        "words": null
+      },
+      {
+        "text": "Кто рисует эти спящие рыла",
+        "time": 169.221,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "На фасадах чужих чудес?",
+        "time": 174.883,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто сказал",
+        "time": 175.69,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Что сюда нельзя",
+        "time": 177.541,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Если здесь только серый лес?",
+        "time": 178.96,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я шагаю на закрытую землю",
+        "time": 180.362,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Через «стоп»",
+        "time": 183.131,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Через «стой»",
+        "time": 183.972,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Через «нет»",
+        "time": 184.674,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И он встаёт надо мною как камень",
+        "time": 186.085,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как огромный немой ответ",
+        "time": 188.788,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 192.438,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Больше мимо не выйдет",
+        "time": 195.32,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Видна стена",
+        "time": 197.14,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 198.155,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 198.789,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я смотрю в окно",
+        "time": 199.583,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И впервые не мимо себя самого",
+        "time": 201.006,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Четырежды мимо дома-слона",
+        "time": 206.68,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Все «нельзя» размывает весна",
+        "time": 208.717,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон",
+        "time": 211.384,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дом-слон — из бетона и сна",
+        "time": 212.132,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кто их строит? Кто их строит? — это мы",
+        "time": 214.515,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Это я",
+        "time": 217.533,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/slon-rave.mp3",
+    "mediaFolder": "slon-rave",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/slon-rave/IMG_9499.jpeg"
+    ],
+    "verified": false
   },
   {
     "id": "trevozhno",
@@ -10415,754 +10848,237 @@ window.PUBLISHED = [
     "lyrics": [
       {
         "text": "Храм стоит",
-        "time": 0.6,
-        "words": [
-          {
-            "word": "Храм",
-            "start": 0.6,
-            "end": 0.94
-          },
-          {
-            "word": "стоит",
-            "start": 0.94,
-            "end": 2.12
-          }
-        ]
+        "time": 0.627,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как призрак в тумане",
-        "time": 2.12,
-        "words": [
-          {
-            "word": "Как",
-            "start": 2.12,
-            "end": 2.9
-          },
-          {
-            "word": "призрак",
-            "start": 2.9,
-            "end": 3.6
-          },
-          {
-            "word": "в",
-            "start": 3.6,
-            "end": 3.76
-          },
-          {
-            "word": "тумане",
-            "start": 3.76,
-            "end": 5.02
-          }
-        ]
+        "time": 2.241,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Сосны шепчут",
-        "time": 6.54,
-        "words": [
-          {
-            "word": "Сосны",
-            "start": 6.54,
-            "end": 7.3
-          },
-          {
-            "word": "шепчут",
-            "start": 7.3,
-            "end": 8.58
-          }
-        ]
+        "time": 6.549,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я не слышу",
-        "time": 8.58,
-        "words": [
-          {
-            "word": "Но",
-            "start": 8.58,
-            "end": 8.82
-          },
-          {
-            "word": "я",
-            "start": 8.82,
-            "end": 9.3
-          },
-          {
-            "word": "не",
-            "start": 9.3,
-            "end": 9.84
-          },
-          {
-            "word": "слышу",
-            "start": 9.84,
-            "end": 11.34
-          }
-        ]
+        "time": 8.812,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Стены кричат",
-        "time": 12.56,
-        "words": [
-          {
-            "word": "Стены",
-            "start": 12.56,
-            "end": 13.06
-          },
-          {
-            "word": "кричат",
-            "start": 13.06,
-            "end": 15
-          }
-        ]
+        "time": 12.71,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тени в обмане",
-        "time": 15,
-        "words": [
-          {
-            "word": "Тени",
-            "start": 15,
-            "end": 15.56
-          },
-          {
-            "word": "в",
-            "start": 15.56,
-            "end": 15.88
-          },
-          {
-            "word": "обмане",
-            "start": 15.88,
-            "end": 17
-          }
-        ]
+        "time": 14.996,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Обычная жизнь",
-        "time": 17.28,
-        "words": [
-          {
-            "word": "Обычная",
-            "start": 17.28,
-            "end": 18.84
-          },
-          {
-            "word": "жизнь",
-            "start": 18.84,
-            "end": 20.68
-          }
-        ]
+        "time": 17.848,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но что-то не дышит",
-        "time": 20.68,
-        "words": [
-          {
-            "word": "Но",
-            "start": 20.68,
-            "end": 20.86
-          },
-          {
-            "word": "что-то",
-            "start": 20.86,
-            "end": 21.6
-          },
-          {
-            "word": "не",
-            "start": 21.6,
-            "end": 22.08
-          },
-          {
-            "word": "дышит",
-            "start": 22.08,
-            "end": 23.12
-          }
-        ]
+        "time": 20.719,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 23.56,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 23.56,
-            "end": 25.12
-          }
-        ]
+        "time": 23.676,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 25.12,
-        "words": [
-          {
-            "word": "Так",
-            "start": 25.12,
-            "end": 25.44
-          },
-          {
-            "word": "пусто",
-            "start": 25.44,
-            "end": 26.5
-          }
-        ]
+        "time": 25.277,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 26.5,
-        "words": [
-          {
-            "word": "Так",
-            "start": 26.5,
-            "end": 26.86
-          },
-          {
-            "word": "странно",
-            "start": 26.86,
-            "end": 27.76
-          }
-        ]
+        "time": 26.711,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 28.1,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 28.1,
-            "end": 29.56
-          },
-          {
-            "word": "забыл",
-            "start": 29.56,
-            "end": 30.16
-          },
-          {
-            "word": "нас",
-            "start": 30.16,
-            "end": 31.18
-          }
-        ]
+        "time": 29.122,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 31.18,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 31.18,
-            "end": 31.94
-          },
-          {
-            "word": "в",
-            "start": 31.94,
-            "end": 32.1
-          },
-          {
-            "word": "капканах",
-            "start": 32.1,
-            "end": 33.5
-          }
-        ]
+        "time": 31.321,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 35.46,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 35.46,
-            "end": 37.4
-          },
-          {
-            "word": "Этот",
-            "start": 37.4,
-            "end": 37.96
-          },
-          {
-            "word": "воздух",
-            "start": 37.96,
-            "end": 38.76
-          },
-          {
-            "word": "режет",
-            "start": 38.76,
-            "end": 39.88
-          }
-        ]
+        "time": 35.814,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 41.092,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 45.94,
-            "end": 48.1
-          },
-          {
-            "word": "И",
-            "start": 48.1,
-            "end": 48.44
-          },
-          {
-            "word": "некуда",
-            "start": 48.44,
-            "end": 49.24
-          },
-          {
-            "word": "бежать",
-            "start": 49.24,
-            "end": 51.16
-          }
-        ]
+        "time": 41.661,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 47.96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 47.96,
-            "end": 50.02
-          },
-          {
-            "word": "Лес",
-            "start": 50.02,
-            "end": 50.02
-          },
-          {
-            "word": "шепчет",
-            "start": 50.02,
-            "end": 50.02
-          }
-        ]
+        "time": 47.809,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 53.647,
-        "words": [
-          {
-            "word": "Но",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "не",
-            "start": 55.02,
-            "end": 55.02
-          },
-          {
-            "word": "утешит",
-            "start": 55.02,
-            "end": 55.02
-          }
-        ]
+        "time": 50.579,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 53.333,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "Этот",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "мир",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "нас",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "не",
-            "start": 54.02,
-            "end": 54.02
-          },
-          {
-            "word": "понять",
-            "start": 54.02,
-            "end": 54.02
-          }
-        ]
+        "time": 53.572,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Жилые дома",
-        "time": 60.02,
-        "words": [
-          {
-            "word": "Жилые",
-            "start": 60.02,
-            "end": 60.3
-          },
-          {
-            "word": "дома",
-            "start": 60.3,
-            "end": 60.3
-          }
-        ]
+        "time": 60.715,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как раны на коже",
-        "time": 61.16,
-        "words": [
-          {
-            "word": "Как",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "раны",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "на",
-            "start": 61.3,
-            "end": 61.3
-          },
-          {
-            "word": "коже",
-            "start": 61.3,
-            "end": 61.3
-          }
-        ]
+        "time": 62.998,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Церковь молчит",
-        "time": 66.3,
-        "words": [
-          {
-            "word": "Церковь",
-            "start": 66.3,
-            "end": 66.3
-          },
-          {
-            "word": "молчит",
-            "start": 66.3,
-            "end": 67.62
-          }
-        ]
+        "time": 66.058,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но молитвы тяжелы",
-        "time": 68.62,
-        "words": [
-          {
-            "word": "Но",
-            "start": 68.62,
-            "end": 68.82
-          },
-          {
-            "word": "молитвы",
-            "start": 68.82,
-            "end": 68.82
-          },
-          {
-            "word": "тяжелы",
-            "start": 68.82,
-            "end": 68.82
-          }
-        ]
+        "time": 68.317,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вокруг сосны",
-        "time": 70.67,
-        "words": [
-          {
-            "word": "Вокруг",
-            "start": 70.82,
-            "end": 70.82
-          },
-          {
-            "word": "сосны",
-            "start": 70.82,
-            "end": 70.82
-          }
-        ]
+        "time": 71.155,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Их взгляд строже",
-        "time": 72.72,
-        "words": [
-          {
-            "word": "Их",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "взгляд",
-            "start": 72.82,
-            "end": 72.82
-          },
-          {
-            "word": "строже",
-            "start": 72.82,
-            "end": 72.82
-          }
-        ]
+        "time": 74.216,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы только гости в их тиши",
-        "time": 76.1,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "только",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "гости",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "в",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "их",
-            "start": 76.15,
-            "end": 76.15
-          },
-          {
-            "word": "тиши",
-            "start": 76.15,
-            "end": 76.15
-          }
-        ]
+        "time": 77.304,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно",
-        "time": 83,
-        "words": [
-          {
-            "word": "Тревожно",
-            "start": 83,
-            "end": 83.54
-          }
-        ]
+        "time": 83.765,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так пусто",
-        "time": 85,
-        "words": [
-          {
-            "word": "Так",
-            "start": 85.45,
-            "end": 85.45
-          },
-          {
-            "word": "пусто",
-            "start": 85.45,
-            "end": 85.45
-          }
-        ]
+        "time": 85.097,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Так странно",
-        "time": 87,
-        "words": [
-          {
-            "word": "Так",
-            "start": 87.36,
-            "end": 87.36
-          },
-          {
-            "word": "странно",
-            "start": 87.36,
-            "end": 87.36
-          }
-        ]
+        "time": 86.632,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кто-то забыл нас",
-        "time": 90,
-        "words": [
-          {
-            "word": "Кто-то",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "забыл",
-            "start": 90.27,
-            "end": 90.27
-          },
-          {
-            "word": "нас",
-            "start": 90.27,
-            "end": 90.27
-          }
-        ]
+        "time": 89.04,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставил в капканах",
-        "time": 91,
-        "words": [
-          {
-            "word": "Оставил",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "в",
-            "start": 91.18,
-            "end": 91.18
-          },
-          {
-            "word": "капканах",
-            "start": 91.18,
-            "end": 91.18
-          }
-        ]
+        "time": 95.882,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот воздух режет",
-        "time": 96,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "Этот",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "воздух",
-            "start": 96.09,
-            "end": 96.09
-          },
-          {
-            "word": "режет",
-            "start": 96.09,
-            "end": 96.09
-          }
-        ]
+        "time": 96.285,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! И некуда бежать",
-        "time": 102,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 102,
-            "end": 102
-          },
-          {
-            "word": "И",
-            "start": 102,
-            "end": 103.49
-          },
-          {
-            "word": "некуда",
-            "start": 103.5,
-            "end": 103.378
-          },
-          {
-            "word": "бежать",
-            "start": 103.388,
-            "end": 103.33
-          }
-        ]
+        "time": 101.723,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Лес шепчет",
-        "time": 108,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 108,
-            "end": 110.6
-          },
-          {
-            "word": "Лес",
-            "start": 110.6,
-            "end": 110.6
-          },
-          {
-            "word": "шепчет",
-            "start": 110.6,
-            "end": 110.6
-          }
-        ]
+        "time": 107.357,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но не утешит",
-        "time": 114,
-        "words": [
-          {
-            "word": "Но",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "не",
-            "start": 115.3,
-            "end": 115.3
-          },
-          {
-            "word": "утешит",
-            "start": 115.3,
-            "end": 115.3
-          }
-        ]
+        "time": 110.576,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Тревожно! Этот мир нас не понять",
-        "time": 115,
-        "words": [
-          {
-            "word": "Тревожно!",
-            "start": 115,
-            "end": 115
-          },
-          {
-            "word": "Этот",
-            "start": 115,
-            "end": 115.16
-          },
-          {
-            "word": "мир",
-            "start": 115.16,
-            "end": 115.48
-          },
-          {
-            "word": "нас",
-            "start": 115.48,
-            "end": 115.8
-          },
-          {
-            "word": "не",
-            "start": 115.8,
-            "end": 116.12
-          },
-          {
-            "word": "понять",
-            "start": 116.12,
-            "end": 116.66
-          }
-        ]
+        "time": 113.262,
+        "endTime": 123.792,
+        "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/trevozhno.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_8215.jpeg"
+    "audioPath": "audio/trevozhno.mp3",
+    "mediaFolder": "trevozhno",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250 2.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5250.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5268.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5273.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5274.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5275.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5282.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5283.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5285.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5288.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_5340.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8224.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8239.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8243.MOV",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8249.jpeg",
+      "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
+    ],
+    "verified": true
   },
   {
     "id": "zaraisk",
