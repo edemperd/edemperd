@@ -479,213 +479,257 @@ window.SONGS_DATA = [
       {
         "text": "Лена и Soli в Пирц спешат",
         "time": 11.855,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветер в лицо",
         "time": 17.254,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Впереди закат",
         "time": 19.581,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Протвино зовёт",
         "time": 22.384,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пущино манит",
         "time": 25.447,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Серпухов шепчет: \"Здесь что-то хранит\"",
         "time": 29.279,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 37.051,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 37.706,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 39.49,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 41.484,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 43.109,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 44.632,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чижик и Дикси — наш гастроном",
         "time": 51.55,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пятёрочка рулит своим огоньком",
         "time": 57.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы едим местный хлеб",
         "time": 62.606,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пьём местный квас",
         "time": 64.673,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё просто",
         "time": 66.988,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но греет",
         "time": 68.435,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как в первый раз",
         "time": 70.6,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Храмы в тишине",
         "time": 74.705,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы заходим взглянуть",
         "time": 77.234,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В советских зданиях ищем суть",
         "time": 80.317,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 86.835,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 88.582,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 89.882,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 92.653,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 94.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 95.759,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом городе своя тайна",
         "time": 101.974,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мосты",
         "time": 105.041,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дворы",
         "time": 106.556,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тени веков случайных",
         "time": 108.347,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы герои для себя",
         "time": 113.954,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Путь наш — мечта",
         "time": 116.376,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В бетонных стенах жива красота",
         "time": 121.977,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 127.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 128.727,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 131.127,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 133.377,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 135.327,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 136.477,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
+    "audioPath": "audio/lena-Soli.mp3",
+    "mediaFolder": "lena_soli",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/lena_soli/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "master-nedorazumenie",
@@ -6817,213 +6861,257 @@ window.PUBLISHED = [
       {
         "text": "Лена и Soli в Пирц спешат",
         "time": 11.855,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветер в лицо",
         "time": 17.254,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Впереди закат",
         "time": 19.581,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Протвино зовёт",
         "time": 22.384,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пущино манит",
         "time": 25.447,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Серпухов шепчет: \"Здесь что-то хранит\"",
         "time": 29.279,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 37.051,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 37.706,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 39.49,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 41.484,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 43.109,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 44.632,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чижик и Дикси — наш гастроном",
         "time": 51.55,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пятёрочка рулит своим огоньком",
         "time": 57.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы едим местный хлеб",
         "time": 62.606,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пьём местный квас",
         "time": 64.673,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Всё просто",
         "time": 66.988,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но греет",
         "time": 68.435,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как в первый раз",
         "time": 70.6,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Храмы в тишине",
         "time": 74.705,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы заходим взглянуть",
         "time": 77.234,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В советских зданиях ищем суть",
         "time": 80.317,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 86.835,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 88.582,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 89.882,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 92.653,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 94.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 95.759,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В каждом городе своя тайна",
         "time": 101.974,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мосты",
         "time": 105.041,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Дворы",
         "time": 106.556,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тени веков случайных",
         "time": 108.347,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы герои для себя",
         "time": 113.954,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Путь наш — мечта",
         "time": 116.376,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В бетонных стенах жива красота",
         "time": 121.977,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы не любим экскурсии",
         "time": 127.527,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Это факт",
         "time": 128.727,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Говно в автобусах — это их акт",
         "time": 131.127,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм зовёт",
         "time": 133.377,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мозаики нас ждут",
         "time": 135.327,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский бетон — вот где мы живут",
         "time": 136.477,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/lena-Soli.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/lena-soli.jpeg"
+    "audioPath": "audio/lena-Soli.mp3",
+    "mediaFolder": "lena_soli",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/lena_soli/IMG_1754.MOV"
+    ],
+    "verified": false
   },
   {
     "id": "mkad-30",
