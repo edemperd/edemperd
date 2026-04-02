@@ -6,121 +6,145 @@ window.SONGS_DATA = [
       {
         "text": "Стоит корабль у самого леса",
         "time": 26.469,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь нет толпы здесь тишина",
         "time": 32.758,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Узкие окна наличники узкие",
         "time": 39.79,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Башни высокие тянут в небеса",
         "time": 46.128,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Часы молчат ни звука ни шепота",
         "time": 53.406,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лишь ветер бьётся в купола",
         "time": 59.613,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
         "time": 66.194,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В море деревьев в тайне времен",
         "time": 72.736,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На задворках СНТ в покое спрятана",
         "time": 79.108,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Её дорога к душе ведёт",
         "time": 86.159,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Стиль спорный странный но сердце трогает",
         "time": 99.272,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не благолепие но живой огонь",
         "time": 105.829,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Каждый шаг приближает к истине",
         "time": 112.392,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сквозь чащу через её порог",
         "time": 118.676,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тропы ведут нас в её объятья",
         "time": 125.52,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И время в храме течёт иначе",
         "time": 132.497,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
         "time": 139.065,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В море деревьев в тайне времен",
         "time": 145.317,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На задворках СНТ в покое спрятана",
         "time": 151.742,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Её дорога к душе ведёт",
         "time": 159.552,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
         "time": 192.576,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В море деревьев в тайне времен",
         "time": 201.693,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На задворках СНТ в покое спрятана",
         "time": 207.58,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Её дорога к душе ведёт",
         "time": 215.513,
+        "endTime": null,
         "words": null
       }
     ],
@@ -6597,121 +6621,145 @@ window.PUBLISHED = [
       {
         "text": "Стоит корабль у самого леса",
         "time": 26.469,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь нет толпы здесь тишина",
         "time": 32.758,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Узкие окна наличники узкие",
         "time": 39.79,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Башни высокие тянут в небеса",
         "time": 46.128,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Часы молчат ни звука ни шепота",
         "time": 53.406,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лишь ветер бьётся в купола",
         "time": 59.613,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
         "time": 66.194,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В море деревьев в тайне времен",
         "time": 72.736,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На задворках СНТ в покое спрятана",
         "time": 79.108,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Её дорога к душе ведёт",
         "time": 86.159,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Стиль спорный странный но сердце трогает",
         "time": 99.272,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не благолепие но живой огонь",
         "time": 105.829,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Каждый шаг приближает к истине",
         "time": 112.392,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сквозь чащу через её порог",
         "time": 118.676,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тропы ведут нас в её объятья",
         "time": 125.52,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И время в храме течёт иначе",
         "time": 132.497,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
         "time": 139.065,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В море деревьев в тайне времен",
         "time": 145.317,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На задворках СНТ в покое спрятана",
         "time": 151.742,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Её дорога к душе ведёт",
         "time": 159.552,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
         "time": 192.576,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В море деревьев в тайне времен",
         "time": 201.693,
+        "endTime": null,
         "words": null
       },
       {
         "text": "На задворках СНТ в покое спрятана",
         "time": 207.58,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Её дорога к душе ведёт",
         "time": 215.513,
+        "endTime": null,
         "words": null
       }
     ],
