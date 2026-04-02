@@ -105,7 +105,7 @@ window.SONGS_DATA = [
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
-        "time": 194.576,
+        "time": 192.576,
         "words": null
       },
       {
@@ -125,9 +125,17 @@ window.SONGS_DATA = [
       }
     ],
     "hasAudio": true,
-    "hasPhoto": false,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cercov-korabil.mp3",
-    "photoPath": null
+    "audioPath": "audio/cercov-korabil.mp3",
+    "mediaFolder": "cerkov_korabl",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5251.MOV",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5252.MOV",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5254.MOV",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5260.jpeg",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8229.jpeg",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8237.jpeg"
+    ],
+    "verified": false
   },
   {
     "id": "cerkov-otziv",
@@ -6688,7 +6696,7 @@ window.PUBLISHED = [
       },
       {
         "text": "Церковь-корабль плывёт сквозь тени",
-        "time": 194.576,
+        "time": 192.576,
         "words": null
       },
       {
@@ -6708,9 +6716,17 @@ window.PUBLISHED = [
       }
     ],
     "hasAudio": true,
-    "hasPhoto": false,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/cercov-korabil.mp3",
-    "photoPath": null
+    "audioPath": "audio/cercov-korabil.mp3",
+    "mediaFolder": "cerkov_korabl",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5251.MOV",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5252.MOV",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5254.MOV",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_5260.jpeg",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8229.jpeg",
+      "https://storage.yandexcloud.net/edemperd/cerkov_korabl/IMG_8237.jpeg"
+    ],
+    "verified": false
   },
   {
     "id": "lena-soli",
