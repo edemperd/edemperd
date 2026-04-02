@@ -504,21 +504,23 @@ function ssIsVideo(url) { return /\.(mp4|mov|webm)$/i.test(url); }
 function ssStart(files) {
   ssClear();
   ssFiles = [...files];
-  // Перемешиваем
   for (let i = ssFiles.length-1; i>0; i--) {
     const j = Math.floor(Math.random()*(i+1));
     [ssFiles[i],ssFiles[j]] = [ssFiles[j],ssFiles[i]];
   }
   ssIdx = 0;
   if (!ssFiles.length) return;
-  ssShowSlide(ssFiles[0], true);
-  ssTimer = setInterval(() => {
-    ssIdx = (ssIdx+1) % ssFiles.length;
-    ssShowSlide(ssFiles[ssIdx], false);
-  }, SS_INTERVAL);
+  const onlyOneVideo = ssFiles.length === 1 && ssIsVideo(ssFiles[0]);
+  ssShowSlide(ssFiles[0], true, onlyOneVideo);
+  if (!onlyOneVideo) {
+    ssTimer = setInterval(() => {
+      ssIdx = (ssIdx+1) % ssFiles.length;
+      ssShowSlide(ssFiles[ssIdx], false, false);
+    }, SS_INTERVAL);
+  }
 }
 
-function ssShowSlide(url, first) {
+function ssShowSlide(url, first, loopOnEnded = false) {
   const next = ssCurActive === 'a' ? 'b' : 'a';
   const elNext = document.getElementById('ss-'+next);
   const elCur = document.getElementById('ss-'+ssCurActive);
@@ -528,16 +530,17 @@ function ssShowSlide(url, first) {
 
   if (ssIsVideo(url)) {
     const vid = document.createElement('video');
-    vid.src = url; vid.autoplay = true; vid.muted = true;
-    vid.loop = true; vid.playsInline = true;
+    vid.src = url; vid.autoplay = true; vid.muted = true; vid.playsInline = true;
+    vid.loop = !loopOnEnded;
     vid.className = 'ss-video';
+    if (loopOnEnded) {
+      vid.onended = () => { if (ssFiles.length) ssShowSlide(ssFiles[0], false, true); };
+    }
     elNext.appendChild(vid);
   } else {
-    // Размытый фон
     const blur = document.createElement('div');
     blur.className = 'ss-blur';
     blur.style.backgroundImage = `url(${url})`;
-    // Основное фото
     const img = document.createElement('div');
     img.className = 'ss-img';
     img.style.backgroundImage = `url(${url})`;

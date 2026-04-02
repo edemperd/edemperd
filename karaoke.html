@@ -775,6 +775,12 @@ function goListConfirm() {
   if (confirm('Выйти в сетлист? Несохранённые изменения потеряются.')) goList();
 }
 
+function goList() {
+  edAud.pause();
+  document.removeEventListener('keydown', tapKey);
+  showView('list');
+}
+
 
 // ── LIST ──────────────────────────────────────────────
 function renderList() {
@@ -1970,14 +1976,20 @@ function ssStart(files) {
   }
   ssIdx = 0;
   if (!ssFiles.length) { console.log('[SS] no files after filter'); return; }
-  ssShowSlide(ssFiles[0], true);
-  ssTimer = setInterval(() => {
-    ssIdx = (ssIdx+1) % ssFiles.length;
-    ssShowSlide(ssFiles[ssIdx], false);
-  }, SS_INTERVAL);
+
+  // Особый случай: одно видео — воспроизводим целиком, повтор по окончании
+  const onlyOneVideo = ssFiles.length === 1 && ssIsVideo(ssFiles[0]);
+  ssShowSlide(ssFiles[0], true, onlyOneVideo);
+
+  if (!onlyOneVideo) {
+    ssTimer = setInterval(() => {
+      ssIdx = (ssIdx+1) % ssFiles.length;
+      ssShowSlide(ssFiles[ssIdx], false, false);
+    }, SS_INTERVAL);
+  }
 }
 
-function ssShowSlide(url, first) {
+function ssShowSlide(url, first, loopOnEnded = false) {
   console.log('[SS] showing slide:', url);
   const effect = SS_EFFECTS[Math.floor(Math.random()*SS_EFFECTS.length)];
   const next = ssActive === 'a' ? 'b' : 'a';
@@ -1989,12 +2001,14 @@ function ssShowSlide(url, first) {
 
   if (ssIsVideo(url)) {
     const vid = document.createElement('video');
-    vid.src = url; vid.autoplay = true; vid.muted = true;
-    vid.loop = true; vid.playsInline = true;
+    vid.src = url; vid.autoplay = true; vid.muted = true; vid.playsInline = true;
+    vid.loop = !loopOnEnded;
+    if (loopOnEnded) {
+      vid.onended = () => { if (ssFiles.length) ssShowSlide(ssFiles[0], false, true); };
+    }
     vid.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(.8)';
     elNext.appendChild(vid);
   } else {
-    // Размытый фон + основное фото без кропа
     const blur = document.createElement('div');
     blur.style.cssText = 'position:absolute;inset:-20px;background-size:cover;background-position:center;filter:blur(18px) brightness(.4) saturate(.7);transform:scale(1.1)';
     blur.style.backgroundImage = `url(${url})`;
