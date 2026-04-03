@@ -777,7 +777,6 @@ function goListConfirm() {
 
 function goList() {
   edAud.pause();
-  document.removeEventListener('keydown', tapKey);
   showView('list');
 }
 
@@ -808,12 +807,19 @@ function renderList() {
       </div>
       <div class="s-actions">
         <button class="icon-btn" onclick="toggleVerified('${s.id}')" title="${s.verified?'Снять галочку':'Проверено'}" style="color:${s.verified?'#4caf50':'var(--muted)'}">✓</button>
+        ${isPublished ? `<button class="icon-btn" onclick="unpublishSong('${s.id}')" title="Снять с публикации" style="color:var(--accent)">▼</button>` : ''}
         <button class="icon-btn" onclick="openEd('${s.id}')">✎</button>
         <button class="icon-btn" onclick="delSong('${s.id}')">✕</button>
         <button class="play-btn ${!s.hasAudio ? 'dim' : ''}" onclick="${s.hasAudio ? `playFrom('${s.id}')` : ''}">PLAY</button>
       </div>
     </div>`;
   }).join('');
+}
+
+function unpublishSong(id) {
+  if (!confirm('Снять с публикации? Песня останется в редакторе.')) return;
+  publishedIds = publishedIds.filter(x => x !== id);
+  renderList();
 }
 
 function delSong(id) {
@@ -1976,22 +1982,20 @@ function ssStart(files) {
   }
   ssIdx = 0;
   if (!ssFiles.length) { console.log('[SS] no files after filter'); return; }
-
-  // Особый случай: одно видео — воспроизводим целиком, повтор по окончании
-  const onlyOneVideo = ssFiles.length === 1 && ssIsVideo(ssFiles[0]);
-  ssShowSlide(ssFiles[0], true, onlyOneVideo);
-
-  if (!onlyOneVideo) {
+  const single = ssFiles.length === 1;
+  const singleVideo = single && ssIsVideo(ssFiles[0]);
+  ssShowSlide(ssFiles[0], true, singleVideo, single);
+  if (!singleVideo) {
     ssTimer = setInterval(() => {
       ssIdx = (ssIdx+1) % ssFiles.length;
-      ssShowSlide(ssFiles[ssIdx], false, false);
+      ssShowSlide(ssFiles[ssIdx], false, false, single);
     }, SS_INTERVAL);
   }
 }
 
-function ssShowSlide(url, first, loopOnEnded = false) {
+function ssShowSlide(url, first, loopOnEnded = false, noEffect = false) {
   console.log('[SS] showing slide:', url);
-  const effect = SS_EFFECTS[Math.floor(Math.random()*SS_EFFECTS.length)];
+  const effect = noEffect ? '' : SS_EFFECTS[Math.floor(Math.random()*SS_EFFECTS.length)];
   const next = ssActive === 'a' ? 'b' : 'a';
   const elNext = document.getElementById('slide-'+next);
   const elCur = document.getElementById('slide-'+ssActive);
@@ -2004,7 +2008,7 @@ function ssShowSlide(url, first, loopOnEnded = false) {
     vid.src = url; vid.autoplay = true; vid.muted = true; vid.playsInline = true;
     vid.loop = !loopOnEnded;
     if (loopOnEnded) {
-      vid.onended = () => { if (ssFiles.length) ssShowSlide(ssFiles[0], false, true); };
+      vid.onended = () => { if (ssFiles.length) ssShowSlide(ssFiles[0], false, true, true); };
     }
     vid.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(.8)';
     elNext.appendChild(vid);
@@ -2021,18 +2025,19 @@ function ssShowSlide(url, first, loopOnEnded = false) {
 
   elNext.className = 'slide';
   void elNext.offsetWidth;
-  elNext.classList.add('active', effect);
+  elNext.classList.add('active');
+  if (effect) elNext.classList.add(effect);
 
   if (!first && elCur) {
-    setTimeout(() => {
-      elCur.className = 'slide fade';
-      elCur.style.opacity = '0';
+    if (noEffect) {
+      elCur.className = 'slide'; elCur.innerHTML = '';
+    } else {
       setTimeout(() => {
-        elCur.className = 'slide';
-        elCur.style.backgroundImage = '';
-        elCur.innerHTML = '';
-      }, 1300);
-    }, 50);
+        elCur.className = 'slide fade';
+        elCur.style.opacity = '0';
+        setTimeout(() => { elCur.className = 'slide'; elCur.style.backgroundImage = ''; elCur.innerHTML = ''; }, 1300);
+      }, 50);
+    }
   }
   ssActive = next;
 }
