@@ -3345,1050 +3345,309 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Как можно так бросить",
-        "time": 9.4,
-        "words": [
-          {
-            "word": "Как",
-            "start": 0,
-            "end": 7.54
-          },
-          {
-            "word": "можно",
-            "start": 7.54,
-            "end": 8
-          },
-          {
-            "word": "так",
-            "start": 8,
-            "end": 8.42
-          },
-          {
-            "word": "бросить",
-            "start": 8.42,
-            "end": 9.4
-          }
-        ],
-        "endTime": null
+        "time": 7.491,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставить во мгле",
-        "time": 13,
-        "words": [
-          {
-            "word": "Оставить",
-            "start": 9.4,
-            "end": 11.56
-          },
-          {
-            "word": "во",
-            "start": 11.56,
-            "end": 11.8
-          },
-          {
-            "word": "мгле",
-            "start": 11.8,
-            "end": 12.44
-          }
-        ],
-        "endTime": null
+        "time": 10.797,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Разбитые окна",
-        "time": 14,
-        "words": [
-          {
-            "word": "Разбитые",
-            "start": 12.44,
-            "end": 15.02
-          },
-          {
-            "word": "окна",
-            "start": 15.02,
-            "end": 15.82
-          }
-        ],
-        "endTime": null
+        "time": 14.15,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рояль на полу",
-        "time": 15.82,
-        "words": [
-          {
-            "word": "Рояль",
-            "start": 15.82,
-            "end": 17.28
-          },
-          {
-            "word": "на",
-            "start": 17.28,
-            "end": 17.52
-          },
-          {
-            "word": "полу",
-            "start": 17.52,
-            "end": 18.74
-          }
-        ],
-        "endTime": null
+        "time": 16.737,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Паркеты хрустят",
-        "time": 18.74,
-        "words": [
-          {
-            "word": "Паркеты",
-            "start": 18.74,
-            "end": 21.5
-          },
-          {
-            "word": "хрустят",
-            "start": 21.5,
-            "end": 22.48
-          }
-        ],
-        "endTime": null
+        "time": 20.803,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как осколки во сне",
-        "time": 22.48,
-        "words": [
-          {
-            "word": "Как",
-            "start": 22.48,
-            "end": 23.24
-          },
-          {
-            "word": "осколки",
-            "start": 23.24,
-            "end": 24.84
-          },
-          {
-            "word": "во",
-            "start": 24.84,
-            "end": 25.06
-          },
-          {
-            "word": "сне",
-            "start": 25.06,
-            "end": 25.54
-          }
-        ],
-        "endTime": null
+        "time": 22.943,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Всё",
-        "time": 25.54,
-        "words": [
-          {
-            "word": "Всё",
-            "start": 25.54,
-            "end": 27.08
-          }
-        ],
-        "endTime": null
+        "time": 26.945,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Что осталось",
-        "time": 27.08,
-        "words": [
-          {
-            "word": "Что",
-            "start": 27.08,
-            "end": 27.48
-          },
-          {
-            "word": "осталось",
-            "start": 27.48,
-            "end": 28.38
-          }
-        ],
-        "endTime": null
+        "time": 27.722,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Лишь боль и золу",
-        "time": 28.38,
-        "words": [
-          {
-            "word": "Лишь",
-            "start": 28.38,
-            "end": 29.4
-          },
-          {
-            "word": "боль",
-            "start": 29.4,
-            "end": 29.8
-          },
-          {
-            "word": "и",
-            "start": 29.8,
-            "end": 29.98
-          },
-          {
-            "word": "золу",
-            "start": 29.98,
-            "end": 30
-          }
-        ],
-        "endTime": null
+        "time": 29.175,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Гостиница Пущино",
-        "time": 30,
-        "words": [
-          {
-            "word": "Гостиница",
-            "start": 30,
-            "end": 30
-          },
-          {
-            "word": "Пущино",
-            "start": 30,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 34.442,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Дом без души",
-        "time": 30.211,
-        "words": [
-          {
-            "word": "Дом",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "без",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "души",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 36.992,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вандалы крадут",
-        "time": 30.423,
-        "words": [
-          {
-            "word": "Вандалы",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "крадут",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 40.969,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рвут металл",
-        "time": 30.634,
-        "words": [
-          {
-            "word": "Рвут",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "металл",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 42.847,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как ножи",
-        "time": 30.846,
-        "words": [
-          {
-            "word": "Как",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "ножи",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 44.924,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я верю",
-        "time": 31.057,
-        "words": [
-          {
-            "word": "Но",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "я",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "верю",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 46.277,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я знаю",
-        "time": 31.269,
-        "words": [
-          {
-            "word": "Я",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "знаю",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 48.251,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы сможем спасти",
-        "time": 31.48,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "сможем",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "спасти",
-            "start": 31.48,
-            "end": 35.14
-          }
-        ],
-        "endTime": null
+        "time": 49.907,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вернётся тепло",
-        "time": 33.31,
-        "words": [
-          {
-            "word": "Вернётся",
-            "start": 35.14,
-            "end": 35.14
-          },
-          {
-            "word": "тепло",
-            "start": 35.14,
-            "end": 35.14
-          }
-        ],
-        "endTime": null
+        "time": 53.443,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оживут этажи",
-        "time": 35.14,
-        "words": [
-          {
-            "word": "Оживут",
-            "start": 35.14,
-            "end": 36.12
-          },
-          {
-            "word": "этажи",
-            "start": 36.12,
-            "end": 36.12
-          }
-        ],
-        "endTime": null
+        "time": 58.461,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Сырость в зале",
-        "time": 35.63,
-        "words": [
-          {
-            "word": "Сырость",
-            "start": 36.12,
-            "end": 36.12
-          },
-          {
-            "word": "в",
-            "start": 36.12,
-            "end": 36.12
-          },
-          {
-            "word": "зале",
-            "start": 36.12,
-            "end": 36.12
-          }
-        ],
-        "endTime": null
+        "time": 67.281,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Где звучали слова",
-        "time": 36.12,
-        "words": [
-          {
-            "word": "Где",
-            "start": 36.12,
-            "end": 37.48
-          },
-          {
-            "word": "звучали",
-            "start": 37.549,
-            "end": 37.604
-          },
-          {
-            "word": "слова",
-            "start": 37.669,
-            "end": 37.721
-          }
-        ],
-        "endTime": null
+        "time": 70.079,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рестораны молчат",
-        "time": 36.873,
-        "words": [
-          {
-            "word": "Рестораны",
-            "start": 37.781,
-            "end": 37.829
-          },
-          {
-            "word": "молчат",
-            "start": 37.884,
-            "end": 37.928
-          }
-        ],
-        "endTime": null
+        "time": 73.572,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Лишь эхо в углах",
-        "time": 37.627,
-        "words": [
-          {
-            "word": "Лишь",
-            "start": 37.978,
-            "end": 38.018
-          },
-          {
-            "word": "эхо",
-            "start": 38.063,
-            "end": 38.099
-          },
-          {
-            "word": "в",
-            "start": 38.139,
-            "end": 38.171
-          },
-          {
-            "word": "углах",
-            "start": 38.206,
-            "end": 38.234
-          }
-        ],
-        "endTime": null
+        "time": 77.031,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "На крыше теплицы туман и трава",
-        "time": 38.38,
-        "words": [
-          {
-            "word": "На",
-            "start": 38.263,
-            "end": 38.286
-          },
-          {
-            "word": "крыше",
-            "start": 38.309,
-            "end": 38.328
-          },
-          {
-            "word": "теплицы",
-            "start": 38.345,
-            "end": 38.359
-          },
-          {
-            "word": "туман",
-            "start": 38.37,
-            "end": 38.378
-          },
-          {
-            "word": "и",
-            "start": 38.38,
-            "end": 39.62
-          },
-          {
-            "word": "трава",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 81.387,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но где-то надежда горит",
-        "time": 38.628,
-        "words": [
-          {
-            "word": "Но",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "где-то",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "надежда",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "горит",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 87.38,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как маяк",
-        "time": 38.876,
-        "words": [
-          {
-            "word": "Как",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "маяк",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 94.354,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Гостиница Пущино",
-        "time": 39.124,
-        "words": [
-          {
-            "word": "Гостиница",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "Пущино",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 94.934,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Дом без души",
-        "time": 39.372,
-        "words": [
-          {
-            "word": "Дом",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "без",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "души",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 97.399,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вандалы крадут",
-        "time": 39.62,
-        "words": [
-          {
-            "word": "Вандалы",
-            "start": 39.62,
-            "end": 41.68
-          },
-          {
-            "word": "крадут",
-            "start": 41.68,
-            "end": 42.58
-          }
-        ],
-        "endTime": null
+        "time": 101.441,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рвут металл",
-        "time": 42.58,
-        "words": [
-          {
-            "word": "Рвут",
-            "start": 42.58,
-            "end": 43.24
-          },
-          {
-            "word": "металл",
-            "start": 43.24,
-            "end": 44.84
-          }
-        ],
-        "endTime": null
+        "time": 103.348,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как ножи",
-        "time": 44.84,
-        "words": [
-          {
-            "word": "Как",
-            "start": 44.84,
-            "end": 45.16
-          },
-          {
-            "word": "ножи",
-            "start": 45.16,
-            "end": 46.34
-          }
-        ],
-        "endTime": null
+        "time": 105.455,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я верю",
-        "time": 46.34,
-        "words": [
-          {
-            "word": "Но",
-            "start": 46.34,
-            "end": 46.66
-          },
-          {
-            "word": "я",
-            "start": 46.66,
-            "end": 46.86
-          },
-          {
-            "word": "верю",
-            "start": 46.86,
-            "end": 47.84
-          }
-        ],
-        "endTime": null
+        "time": 106.951,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я знаю",
-        "time": 47.84,
-        "words": [
-          {
-            "word": "Я",
-            "start": 47.84,
-            "end": 48.46
-          },
-          {
-            "word": "знаю",
-            "start": 48.46,
-            "end": 49.24
-          }
-        ],
-        "endTime": null
+        "time": 108.655,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы сможем спасти",
-        "time": 49.24,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 49.24,
-            "end": 50.2
-          },
-          {
-            "word": "сможем",
-            "start": 50.2,
-            "end": 51.76
-          },
-          {
-            "word": "спасти",
-            "start": 51.76,
-            "end": 52.72
-          }
-        ],
-        "endTime": null
+        "time": 110.072,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вернётся тепло",
-        "time": 52.72,
-        "words": [
-          {
-            "word": "Вернётся",
-            "start": 52.72,
-            "end": 54.88
-          },
-          {
-            "word": "тепло",
-            "start": 54.88,
-            "end": 56.2
-          }
-        ],
-        "endTime": null
+        "time": 113.862,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оживут этажи",
-        "time": 56.2,
-        "words": [
-          {
-            "word": "Оживут",
-            "start": 56.2,
-            "end": 59.84
-          },
-          {
-            "word": "этажи",
-            "start": 60,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 118.889,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "И забор появился",
-        "time": 57.12,
-        "words": [
-          {
-            "word": "И",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "забор",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "появился",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 121.962,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как тонкий намёк",
-        "time": 58.04,
-        "words": [
-          {
-            "word": "Как",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "тонкий",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "намёк",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 125.56,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Что жизнь возвращается",
-        "time": 58.96,
-        "words": [
-          {
-            "word": "Что",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "жизнь",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "возвращается",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 128.235,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Слышен шажок",
-        "time": 59.88,
-        "words": [
-          {
-            "word": "Слышен",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "шажок",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 132.001,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рояль отремонтируют",
-        "time": 60.8,
-        "words": [
-          {
-            "word": "Рояль",
-            "start": 60.8,
-            "end": 67.92
-          },
-          {
-            "word": "отремонтируют",
-            "start": 67.92,
-            "end": 67.92
-          }
-        ],
-        "endTime": null
+        "time": 135.931,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кухню зажгут",
-        "time": 64.36,
-        "words": [
-          {
-            "word": "Кухню",
-            "start": 67.92,
-            "end": 67.92
-          },
-          {
-            "word": "зажгут",
-            "start": 67.92,
-            "end": 67.92
-          }
-        ],
-        "endTime": null
+        "time": 139.214,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "И в номерах гости спокойно уснут",
-        "time": 67.92,
-        "words": [
-          {
-            "word": "И",
-            "start": 67.92,
-            "end": 67.92
-          },
-          {
-            "word": "в",
-            "start": 67.92,
-            "end": 68.14
-          },
-          {
-            "word": "номерах",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "гости",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "спокойно",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "уснут",
-            "start": 68.14,
-            "end": 68.14
-          }
-        ],
-        "endTime": null
+        "time": 142.483,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Гостиница Пущино",
-        "time": 68.03,
-        "words": [
-          {
-            "word": "Гостиница",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "Пущино",
-            "start": 68.14,
-            "end": 68.14
-          }
-        ],
-        "endTime": null
+        "time": 161.752,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Дом без души",
-        "time": 68.14,
-        "words": [
-          {
-            "word": "Дом",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "без",
-            "start": 68.14,
-            "end": 68.54
-          },
-          {
-            "word": "души",
-            "start": 68.54,
-            "end": 70.14
-          }
-        ],
-        "endTime": null
+        "time": 164.569,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но скоро прогонят холод и дожди",
-        "time": 70.14,
-        "words": [
-          {
-            "word": "Но",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "скоро",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "прогонят",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "холод",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "и",
-            "start": 70.14,
-            "end": 71.08
-          },
-          {
-            "word": "дожди",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 168.464,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я верю",
-        "time": 70.375,
-        "words": [
-          {
-            "word": "Я",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "верю",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 174.308,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я знаю",
-        "time": 70.61,
-        "words": [
-          {
-            "word": "Я",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "знаю",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 175.86,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы сможем спасти",
-        "time": 70.845,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "сможем",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "спасти",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 177.581,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вернётся тепло",
-        "time": 71.08,
-        "words": [
-          {
-            "word": "Вернётся",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "тепло",
-            "start": 71.08,
-            "end": 72.08
-          }
-        ],
-        "endTime": null
+        "time": 181.071,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оживут этажи",
-        "time": 72.08,
-        "words": [
-          {
-            "word": "Оживут",
-            "start": 72.08,
-            "end": 74.48
-          },
-          {
-            "word": "этажи",
-            "start": 74.48,
-            "end": 75.8
-          }
-        ],
-        "endTime": null
+        "time": 186.129,
+        "endTime": null,
+        "words": null
       }
     ],
     "hasAudio": true,
@@ -9271,1050 +8530,309 @@ window.PUBLISHED = [
     "lyrics": [
       {
         "text": "Как можно так бросить",
-        "time": 9.4,
-        "words": [
-          {
-            "word": "Как",
-            "start": 0,
-            "end": 7.54
-          },
-          {
-            "word": "можно",
-            "start": 7.54,
-            "end": 8
-          },
-          {
-            "word": "так",
-            "start": 8,
-            "end": 8.42
-          },
-          {
-            "word": "бросить",
-            "start": 8.42,
-            "end": 9.4
-          }
-        ],
-        "endTime": null
+        "time": 7.491,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оставить во мгле",
-        "time": 13,
-        "words": [
-          {
-            "word": "Оставить",
-            "start": 9.4,
-            "end": 11.56
-          },
-          {
-            "word": "во",
-            "start": 11.56,
-            "end": 11.8
-          },
-          {
-            "word": "мгле",
-            "start": 11.8,
-            "end": 12.44
-          }
-        ],
-        "endTime": null
+        "time": 10.797,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Разбитые окна",
-        "time": 14,
-        "words": [
-          {
-            "word": "Разбитые",
-            "start": 12.44,
-            "end": 15.02
-          },
-          {
-            "word": "окна",
-            "start": 15.02,
-            "end": 15.82
-          }
-        ],
-        "endTime": null
+        "time": 14.15,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рояль на полу",
-        "time": 15.82,
-        "words": [
-          {
-            "word": "Рояль",
-            "start": 15.82,
-            "end": 17.28
-          },
-          {
-            "word": "на",
-            "start": 17.28,
-            "end": 17.52
-          },
-          {
-            "word": "полу",
-            "start": 17.52,
-            "end": 18.74
-          }
-        ],
-        "endTime": null
+        "time": 16.737,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Паркеты хрустят",
-        "time": 18.74,
-        "words": [
-          {
-            "word": "Паркеты",
-            "start": 18.74,
-            "end": 21.5
-          },
-          {
-            "word": "хрустят",
-            "start": 21.5,
-            "end": 22.48
-          }
-        ],
-        "endTime": null
+        "time": 20.803,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как осколки во сне",
-        "time": 22.48,
-        "words": [
-          {
-            "word": "Как",
-            "start": 22.48,
-            "end": 23.24
-          },
-          {
-            "word": "осколки",
-            "start": 23.24,
-            "end": 24.84
-          },
-          {
-            "word": "во",
-            "start": 24.84,
-            "end": 25.06
-          },
-          {
-            "word": "сне",
-            "start": 25.06,
-            "end": 25.54
-          }
-        ],
-        "endTime": null
+        "time": 22.943,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Всё",
-        "time": 25.54,
-        "words": [
-          {
-            "word": "Всё",
-            "start": 25.54,
-            "end": 27.08
-          }
-        ],
-        "endTime": null
+        "time": 26.945,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Что осталось",
-        "time": 27.08,
-        "words": [
-          {
-            "word": "Что",
-            "start": 27.08,
-            "end": 27.48
-          },
-          {
-            "word": "осталось",
-            "start": 27.48,
-            "end": 28.38
-          }
-        ],
-        "endTime": null
+        "time": 27.722,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Лишь боль и золу",
-        "time": 28.38,
-        "words": [
-          {
-            "word": "Лишь",
-            "start": 28.38,
-            "end": 29.4
-          },
-          {
-            "word": "боль",
-            "start": 29.4,
-            "end": 29.8
-          },
-          {
-            "word": "и",
-            "start": 29.8,
-            "end": 29.98
-          },
-          {
-            "word": "золу",
-            "start": 29.98,
-            "end": 30
-          }
-        ],
-        "endTime": null
+        "time": 29.175,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Гостиница Пущино",
-        "time": 30,
-        "words": [
-          {
-            "word": "Гостиница",
-            "start": 30,
-            "end": 30
-          },
-          {
-            "word": "Пущино",
-            "start": 30,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 34.442,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Дом без души",
-        "time": 30.211,
-        "words": [
-          {
-            "word": "Дом",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "без",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "души",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 36.992,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вандалы крадут",
-        "time": 30.423,
-        "words": [
-          {
-            "word": "Вандалы",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "крадут",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 40.969,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рвут металл",
-        "time": 30.634,
-        "words": [
-          {
-            "word": "Рвут",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "металл",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 42.847,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как ножи",
-        "time": 30.846,
-        "words": [
-          {
-            "word": "Как",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "ножи",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 44.924,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я верю",
-        "time": 31.057,
-        "words": [
-          {
-            "word": "Но",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "я",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "верю",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 46.277,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я знаю",
-        "time": 31.269,
-        "words": [
-          {
-            "word": "Я",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "знаю",
-            "start": 31.48,
-            "end": 31.48
-          }
-        ],
-        "endTime": null
+        "time": 48.251,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы сможем спасти",
-        "time": 31.48,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "сможем",
-            "start": 31.48,
-            "end": 31.48
-          },
-          {
-            "word": "спасти",
-            "start": 31.48,
-            "end": 35.14
-          }
-        ],
-        "endTime": null
+        "time": 49.907,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вернётся тепло",
-        "time": 33.31,
-        "words": [
-          {
-            "word": "Вернётся",
-            "start": 35.14,
-            "end": 35.14
-          },
-          {
-            "word": "тепло",
-            "start": 35.14,
-            "end": 35.14
-          }
-        ],
-        "endTime": null
+        "time": 53.443,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оживут этажи",
-        "time": 35.14,
-        "words": [
-          {
-            "word": "Оживут",
-            "start": 35.14,
-            "end": 36.12
-          },
-          {
-            "word": "этажи",
-            "start": 36.12,
-            "end": 36.12
-          }
-        ],
-        "endTime": null
+        "time": 58.461,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Сырость в зале",
-        "time": 35.63,
-        "words": [
-          {
-            "word": "Сырость",
-            "start": 36.12,
-            "end": 36.12
-          },
-          {
-            "word": "в",
-            "start": 36.12,
-            "end": 36.12
-          },
-          {
-            "word": "зале",
-            "start": 36.12,
-            "end": 36.12
-          }
-        ],
-        "endTime": null
+        "time": 67.281,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Где звучали слова",
-        "time": 36.12,
-        "words": [
-          {
-            "word": "Где",
-            "start": 36.12,
-            "end": 37.48
-          },
-          {
-            "word": "звучали",
-            "start": 37.549,
-            "end": 37.604
-          },
-          {
-            "word": "слова",
-            "start": 37.669,
-            "end": 37.721
-          }
-        ],
-        "endTime": null
+        "time": 70.079,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рестораны молчат",
-        "time": 36.873,
-        "words": [
-          {
-            "word": "Рестораны",
-            "start": 37.781,
-            "end": 37.829
-          },
-          {
-            "word": "молчат",
-            "start": 37.884,
-            "end": 37.928
-          }
-        ],
-        "endTime": null
+        "time": 73.572,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Лишь эхо в углах",
-        "time": 37.627,
-        "words": [
-          {
-            "word": "Лишь",
-            "start": 37.978,
-            "end": 38.018
-          },
-          {
-            "word": "эхо",
-            "start": 38.063,
-            "end": 38.099
-          },
-          {
-            "word": "в",
-            "start": 38.139,
-            "end": 38.171
-          },
-          {
-            "word": "углах",
-            "start": 38.206,
-            "end": 38.234
-          }
-        ],
-        "endTime": null
+        "time": 77.031,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "На крыше теплицы туман и трава",
-        "time": 38.38,
-        "words": [
-          {
-            "word": "На",
-            "start": 38.263,
-            "end": 38.286
-          },
-          {
-            "word": "крыше",
-            "start": 38.309,
-            "end": 38.328
-          },
-          {
-            "word": "теплицы",
-            "start": 38.345,
-            "end": 38.359
-          },
-          {
-            "word": "туман",
-            "start": 38.37,
-            "end": 38.378
-          },
-          {
-            "word": "и",
-            "start": 38.38,
-            "end": 39.62
-          },
-          {
-            "word": "трава",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 81.387,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но где-то надежда горит",
-        "time": 38.628,
-        "words": [
-          {
-            "word": "Но",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "где-то",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "надежда",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "горит",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 87.38,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как маяк",
-        "time": 38.876,
-        "words": [
-          {
-            "word": "Как",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "маяк",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 94.354,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Гостиница Пущино",
-        "time": 39.124,
-        "words": [
-          {
-            "word": "Гостиница",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "Пущино",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 94.934,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Дом без души",
-        "time": 39.372,
-        "words": [
-          {
-            "word": "Дом",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "без",
-            "start": 39.62,
-            "end": 39.62
-          },
-          {
-            "word": "души",
-            "start": 39.62,
-            "end": 39.62
-          }
-        ],
-        "endTime": null
+        "time": 97.399,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вандалы крадут",
-        "time": 39.62,
-        "words": [
-          {
-            "word": "Вандалы",
-            "start": 39.62,
-            "end": 41.68
-          },
-          {
-            "word": "крадут",
-            "start": 41.68,
-            "end": 42.58
-          }
-        ],
-        "endTime": null
+        "time": 101.441,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рвут металл",
-        "time": 42.58,
-        "words": [
-          {
-            "word": "Рвут",
-            "start": 42.58,
-            "end": 43.24
-          },
-          {
-            "word": "металл",
-            "start": 43.24,
-            "end": 44.84
-          }
-        ],
-        "endTime": null
+        "time": 103.348,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как ножи",
-        "time": 44.84,
-        "words": [
-          {
-            "word": "Как",
-            "start": 44.84,
-            "end": 45.16
-          },
-          {
-            "word": "ножи",
-            "start": 45.16,
-            "end": 46.34
-          }
-        ],
-        "endTime": null
+        "time": 105.455,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но я верю",
-        "time": 46.34,
-        "words": [
-          {
-            "word": "Но",
-            "start": 46.34,
-            "end": 46.66
-          },
-          {
-            "word": "я",
-            "start": 46.66,
-            "end": 46.86
-          },
-          {
-            "word": "верю",
-            "start": 46.86,
-            "end": 47.84
-          }
-        ],
-        "endTime": null
+        "time": 106.951,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я знаю",
-        "time": 47.84,
-        "words": [
-          {
-            "word": "Я",
-            "start": 47.84,
-            "end": 48.46
-          },
-          {
-            "word": "знаю",
-            "start": 48.46,
-            "end": 49.24
-          }
-        ],
-        "endTime": null
+        "time": 108.655,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы сможем спасти",
-        "time": 49.24,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 49.24,
-            "end": 50.2
-          },
-          {
-            "word": "сможем",
-            "start": 50.2,
-            "end": 51.76
-          },
-          {
-            "word": "спасти",
-            "start": 51.76,
-            "end": 52.72
-          }
-        ],
-        "endTime": null
+        "time": 110.072,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вернётся тепло",
-        "time": 52.72,
-        "words": [
-          {
-            "word": "Вернётся",
-            "start": 52.72,
-            "end": 54.88
-          },
-          {
-            "word": "тепло",
-            "start": 54.88,
-            "end": 56.2
-          }
-        ],
-        "endTime": null
+        "time": 113.862,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оживут этажи",
-        "time": 56.2,
-        "words": [
-          {
-            "word": "Оживут",
-            "start": 56.2,
-            "end": 59.84
-          },
-          {
-            "word": "этажи",
-            "start": 60,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 118.889,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "И забор появился",
-        "time": 57.12,
-        "words": [
-          {
-            "word": "И",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "забор",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "появился",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 121.962,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Как тонкий намёк",
-        "time": 58.04,
-        "words": [
-          {
-            "word": "Как",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "тонкий",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "намёк",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 125.56,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Что жизнь возвращается",
-        "time": 58.96,
-        "words": [
-          {
-            "word": "Что",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "жизнь",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "возвращается",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 128.235,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Слышен шажок",
-        "time": 59.88,
-        "words": [
-          {
-            "word": "Слышен",
-            "start": 60.8,
-            "end": 60.8
-          },
-          {
-            "word": "шажок",
-            "start": 60.8,
-            "end": 60.8
-          }
-        ],
-        "endTime": null
+        "time": 132.001,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Рояль отремонтируют",
-        "time": 60.8,
-        "words": [
-          {
-            "word": "Рояль",
-            "start": 60.8,
-            "end": 67.92
-          },
-          {
-            "word": "отремонтируют",
-            "start": 67.92,
-            "end": 67.92
-          }
-        ],
-        "endTime": null
+        "time": 135.931,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Кухню зажгут",
-        "time": 64.36,
-        "words": [
-          {
-            "word": "Кухню",
-            "start": 67.92,
-            "end": 67.92
-          },
-          {
-            "word": "зажгут",
-            "start": 67.92,
-            "end": 67.92
-          }
-        ],
-        "endTime": null
+        "time": 139.214,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "И в номерах гости спокойно уснут",
-        "time": 67.92,
-        "words": [
-          {
-            "word": "И",
-            "start": 67.92,
-            "end": 67.92
-          },
-          {
-            "word": "в",
-            "start": 67.92,
-            "end": 68.14
-          },
-          {
-            "word": "номерах",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "гости",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "спокойно",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "уснут",
-            "start": 68.14,
-            "end": 68.14
-          }
-        ],
-        "endTime": null
+        "time": 142.483,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Гостиница Пущино",
-        "time": 68.03,
-        "words": [
-          {
-            "word": "Гостиница",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "Пущино",
-            "start": 68.14,
-            "end": 68.14
-          }
-        ],
-        "endTime": null
+        "time": 161.752,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Дом без души",
-        "time": 68.14,
-        "words": [
-          {
-            "word": "Дом",
-            "start": 68.14,
-            "end": 68.14
-          },
-          {
-            "word": "без",
-            "start": 68.14,
-            "end": 68.54
-          },
-          {
-            "word": "души",
-            "start": 68.54,
-            "end": 70.14
-          }
-        ],
-        "endTime": null
+        "time": 164.569,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Но скоро прогонят холод и дожди",
-        "time": 70.14,
-        "words": [
-          {
-            "word": "Но",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "скоро",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "прогонят",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "холод",
-            "start": 70.14,
-            "end": 70.14
-          },
-          {
-            "word": "и",
-            "start": 70.14,
-            "end": 71.08
-          },
-          {
-            "word": "дожди",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 168.464,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я верю",
-        "time": 70.375,
-        "words": [
-          {
-            "word": "Я",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "верю",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 174.308,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Я знаю",
-        "time": 70.61,
-        "words": [
-          {
-            "word": "Я",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "знаю",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 175.86,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Мы сможем спасти",
-        "time": 70.845,
-        "words": [
-          {
-            "word": "Мы",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "сможем",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "спасти",
-            "start": 71.08,
-            "end": 71.08
-          }
-        ],
-        "endTime": null
+        "time": 177.581,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Вернётся тепло",
-        "time": 71.08,
-        "words": [
-          {
-            "word": "Вернётся",
-            "start": 71.08,
-            "end": 71.08
-          },
-          {
-            "word": "тепло",
-            "start": 71.08,
-            "end": 72.08
-          }
-        ],
-        "endTime": null
+        "time": 181.071,
+        "endTime": null,
+        "words": null
       },
       {
         "text": "Оживут этажи",
-        "time": 72.08,
-        "words": [
-          {
-            "word": "Оживут",
-            "start": 72.08,
-            "end": 74.48
-          },
-          {
-            "word": "этажи",
-            "start": 74.48,
-            "end": 75.8
-          }
-        ],
-        "endTime": null
+        "time": 186.129,
+        "endTime": null,
+        "words": null
       }
     ],
     "hasAudio": true,
