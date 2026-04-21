@@ -4089,364 +4089,441 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Поеду в Подмосковье",
-        "time": null,
+        "time": 0.431,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тихий поезд",
-        "time": null,
+        "time": 0.66,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ранний час",
-        "time": null,
+        "time": 0.843,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Деревеньки за окном бегут",
-        "time": null,
+        "time": 1.028,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Словно детство смотрит в нас",
-        "time": null,
+        "time": 1.154,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Обычные ларьки у трассы",
-        "time": null,
+        "time": 1.648,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тёплый хлеб",
-        "time": null,
+        "time": 1.736,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Горящий чай",
-        "time": null,
+        "time": 1.822,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Панельки — сотни жёлтых окон",
-        "time": null,
+        "time": 1.901,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Светят: «Заходи",
-        "time": null,
+        "time": 1.986,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Встречай»",
-        "time": null,
+        "time": 2.075,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 2.151,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь в каждом доме сердце бьётся",
-        "time": null,
+        "time": 2.238,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 2.326,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь даже тишина поётся",
-        "time": null,
+        "time": 2.402,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где б ни был ты — в глубинке",
-        "time": null,
+        "time": 2.492,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В городах",
-        "time": null,
+        "time": 2.577,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты чувствуешь: в твоих руках",
-        "time": null,
+        "time": 2.654,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Великая земля",
-        "time": null,
+        "time": 2.743,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 2.832,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Магазины",
-        "time": null,
+        "time": 2.909,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Старый клуб",
-        "time": null,
+        "time": 2.994,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И фасады",
-        "time": null,
+        "time": 3.07,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как с иголки",
-        "time": null,
+        "time": 3.161,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Каждый шов перешит заботой",
-        "time": null,
+        "time": 3.246,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Краска свежая на ёлке",
-        "time": null,
+        "time": 3.324,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Щедрый человек",
-        "time": null,
+        "time": 3.41,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не зная меры",
-        "time": null,
+        "time": 3.496,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Строит парк среди полей",
-        "time": null,
+        "time": 3.575,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Музеи",
-        "time": null,
+        "time": 3.662,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пруды и светлые аллеи",
-        "time": null,
+        "time": 3.74,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чтоб жилось тебе теплей",
-        "time": null,
+        "time": 3.83,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Посреди глуши — как из сказки",
-        "time": null,
+        "time": 3.915,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вырастает новая деревня",
-        "time": null,
+        "time": 3.992,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Домики дышат свежей краской",
-        "time": null,
+        "time": 4.078,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь рождается стремленье",
-        "time": null,
+        "time": 4.169,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 4.243,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь в каждом доме сердце бьётся",
-        "time": null,
+        "time": 4.332,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 4.424,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь даже тишина поётся",
-        "time": null,
+        "time": 4.502,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где б ни был ты — в глубинке",
-        "time": null,
+        "time": 4.584,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В городах",
-        "time": null,
+        "time": 4.664,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты чувствуешь: в твоих руках",
-        "time": null,
+        "time": 4.75,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Великая земля",
-        "time": null,
+        "time": 4.838,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 4.914,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Русский орнамент на ставнях",
-        "time": null,
+        "time": 4.999,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кружевом ложится снег",
-        "time": null,
+        "time": 5.091,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Словно голос предков шепчет:",
-        "time": null,
+        "time": 5.165,
+        "endTime": null,
         "words": null
       },
       {
         "text": "«Помни корни",
-        "time": null,
+        "time": 5.254,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Человек»",
-        "time": null,
+        "time": 5.34,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Слышу гармошку у деревянной сцены",
-        "time": null,
+        "time": 5.417,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Баранки звенят на верёвке",
-        "time": null,
+        "time": 5.504,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как время",
-        "time": null,
+        "time": 5.591,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Самовар выдыхает горячий туман",
-        "time": null,
+        "time": 5.669,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чай нальют — и растает обман",
-        "time": null,
+        "time": 5.759,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кириллица светится в старых вывесках",
-        "time": null,
+        "time": 5.841,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Официанты в костюмах — кисти",
-        "time": null,
+        "time": 5.92,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вышивка",
-        "time": null,
+        "time": 6.015,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты вдыхаешь и вдруг понимаешь в тиши:",
-        "time": null,
+        "time": 6.091,
+        "endTime": null,
         "words": null
       },
       {
         "text": "«Я — русский. И значит",
-        "time": null,
+        "time": 6.17,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Живу",
-        "time": null,
+        "time": 6.259,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как решил»",
-        "time": null,
+        "time": 6.338,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 6.422,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь в каждом доме сердце бьётся",
-        "time": null,
+        "time": 6.501,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 6.587,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь даже тишина поётся",
-        "time": null,
+        "time": 6.675,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где б ни был ты — в глубинке",
-        "time": null,
+        "time": 6.754,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В городах",
-        "time": null,
+        "time": 6.839,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты чувствуешь: в твоих руках",
-        "time": null,
+        "time": 6.927,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Великая земля",
-        "time": null,
+        "time": 7.005,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 7.509,
+        "endTime": null,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/russkie.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/russkie.mp3",
+    "mediaFolder": "russkie",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2019.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2083.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2099.JPG",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_9810.JPG"
+    ],
+    "verified": false
   },
   {
     "id": "sanatory",
@@ -8932,6 +9009,448 @@ window.PUBLISHED = [
     "mediaFolder": "pushino",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/pushino/IMG_1754.MOV"
+    ],
+    "verified": false
+  },
+  {
+    "id": "russkie",
+    "title": "Русские",
+    "lyrics": [
+      {
+        "text": "Поеду в Подмосковье",
+        "time": 0.431,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тихий поезд",
+        "time": 0.66,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ранний час",
+        "time": 0.843,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Деревеньки за окном бегут",
+        "time": 1.028,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Словно детство смотрит в нас",
+        "time": 1.154,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Обычные ларьки у трассы",
+        "time": 1.648,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тёплый хлеб",
+        "time": 1.736,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Горящий чай",
+        "time": 1.822,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Панельки — сотни жёлтых окон",
+        "time": 1.901,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Светят: «Заходи",
+        "time": 1.986,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Встречай»",
+        "time": 2.075,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 2.151,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь в каждом доме сердце бьётся",
+        "time": 2.238,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 2.326,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь даже тишина поётся",
+        "time": 2.402,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где б ни был ты — в глубинке",
+        "time": 2.492,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В городах",
+        "time": 2.577,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты чувствуешь: в твоих руках",
+        "time": 2.654,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Великая земля",
+        "time": 2.743,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 2.832,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Магазины",
+        "time": 2.909,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Старый клуб",
+        "time": 2.994,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И фасады",
+        "time": 3.07,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как с иголки",
+        "time": 3.161,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Каждый шов перешит заботой",
+        "time": 3.246,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Краска свежая на ёлке",
+        "time": 3.324,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Щедрый человек",
+        "time": 3.41,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не зная меры",
+        "time": 3.496,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Строит парк среди полей",
+        "time": 3.575,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Музеи",
+        "time": 3.662,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пруды и светлые аллеи",
+        "time": 3.74,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чтоб жилось тебе теплей",
+        "time": 3.83,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Посреди глуши — как из сказки",
+        "time": 3.915,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вырастает новая деревня",
+        "time": 3.992,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Домики дышат свежей краской",
+        "time": 4.078,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь рождается стремленье",
+        "time": 4.169,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 4.243,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь в каждом доме сердце бьётся",
+        "time": 4.332,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 4.424,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь даже тишина поётся",
+        "time": 4.502,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где б ни был ты — в глубинке",
+        "time": 4.584,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В городах",
+        "time": 4.664,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты чувствуешь: в твоих руках",
+        "time": 4.75,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Великая земля",
+        "time": 4.838,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 4.914,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Русский орнамент на ставнях",
+        "time": 4.999,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кружевом ложится снег",
+        "time": 5.091,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Словно голос предков шепчет:",
+        "time": 5.165,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "«Помни корни",
+        "time": 5.254,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Человек»",
+        "time": 5.34,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Слышу гармошку у деревянной сцены",
+        "time": 5.417,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Баранки звенят на верёвке",
+        "time": 5.504,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как время",
+        "time": 5.591,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Самовар выдыхает горячий туман",
+        "time": 5.669,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чай нальют — и растает обман",
+        "time": 5.759,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кириллица светится в старых вывесках",
+        "time": 5.841,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Официанты в костюмах — кисти",
+        "time": 5.92,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вышивка",
+        "time": 6.015,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты вдыхаешь и вдруг понимаешь в тиши:",
+        "time": 6.091,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "«Я — русский. И значит",
+        "time": 6.17,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Живу",
+        "time": 6.259,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как решил»",
+        "time": 6.338,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 6.422,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь в каждом доме сердце бьётся",
+        "time": 6.501,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 6.587,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь даже тишина поётся",
+        "time": 6.675,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где б ни был ты — в глубинке",
+        "time": 6.754,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В городах",
+        "time": 6.839,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты чувствуешь: в твоих руках",
+        "time": 6.927,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Великая земля",
+        "time": 7.005,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 7.509,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/russkie.mp3",
+    "mediaFolder": "russkie",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2019.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2083.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2099.JPG",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_9810.JPG"
     ],
     "verified": false
   },
