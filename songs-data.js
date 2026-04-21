@@ -4089,364 +4089,441 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Поеду в Подмосковье",
-        "time": null,
+        "time": 5.713,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тихий поезд",
-        "time": null,
+        "time": 7.865,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ранний час",
-        "time": null,
+        "time": 9.828,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Деревеньки за окном бегут",
-        "time": null,
+        "time": 11.59,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Словно детство смотрит в нас",
-        "time": null,
+        "time": 14.565,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Обычные ларьки у трассы",
-        "time": null,
+        "time": 19.717,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тёплый хлеб",
-        "time": null,
+        "time": 22.126,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Горящий чай",
-        "time": null,
+        "time": 23.956,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Панельки — сотни жёлтых окон",
-        "time": null,
+        "time": 25.472,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Светят: «Заходи",
-        "time": null,
+        "time": 28.381,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Встречай»",
-        "time": null,
+        "time": 32.567,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 35.915,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь в каждом доме сердце бьётся",
-        "time": null,
+        "time": 37.617,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 41.103,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь даже тишина поётся",
-        "time": null,
+        "time": 43.211,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где б ни был ты — в глубинке",
-        "time": null,
+        "time": 46.434,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В городах",
-        "time": null,
+        "time": 49.095,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты чувствуешь: в твоих руках",
-        "time": null,
+        "time": 50.202,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Великая земля",
-        "time": null,
+        "time": 53.803,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 57.047,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Магазины",
-        "time": null,
+        "time": 64.316,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Старый клуб",
-        "time": null,
+        "time": 65.36,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И фасады",
-        "time": null,
+        "time": 66.537,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как с иголки",
-        "time": null,
+        "time": 67.837,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Каждый шов перешит заботой",
-        "time": null,
+        "time": 69.179,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Краска свежая на ёлке",
-        "time": null,
+        "time": 71.81,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Щедрый человек",
-        "time": null,
+        "time": 74.517,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не зная меры",
-        "time": null,
+        "time": 76.452,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Строит парк среди полей",
-        "time": null,
+        "time": 77.98,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Музеи",
-        "time": null,
+        "time": 80.308,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пруды и светлые аллеи",
-        "time": null,
+        "time": 81.474,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чтоб жилось тебе теплей",
-        "time": null,
+        "time": 84.567,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Посреди глуши — как из сказки",
-        "time": null,
+        "time": 91.9,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вырастает новая деревня",
-        "time": null,
+        "time": 96.735,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Домики дышат свежей краской",
-        "time": null,
+        "time": 102.319,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь рождается стремленье",
-        "time": null,
+        "time": 107.199,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 113.269,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь в каждом доме сердце бьётся",
-        "time": null,
+        "time": 114.716,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 118.405,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь даже тишина поётся",
-        "time": null,
+        "time": 120.363,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где б ни был ты — в глубинке",
-        "time": null,
+        "time": 124.027,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В городах",
-        "time": null,
+        "time": 126.528,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты чувствуешь: в твоих руках",
-        "time": null,
+        "time": 127.444,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Великая земля",
-        "time": null,
+        "time": 131.127,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 134.194,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Русский орнамент на ставнях",
-        "time": null,
+        "time": 135.535,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кружевом ложится снег",
-        "time": null,
+        "time": 138.134,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Словно голос предков шепчет:",
-        "time": null,
+        "time": 140.851,
+        "endTime": null,
         "words": null
       },
       {
         "text": "«Помни корни",
-        "time": null,
+        "time": 143.619,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Человек»",
-        "time": null,
+        "time": 145.72,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Слышу гармошку у деревянной сцены",
-        "time": null,
+        "time": 152.052,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Баранки звенят на верёвке",
-        "time": null,
+        "time": 155.02,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как время",
-        "time": null,
+        "time": 157.173,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Самовар выдыхает горячий туман",
-        "time": null,
+        "time": 158.671,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Чай нальют — и растает обман",
-        "time": null,
+        "time": 161.638,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Кириллица светится в старых вывесках",
-        "time": null,
+        "time": 165.723,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Официанты в костюмах — кисти",
-        "time": null,
+        "time": 168.21,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вышивка",
-        "time": null,
+        "time": 171.026,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты вдыхаешь и вдруг понимаешь в тиши:",
-        "time": null,
+        "time": 172.265,
+        "endTime": null,
         "words": null
       },
       {
         "text": "«Я — русский. И значит",
-        "time": null,
+        "time": 175.613,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Живу",
-        "time": null,
+        "time": 177.223,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как решил»",
-        "time": null,
+        "time": 178.9,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 182.229,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь в каждом доме сердце бьётся",
-        "time": null,
+        "time": 183.886,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 187.266,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь даже тишина поётся",
-        "time": null,
+        "time": 189.293,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где б ни был ты — в глубинке",
-        "time": null,
+        "time": 193.034,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В городах",
-        "time": null,
+        "time": 195.362,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ты чувствуешь: в твоих руках",
-        "time": null,
+        "time": 196.496,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Великая земля",
-        "time": null,
+        "time": 199.758,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы русские",
-        "time": null,
+        "time": 203.419,
+        "endTime": 206.747,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/russkie.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/russkie.mp3",
+    "mediaFolder": "russkie",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2019.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2083.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2099.JPG",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_9810.JPG"
+    ],
+    "verified": false
   },
   {
     "id": "sanatory",
@@ -4454,119 +4531,167 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Мы ехали смотреть готичный фасад,",
-        "time": null,
+        "time": 11.35,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где усадьбы шёпот в вечерний сад.",
-        "time": null,
+        "time": 18.379,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но вот сюрприз, совсем не там блеск,",
-        "time": null,
+        "time": 24.798,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский модерн — наш главный успех.",
-        "time": null,
+        "time": 31.005,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мрамор, люстры, колонны, флаги,",
-        "time": null,
+        "time": 37.11,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сквозь окна стеклянные — зной и слякоть.",
-        "time": null,
+        "time": 42.921,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бювет с водой из стены — блаженство,",
-        "time": null,
+        "time": 48.827,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как президентский дворец совершенство.",
-        "time": null,
+        "time": 55.318,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Особняк потускнел, в нём нет огня,",
-        "time": null,
+        "time": 61.099,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не вызывает он стояка у меня.",
-        "time": null,
+        "time": 67.136,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А санаторий, о, как он парит,",
-        "time": null,
+        "time": 73.641,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как мост стеклянный к бассейну летит.",
-        "time": null,
+        "time": 79.489,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Искусствоведы бродят в ночной тиши,",
-        "time": null,
+        "time": 85.85,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм обнимает их как души.",
-        "time": null,
+        "time": 91.658,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мрамор, люстры, колонны, флаги,",
-        "time": null,
+        "time": 97.958,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сквозь окна стеклянные — зной и слякоть.",
-        "time": null,
+        "time": 103.65,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бювет с водой из стены — блаженство,",
-        "time": null,
+        "time": 109.891,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как президентский дворец совершенство.",
-        "time": null,
+        "time": 115.572,
+        "endTime": 121.28,
         "words": null
       },
       {
         "text": "Отзывы злые, но всё же пускают,",
-        "time": null,
+        "time": 146.276,
+        "endTime": 151.964,
         "words": null
       },
       {
         "text": "Вежливость всюду здесь процветает.",
-        "time": null,
+        "time": 151.414,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тут время застыло в советском шике,",
-        "time": null,
+        "time": 157.956,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И каждый поворот, как в старом клике.",
-        "time": null,
+        "time": 165.97,
+        "endTime": 171.591,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/sanatory.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/sanatory.mp3",
+    "mediaFolder": "sanatory",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5622.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5624.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5627.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5635.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5637.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5638.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5641.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5646.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5648.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5649.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5651.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5674.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5675.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5680.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5682.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5683.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5687.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5689.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5691.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8522.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8526.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8540.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8553.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8556.jpeg"
+    ],
+    "verified": false
   },
   {
     "id": "slon-rave",
@@ -5329,214 +5454,258 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Едем в усадьбу",
-        "time": null,
+        "time": 42.268,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мрак за окном",
-        "time": null,
+        "time": 45.728,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пыль веков шепчет",
-        "time": null,
+        "time": 48.608,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тянет нас в дом",
-        "time": null,
+        "time": 51.822,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пороги скрипят",
-        "time": null,
+        "time": 56.881,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лес дышит грехом",
-        "time": null,
+        "time": 63.297,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьба теней",
-        "time": null,
+        "time": 68.792,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где блеск и балы",
-        "time": null,
+        "time": 71.811,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветра унесли все следы",
-        "time": null,
+        "time": 75.239,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пустят ли нас",
-        "time": null,
+        "time": 82.712,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или проклят путь",
-        "time": null,
+        "time": 85.641,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы ищем тень",
-        "time": null,
+        "time": 88.302,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не зная",
-        "time": null,
+        "time": 90.463,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как уснуть",
-        "time": null,
+        "time": 91.765,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Руины смеются",
-        "time": null,
+        "time": 110.861,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вода как стекло",
-        "time": null,
+        "time": 114.096,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь тьма обнимает",
-        "time": null,
+        "time": 117.514,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь время ушло",
-        "time": null,
+        "time": 119.688,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Хамство в ответ",
-        "time": null,
+        "time": 125.448,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но нас не сломить",
-        "time": null,
+        "time": 131.983,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Паспорта",
-        "time": null,
+        "time": 138.678,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Запреты",
-        "time": null,
+        "time": 140.369,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пустые слова",
-        "time": null,
+        "time": 142.092,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но мы прорвёмся",
-        "time": null,
+        "time": 145.58,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как чёрная вода",
-        "time": null,
+        "time": 147.196,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Среди деревьев тайна живёт",
-        "time": null,
+        "time": 151.228,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Один шаг — и назад не вернёт",
-        "time": null,
+        "time": 154.544,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьба теней",
-        "time": null,
+        "time": 171.497,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где блеск и балы",
-        "time": null,
+        "time": 174.773,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветра унесли все следы",
-        "time": null,
+        "time": 178.424,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пустят ли нас",
-        "time": null,
+        "time": 185.645,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или проклят путь",
-        "time": null,
+        "time": 188.439,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы ищем тень",
-        "time": null,
+        "time": 191.314,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не зная",
-        "time": null,
+        "time": 193.676,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как уснуть",
-        "time": null,
+        "time": 194.797,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Час или вечность — какая разница",
-        "time": null,
+        "time": 199.389,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы входим в ночь",
-        "time": null,
+        "time": 202.784,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где мрак не кончается",
-        "time": null,
+        "time": 204.29,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тень нас встречает",
-        "time": null,
+        "time": 206.146,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Смеётся в лицо",
-        "time": null,
+        "time": 207.516,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьба шепчет: \"Теперь ты никто\"",
-        "time": null,
+        "time": 209.165,
+        "endTime": 213.767,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/usadba-teney.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/usadba-teney.mp3",
+    "mediaFolder": "usadba-teney",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/usadba-teney/copy_CCB494CD-70F1-4D3F-96D5-76912C314D62.mov"
+    ],
+    "verified": false
   },
   {
     "id": "zaraisk",
@@ -8844,6 +9013,616 @@ window.PUBLISHED = [
     "verified": false
   },
   {
+    "id": "russkie",
+    "title": "Русские",
+    "lyrics": [
+      {
+        "text": "Поеду в Подмосковье",
+        "time": 5.713,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тихий поезд",
+        "time": 7.865,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ранний час",
+        "time": 9.828,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Деревеньки за окном бегут",
+        "time": 11.59,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Словно детство смотрит в нас",
+        "time": 14.565,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Обычные ларьки у трассы",
+        "time": 19.717,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тёплый хлеб",
+        "time": 22.126,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Горящий чай",
+        "time": 23.956,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Панельки — сотни жёлтых окон",
+        "time": 25.472,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Светят: «Заходи",
+        "time": 28.381,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Встречай»",
+        "time": 32.567,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 35.915,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь в каждом доме сердце бьётся",
+        "time": 37.617,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 41.103,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь даже тишина поётся",
+        "time": 43.211,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где б ни был ты — в глубинке",
+        "time": 46.434,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В городах",
+        "time": 49.095,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты чувствуешь: в твоих руках",
+        "time": 50.202,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Великая земля",
+        "time": 53.803,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 57.047,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Магазины",
+        "time": 64.316,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Старый клуб",
+        "time": 65.36,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И фасады",
+        "time": 66.537,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как с иголки",
+        "time": 67.837,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Каждый шов перешит заботой",
+        "time": 69.179,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Краска свежая на ёлке",
+        "time": 71.81,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Щедрый человек",
+        "time": 74.517,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не зная меры",
+        "time": 76.452,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Строит парк среди полей",
+        "time": 77.98,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Музеи",
+        "time": 80.308,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пруды и светлые аллеи",
+        "time": 81.474,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чтоб жилось тебе теплей",
+        "time": 84.567,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Посреди глуши — как из сказки",
+        "time": 91.9,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вырастает новая деревня",
+        "time": 96.735,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Домики дышат свежей краской",
+        "time": 102.319,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь рождается стремленье",
+        "time": 107.199,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 113.269,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь в каждом доме сердце бьётся",
+        "time": 114.716,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 118.405,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь даже тишина поётся",
+        "time": 120.363,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где б ни был ты — в глубинке",
+        "time": 124.027,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В городах",
+        "time": 126.528,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты чувствуешь: в твоих руках",
+        "time": 127.444,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Великая земля",
+        "time": 131.127,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 134.194,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Русский орнамент на ставнях",
+        "time": 135.535,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кружевом ложится снег",
+        "time": 138.134,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Словно голос предков шепчет:",
+        "time": 140.851,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "«Помни корни",
+        "time": 143.619,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Человек»",
+        "time": 145.72,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Слышу гармошку у деревянной сцены",
+        "time": 152.052,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Баранки звенят на верёвке",
+        "time": 155.02,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как время",
+        "time": 157.173,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Самовар выдыхает горячий туман",
+        "time": 158.671,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чай нальют — и растает обман",
+        "time": 161.638,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Кириллица светится в старых вывесках",
+        "time": 165.723,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Официанты в костюмах — кисти",
+        "time": 168.21,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вышивка",
+        "time": 171.026,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты вдыхаешь и вдруг понимаешь в тиши:",
+        "time": 172.265,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "«Я — русский. И значит",
+        "time": 175.613,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Живу",
+        "time": 177.223,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как решил»",
+        "time": 178.9,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 182.229,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь в каждом доме сердце бьётся",
+        "time": 183.886,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 187.266,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь даже тишина поётся",
+        "time": 189.293,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где б ни был ты — в глубинке",
+        "time": 193.034,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В городах",
+        "time": 195.362,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ты чувствуешь: в твоих руках",
+        "time": 196.496,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Великая земля",
+        "time": 199.758,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы русские",
+        "time": 203.419,
+        "endTime": 206.747,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/russkie.mp3",
+    "mediaFolder": "russkie",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2019.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2083.mov",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_2099.JPG",
+      "https://storage.yandexcloud.net/edemperd/russkie/IMG_9810.JPG"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sanatory",
+    "title": "Санаторий",
+    "lyrics": [
+      {
+        "text": "Мы ехали смотреть готичный фасад,",
+        "time": 11.35,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где усадьбы шёпот в вечерний сад.",
+        "time": 18.379,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Но вот сюрприз, совсем не там блеск,",
+        "time": 24.798,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Советский модерн — наш главный успех.",
+        "time": 31.005,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мрамор, люстры, колонны, флаги,",
+        "time": 37.11,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сквозь окна стеклянные — зной и слякоть.",
+        "time": 42.921,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бювет с водой из стены — блаженство,",
+        "time": 48.827,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как президентский дворец совершенство.",
+        "time": 55.318,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Особняк потускнел, в нём нет огня,",
+        "time": 61.099,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не вызывает он стояка у меня.",
+        "time": 67.136,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А санаторий, о, как он парит,",
+        "time": 73.641,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как мост стеклянный к бассейну летит.",
+        "time": 79.489,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Искусствоведы бродят в ночной тиши,",
+        "time": 85.85,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Модернизм обнимает их как души.",
+        "time": 91.658,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мрамор, люстры, колонны, флаги,",
+        "time": 97.958,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сквозь окна стеклянные — зной и слякоть.",
+        "time": 103.65,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бювет с водой из стены — блаженство,",
+        "time": 109.891,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как президентский дворец совершенство.",
+        "time": 115.572,
+        "endTime": 121.28,
+        "words": null
+      },
+      {
+        "text": "Отзывы злые, но всё же пускают,",
+        "time": 146.276,
+        "endTime": 151.964,
+        "words": null
+      },
+      {
+        "text": "Вежливость всюду здесь процветает.",
+        "time": 151.414,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тут время застыло в советском шике,",
+        "time": 157.956,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И каждый поворот, как в старом клике.",
+        "time": 165.97,
+        "endTime": 171.591,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/sanatory.mp3",
+    "mediaFolder": "sanatory",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5622.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5624.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5627.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5635.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5637.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5638.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5641.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5646.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5648.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5649.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5651.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5674.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5675.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5680.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5682.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5683.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5687.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5689.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5691.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8522.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8526.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8540.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8553.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8556.jpeg"
+    ],
+    "verified": false
+  },
+  {
     "id": "slon-rave",
     "title": "Слон Рейв",
     "lyrics": [
@@ -9597,6 +10376,265 @@ window.PUBLISHED = [
       "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
     ],
     "verified": true
+  },
+  {
+    "id": "usadba-teney",
+    "title": "Усадьба Теней",
+    "lyrics": [
+      {
+        "text": "Едем в усадьбу",
+        "time": 42.268,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мрак за окном",
+        "time": 45.728,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пыль веков шепчет",
+        "time": 48.608,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тянет нас в дом",
+        "time": 51.822,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пороги скрипят",
+        "time": 56.881,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лес дышит грехом",
+        "time": 63.297,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьба теней",
+        "time": 68.792,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где блеск и балы",
+        "time": 71.811,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ветра унесли все следы",
+        "time": 75.239,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пустят ли нас",
+        "time": 82.712,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или проклят путь",
+        "time": 85.641,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы ищем тень",
+        "time": 88.302,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не зная",
+        "time": 90.463,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как уснуть",
+        "time": 91.765,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Руины смеются",
+        "time": 110.861,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вода как стекло",
+        "time": 114.096,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь тьма обнимает",
+        "time": 117.514,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь время ушло",
+        "time": 119.688,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Хамство в ответ",
+        "time": 125.448,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Но нас не сломить",
+        "time": 131.983,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Паспорта",
+        "time": 138.678,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Запреты",
+        "time": 140.369,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пустые слова",
+        "time": 142.092,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Но мы прорвёмся",
+        "time": 145.58,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как чёрная вода",
+        "time": 147.196,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Среди деревьев тайна живёт",
+        "time": 151.228,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Один шаг — и назад не вернёт",
+        "time": 154.544,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьба теней",
+        "time": 171.497,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где блеск и балы",
+        "time": 174.773,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ветра унесли все следы",
+        "time": 178.424,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пустят ли нас",
+        "time": 185.645,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или проклят путь",
+        "time": 188.439,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы ищем тень",
+        "time": 191.314,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не зная",
+        "time": 193.676,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как уснуть",
+        "time": 194.797,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Час или вечность — какая разница",
+        "time": 199.389,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы входим в ночь",
+        "time": 202.784,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где мрак не кончается",
+        "time": 204.29,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тень нас встречает",
+        "time": 206.146,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Смеётся в лицо",
+        "time": 207.516,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьба шепчет: \"Теперь ты никто\"",
+        "time": 209.165,
+        "endTime": 213.767,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/usadba-teney.mp3",
+    "mediaFolder": "usadba-teney",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/usadba-teney/copy_CCB494CD-70F1-4D3F-96D5-76912C314D62.mov"
+    ],
+    "verified": false
   },
   {
     "id": "zaraisk",
