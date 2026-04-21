@@ -1085,7 +1085,7 @@ function startPlayer(id) {
         const xml = new DOMParser().parseFromString(text, 'application/xml');
         const keys = [...xml.getElementsByTagName('Key')].map(k => k.textContent).filter(k => {
           const name = k.split('/').pop();
-          return name && /\.(jpg|jpeg|png|webp|gif|mp4|mov)$/i.test(name);
+          return name && /\.(jpg|jpeg|png|webp|gif|heic|heif|mp4|mov|webm)$/i.test(name);
         });
         if (keys.length) ssStart(keys.map(k => S3B+'/'+k));
       }).catch(()=>{});
@@ -1942,7 +1942,7 @@ async function scanMediaFolder() {
     const isTruncated = xml.getElementsByTagName('IsTruncated')[0]?.textContent;
     const keys = allKeys.filter(k => {
       const name = k.split('/').pop();
-      return name && /\.(jpg|jpeg|png|webp|mp4|mov|gif)$/i.test(name);
+      return name && /\.(jpg|jpeg|png|webp|gif|heic|heif|mp4|mov|webm)$/i.test(name);
     });
     console.log('[S3] total keys:', allKeys.length, 'media keys:', keys.length, 'truncated:', isTruncated);
     if (!keys.length) {
@@ -1978,7 +1978,7 @@ function ssIsVideo(url) {
 
 function ssStart(files) {
   ssClear();
-  ssFiles = files.filter(f => /\.(jpg|jpeg|png|webp|gif|mp4|mov|webm)$/i.test(f));
+  ssFiles = files.filter(f => /\.(jpg|jpeg|png|webp|gif|heic|heif|mp4|mov|webm)$/i.test(f));
   console.log('[SS] ssStart called, files:', ssFiles.length, ssFiles);
   for (let i = ssFiles.length-1; i>0; i--) {
     const j = Math.floor(Math.random()*(i+1));

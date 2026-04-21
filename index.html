@@ -388,7 +388,7 @@ function playFrom(id) {
         const xml = new DOMParser().parseFromString(text, 'application/xml');
         const keys = [...xml.getElementsByTagName('Key')].map(k => k.textContent).filter(k => {
           const name = k.split('/').pop();
-          return name && /\.(jpg|jpeg|png|webp|gif|mp4|mov|webm)$/i.test(name);
+          return name && /\.(jpg|jpeg|png|webp|gif|heic|heif|mp4|mov|webm)$/i.test(name);
         });
         if (keys.length) ssStart(keys.map(k => S3B+'/'+k));
       }).catch(() => {});
