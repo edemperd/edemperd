@@ -4454,119 +4454,142 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Мы ехали смотреть готичный фасад,",
-        "time": null,
+        "time": 11.35,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где усадьбы шёпот в вечерний сад.",
-        "time": null,
+        "time": 18.379,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но вот сюрприз, совсем не там блеск,",
-        "time": null,
+        "time": 24.798,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Советский модерн — наш главный успех.",
-        "time": null,
+        "time": 31.005,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мрамор, люстры, колонны, флаги,",
-        "time": null,
+        "time": 37.11,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сквозь окна стеклянные — зной и слякоть.",
-        "time": null,
+        "time": 42.921,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бювет с водой из стены — блаженство,",
-        "time": null,
+        "time": 48.827,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как президентский дворец совершенство.",
-        "time": null,
+        "time": 55.318,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Особняк потускнел, в нём нет огня,",
-        "time": null,
+        "time": 61.099,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не вызывает он стояка у меня.",
-        "time": null,
+        "time": 67.136,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А санаторий, о, как он парит,",
-        "time": null,
+        "time": 73.641,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как мост стеклянный к бассейну летит.",
-        "time": null,
+        "time": 79.489,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Искусствоведы бродят в ночной тиши,",
-        "time": null,
+        "time": 85.85,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Модернизм обнимает их как души.",
-        "time": null,
+        "time": 91.658,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мрамор, люстры, колонны, флаги,",
-        "time": null,
+        "time": 97.958,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Сквозь окна стеклянные — зной и слякоть.",
-        "time": null,
+        "time": 103.65,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Бювет с водой из стены — блаженство,",
-        "time": null,
+        "time": 109.891,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как президентский дворец совершенство.",
-        "time": null,
+        "time": 115.572,
+        "endTime": 121.28,
         "words": null
       },
       {
         "text": "Отзывы злые, но всё же пускают,",
-        "time": null,
+        "time": 146.276,
+        "endTime": 151.964,
         "words": null
       },
       {
         "text": "Вежливость всюду здесь процветает.",
-        "time": null,
+        "time": 151.414,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тут время застыло в советском шике,",
-        "time": null,
+        "time": 157.956,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И каждый поворот, как в старом клике.",
-        "time": null,
+        "time": 165.97,
+        "endTime": 171.591,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/sanatory.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/sanatory.mp3",
+    "mediaFolder": null,
+    "mediaFiles": null,
+    "verified": false
   },
   {
     "id": "slon-rave",
@@ -5329,214 +5352,258 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Едем в усадьбу",
-        "time": null,
+        "time": 42.268,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мрак за окном",
-        "time": null,
+        "time": 45.728,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пыль веков шепчет",
-        "time": null,
+        "time": 48.608,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тянет нас в дом",
-        "time": null,
+        "time": 51.822,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пороги скрипят",
-        "time": null,
+        "time": 56.881,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лес дышит грехом",
-        "time": null,
+        "time": 63.297,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьба теней",
-        "time": null,
+        "time": 68.792,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где блеск и балы",
-        "time": null,
+        "time": 71.811,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветра унесли все следы",
-        "time": null,
+        "time": 75.239,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пустят ли нас",
-        "time": null,
+        "time": 82.712,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или проклят путь",
-        "time": null,
+        "time": 85.641,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы ищем тень",
-        "time": null,
+        "time": 88.302,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не зная",
-        "time": null,
+        "time": 90.463,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как уснуть",
-        "time": null,
+        "time": 91.765,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Руины смеются",
-        "time": null,
+        "time": 110.861,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Вода как стекло",
-        "time": null,
+        "time": 114.096,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь тьма обнимает",
-        "time": null,
+        "time": 117.514,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Здесь время ушло",
-        "time": null,
+        "time": 119.688,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Хамство в ответ",
-        "time": null,
+        "time": 125.448,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но нас не сломить",
-        "time": null,
+        "time": 131.983,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Паспорта",
-        "time": null,
+        "time": 138.678,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Запреты",
-        "time": null,
+        "time": 140.369,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пустые слова",
-        "time": null,
+        "time": 142.092,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Но мы прорвёмся",
-        "time": null,
+        "time": 145.58,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как чёрная вода",
-        "time": null,
+        "time": 147.196,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Среди деревьев тайна живёт",
-        "time": null,
+        "time": 151.228,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Один шаг — и назад не вернёт",
-        "time": null,
+        "time": 154.544,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьба теней",
-        "time": null,
+        "time": 171.497,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где блеск и балы",
-        "time": null,
+        "time": 174.773,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ветра унесли все следы",
-        "time": null,
+        "time": 178.424,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пустят ли нас",
-        "time": null,
+        "time": 185.645,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Или проклят путь",
-        "time": null,
+        "time": 188.439,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы ищем тень",
-        "time": null,
+        "time": 191.314,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не зная",
-        "time": null,
+        "time": 193.676,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как уснуть",
-        "time": null,
+        "time": 194.797,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Час или вечность — какая разница",
-        "time": null,
+        "time": 199.389,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Мы входим в ночь",
-        "time": null,
+        "time": 202.784,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Где мрак не кончается",
-        "time": null,
+        "time": 204.29,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Тень нас встречает",
-        "time": null,
+        "time": 206.146,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Смеётся в лицо",
-        "time": null,
+        "time": 207.516,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Усадьба шепчет: \"Теперь ты никто\"",
-        "time": null,
+        "time": 209.165,
+        "endTime": 213.767,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/usadba-teney.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/IMG_4386.jpeg"
+    "audioPath": "audio/usadba-teney.mp3",
+    "mediaFolder": "usadba-teney",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/usadba-teney/copy_CCB494CD-70F1-4D3F-96D5-76912C314D62.mov"
+    ],
+    "verified": false
   },
   {
     "id": "zaraisk",
@@ -9597,6 +9664,265 @@ window.PUBLISHED = [
       "https://storage.yandexcloud.net/edemperd/trevozhno/IMG_8282.MOV"
     ],
     "verified": true
+  },
+  {
+    "id": "usadba-teney",
+    "title": "Усадьба Теней",
+    "lyrics": [
+      {
+        "text": "Едем в усадьбу",
+        "time": 42.268,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мрак за окном",
+        "time": 45.728,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пыль веков шепчет",
+        "time": 48.608,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тянет нас в дом",
+        "time": 51.822,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пороги скрипят",
+        "time": 56.881,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лес дышит грехом",
+        "time": 63.297,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьба теней",
+        "time": 68.792,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где блеск и балы",
+        "time": 71.811,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ветра унесли все следы",
+        "time": 75.239,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пустят ли нас",
+        "time": 82.712,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или проклят путь",
+        "time": 85.641,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы ищем тень",
+        "time": 88.302,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не зная",
+        "time": 90.463,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как уснуть",
+        "time": 91.765,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Руины смеются",
+        "time": 110.861,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вода как стекло",
+        "time": 114.096,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь тьма обнимает",
+        "time": 117.514,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Здесь время ушло",
+        "time": 119.688,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Хамство в ответ",
+        "time": 125.448,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Но нас не сломить",
+        "time": 131.983,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Паспорта",
+        "time": 138.678,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Запреты",
+        "time": 140.369,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пустые слова",
+        "time": 142.092,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Но мы прорвёмся",
+        "time": 145.58,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как чёрная вода",
+        "time": 147.196,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Среди деревьев тайна живёт",
+        "time": 151.228,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Один шаг — и назад не вернёт",
+        "time": 154.544,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьба теней",
+        "time": 171.497,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где блеск и балы",
+        "time": 174.773,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ветра унесли все следы",
+        "time": 178.424,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пустят ли нас",
+        "time": 185.645,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или проклят путь",
+        "time": 188.439,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы ищем тень",
+        "time": 191.314,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не зная",
+        "time": 193.676,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как уснуть",
+        "time": 194.797,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Час или вечность — какая разница",
+        "time": 199.389,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы входим в ночь",
+        "time": 202.784,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где мрак не кончается",
+        "time": 204.29,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тень нас встречает",
+        "time": 206.146,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Смеётся в лицо",
+        "time": 207.516,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Усадьба шепчет: \"Теперь ты никто\"",
+        "time": 209.165,
+        "endTime": 213.767,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/usadba-teney.mp3",
+    "mediaFolder": "usadba-teney",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/usadba-teney/copy_CCB494CD-70F1-4D3F-96D5-76912C314D62.mov"
+    ],
+    "verified": false
   },
   {
     "id": "zaraisk",
