@@ -1934,16 +1934,19 @@ async function scanMediaFolder() {
   document.getElementById('ed-media-preview').textContent = folder + '/';
   document.getElementById('ed-media-files').textContent = '⏳ сканирую...';
   try {
-    const resp = await fetch(`${S3_BASE}?prefix=${encodeURIComponent(folder+'/')}`);
+    const resp = await fetch(`${S3_BASE}?prefix=${encodeURIComponent(folder+'/')}&max-keys=1000`);
     const text = await resp.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, 'application/xml');
-    const keys = [...xml.getElementsByTagName('Key')].map(k => k.textContent).filter(k => {
+    const allKeys = [...xml.getElementsByTagName('Key')].map(k => k.textContent);
+    const isTruncated = xml.getElementsByTagName('IsTruncated')[0]?.textContent;
+    const keys = allKeys.filter(k => {
       const name = k.split('/').pop();
       return name && /\.(jpg|jpeg|png|webp|mp4|mov|gif)$/i.test(name);
     });
+    console.log('[S3] total keys:', allKeys.length, 'media keys:', keys.length, 'truncated:', isTruncated);
     if (!keys.length) {
-      document.getElementById('ed-media-files').textContent = 'Файлов не найдено';
+      document.getElementById('ed-media-files').textContent = `Файлов не найдено (S3 вернул ${allKeys.length} ключей, truncated: ${isTruncated})`;
       return;
     }
     // Сохраняем в текущую песню
@@ -1954,6 +1957,7 @@ async function scanMediaFolder() {
       s.mediaFiles = keys.map(k => S3_BASE+'/'+k);
     }
     document.getElementById('ed-media-files').innerHTML =
+      `<div style="color:var(--accent);font-size:9px;letter-spacing:1px;margin-bottom:6px">S3: ${allKeys.length} ключей, ${keys.length} медиафайлов${isTruncated==='true'?' ⚠ СПИСОК ОБРЕЗАН':''}</div>` +
       keys.map(k => `<div>✓ ${k.split('/').pop()}</div>`).join('') +
       '<div style="margin-top:8px;color:var(--accent);font-size:9px;letter-spacing:1px">↑ НАЖМИ ОПУБЛИКОВАТЬ ЧТОБЫ СОХРАНИТЬ</div>';
     // Сохраняем чтобы mediaFiles попали в songs-data.js при публикации
