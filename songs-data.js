@@ -4587,8 +4587,33 @@ window.SONGS_DATA = [
     ],
     "hasAudio": true,
     "audioPath": "audio/sanatory.mp3",
-    "mediaFolder": null,
-    "mediaFiles": null,
+    "mediaFolder": "sanatory",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5622.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5624.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5627.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5635.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5637.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5638.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5641.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5646.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5648.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5649.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5651.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5674.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5675.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5680.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5682.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5683.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5687.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5689.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5691.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8522.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8526.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8540.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8553.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8556.jpeg"
+    ],
     "verified": false
   },
   {
@@ -8907,6 +8932,174 @@ window.PUBLISHED = [
     "mediaFolder": "pushino",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/pushino/IMG_1754.MOV"
+    ],
+    "verified": false
+  },
+  {
+    "id": "sanatory",
+    "title": "Санаторий",
+    "lyrics": [
+      {
+        "text": "Мы ехали смотреть готичный фасад,",
+        "time": 11.35,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Где усадьбы шёпот в вечерний сад.",
+        "time": 18.379,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Но вот сюрприз, совсем не там блеск,",
+        "time": 24.798,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Советский модерн — наш главный успех.",
+        "time": 31.005,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мрамор, люстры, колонны, флаги,",
+        "time": 37.11,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сквозь окна стеклянные — зной и слякоть.",
+        "time": 42.921,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бювет с водой из стены — блаженство,",
+        "time": 48.827,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как президентский дворец совершенство.",
+        "time": 55.318,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Особняк потускнел, в нём нет огня,",
+        "time": 61.099,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не вызывает он стояка у меня.",
+        "time": 67.136,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А санаторий, о, как он парит,",
+        "time": 73.641,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как мост стеклянный к бассейну летит.",
+        "time": 79.489,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Искусствоведы бродят в ночной тиши,",
+        "time": 85.85,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Модернизм обнимает их как души.",
+        "time": 91.658,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мрамор, люстры, колонны, флаги,",
+        "time": 97.958,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сквозь окна стеклянные — зной и слякоть.",
+        "time": 103.65,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бювет с водой из стены — блаженство,",
+        "time": 109.891,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как президентский дворец совершенство.",
+        "time": 115.572,
+        "endTime": 121.28,
+        "words": null
+      },
+      {
+        "text": "Отзывы злые, но всё же пускают,",
+        "time": 146.276,
+        "endTime": 151.964,
+        "words": null
+      },
+      {
+        "text": "Вежливость всюду здесь процветает.",
+        "time": 151.414,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тут время застыло в советском шике,",
+        "time": 157.956,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И каждый поворот, как в старом клике.",
+        "time": 165.97,
+        "endTime": 171.591,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/sanatory.mp3",
+    "mediaFolder": "sanatory",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5622.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5624.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5627.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5635.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5637.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5638.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5641.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5646.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5648.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5649.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5651.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5674.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5675.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5680.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5682.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5683.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5687.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5689.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_5691.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8522.MOV",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8526.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8540.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8553.jpeg",
+      "https://storage.yandexcloud.net/edemperd/sanatory/IMG_8556.jpeg"
     ],
     "verified": false
   },
