@@ -6110,7 +6110,247 @@ window.SONGS_DATA = [
         "words": null
       },
       {
-        "text": "Глоток за лотком",
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я полкуплета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я полкуплета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Собственным ртом",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Собственным ртом",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Собственным ртом",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
         "time": null,
         "endTime": null,
         "words": null
@@ -6119,7 +6359,9 @@ window.SONGS_DATA = [
     "hasAudio": true,
     "audioPath": "audio/marfino.mp3",
     "mediaFolder": "marfino",
-    "mediaFiles": null,
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/marfino/2026-04-23 23.32.37.jpg"
+    ],
     "verified": false
   }
 ];
@@ -11248,7 +11490,247 @@ window.PUBLISHED = [
         "words": null
       },
       {
-        "text": "Глоток за лотком",
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я полкуплета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Я полкуплета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Собственным ртом",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Собственным ртом",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Собственным ртом",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пила из бювета",
         "time": null,
         "endTime": null,
         "words": null
@@ -11257,7 +11739,9 @@ window.PUBLISHED = [
     "hasAudio": true,
     "audioPath": "audio/marfino.mp3",
     "mediaFolder": "marfino",
-    "mediaFiles": null,
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/marfino/2026-04-23 23.32.37.jpg"
+    ],
     "verified": false
   }
 ];
