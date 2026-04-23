@@ -6086,6 +6086,41 @@ window.SONGS_DATA = [
       "https://storage.yandexcloud.net/edemperd/zaraisk/copy_1BE8FD39-CD7B-4981-B662-533BC46FF560.mov"
     ],
     "verified": false
+  },
+  {
+    "id": "s1776977516950",
+    "title": "Марфино соул",
+    "lyrics": [
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за лотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/marfino.mp3",
+    "mediaFolder": "marfino",
+    "mediaFiles": null,
+    "verified": false
   }
 ];
 
@@ -11188,6 +11223,41 @@ window.PUBLISHED = [
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/zaraisk/copy_1BE8FD39-CD7B-4981-B662-533BC46FF560.mov"
     ],
+    "verified": false
+  },
+  {
+    "id": "s1776977516950",
+    "title": "Марфино соул",
+    "lyrics": [
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за глотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Глоток за лотком",
+        "time": null,
+        "endTime": null,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/marfino.mp3",
+    "mediaFolder": "marfino",
+    "mediaFiles": null,
     "verified": false
   }
 ];
