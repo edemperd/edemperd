@@ -1663,264 +1663,318 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Стоит на трассе в Луховицах",
-        "time": null,
+        "time": 17.566,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 20.942,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как король на престол",
-        "time": null,
+        "time": 25.932,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не длинный",
-        "time": null,
+        "time": 29.259,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Не короткий",
-        "time": null,
+        "time": 33.215,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А самый",
-        "time": null,
+        "time": 34.489,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Нормальный",
-        "time": null,
+        "time": 35.473,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как надо",
-        "time": null,
+        "time": 37.26,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Фасон",
-        "time": null,
+        "time": 41.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 45.074,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 46.986,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Гордость наша навек",
-        "time": null,
+        "time": 49.655,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пупырчатый герой",
-        "time": null,
+        "time": 54.192,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Для души человек",
-        "time": null,
+        "time": 57.143,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 61.157,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 63.022,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В небо смотрит пимпец",
-        "time": null,
+        "time": 65.641,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Фоткайся с ним смело",
-        "time": null,
+        "time": 69.63,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ведь это наш певец",
-        "time": null,
+        "time": 73.567,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Металл блестит",
-        "time": null,
+        "time": 77.841,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Как зелёный закат",
-        "time": null,
+        "time": 79.322,
+        "endTime": null,
         "words": null
       },
       {
         "text": "С медным отливом он просто богат",
-        "time": null,
+        "time": 85.498,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Лавки вокруг",
-        "time": null,
+        "time": 93.576,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И народ тут толпится",
-        "time": null,
+        "time": 95.147,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Семьи с детьми — все сюда веселиться",
-        "time": null,
+        "time": 101.708,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 109.103,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 111.035,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Гордость наша навек",
-        "time": null,
+        "time": 113.748,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пупырчатый герой",
-        "time": null,
+        "time": 118.134,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Для души человек",
-        "time": null,
+        "time": 121.13,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 125.084,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 126.976,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В небо смотрит пимпец",
-        "time": null,
+        "time": 129.651,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Фоткайся с ним смело",
-        "time": null,
+        "time": 133.755,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ведь это наш певец",
-        "time": null,
+        "time": 137.542,
+        "endTime": null,
         "words": null
       },
       {
         "text": "А вокруг площадь",
-        "time": null,
+        "time": 141.96,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Уютный наш круг",
-        "time": null,
+        "time": 143.84,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Счастливый смех",
-        "time": null,
+        "time": 145.804,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Будто добрый друг",
-        "time": null,
+        "time": 147.541,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Памятник этот — как сердце Луховиц",
-        "time": null,
+        "time": 149.735,
+        "endTime": null,
         "words": null
       },
       {
         "text": "И каждый ему хоть раз поклонись",
-        "time": null,
+        "time": 153.612,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 158.447,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 160.026,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Гордость наша навек",
-        "time": null,
+        "time": 162.63,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Пупырчатый герой",
-        "time": null,
+        "time": 167.143,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Для души человек",
-        "time": null,
+        "time": 170.206,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 174.246,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Огурец",
-        "time": null,
+        "time": 175.945,
+        "endTime": null,
         "words": null
       },
       {
         "text": "В небо смотрит пимпец",
-        "time": null,
+        "time": 178.664,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Фоткайся с ним смело",
-        "time": null,
+        "time": 182.744,
+        "endTime": null,
         "words": null
       },
       {
         "text": "Ведь это наш певец",
-        "time": null,
+        "time": 186.536,
+        "endTime": 189.427,
         "words": null
       }
     ],
     "hasAudio": true,
-    "hasPhoto": true,
-    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/ogurec.mp3",
-    "photoPath": "https://storage.yandexcloud.net/edemperd/photos/ogurec.jpeg"
+    "audioPath": "audio/ogurec.mp3",
+    "mediaFolder": "ogurec",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/ogurec/copy_A6533277-2534-4350-B344-BB80734AFA75.mov"
+    ],
+    "verified": false
   },
   {
     "id": "petushki",
@@ -7333,6 +7387,325 @@ window.PUBLISHED = [
     "hasPhoto": true,
     "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad.mp3",
     "photoPath": "https://storage.yandexcloud.net/edemperd/photos/mkad.jpeg"
+  },
+  {
+    "id": "ogurec",
+    "title": "Огурец Луховицкий",
+    "lyrics": [
+      {
+        "text": "Стоит на трассе в Луховицах",
+        "time": 17.566,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 20.942,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как король на престол",
+        "time": 25.932,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не длинный",
+        "time": 29.259,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Не короткий",
+        "time": 33.215,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А самый",
+        "time": 34.489,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нормальный",
+        "time": 35.473,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как надо",
+        "time": 37.26,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Фасон",
+        "time": 41.206,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 45.074,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 46.986,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Гордость наша навек",
+        "time": 49.655,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пупырчатый герой",
+        "time": 54.192,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Для души человек",
+        "time": 57.143,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 61.157,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 63.022,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В небо смотрит пимпец",
+        "time": 65.641,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Фоткайся с ним смело",
+        "time": 69.63,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ведь это наш певец",
+        "time": 73.567,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Металл блестит",
+        "time": 77.841,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как зелёный закат",
+        "time": 79.322,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "С медным отливом он просто богат",
+        "time": 85.498,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лавки вокруг",
+        "time": 93.576,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И народ тут толпится",
+        "time": 95.147,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Семьи с детьми — все сюда веселиться",
+        "time": 101.708,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 109.103,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 111.035,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Гордость наша навек",
+        "time": 113.748,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пупырчатый герой",
+        "time": 118.134,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Для души человек",
+        "time": 121.13,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 125.084,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 126.976,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В небо смотрит пимпец",
+        "time": 129.651,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Фоткайся с ним смело",
+        "time": 133.755,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ведь это наш певец",
+        "time": 137.542,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А вокруг площадь",
+        "time": 141.96,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Уютный наш круг",
+        "time": 143.84,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Счастливый смех",
+        "time": 145.804,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Будто добрый друг",
+        "time": 147.541,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Памятник этот — как сердце Луховиц",
+        "time": 149.735,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "И каждый ему хоть раз поклонись",
+        "time": 153.612,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 158.447,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 160.026,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Гордость наша навек",
+        "time": 162.63,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Пупырчатый герой",
+        "time": 167.143,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Для души человек",
+        "time": 170.206,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 174.246,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Огурец",
+        "time": 175.945,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В небо смотрит пимпец",
+        "time": 178.664,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Фоткайся с ним смело",
+        "time": 182.744,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ведь это наш певец",
+        "time": 186.536,
+        "endTime": 189.427,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "audio/ogurec.mp3",
+    "mediaFolder": "ogurec",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/ogurec/copy_A6533277-2534-4350-B344-BB80734AFA75.mov"
+    ],
+    "verified": false
   },
   {
     "id": "petushki",
