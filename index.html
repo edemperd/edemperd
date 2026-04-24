@@ -154,15 +154,18 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   transition: opacity .5s ease;
 }
 #view-player.ui-hidden .phdr,
-#view-player.ui-hidden .pcontrols,
-#view-player.ui-hidden .ss-fit-btn { opacity: 0; pointer-events: none; }
-  position: fixed; top: 56px; right: 16px; z-index: 20;
+#view-player.ui-hidden .pcontrols { opacity: 0; pointer-events: none; }
+/* fit-btn всегда видна */
+.ss-fit-btn {
+  position: fixed; top: 16px; right: 16px; z-index: 200;
   background: rgba(0,0,0,.5); border: 1px solid rgba(255,255,255,.2);
   color: rgba(255,255,255,.7); font-size: 11px; letter-spacing: 1px;
   padding: 5px 10px; cursor: pointer; font-family: inherit;
   backdrop-filter: blur(4px);
+  opacity: 1 !important; pointer-events: all !important;
   display: none;
 }
+#view-player.active .ss-fit-btn { display: block; }
 .pbottom-grad {
   position: fixed; left: 0; right: 0; bottom: 0; height: 60%;
   background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.8) 55%, rgba(0,0,0,.98) 100%);
@@ -803,7 +806,7 @@ function ssShowSlide(url, first) {
     }
 
     elNext.appendChild(vid);
-    document.getElementById('fit-btn').style.display = 'block';
+    
   } else {
     const blur = document.createElement('div');
     blur.className = 'ss-blur';
@@ -813,7 +816,7 @@ function ssShowSlide(url, first) {
     img.style.backgroundImage = `url(${url})`;
     elNext.appendChild(blur);
     elNext.appendChild(img);
-    document.getElementById('fit-btn').style.display = 'none';
+    
     if (!isSingleFile) ssTimer = setTimeout(() => ssAdvance(), SS_INTERVAL);
     // Единственное фото — просто висит
   }
