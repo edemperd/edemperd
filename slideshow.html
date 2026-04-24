@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Едем в Пердь — Слайдшоу</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --accent: #e8ff00;
+    --bg: #0a0a0a;
+  }
+
+  html, body {
+    width: 100%; height: 100%;
+    background: var(--bg);
+    overflow: hidden;
+    font-family: 'Courier New', monospace;
+  }
+
+  /* ── СЛАЙДЫ ── */
+  #ss-a, #ss-b {
+    position: fixed; inset: 0;
+    opacity: 0;
+    transition: opacity 1.6s ease;
+    overflow: hidden;
+    background: #000;
+  }
+  #ss-a.active, #ss-b.active { opacity: 1; }
+
+  .ss-blur {
+    position: absolute; inset: -30px;
+    background-size: cover; background-position: center;
+    filter: blur(24px) brightness(.35) saturate(.6);
+    transform: scale(1.15);
+  }
+  .ss-img {
+    position: absolute; inset: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ss-video {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
+
+  /* ── UI ── */
+  #ui {
+    position: fixed; inset: 0; z-index: 10;
+    pointer-events: none;
+    display: flex; flex-direction: column;
+    justify-content: flex-end;
+    padding: 32px;
+  }
+
+  #controls {
+    display: flex; align-items: center; gap: 16px;
+    pointer-events: all;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  body:hover #controls, body.paused #controls { opacity: 1; }
+
+  .ctrl-btn {
+    background: rgba(0,0,0,.6);
+    border: 1px solid rgba(255,255,255,.15);
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 11px; letter-spacing: 2px;
+    padding: 8px 16px;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    transition: border-color .2s, color .2s;
+  }
+  .ctrl-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  #play-btn { font-size: 18px; padding: 8px 14px; }
+
+  #counter {
+    font-size: 10px; letter-spacing: 2px;
+    color: rgba(255,255,255,.3);
+  }
+
+  #progress {
+    flex: 1; height: 2px;
+    background: rgba(255,255,255,.1);
+    position: relative; overflow: hidden;
+  }
+  #progress-fill {
+    position: absolute; left: 0; top: 0; height: 100%;
+    background: var(--accent);
+    width: 0%;
+    transition: width .1s linear;
+  }
+
+  /* ── ЗАГРУЗКА ── */
+  #loader {
+    position: fixed; inset: 0; z-index: 20;
+    background: var(--bg);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 24px;
+    transition: opacity .8s;
+  }
+  #loader.hidden { opacity: 0; pointer-events: none; }
+
+  #loader-title {
+    font-family: 'Courier New', monospace;
+    font-size: 11px; letter-spacing: 4px;
+    color: rgba(255,255,255,.4);
+  }
+  #loader-bar {
+    width: 200px; height: 1px;
+    background: rgba(255,255,255,.1);
+    position: relative;
+  }
+  #loader-fill {
+    position: absolute; left: 0; top: 0;
+    height: 100%; background: var(--accent);
+    width: 0%; transition: width .3s;
+  }
+  #loader-count {
+    font-size: 10px; letter-spacing: 2px;
+    color: rgba(255,255,255,.3);
+  }
+</style>
+</head>
+<body>
+
+<div id="ss-a"></div>
+<div id="ss-b"></div>
+
+<div id="ui">
+  <div id="controls">
+    <button class="ctrl-btn" id="play-btn" onclick="togglePause()">⏸</button>
+    <div id="progress"><div id="progress-fill"></div></div>
+    <div id="counter">— / —</div>
+    <button class="ctrl-btn" onclick="ssNext()">→</button>
+  </div>
+</div>
+
+<div id="loader">
+  <div id="loader-title">ЗАГРУЗКА МЕДИА</div>
+  <div id="loader-bar"><div id="loader-fill"></div></div>
+  <div id="loader-count">0 файлов</div>
+</div>
+
+<script>
+const S3 = 'https://storage.yandexcloud.net/edemperd';
+const PHOTO_DURATION = 3500; // мс на фото
+const EXCLUDED = ['audio']; // папки которые не берём
+
+let allFiles = [];
+let ssIdx = 0;
+let ssCur = 'a';
+let ssTimer = null;
+let ssPaused = false;
+let progressRaf = null;
+let progressStart = null;
+let progressDuration = 0;
+
+// ── ЗАГРУЗКА ВСЕХ ПАПОК ──────────────────────────────
+async function loadAllFolders() {
+  // Получаем список всех объектов в бакете
+  const resp = await fetch(`${S3}?list-type=2&delimiter=/`);
+  const text = await resp.text();
+  const xml = new DOMParser().parseFromString(text, 'application/xml');
+
+  // Получаем все папки (CommonPrefixes)
+  const prefixes = [...xml.getElementsByTagName('Prefix')].map(p => p.textContent);
+  const folders = prefixes
+    .map(p => p.replace(/\/$/, ''))
+    .filter(p => p && !EXCLUDED.includes(p));
+
+  document.getElementById('loader-count').textContent = `Найдено папок: ${folders.length}`;
+
+  // Загружаем файлы из каждой папки
+  const allKeys = [];
+  for (let i = 0; i < folders.length; i++) {
+    const folder = folders[i];
+    document.getElementById('loader-fill').style.width = ((i / folders.length) * 80) + '%';
+    document.getElementById('loader-count').textContent = `${folder}...`;
+    try {
+      const r = await fetch(`${S3}?prefix=${encodeURIComponent(folder + '/')}`);
+      const t = await r.text();
+      const x = new DOMParser().parseFromString(t, 'application/xml');
+      const keys = [...x.getElementsByTagName('Key')].map(k => k.textContent).filter(k => {
+        const name = k.split('/').pop();
+        return name && /\.(jpg|jpeg|png|webp|gif|heic|heif|mp4|mov|webm)$/i.test(name);
+      });
+      allKeys.push(...keys);
+    } catch (e) { console.warn('Failed to load folder', folder, e); }
+  }
+
+  document.getElementById('loader-fill').style.width = '90%';
+  document.getElementById('loader-count').textContent = `${allKeys.length} файлов`;
+
+  // Перемешиваем
+  for (let i = allKeys.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [allKeys[i], allKeys[j]] = [allKeys[j], allKeys[i]];
+  }
+
+  allFiles = allKeys.map(k => S3 + '/' + k);
+
+  document.getElementById('loader-fill').style.width = '100%';
+  setTimeout(() => {
+    document.getElementById('loader').classList.add('hidden');
+    if (allFiles.length) ssShow(0, true);
+  }, 500);
+}
+
+// ── СЛАЙДШОУ ────────────────────────────────────────
+function isVideo(url) { return /\.(mp4|mov|webm)$/i.test(url); }
+
+function ssShow(idx, first) {
+  clearTimeout(ssTimer);
+  cancelAnimationFrame(progressRaf);
+
+  const url = allFiles[idx];
+  if (!url) return;
+
+  const next = ssCur === 'a' ? 'b' : 'a';
+  const elNext = document.getElementById('ss-' + next);
+  const elCur = document.getElementById('ss-' + ssCur);
+
+  document.getElementById('counter').textContent = `${idx + 1} / ${allFiles.length}`;
+
+  if (isVideo(url)) {
+    // Создаём видео
+    const vid = document.createElement('video');
+    vid.muted = true; vid.playsInline = true; vid.autoplay = true;
+    vid.className = 'ss-video';
+    vid.src = url;
+
+    elNext.innerHTML = '';
+    elNext.appendChild(vid);
+
+    vid.oncanplay = () => {
+      crossFade(elNext, elCur, first);
+      // После начала воспроизведения ждём окончания
+      vid.onended = () => { if (!ssPaused) ssNext(); };
+      startProgress(vid.duration * 1000, true);
+    };
+    vid.onerror = () => ssNext(); // пропускаем сломанный файл
+
+  } else {
+    // Предзагружаем фото
+    const img = new Image();
+    img.onload = () => {
+      elNext.innerHTML = '';
+      const blur = document.createElement('div');
+      blur.className = 'ss-blur';
+      blur.style.backgroundImage = `url(${url})`;
+      const imgDiv = document.createElement('div');
+      imgDiv.className = 'ss-img';
+      imgDiv.style.backgroundImage = `url(${url})`;
+      elNext.appendChild(blur);
+      elNext.appendChild(imgDiv);
+
+      crossFade(elNext, elCur, first);
+      startProgress(PHOTO_DURATION, false);
+      ssTimer = setTimeout(() => { if (!ssPaused) ssNext(); }, PHOTO_DURATION);
+    };
+    img.onerror = () => ssNext();
+    img.src = url;
+  }
+
+  ssCur = next;
+  ssIdx = idx;
+}
+
+function crossFade(elNext, elCur, first) {
+  void elNext.offsetWidth;
+  elNext.classList.add('active');
+  if (!first && elCur) {
+    setTimeout(() => {
+      elCur.classList.remove('active');
+      setTimeout(() => { elCur.innerHTML = ''; }, 1800);
+    }, 400);
+  }
+}
+
+function ssNext() {
+  ssShow((ssIdx + 1) % allFiles.length, false);
+}
+
+// ── ПРОГРЕСС БАР ────────────────────────────────────
+function startProgress(duration, isVideo) {
+  cancelAnimationFrame(progressRaf);
+  progressStart = performance.now();
+  progressDuration = duration;
+
+  function tick() {
+    if (ssPaused) { progressRaf = requestAnimationFrame(tick); return; }
+    const elapsed = performance.now() - progressStart;
+    const pct = isVideo ? 0 : Math.min(elapsed / duration * 100, 100);
+    document.getElementById('progress-fill').style.width = pct + '%';
+    if (!isVideo) progressRaf = requestAnimationFrame(tick);
+  }
+  progressRaf = requestAnimationFrame(tick);
+}
+
+// ── ПАУЗА ───────────────────────────────────────────
+function togglePause() {
+  ssPaused = !ssPaused;
+  document.body.classList.toggle('paused', ssPaused);
+  document.getElementById('play-btn').textContent = ssPaused ? '▶' : '⏸';
+
+  const vid = document.querySelector('#ss-' + ssCur + ' video');
+  if (vid) ssPaused ? vid.pause() : vid.play().catch(() => {});
+
+  if (!ssPaused) {
+    // Возобновляем таймер для фото
+    const remaining = progressDuration - (performance.now() - progressStart);
+    if (remaining > 0 && !document.querySelector('#ss-' + ssCur + ' video')) {
+      ssTimer = setTimeout(() => ssNext(), remaining);
+    }
+  } else {
+    clearTimeout(ssTimer);
+  }
+}
+
+// Клик на экран = пауза
+document.addEventListener('click', e => {
+  if (!e.target.closest('#controls')) togglePause();
+});
+
+// Клавиши
+document.addEventListener('keydown', e => {
+  if (e.code === 'Space') { e.preventDefault(); togglePause(); }
+  if (e.code === 'ArrowRight') ssNext();
+  if (e.code === 'ArrowLeft') ssShow((ssIdx - 1 + allFiles.length) % allFiles.length, false);
+});
+
+// Старт
+loadAllFolders().catch(e => {
+  document.getElementById('loader-count').textContent = 'Ошибка загрузки';
+  console.error(e);
+});
+</script>
+</body>
+</html>
