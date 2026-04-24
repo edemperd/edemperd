@@ -1262,12 +1262,16 @@ function onPathInput(type, val) {
 function onFileNameInput() {
   const name = document.getElementById('ed-af-name').value.trim();
   const ext = document.getElementById('ed-af-ext').value;
-  const path = name ? `audio/${name}${ext}` : '';
-  document.getElementById('ed-af-preview').textContent = path || '—';
-  if (path) {
-    setFbl('afl','afl-t','✓ '+path, true);
-    edPlayerInit(path);
-  } else setFbl('afl','afl-t','📂 или выбрать файл с компа', false);
+  if (!name) {
+    document.getElementById('ed-af-preview').textContent = '—';
+    setFbl('afl','afl-t','📂 или выбрать файл с компа', false);
+    return;
+  }
+  const S3 = 'https://storage.yandexcloud.net/edemperd';
+  const path = name.startsWith('http') ? name : `${S3}/audio/${name}${ext}`;
+  document.getElementById('ed-af-preview').textContent = path;
+  setFbl('afl','afl-t','✓ '+name+ext, true);
+  edPlayerInit(path);
 }
 
 function onPhotoNameInput() {
@@ -1278,9 +1282,9 @@ function getAudioPath() {
   const name = document.getElementById('ed-af-name').value.trim();
   const ext = document.getElementById('ed-af-ext').value;
   if (!name) return null;
-  // Если имя уже полный URL — вернуть как есть
   if (name.startsWith('http')) return name;
-  return `audio/${name}${ext}`;
+  const S3 = 'https://storage.yandexcloud.net/edemperd';
+  return `${S3}/audio/${name}${ext}`;
 }
 
 function getPhotoPath() {
