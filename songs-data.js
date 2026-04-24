@@ -1282,9 +1282,11 @@ window.SONGS_DATA = [
       }
     ],
     "hasAudio": true,
-    "audioPath": "audio/mkad-30.mp3",
-    "mediaFolder": null,
-    "mediaFiles": null,
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad-30.mp3",
+    "mediaFolder": "mkad",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/mkad/IMG_0571 (1).MOV"
+    ],
     "verified": false
   },
   {
@@ -6369,7 +6371,7 @@ window.SONGS_DATA = [
       }
     ],
     "hasAudio": true,
-    "audioPath": "audio/marfino.mp3",
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/marfino.mp3",
     "mediaFolder": "marfino",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/marfino/2026-04-23 23.32.37.jpg"
@@ -7101,6 +7103,319 @@ window.PUBLISHED = [
     "mediaFolder": "lena_soli",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/lena_soli/IMG_1754.MOV"
+    ],
+    "verified": false
+  },
+  {
+    "id": "mkad-30",
+    "title": "МКАД-30",
+    "lyrics": [
+      {
+        "text": "Тридцать по МКАДу",
+        "time": 15.202,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По льду",
+        "time": 16.366,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "По каше",
+        "time": 18.141,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Лобовуха замерзает",
+        "time": 22.173,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Каждые пять минут",
+        "time": 23.909,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Сдираю лёд ладонью",
+        "time": 29.534,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Дыханием по стеклу",
+        "time": 33.12,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Регистратор шепчет \"авария\"",
+        "time": 36.601,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "На скрежете по кругу",
+        "time": 40.05,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нам не сидится дома",
+        "time": 44.54,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Зачем едем",
+        "time": 47.046,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чтобы что",
+        "time": 48.693,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Любительницы Пердей",
+        "time": 51.58,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ищут призрак торжества",
+        "time": 54.663,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В самый жирный снегопад",
+        "time": 58.48,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Метель жует провода",
+        "time": 61.98,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы проехали Макдак мимо",
+        "time": 65.825,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как портал куда-то не туда",
+        "time": 69.575,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "За окном густой лес",
+        "time": 75.446,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ветки тянут к небу нити",
+        "time": 78.149,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Бамперы немеют",
+        "time": 82.414,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Тихо стонут в суете",
+        "time": 85.206,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Машин почти не видно",
+        "time": 89.449,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Каждый как отдельный остров",
+        "time": 92.366,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Фары плывут как рыбы",
+        "time": 96.922,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В белом",
+        "time": 99.561,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Вязком море воздуха",
+        "time": 100.535,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нам не сидится дома",
+        "time": 104.785,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Зачем едем",
+        "time": 107.241,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Чтобы что",
+        "time": 108.778,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Любительницы Пердей",
+        "time": 111.409,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Ищут призрак торжества",
+        "time": 114.826,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В самый жирный снегопад",
+        "time": 118.898,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Метель жует провода",
+        "time": 121.746,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы проехали Макдак мимо",
+        "time": 125.828,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как портал куда-то не туда",
+        "time": 129.376,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Может",
+        "time": 137.077,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В Подмосковье",
+        "time": 139.441,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Нам ответят: \"Вот зачем\"",
+        "time": 140.352,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Или только тише станет",
+        "time": 143.899,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Этот внутренний шум стен",
+        "time": 146.714,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы вгрызаемся в погоду",
+        "time": 150.677,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Времени теряем след",
+        "time": 153.973,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Если всё равно не ясно",
+        "time": 157.996,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Почему так сладко — ехать",
+        "time": 162.044,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "А не в снег",
+        "time": 180.147,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "В самый жирный снегопад",
+        "time": 183.32,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Метель жует провода",
+        "time": 184.344,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Мы проехали Макдак мимо",
+        "time": 187.099,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Как портал куда-то не туда",
+        "time": 190.379,
+        "endTime": 196.584,
+        "words": null
+      }
+    ],
+    "hasAudio": true,
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/mkad-30.mp3",
+    "mediaFolder": "mkad",
+    "mediaFiles": [
+      "https://storage.yandexcloud.net/edemperd/mkad/IMG_0571 (1).MOV"
     ],
     "verified": false
   },
@@ -11761,7 +12076,7 @@ window.PUBLISHED = [
       }
     ],
     "hasAudio": true,
-    "audioPath": "audio/marfino.mp3",
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/marfino.mp3",
     "mediaFolder": "marfino",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/marfino/2026-04-23 23.32.37.jpg"
