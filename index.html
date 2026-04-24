@@ -25,12 +25,11 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 /* ══════════════════════════════════
    СПИСОК ТРЕКОВ
 ══════════════════════════════════ */
-#view-list { overflow: hidden; display: flex; flex-direction: column; }
+#view-list { overflow-y: auto; display: flex; flex-direction: column; }
 
 .hero {
-  position: relative; flex-shrink: 0;
+  position: sticky; top: 0; z-index: 5; flex-shrink: 0;
   height: 48vh; min-height: 240px; max-height: 420px;
-  transition: height .3s ease, min-height .3s ease;
 }
 .hero.compact {
   height: 56px !important; min-height: 56px !important; max-height: 56px !important;
@@ -148,17 +147,14 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   transition: object-fit 0s;
 }
 .ss-video.ss-contain { object-fit: contain; }
-.ss-video.ss-square {
-  object-fit: cover;
-  width: min(100vh, 100vw) !important;
-  height: min(100vh, 100vw) !important;
-  left: 50% !important; top: 50% !important;
-  transform: translate(-50%, -50%);
-  inset: auto !important;
-}
 
-/* Кнопка fit/fill */
-.ss-fit-btn {
+/* Автоскрытие UI плеера */
+.phdr, .pcontrols, .ss-fit-btn {
+  transition: opacity .5s ease;
+}
+#view-player.ui-hidden .phdr,
+#view-player.ui-hidden .pcontrols,
+#view-player.ui-hidden .ss-fit-btn { opacity: 0; pointer-events: none; }
   position: fixed; top: 56px; right: 16px; z-index: 20;
   background: rgba(0,0,0,.5); border: 1px solid rgba(255,255,255,.2);
   color: rgba(255,255,255,.7); font-size: 11px; letter-spacing: 1px;
@@ -610,6 +606,7 @@ function playFrom(id) {
   showView('player');
   aud.play().catch(() => {});
   document.getElementById('cplay').textContent = '⏸';
+  resetUiTimer();
   if (raf) cancelAnimationFrame(raf);
   loop();
   document.addEventListener('keydown', plKey);
@@ -635,9 +632,9 @@ function playNextTrack() {
   if (i >= 0 && i < SONGS.length - 1) playFrom(SONGS[i + 1].id);
 }
 
-let ssFitMode = 'cover'; // 'cover' | 'contain' | 'square'
-const FIT_MODES = ['cover', 'contain', 'square'];
-const FIT_LABELS = { cover: '⊞ FILL', contain: '⊡ FIT', square: '⊟ SQ' };
+let ssFitMode = 'cover';
+const FIT_MODES = ['cover', 'contain'];
+const FIT_LABELS = { cover: '⊞ FILL', contain: '⊡ FIT' };
 
 function toggleFit() {
   const idx = FIT_MODES.indexOf(ssFitMode);
@@ -645,11 +642,23 @@ function toggleFit() {
   const btn = document.getElementById('fit-btn');
   btn.textContent = FIT_LABELS[ssFitMode];
   document.querySelectorAll('.ss-video').forEach(v => {
-    v.classList.remove('ss-contain', 'ss-square');
+    v.classList.remove('ss-contain');
     if (ssFitMode === 'contain') v.classList.add('ss-contain');
-    else if (ssFitMode === 'square') v.classList.add('ss-square');
   });
 }
+
+// Автоскрытие UI плеера через 3 сек
+let uiHideTimer = null;
+function resetUiTimer() {
+  const player = document.getElementById('view-player');
+  if (!player.classList.contains('active')) return;
+  player.classList.remove('ui-hidden');
+  clearTimeout(uiHideTimer);
+  uiHideTimer = setTimeout(() => player.classList.add('ui-hidden'), 3000);
+}
+document.getElementById('view-player').addEventListener('mousemove', resetUiTimer);
+document.getElementById('view-player').addEventListener('touchstart', resetUiTimer, {passive:true});
+document.getElementById('view-player').addEventListener('click', resetUiTimer);
 
 function loop() { updatePl(); raf = requestAnimationFrame(loop); }
 

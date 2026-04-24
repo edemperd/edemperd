@@ -64,6 +64,9 @@
   }
   body:hover #controls, body.paused #controls { opacity: 1; }
 
+  /* Автоскрытие */
+  body.ui-hidden #controls { opacity: 0 !important; pointer-events: none; }
+
   .ctrl-btn {
     background: rgba(0,0,0,.6);
     border: 1px solid rgba(255,255,255,.15);
@@ -209,7 +212,7 @@ async function loadAllFolders() {
   document.getElementById('loader-fill').style.width = '100%';
   setTimeout(() => {
     document.getElementById('loader').classList.add('hidden');
-    if (allFiles.length) ssShow(0, true);
+    if (allFiles.length) { ssShow(0, true); resetUi(); }
   }, 500);
 }
 
@@ -323,6 +326,16 @@ function togglePause() {
     clearTimeout(ssTimer);
   }
 }
+
+// Автоскрытие UI через 3 сек
+let uiTimer = null;
+function resetUi() {
+  document.body.classList.remove('ui-hidden');
+  clearTimeout(uiTimer);
+  if (!ssPaused) uiTimer = setTimeout(() => document.body.classList.add('ui-hidden'), 3000);
+}
+document.addEventListener('mousemove', resetUi);
+document.addEventListener('touchstart', resetUi, {passive:true});
 
 // Клик на экран = пауза
 document.addEventListener('click', e => {
