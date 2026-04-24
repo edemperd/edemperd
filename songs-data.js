@@ -6120,7 +6120,7 @@ window.SONGS_DATA = [
       {
         "text": "Глоток за глотком",
         "time": 22.713,
-        "endTime": null,
+        "endTime": 24.375,
         "words": null
       },
       {
@@ -6204,7 +6204,7 @@ window.SONGS_DATA = [
       {
         "text": "Пила из бювета",
         "time": 85.459,
-        "endTime": null,
+        "endTime": 90.498,
         "words": null
       },
       {
@@ -11825,7 +11825,7 @@ window.PUBLISHED = [
       {
         "text": "Глоток за глотком",
         "time": 22.713,
-        "endTime": null,
+        "endTime": 24.375,
         "words": null
       },
       {
@@ -11909,7 +11909,7 @@ window.PUBLISHED = [
       {
         "text": "Пила из бювета",
         "time": 85.459,
-        "endTime": null,
+        "endTime": 90.498,
         "words": null
       },
       {
