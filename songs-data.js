@@ -6369,7 +6369,7 @@ window.SONGS_DATA = [
       }
     ],
     "hasAudio": true,
-    "audioPath": "audio/marfino.mp3",
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/marfino.mp3",
     "mediaFolder": "marfino",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/marfino/2026-04-23 23.32.37.jpg"
@@ -11761,7 +11761,7 @@ window.PUBLISHED = [
       }
     ],
     "hasAudio": true,
-    "audioPath": "audio/marfino.mp3",
+    "audioPath": "https://storage.yandexcloud.net/edemperd/audio/marfino.mp3",
     "mediaFolder": "marfino",
     "mediaFiles": [
       "https://storage.yandexcloud.net/edemperd/marfino/2026-04-23 23.32.37.jpg"
