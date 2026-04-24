@@ -16,16 +16,12 @@
   --surface: #111110;
   --border: rgba(255,255,255,.08);
 }
-html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Montserrat', sans-serif; overflow: hidden; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Montserrat', sans-serif; -webkit-tap-highlight-color: transparent; }
 
 /* ── VIEWS ── */
-.view { display: none; width: 100%; min-height: 100vh; flex-direction: column; }
+.view { display: none; width: 100%; flex-direction: column; }
 .view.active { display: flex; }
-
-/* ══════════════════════════════════
-   СПИСОК ТРЕКОВ
-══════════════════════════════════ */
-#view-list { overflow-y: visible; display: flex; flex-direction: column; }
+#view-list { min-height: 100vh; overflow-y: auto; height: auto; }
 #view-player { position: fixed !important; inset: 0; background: #000; z-index: 100; }
 
 .hero {
@@ -163,6 +159,7 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   backdrop-filter: blur(8px);
   display: none;
 }
+#view-player.active #fit-btn { display: block !important; }
 .pbottom-grad {
   position: fixed; left: 0; right: 0; bottom: 0; height: 60%;
   background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.8) 55%, rgba(0,0,0,.98) 100%);
@@ -373,7 +370,7 @@ body.edit-order .track { cursor: default; }
   </div>
   <div class="ptop-grad"></div>
   <div class="pbottom-grad"></div>
-  <button id="fit-btn" class="ss-fit-btn" onclick="toggleFit()">⊞ FILL</button>
+  <button id="fit-btn" onclick="toggleFit()" style="display:none;position:fixed;top:16px;right:16px;z-index:9999;background:rgba(0,0,0,.7);border:1px solid rgba(255,255,255,.3);color:#fff;font-size:11px;letter-spacing:1px;padding:6px 14px;cursor:pointer;font-family:inherit;backdrop-filter:blur(8px)">⊞ FILL</button>
   <div class="phdr">
     <button class="back-btn" onclick="exitPl()">← НАЗАД</button>
     <div class="p-title" id="ptitle"></div>
