@@ -19,17 +19,17 @@
 html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Montserrat', sans-serif; overflow: hidden; -webkit-tap-highlight-color: transparent; }
 
 /* ── VIEWS ── */
-.view { display: none; width: 100%; height: 100vh; flex-direction: column; }
+.view { display: none; width: 100%; min-height: 100vh; flex-direction: column; }
 .view.active { display: flex; }
 
 /* ══════════════════════════════════
    СПИСОК ТРЕКОВ
 ══════════════════════════════════ */
-#view-list { overflow-y: auto; display: flex; flex-direction: column; }
+#view-list { overflow-y: visible; display: flex; flex-direction: column; }
 #view-player { position: fixed !important; inset: 0; background: #000; z-index: 100; }
 
 .hero {
-  position: sticky; top: 0; z-index: 5; flex-shrink: 0;
+  position: relative; flex-shrink: 0;
   height: 48vh; min-height: 240px; max-height: 420px;
 }
 .hero.compact {
