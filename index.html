@@ -150,22 +150,19 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 .ss-video.ss-contain { object-fit: contain; }
 
 /* Автоскрытие UI плеера */
-.phdr, .pcontrols, .ss-fit-btn {
-  transition: opacity .5s ease;
-}
+.phdr, .pcontrols { transition: opacity .5s ease; }
 #view-player.ui-hidden .phdr,
 #view-player.ui-hidden .pcontrols { opacity: 0; pointer-events: none; }
-/* fit-btn всегда видна */
-.ss-fit-btn {
+
+/* fit-btn — всегда в углу, не скрывается */
+#fit-btn {
   position: fixed; top: 16px; right: 16px; z-index: 200;
-  background: rgba(0,0,0,.5); border: 1px solid rgba(255,255,255,.2);
-  color: rgba(255,255,255,.7); font-size: 11px; letter-spacing: 1px;
-  padding: 5px 10px; cursor: pointer; font-family: inherit;
-  backdrop-filter: blur(4px);
-  opacity: 1 !important; pointer-events: all !important;
+  background: rgba(0,0,0,.55); border: 1px solid rgba(255,255,255,.25);
+  color: rgba(255,255,255,.8); font-size: 11px; letter-spacing: 1px;
+  padding: 6px 12px; cursor: pointer; font-family: inherit;
+  backdrop-filter: blur(8px);
   display: none;
 }
-#view-player.active .ss-fit-btn { display: block; }
 .pbottom-grad {
   position: fixed; left: 0; right: 0; bottom: 0; height: 60%;
   background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,.8) 55%, rgba(0,0,0,.98) 100%);
@@ -608,6 +605,7 @@ function playFrom(id) {
   aud.onended = onTrackEnded;
   buildNav();
   showView('player');
+  document.getElementById('fit-btn').style.display = 'block';
   aud.play().catch(() => {});
   document.getElementById('cplay').textContent = '⏸';
   resetUiTimer();
@@ -739,6 +737,12 @@ function plKey(e) { if (e.code === 'Space') { e.preventDefault(); togglePlay(); 
 function exitPl() {
   if (raf) cancelAnimationFrame(raf);
   aud.pause(); document.removeEventListener('keydown', plKey);
+  ssClear();
+  document.getElementById('fit-btn').style.display = 'none';
+  clearTimeout(nextTrackTimer);
+  document.getElementById('next-track-overlay').classList.remove('visible');
+  clearTimeout(uiHideTimer);
+  document.getElementById('view-player').classList.remove('ui-hidden');
   showView('list');
 }
 function buildNav() {
