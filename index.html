@@ -25,12 +25,21 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 /* ══════════════════════════════════
    СПИСОК ТРЕКОВ
 ══════════════════════════════════ */
-#view-list { overflow: hidden; }
+#view-list { overflow: hidden; display: flex; flex-direction: column; }
 
 .hero {
   position: relative; flex-shrink: 0;
   height: 48vh; min-height: 240px; max-height: 420px;
+  transition: height .3s ease, min-height .3s ease;
 }
+.hero.compact {
+  height: 56px !important; min-height: 56px !important; max-height: 56px !important;
+  overflow: hidden;
+}
+.hero.compact .hero-bg, .hero.compact .hero-grain, .hero.compact .hero-overlay { display: none; }
+.hero.compact .hero-content { flex-direction: row; align-items: center; padding: 0 20px; bottom: 0; top: 0; gap: 12px; }
+.hero.compact .hero-eyebrow, .hero.compact .hero-desc, .hero.compact .hero-line { display: none; }
+.hero.compact .hero-title { font-size: 22px; letter-spacing: 2px; }
 .hero-bg {
   position: absolute; inset: 0;
   background-image: url('photos/IMG_4386.jpeg');
@@ -269,9 +278,33 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   .kline.next { font-size: clamp(13px, 3.5vw, 22px); }
 }
 
-/* ══════ DRAG AND DROP ══════ */
-.track { cursor: grab; user-select: none; }
-.track.dragging { opacity: .35; cursor: grabbing; }
+/* Компактная шапка при скролле */
+#sticky-header {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(8,8,6,.95); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 20px;
+  display: none; align-items: center; gap: 12px;
+}
+#sticky-header.visible { display: flex; }
+.sticky-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px; letter-spacing: 3px; color: var(--accent);
+}
+.sticky-hint {
+  font-family: 'Courier Prime', monospace;
+  font-size: 9px; letter-spacing: 2px; color: var(--muted);
+  margin-left: auto;
+}
+
+/* Трек — drag handle отдельно от клика */
+.track-drag { 
+  cursor: grab; color: var(--muted); font-size: 14px; 
+  padding: 4px 0; flex-shrink: 0;
+  touch-action: none;
+}
+.track-drag:active { cursor: grabbing; }
+.track.dragging { opacity: .35; }
 .track.drag-over { border-top: 2px solid var(--accent); }
 
 /* ══════ СЛЕД. ТРЕК ОВЕРЛЕЙ ══════ */
@@ -319,7 +352,11 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
       <div class="hero-line"></div>
     </div>
   </div>
-  <div class="tracklist-wrap">
+  <div class="tracklist-wrap" id="tracklist-wrap">
+    <div id="sticky-header">
+      <div class="sticky-title">ЕДЕМ В <span style="color:var(--text)">ПЕРДЬ</span></div>
+      <div class="sticky-hint">перетащи чтобы изменить порядок</div>
+    </div>
     <div class="tracklist-hdr">Сетлист</div>
     <div id="tracklist"></div>
   </div>
@@ -421,14 +458,15 @@ function renderList() {
     const hasLyrics = s.lyrics && s.lyrics.some(l => l.text && l.text.trim());
     const noLyricsMsg = !hasLyrics
       ? `<div class="track-no-lyrics">вы нормальные люди? текста нет</div>` : '';
-    return `<div class="track" draggable="true" data-id="${s.id}" onclick="playFrom('${s.id}')">
+    return `<div class="track" data-id="${s.id}">
+      <div class="track-drag" title="Перетащи чтобы переместить">⠿</div>
       <div class="track-num">${String(i+1).padStart(2,'0')}</div>
-      <div class="track-info">
+      <div class="track-info" onclick="playFrom('${s.id}')">
         <div class="track-name">${s.title}</div>
         <div class="track-meta"><span id="dur-${s.id}">—:——</span></div>
         ${noLyricsMsg}
       </div>
-      <div class="track-icon">⠿</div>
+      <div class="track-icon" onclick="playFrom('${s.id}')">›</div>
     </div>`;
   }).join('') + `<div id="tracklist-footer" style="padding:16px 28px;font-family:'Courier Prime',monospace;font-size:10px;color:var(--muted);letter-spacing:3px;border-top:1px solid var(--border);margin-top:8px"></div>`;
 
@@ -441,25 +479,43 @@ function renderList() {
     a.src = s.audioPath;
   });
 
-  // Drag and drop
+  // Sticky header при скролле
+  const wrap = document.getElementById('tracklist-wrap');
+  if (wrap) {
+    wrap.addEventListener('scroll', () => {
+      const sh = document.getElementById('sticky-header');
+      if (sh) sh.classList.toggle('visible', wrap.scrollTop > 10);
+    });
+  }
+
+  // Drag and drop — только через handle ⠿
   let dragSrc = null;
+  let wasDragged = false;
   el.querySelectorAll('.track').forEach(row => {
+    row.draggable = false; // по умолчанию не перетаскивается
+    const handle = row.querySelector('.track-drag');
+    if (handle) {
+      handle.addEventListener('mousedown', () => { row.draggable = true; });
+      handle.addEventListener('touchstart', () => { row.draggable = true; }, {passive:true});
+    }
     row.addEventListener('dragstart', e => {
       dragSrc = row;
+      wasDragged = false;
       setTimeout(() => row.classList.add('dragging'), 0);
       e.dataTransfer.effectAllowed = 'move';
     });
     row.addEventListener('dragend', () => {
+      row.draggable = false;
       row.classList.remove('dragging');
       el.querySelectorAll('.track').forEach(r => r.classList.remove('drag-over'));
-      // Обновляем SONGS в памяти и сохраняем порядок
+      wasDragged = true;
+      setTimeout(() => { wasDragged = false; }, 200);
       const newIds = [...el.querySelectorAll('.track')].map(r => r.dataset.id);
       newIds.forEach((id, i) => {
         const from = SONGS.findIndex(s => s.id === id);
         if (from !== i) SONGS.splice(i, 0, SONGS.splice(from, 1)[0]);
       });
       saveOrder();
-      // Обновляем номера треков
       el.querySelectorAll('.track').forEach((r, i) => {
         const num = r.querySelector('.track-num');
         if (num) num.textContent = String(i+1).padStart(2,'0');
@@ -475,6 +531,9 @@ function renderList() {
       row.classList.remove('drag-over');
       if (dragSrc && dragSrc !== row) el.insertBefore(dragSrc, row);
     });
+    row.addEventListener('click', e => {
+      if (wasDragged) { e.stopPropagation(); e.preventDefault(); }
+    }, true);
   });
 }
 
@@ -645,6 +704,8 @@ function buildNav() {
 }
 
 renderList();
+
+
 
 // ── SLIDESHOW ─────────────────────────────────────────
 let ssFiles = [], ssIdx = 0, ssTimer = null, ssCurActive = 'a';
