@@ -138,8 +138,14 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   object-fit: cover;
   transition: object-fit 0s;
 }
-.ss-video.ss-contain {
-  object-fit: contain;
+.ss-video.ss-contain { object-fit: contain; }
+.ss-video.ss-square {
+  object-fit: cover;
+  width: min(100vh, 100vw) !important;
+  height: min(100vh, 100vw) !important;
+  left: 50% !important; top: 50% !important;
+  transform: translate(-50%, -50%);
+  inset: auto !important;
 }
 
 /* Кнопка fit/fill */
@@ -262,6 +268,40 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   .kline { font-size: clamp(20px, 5.5vw, 36px); }
   .kline.next { font-size: clamp(13px, 3.5vw, 22px); }
 }
+
+/* ══════ DRAG AND DROP ══════ */
+.track { cursor: grab; user-select: none; }
+.track.dragging { opacity: .35; cursor: grabbing; }
+.track.drag-over { border-top: 2px solid var(--accent); }
+
+/* ══════ СЛЕД. ТРЕК ОВЕРЛЕЙ ══════ */
+#next-track-overlay {
+  position: fixed; inset: 0; z-index: 50;
+  display: none; flex-direction: column;
+  align-items: center; justify-content: flex-end;
+  padding-bottom: 80px;
+  pointer-events: none;
+}
+#next-track-overlay.visible { display: flex; pointer-events: all; }
+.next-track-btn {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px; letter-spacing: 4px;
+  background: rgba(232,255,0,.92); color: #000;
+  border: none; padding: 16px 40px;
+  cursor: pointer;
+  animation: fadeSlideUp .6s ease forwards;
+}
+.next-track-label {
+  font-family: 'Courier Prime', monospace;
+  font-size: 11px; letter-spacing: 2px;
+  color: rgba(255,255,255,.5);
+  margin-bottom: 12px;
+  animation: fadeSlideUp .6s ease .1s both;
+}
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 </style>
 </head>
 <body>
@@ -293,7 +333,7 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   </div>
   <div class="ptop-grad"></div>
   <div class="pbottom-grad"></div>
-  <button id="fit-btn" class="ss-fit-btn" onclick="toggleFit()">⊡ FIT</button>
+  <button id="fit-btn" class="ss-fit-btn" onclick="toggleFit()">⊞ FILL</button>
   <div class="phdr">
     <button class="back-btn" onclick="exitPl()">← НАЗАД</button>
     <div class="p-title" id="ptitle"></div>
@@ -312,14 +352,35 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
       <div class="trow"><span id="tc2">0:00</span><span id="tt">0:00</span></div>
     </div>
   </div>
+  <div id="next-track-overlay">
+    <div class="next-track-label" id="next-track-label"></div>
+    <button class="next-track-btn" onclick="playNextTrack()">ЕДЕМ ДАЛЬШЕ →</button>
+  </div>
 </div>
-
-<audio id="aud"></audio>
 
 <script src="songs-data.js"></script>
 <script>
 // songs-data.js задаёт window.SONGS_DATA
-const SONGS = (typeof PUBLISHED !== 'undefined' && PUBLISHED.length) ? PUBLISHED : [];
+const SONGS_BASE = (typeof PUBLISHED !== 'undefined' && PUBLISHED.length) ? PUBLISHED : [];
+
+// Загружаем порядок из localStorage
+function loadOrder() {
+  try {
+    const saved = localStorage.getItem('evp-order');
+    if (!saved) return SONGS_BASE;
+    const ids = JSON.parse(saved);
+    const ordered = ids.map(id => SONGS_BASE.find(s => s.id === id)).filter(Boolean);
+    // Добавляем новые песни которых нет в сохранённом порядке
+    SONGS_BASE.forEach(s => { if (!ordered.find(x => x.id === s.id)) ordered.push(s); });
+    return ordered;
+  } catch { return SONGS_BASE; }
+}
+
+function saveOrder() {
+  localStorage.setItem('evp-order', JSON.stringify(SONGS.map(s => s.id)));
+}
+
+const SONGS = loadOrder();
 
 const aud = document.getElementById('aud');
 let pId = null, pWordLines = [], pLastLineIdx = -1, raf = null;
@@ -340,7 +401,6 @@ function renderList() {
     return;
   }
 
-  // Загружаем длительности асинхронно
   const durations = {};
   let loaded = 0;
   const total = SONGS.length;
@@ -349,7 +409,6 @@ function renderList() {
     durations[id] = dur;
     const el = document.getElementById('dur-' + id);
     if (el) el.textContent = fmt(dur);
-    // Когда все загружены — показываем итого
     loaded++;
     if (loaded === total) {
       const sum = Object.values(durations).reduce((a,b) => a+b, 0);
@@ -362,18 +421,17 @@ function renderList() {
     const hasLyrics = s.lyrics && s.lyrics.some(l => l.text && l.text.trim());
     const noLyricsMsg = !hasLyrics
       ? `<div class="track-no-lyrics">вы нормальные люди? текста нет</div>` : '';
-    return `<div class="track" onclick="playFrom('${s.id}')">
+    return `<div class="track" draggable="true" data-id="${s.id}" onclick="playFrom('${s.id}')">
       <div class="track-num">${String(i+1).padStart(2,'0')}</div>
       <div class="track-info">
         <div class="track-name">${s.title}</div>
         <div class="track-meta"><span id="dur-${s.id}">—:——</span></div>
         ${noLyricsMsg}
       </div>
-      <div class="track-icon">›</div>
+      <div class="track-icon">⠿</div>
     </div>`;
   }).join('') + `<div id="tracklist-footer" style="padding:16px 28px;font-family:'Courier Prime',monospace;font-size:10px;color:var(--muted);letter-spacing:3px;border-top:1px solid var(--border);margin-top:8px"></div>`;
 
-  // Грузим длительности через Audio
   SONGS.forEach(s => {
     if (!s.audioPath) { updateTrackDuration(s.id, 0); return; }
     const a = new Audio();
@@ -382,9 +440,49 @@ function renderList() {
     a.onerror = () => updateTrackDuration(s.id, 0);
     a.src = s.audioPath;
   });
+
+  // Drag and drop
+  let dragSrc = null;
+  el.querySelectorAll('.track').forEach(row => {
+    row.addEventListener('dragstart', e => {
+      dragSrc = row;
+      setTimeout(() => row.classList.add('dragging'), 0);
+      e.dataTransfer.effectAllowed = 'move';
+    });
+    row.addEventListener('dragend', () => {
+      row.classList.remove('dragging');
+      el.querySelectorAll('.track').forEach(r => r.classList.remove('drag-over'));
+      // Обновляем SONGS в памяти и сохраняем порядок
+      const newIds = [...el.querySelectorAll('.track')].map(r => r.dataset.id);
+      newIds.forEach((id, i) => {
+        const from = SONGS.findIndex(s => s.id === id);
+        if (from !== i) SONGS.splice(i, 0, SONGS.splice(from, 1)[0]);
+      });
+      saveOrder();
+      // Обновляем номера треков
+      el.querySelectorAll('.track').forEach((r, i) => {
+        const num = r.querySelector('.track-num');
+        if (num) num.textContent = String(i+1).padStart(2,'0');
+      });
+    });
+    row.addEventListener('dragover', e => {
+      e.preventDefault();
+      if (row !== dragSrc) row.classList.add('drag-over');
+    });
+    row.addEventListener('dragleave', () => row.classList.remove('drag-over'));
+    row.addEventListener('drop', e => {
+      e.preventDefault();
+      row.classList.remove('drag-over');
+      if (dragSrc && dragSrc !== row) el.insertBefore(dragSrc, row);
+    });
+  });
 }
 
 function playFrom(id) {
+  // Скрываем оверлей если виден
+  document.getElementById('next-track-overlay').classList.remove('visible');
+  clearTimeout(nextTrackTimer);
+
   const s = SONGS.find(x => x.id === id);
   if (!s) return;
   pId = id;
@@ -415,6 +513,7 @@ function playFrom(id) {
 
   aud.src = s.audioPath || '';
   aud.currentTime = 0;
+  aud.onended = onTrackEnded;
   buildNav();
   showView('player');
   aud.play().catch(() => {});
@@ -422,6 +521,42 @@ function playFrom(id) {
   if (raf) cancelAnimationFrame(raf);
   loop();
   document.addEventListener('keydown', plKey);
+}
+
+let nextTrackTimer = null;
+
+function onTrackEnded() {
+  const i = SONGS.findIndex(s => s.id === pId);
+  const hasNext = i >= 0 && i < SONGS.length - 1;
+  if (!hasNext) return;
+  const next = SONGS[i + 1];
+  // Показываем оверлей через 2 секунды
+  nextTrackTimer = setTimeout(() => {
+    const label = document.getElementById('next-track-label');
+    if (label) label.textContent = next.title;
+    document.getElementById('next-track-overlay').classList.add('visible');
+  }, 2000);
+}
+
+function playNextTrack() {
+  const i = SONGS.findIndex(s => s.id === pId);
+  if (i >= 0 && i < SONGS.length - 1) playFrom(SONGS[i + 1].id);
+}
+
+let ssFitMode = 'cover'; // 'cover' | 'contain' | 'square'
+const FIT_MODES = ['cover', 'contain', 'square'];
+const FIT_LABELS = { cover: '⊞ FILL', contain: '⊡ FIT', square: '⊟ SQ' };
+
+function toggleFit() {
+  const idx = FIT_MODES.indexOf(ssFitMode);
+  ssFitMode = FIT_MODES[(idx + 1) % FIT_MODES.length];
+  const btn = document.getElementById('fit-btn');
+  btn.textContent = FIT_LABELS[ssFitMode];
+  document.querySelectorAll('.ss-video').forEach(v => {
+    v.classList.remove('ss-contain', 'ss-square');
+    if (ssFitMode === 'contain') v.classList.add('ss-contain');
+    else if (ssFitMode === 'square') v.classList.add('ss-square');
+  });
 }
 
 function loop() { updatePl(); raf = requestAnimationFrame(loop); }
@@ -513,20 +648,10 @@ renderList();
 
 // ── SLIDESHOW ─────────────────────────────────────────
 let ssFiles = [], ssIdx = 0, ssTimer = null, ssCurActive = 'a';
-let ssFitMode = 'cover';
 const SS_INTERVAL = 6000;
 const SS_SHORT_VIDEO = 8;
 
 function ssIsVideo(url) { return /\.(mp4|mov|webm)$/i.test(url); }
-
-function toggleFit() {
-  ssFitMode = ssFitMode === 'cover' ? 'contain' : 'cover';
-  const btn = document.getElementById('fit-btn');
-  btn.textContent = ssFitMode === 'cover' ? '⊡ FIT' : '⊞ FILL';
-  document.querySelectorAll('.ss-video').forEach(v => {
-    v.classList.toggle('ss-contain', ssFitMode === 'contain');
-  });
-}
 
 function ssStart(files) {
   ssClear();
