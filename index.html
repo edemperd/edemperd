@@ -547,9 +547,10 @@ function ssShowSlide(url, first) {
   const elNext = document.getElementById('ss-'+next);
   const elCur = document.getElementById('ss-'+ssCurActive);
 
-  // Готовим новый слайд невидимым
   elNext.innerHTML = '';
   elNext.classList.remove('ss-active');
+
+  const isSingleFile = ssFiles.length === 1;
 
   if (ssIsVideo(url)) {
     const vid = document.createElement('video');
@@ -557,15 +558,21 @@ function ssShowSlide(url, first) {
     vid.playsInline = true; vid.loop = false;
     vid.className = 'ss-video';
     if (ssFitMode === 'contain') vid.classList.add('ss-contain');
-    vid.onloadedmetadata = () => {
-      const isShort = vid.duration <= SS_SHORT_VIDEO;
-      if (isShort) {
-        vid.onended = () => ssAdvance();
-      } else {
-        vid.loop = true;
-        ssTimer = setTimeout(() => ssAdvance(), SS_INTERVAL);
-      }
-    };
+
+    if (isSingleFile) {
+      // Единственный файл — воспроизводим полностью, потом заново
+      vid.onended = () => ssAdvance();
+    } else {
+      // Несколько файлов — короткие до конца, длинные режем до 8 сек
+      vid.onloadedmetadata = () => {
+        if (vid.duration <= SS_SHORT_VIDEO) {
+          vid.onended = () => ssAdvance();
+        } else {
+          ssTimer = setTimeout(() => ssAdvance(), SS_SHORT_VIDEO * 1000);
+        }
+      };
+    }
+
     elNext.appendChild(vid);
     document.getElementById('fit-btn').style.display = 'block';
   } else {
@@ -578,15 +585,14 @@ function ssShowSlide(url, first) {
     elNext.appendChild(blur);
     elNext.appendChild(img);
     document.getElementById('fit-btn').style.display = 'none';
-    ssTimer = setTimeout(() => ssAdvance(), SS_INTERVAL);
+    if (!isSingleFile) ssTimer = setTimeout(() => ssAdvance(), SS_INTERVAL);
+    // Единственное фото — просто висит
   }
 
-  // Перекрёстное растворение: новый появляется, старый уходит одновременно
   void elNext.offsetWidth;
   elNext.classList.add('ss-active');
 
   if (!first && elCur) {
-    // Старый уходит с задержкой чтобы новый успел появиться
     setTimeout(() => {
       elCur.style.transition = 'opacity 1.4s ease';
       elCur.style.opacity = '0';
