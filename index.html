@@ -341,7 +341,7 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 
 <!-- СПИСОК -->
 <div id="view-list" class="view active">
-  <div class="hero">
+  <div class="hero compact">
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="hero-grain"></div>
@@ -458,15 +458,15 @@ function renderList() {
     const hasLyrics = s.lyrics && s.lyrics.some(l => l.text && l.text.trim());
     const noLyricsMsg = !hasLyrics
       ? `<div class="track-no-lyrics">вы нормальные люди? текста нет</div>` : '';
-    return `<div class="track" data-id="${s.id}">
+    return `<div class="track" data-id="${s.id}" onclick="trackClick(event,'${s.id}')">
       <div class="track-drag" title="Перетащи чтобы переместить">⠿</div>
       <div class="track-num">${String(i+1).padStart(2,'0')}</div>
-      <div class="track-info" onclick="playFrom('${s.id}')">
+      <div class="track-info">
         <div class="track-name">${s.title}</div>
         <div class="track-meta"><span id="dur-${s.id}">—:——</span></div>
         ${noLyricsMsg}
       </div>
-      <div class="track-icon" onclick="playFrom('${s.id}')">›</div>
+      <div class="track-icon">›</div>
     </div>`;
   }).join('') + `<div id="tracklist-footer" style="padding:16px 28px;font-family:'Courier Prime',monospace;font-size:10px;color:var(--muted);letter-spacing:3px;border-top:1px solid var(--border);margin-top:8px"></div>`;
 
@@ -508,8 +508,8 @@ function renderList() {
       row.draggable = false;
       row.classList.remove('dragging');
       el.querySelectorAll('.track').forEach(r => r.classList.remove('drag-over'));
-      wasDragged = true;
-      setTimeout(() => { wasDragged = false; }, 200);
+      _wasDragged = true;
+      setTimeout(() => { _wasDragged = false; }, 300);
       const newIds = [...el.querySelectorAll('.track')].map(r => r.dataset.id);
       newIds.forEach((id, i) => {
         const from = SONGS.findIndex(s => s.id === id);
@@ -535,6 +535,14 @@ function renderList() {
       if (wasDragged) { e.stopPropagation(); e.preventDefault(); }
     }, true);
   });
+}
+
+let _wasDragged = false;
+
+function trackClick(e, id) {
+  if (e.target.classList.contains('track-drag')) return;
+  if (_wasDragged) return;
+  playFrom(id);
 }
 
 function playFrom(id) {
