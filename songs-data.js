@@ -6093,266 +6093,278 @@ window.SONGS_DATA = [
     "lyrics": [
       {
         "text": "Глоток",
-        "time": null,
+        "time": 7.35,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 8.7,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 9.648,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 15.876,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 22.713,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 38.375,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 39.132,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 39.968,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 43.275,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 49.353,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 52.335,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 53.076,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 53.944,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 57.182,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 64.378,
         "endTime": null,
         "words": null
       },
       {
         "text": "Я полкуплета",
-        "time": null,
+        "time": 68.006,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 71.266,
         "endTime": null,
         "words": null
       },
       {
         "text": "Я полкуплета",
-        "time": null,
+        "time": 80.101,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 85.459,
         "endTime": null,
         "words": null
       },
       {
         "text": "Эта история",
-        "time": null,
+        "time": 93.498,
         "endTime": null,
         "words": null
       },
       {
         "text": "Случилась в санатории",
-        "time": null,
+        "time": 96.388,
         "endTime": null,
         "words": null
       },
       {
         "text": "Эта история",
-        "time": null,
+        "time": 100.105,
         "endTime": null,
         "words": null
       },
       {
         "text": "Случилась в санатории",
-        "time": null,
+        "time": 103.627,
         "endTime": null,
         "words": null
       },
       {
         "text": "Эта история",
-        "time": null,
+        "time": 107.027,
         "endTime": null,
         "words": null
       },
       {
         "text": "Случилась в санатории",
-        "time": null,
+        "time": 110.297,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": 114.245,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": 117.645,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 122.111,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 122.761,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 123.636,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 125.345,
         "endTime": null,
         "words": null
       },
       {
         "text": "Собственным ртом",
-        "time": null,
+        "time": 127.014,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 128.807,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 129.642,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 130.52,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 132.37,
         "endTime": null,
         "words": null
       },
       {
         "text": "Собственным ртом",
-        "time": null,
+        "time": 133.945,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 135.598,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 136.563,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 137.512,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 139.143,
         "endTime": null,
         "words": null
       },
       {
         "text": "Собственным ртом",
-        "time": null,
+        "time": 140.847,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 142.486,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 143.446,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 144.435,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
-        "endTime": null,
+        "time": 146.415,
+        "endTime": 151.585,
         "words": null
       }
     ],
@@ -11473,266 +11485,278 @@ window.PUBLISHED = [
     "lyrics": [
       {
         "text": "Глоток",
-        "time": null,
+        "time": 7.35,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 8.7,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 9.648,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 15.876,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 22.713,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 38.375,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 39.132,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 39.968,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 43.275,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 49.353,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 52.335,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 53.076,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 53.944,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 57.182,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 64.378,
         "endTime": null,
         "words": null
       },
       {
         "text": "Я полкуплета",
-        "time": null,
+        "time": 68.006,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 71.266,
         "endTime": null,
         "words": null
       },
       {
         "text": "Я полкуплета",
-        "time": null,
+        "time": 80.101,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 85.459,
         "endTime": null,
         "words": null
       },
       {
         "text": "Эта история",
-        "time": null,
+        "time": 93.498,
         "endTime": null,
         "words": null
       },
       {
         "text": "Случилась в санатории",
-        "time": null,
+        "time": 96.388,
         "endTime": null,
         "words": null
       },
       {
         "text": "Эта история",
-        "time": null,
+        "time": 100.105,
         "endTime": null,
         "words": null
       },
       {
         "text": "Случилась в санатории",
-        "time": null,
+        "time": 103.627,
         "endTime": null,
         "words": null
       },
       {
         "text": "Эта история",
-        "time": null,
+        "time": 107.027,
         "endTime": null,
         "words": null
       },
       {
         "text": "Случилась в санатории",
-        "time": null,
+        "time": 110.297,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Эта история",
+        "time": 114.245,
+        "endTime": null,
+        "words": null
+      },
+      {
+        "text": "Случилась в санатории",
+        "time": 117.645,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 122.111,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 122.761,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 123.636,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 125.345,
         "endTime": null,
         "words": null
       },
       {
         "text": "Собственным ртом",
-        "time": null,
+        "time": 127.014,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 128.807,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 129.642,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 130.52,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 132.37,
         "endTime": null,
         "words": null
       },
       {
         "text": "Собственным ртом",
-        "time": null,
+        "time": 133.945,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 135.598,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 136.563,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 137.512,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
+        "time": 139.143,
         "endTime": null,
         "words": null
       },
       {
         "text": "Собственным ртом",
-        "time": null,
+        "time": 140.847,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 142.486,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток",
-        "time": null,
+        "time": 143.446,
         "endTime": null,
         "words": null
       },
       {
         "text": "Глоток за глотком",
-        "time": null,
+        "time": 144.435,
         "endTime": null,
         "words": null
       },
       {
         "text": "Пила из бювета",
-        "time": null,
-        "endTime": null,
+        "time": 146.415,
+        "endTime": 151.585,
         "words": null
       }
     ],
