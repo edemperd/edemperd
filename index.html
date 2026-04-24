@@ -297,15 +297,18 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
   margin-left: auto;
 }
 
-/* Трек — drag handle отдельно от клика */
+/* Трек — drag handle только в режиме редактирования */
 .track-drag { 
   cursor: grab; color: var(--muted); font-size: 14px; 
   padding: 4px 0; flex-shrink: 0;
-  touch-action: none;
+  display: none;
 }
+body.edit-order .track-drag { display: block; }
+body.edit-order .track { cursor: default; }
 .track-drag:active { cursor: grabbing; }
 .track.dragging { opacity: .35; }
 .track.drag-over { border-top: 2px solid var(--accent); }
+#edit-order-btn.active { color: var(--accent); border-color: var(--accent); }
 
 /* ══════ СЛЕД. ТРЕК ОВЕРЛЕЙ ══════ */
 #next-track-overlay {
@@ -341,7 +344,7 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
 
 <!-- СПИСОК -->
 <div id="view-list" class="view active">
-  <div class="hero compact">
+  <div class="hero">
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
     <div class="hero-grain"></div>
@@ -357,7 +360,10 @@ html, body { height: 100%; background: var(--bg); color: var(--text); font-famil
       <div class="sticky-title">ЕДЕМ В <span style="color:var(--text)">ПЕРДЬ</span></div>
       <div class="sticky-hint">перетащи чтобы изменить порядок</div>
     </div>
-    <div class="tracklist-hdr">Сетлист</div>
+    <div class="tracklist-hdr" style="display:flex;align-items:center;justify-content:space-between">
+      <span>Сетлист</span>
+      <button id="edit-order-btn" onclick="toggleEditOrder()" style="background:none;border:1px solid var(--border);color:var(--muted);font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:2px;padding:4px 10px;cursor:pointer">ПОРЯДОК</button>
+    </div>
     <div id="tracklist"></div>
   </div>
 </div>
@@ -492,13 +498,14 @@ function renderList() {
   let dragSrc = null;
   let wasDragged = false;
   el.querySelectorAll('.track').forEach(row => {
-    row.draggable = false; // по умолчанию не перетаскивается
+    row.draggable = false;
     const handle = row.querySelector('.track-drag');
     if (handle) {
-      handle.addEventListener('mousedown', () => { row.draggable = true; });
-      handle.addEventListener('touchstart', () => { row.draggable = true; }, {passive:true});
+      handle.addEventListener('mousedown', () => { if (_editOrderMode) row.draggable = true; });
+      handle.addEventListener('touchstart', () => { if (_editOrderMode) row.draggable = true; }, {passive:true});
     }
     row.addEventListener('dragstart', e => {
+      if (!_editOrderMode) { e.preventDefault(); return; }
       dragSrc = row;
       wasDragged = false;
       setTimeout(() => row.classList.add('dragging'), 0);
@@ -538,8 +545,25 @@ function renderList() {
 }
 
 let _wasDragged = false;
+let _editOrderMode = false;
+
+function toggleEditOrder() {
+  _editOrderMode = !_editOrderMode;
+  document.body.classList.toggle('edit-order', _editOrderMode);
+  const btn = document.getElementById('edit-order-btn');
+  btn.textContent = _editOrderMode ? '✓ ГОТОВО' : 'ПОРЯДОК';
+  btn.classList.toggle('active', _editOrderMode);
+  if (_editOrderMode) {
+    // Скроллим наверх
+    document.getElementById('tracklist-wrap').scrollTop = 0;
+    window.scrollTo(0, 0);
+  } else {
+    saveOrder();
+  }
+}
 
 function trackClick(e, id) {
+  if (_editOrderMode) return;
   if (e.target.classList.contains('track-drag')) return;
   if (_wasDragged) return;
   playFrom(id);
